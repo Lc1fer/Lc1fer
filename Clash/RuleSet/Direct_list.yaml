@@ -1,0 +1,9 @@
+payload:
+  - DOMAIN-SUFFIX,423down.com
+  - DOMAIN-SUFFIX,imazingchina.com
+  - DOMAIN-SUFFIX,chillermanual.com
+  - DOMAIN-SUFFIX,ddnsto.com
+  - DOMAIN-SUFFIX,nxboom.com
+  - DOMAIN-SUFFIX,iqiyi.com
+  - PROCESS-NAME,ddnstod
+  - PROCESS-NAME,1Password.exe
