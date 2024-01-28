@@ -3,4 +3,3 @@ DOMAIN,al-log.d.meituan.net,REJECT
 DOMAIN,metrics-picture.d.meituan.net,REJECT
 DOMAIN,route-stats.d.meituan.net,REJECT
 DOMAIN-SUFFIX,jddebug.com,REJECT
-DOMAIN,192.168.31.43,REJECT
