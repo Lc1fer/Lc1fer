@@ -1,5 +1,5 @@
-DOMAIN,speedv6.m.jd.com,REJECT
-DOMAIN,al-log.d.meituan.net,REJECT
-DOMAIN,metrics-picture.d.meituan.net,REJECT
-DOMAIN,route-stats.d.meituan.net,REJECT
-DOMAIN-SUFFIX,jddebug.com,REJECT
+DOMAIN,speedv6.m.jd.com
+DOMAIN,al-log.d.meituan.net
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,route-stats.d.meituan.net
+DOMAIN-SUFFIX,jddebug.com
