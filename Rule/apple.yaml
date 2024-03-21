@@ -177,6 +177,7 @@ payload:
   - DOMAIN-SUFFIX,cdn-apple.com
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud.com.cn
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,organicfruitapps.com
