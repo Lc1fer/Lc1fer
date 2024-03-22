@@ -45,3 +45,89 @@ payload:
 
 # ------------------------------------------------------------------------------------------------------------------------ #
 
+  - DOMAIN,app.adjust.com
+  - DOMAIN,app.appsflyer.com
+  - DOMAIN,bdtj.tagtic.cn
+# > Alibaba
+  - DOMAIN,log.mmstat.com
+  - DOMAIN,sycm.mmstat.com
+# ---(Alphabet)---
+  - DOMAIN-SUFFIX,blog.google
+  - DOMAIN,clientservices.googleapis.com
+  - DOMAIN,update.googleapis.com
+  - DOMAIN,dl.google.com
+  - DOMAIN,dl.l.google.com
+  - DOMAIN,redirector.gvt1.com
+  - DOMAIN,update.googleapis.com
+# > Google Flights
+  - DOMAIN-SUFFIX,googletraveladservices.com
+# > Firebase Cloud Messaging
+  - DOMAIN,mtalk.google.com
+  - DOMAIN,alt1-mtalk.google.com
+  - DOMAIN,alt2-mtalk.google.com
+  - DOMAIN,alt3-mtalk.google.com
+  - DOMAIN,alt4-mtalk.google.com
+  - DOMAIN,alt5-mtalk.google.com
+  - DOMAIN,alt6-mtalk.google.com
+  - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
+# ------
+# > Tencent
+  - DOMAIN,fairplay.l.qq.com
+  - DOMAIN,livew.l.qq.com
+  - DOMAIN,vd.l.qq.com
+  - DOMAIN,vi.l.qq.com
+# > Strava
+  - DOMAIN,analytics.strava.com
+# > Umeng
+  - DOMAIN,msg.umeng.com
+  - DOMAIN,msg.umengcloud.com
+
+# ------------------------------------------------------------------------------------------------------------------------ #
+
+ # > Download
+  - DOMAIN-SUFFIX,qbittorrent.org
+  - DOMAIN-KEYWORD,aria2
+  - DOMAIN-KEYWORD,thunder
+  - DOMAIN-KEYWORD,xlliveud
+  - DOMAIN-KEYWORD,xunlei
+  - DOMAIN-KEYWORD,yunpan
+  - PROCESS-NAME,BitComet
+  - PROCESS-NAME,BitComet.exe
+  - PROCESS-NAME,BitComet_x64.exe
+  - PROCESS-NAME,DownloadService
+  - PROCESS-NAME,DownloadService.exe
+  - PROCESS-NAME,Folx
+  - PROCESS-NAME,Folx.exe
+  - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,NetTransport.exe
+  - PROCESS-NAME,Thunder
+  - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,Transmission
+  - PROCESS-NAME,Transmission.exe
+  - PROCESS-NAME,WebTorrent
+  - PROCESS-NAME,WebTorrent.exe
+  - PROCESS-NAME,WebTorrentHelper
+  - PROCESS-NAME,WebTorrentHelper.exe
+  - PROCESS-NAME,Weiyun
+  - PROCESS-NAME,Weiyun.exe
+  - PROCESS-NAME,aria2c
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,baidunetdisk.exe
+  - PROCESS-NAME,fdm
+  - PROCESS-NAME,fdm.exe
+  - PROCESS-NAME,qbittorrent
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,uTorrent
+  - PROCESS-NAME,uTorrent.exe
+
+# ------------------------------------------------------------------------------------------------------------------------ #
+
+# > User
+  # - DOMAIN-SUFFIX,423down.com
+  # - DOMAIN-SUFFIX,imazingchina.com
+  # - DOMAIN-SUFFIX,chillermanual.com
+  # - DOMAIN-SUFFIX,ddnsto.com
+  # - DOMAIN-SUFFIX,iqiyi.com
+  # - PROCESS-NAME,ddnstod
+  # - PROCESS-NAME,1Password.exe
