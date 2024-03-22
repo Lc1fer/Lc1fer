@@ -20,4 +20,3 @@ function addFingerprint(e, a, c) {
         }
     return e
 }
-
