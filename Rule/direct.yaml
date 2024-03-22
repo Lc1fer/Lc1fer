@@ -1,5 +1,4 @@
 payload:
-# ---(Microsoft)---
 # > Outlook
   - DOMAIN,outlook.office365.com
   - DOMAIN,smtp-mail.outlook.com
@@ -12,7 +11,6 @@ payload:
   - DOMAIN,download.microsoft.com
   - DOMAIN,wustat.windows.com
   - DOMAIN,ntservicepack.microsoft.com
-# ------
 # > PayPal
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
@@ -33,9 +31,6 @@ payload:
   - DOMAIN-SUFFIX,speed.cloudflare.com
   - DOMAIN-SUFFIX,speed.dler.io
   - DOMAIN-KEYWORD,speedtest
-
-# ------------------------------------------------------------------------------------------------------------------------ #
-
  # > Download
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-KEYWORD,aria2
@@ -71,9 +66,6 @@ payload:
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,uTorrent.exe
-
-# ------------------------------------------------------------------------------------------------------------------------ #
-
 # > User
   # - DOMAIN-SUFFIX,423down.com
   # - DOMAIN-SUFFIX,imazingchina.com
