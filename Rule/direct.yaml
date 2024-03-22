@@ -17,13 +17,10 @@ payload:
   - DOMAIN-SUFFIX,paypal-mktg.com
   - DOMAIN-SUFFIX,paypalobjects.com
 # > Tencent
-<<<<<<< HEAD
   - DOMAIN,fairplay.l.qq.com
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
   - DOMAIN,vi.l.qq.com
-=======
->>>>>>> main
   - IP-CIDR,182.254.116.0/24,no-resolve
   - IP-CIDR,203.205.238.0/23,no-resolve
   - IP-CIDR,203.205.254.0/23,no-resolve
@@ -73,10 +70,7 @@ payload:
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,uTorrent.exe
-<<<<<<< HEAD
   - PROCESS-NAME,aDrive.exe
-=======
->>>>>>> main
 # > User
   # - DOMAIN-SUFFIX,423down.com
   # - DOMAIN-SUFFIX,imazingchina.com
@@ -84,9 +78,5 @@ payload:
   # - DOMAIN-SUFFIX,ddnsto.com
   # - DOMAIN-SUFFIX,iqiyi.com
   # - PROCESS-NAME,ddnstod
-<<<<<<< HEAD
   # - PROCESS-NAME,1Password.exe
-  
-=======
   # - PROCESS-NAME,1Password.exe
->>>>>>> main
