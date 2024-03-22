@@ -28,8 +28,6 @@ payload:
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,sms.imagetasks.com
 # > SpeedTest
-  - DOMAIN-SUFFIX,netspeedtestmaster.com
-  - DOMAIN,speedtest.macpaw.com
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,speed.cloudflare.com
