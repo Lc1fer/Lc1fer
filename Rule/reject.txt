@@ -1,13 +1,17 @@
-# Advertising
+# > User
+DOMAIN-SUFFIX,jddebug.com
 # > General
 DOMAIN-KEYWORD,adservice
+
 DOMAIN-SUFFIX,1phads.com
 DOMAIN-SUFFIX,1rtb.com
 DOMAIN-SUFFIX,1xl.co.uk
 DOMAIN-SUFFIX,206ads.com
 DOMAIN-SUFFIX,3cinteractive.com
 DOMAIN-SUFFIX,4mads.com
+DOMAIN-SUFFIX,520click.com
 DOMAIN-SUFFIX,5rocks.io
+DOMAIN-SUFFIX,8le8le.com
 DOMAIN-SUFFIX,a.ki
 DOMAIN-SUFFIX,a8.net
 DOMAIN-SUFFIX,a9.com
@@ -113,6 +117,7 @@ DOMAIN-SUFFIX,adtarget.me
 DOMAIN-SUFFIX,adtdp.com
 DOMAIN-SUFFIX,adthor.com
 DOMAIN-SUFFIX,adtongji.xyz
+DOMAIN-SUFFIX,adtongji.xyz
 DOMAIN-SUFFIX,adtrace.org
 DOMAIN-SUFFIX,advertising.com
 DOMAIN-SUFFIX,adwhirl.com
@@ -125,6 +130,7 @@ DOMAIN-SUFFIX,algovid.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,amoad.com
 DOMAIN-SUFFIX,amobee.com
+DOMAIN-SUFFIX,anythinktech.com
 DOMAIN-SUFFIX,app-adforce.jp
 DOMAIN-SUFFIX,appads.com
 DOMAIN-SUFFIX,appcpi.net
@@ -148,6 +154,7 @@ DOMAIN-SUFFIX,bulldogcpi.com
 DOMAIN-SUFFIX,bxsnews.com
 DOMAIN-SUFFIX,carbonads.net
 DOMAIN-SUFFIX,cdj99d.cn
+DOMAIN-SUFFIX,ce33m7.com
 DOMAIN-SUFFIX,clotfun.mobi
 DOMAIN-SUFFIX,clotfun.online
 DOMAIN-SUFFIX,cloudmobi.net
@@ -193,6 +200,7 @@ DOMAIN-SUFFIX,irs01.com
 DOMAIN-SUFFIX,iskyworker.com
 DOMAIN-SUFFIX,iyoowi.com
 DOMAIN-SUFFIX,jads.co
+DOMAIN-SUFFIX,jomwihn.cn
 DOMAIN-SUFFIX,juicyads.com
 DOMAIN-SUFFIX,leadboltmobile.net
 DOMAIN-SUFFIX,lenzmx.com
@@ -204,6 +212,7 @@ DOMAIN-SUFFIX,mdfull.com
 DOMAIN-SUFFIX,measurementapi.com
 DOMAIN-SUFFIX,medialytics.com
 DOMAIN-SUFFIX,mediav.com
+DOMAIN-SUFFIX,medproad.com
 DOMAIN-SUFFIX,meetrics.com
 DOMAIN-SUFFIX,meetrics.net
 DOMAIN-SUFFIX,miaozhen.com
@@ -256,6 +265,7 @@ DOMAIN-SUFFIX,owneriq.net
 DOMAIN-SUFFIX,ownlocal.com
 DOMAIN-SUFFIX,pagefair.com
 DOMAIN-SUFFIX,pagefair.net
+DOMAIN-SUFFIX,pangle.io
 DOMAIN-SUFFIX,pdbarea.com
 DOMAIN-SUFFIX,perfectaudience.com
 DOMAIN-SUFFIX,performancehorizon.com
@@ -473,8 +483,10 @@ DOMAIN-SUFFIX,wordstream.com
 DOMAIN-SUFFIX,wrinkads.com
 DOMAIN-SUFFIX,wsod.com
 DOMAIN-SUFFIX,wudejia.com
+DOMAIN-SUFFIX,wuyicom.top
 DOMAIN-SUFFIX,xapads.com
 DOMAIN-SUFFIX,xdrig.com
+DOMAIN-SUFFIX,xlviirdr.com
 DOMAIN-SUFFIX,xmlwizard.com
 DOMAIN-SUFFIX,xpanama.net
 DOMAIN-SUFFIX,xy7elite.com
@@ -508,15 +520,6 @@ DOMAIN-SUFFIX,zumobi.com
 DOMAIN-SUFFIX,zwaar.org
 DOMAIN-SUFFIX,zxrtb.com
 
-DOMAIN-SUFFIX,8le8le.com
-DOMAIN-SUFFIX,jomwihn.cn
-DOMAIN-SUFFIX,wuyicom.top
-DOMAIN-SUFFIX,anythinktech.com
-DOMAIN-SUFFIX,520click.com
-DOMAIN-SUFFIX,xlviirdr.com
-DOMAIN-SUFFIX,adtongji.xyz
-DOMAIN-SUFFIX,ce33m7.com
-DOMAIN-SUFFIX,pangle.io
 DOMAIN-SUFFIX,ad.daum.net
 DOMAIN-SUFFIX,ad.g.daum.net
 DOMAIN-SUFFIX,ads.roku.com
@@ -590,6 +593,7 @@ DOMAIN-SUFFIX,ads.internal.unity3d.com
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
 DOMAIN-SUFFIX,unityads.unity3d.com
 # --- (Alibaba) ---
+DOMAIN,hc-ssp.sm.cn
 DOMAIN,tunion-api.m.taobao.com
 # > YOUKU
 DOMAIN-SUFFIX,ad.youku.com
@@ -676,10 +680,6 @@ DOMAIN,logs.chelaile.net.cn
 DOMAIN,dispatcher.360in.com
 DOMAIN,ad.360in.com
 DOMAIN,exp.360in.com
-
-# (D)
-# > Douban
-AND,((USER-AGENT,Frodo*), (DOMAIN,119.29.29.29))
 
 # (G)
 # > Google
@@ -834,9 +834,8 @@ DOMAIN-SUFFIX,pv.sohu.com
 DOMAIN,ads.snapchat.com
 DOMAIN,adsapi.snapchat.com
 # > Skyworth
-DOMAIN-SUFFIX,hoisin.coocaa.com
-DOMAIN-SUFFIX,hoisin.coocaatv.com
-DOMAIN,data-hoisin.coocaa.com
+DOMAIN-KEYWORD,hoisin.coocaa.com
+DOMAIN-KEYWORD,hoisin.coocaatv.com
 
 # (T)
 # --- (Tencent) ---
@@ -943,9 +942,11 @@ IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
 
-# ------------------------------------------------------------------------------------------------------------------------ #
 
-# Internet Service Providers Hijacking
+
+
+
+# > Internet Service Providers Hijacking
 DOMAIN-SUFFIX,17gouwuba.com
 DOMAIN-SUFFIX,186078.com
 DOMAIN-SUFFIX,189key.com
@@ -1129,6 +1130,7 @@ DOMAIN,geo2.adobe.com
 # https://www.zhihu.com/question/46746200
 DOMAIN-SUFFIX,4009997658.com
 DOMAIN-SUFFIX,abbyychina.com
+DOMAIN-SUFFIX,affinitychina.cn
 DOMAIN-SUFFIX,alienskins.cn
 DOMAIN-SUFFIX,anydeskchina.cn
 DOMAIN-SUFFIX,bartender.cc
@@ -1149,6 +1151,7 @@ DOMAIN-SUFFIX,ediuschina.com
 DOMAIN-SUFFIX,flstudiochina.com
 DOMAIN-SUFFIX,folxchina.cn
 DOMAIN-SUFFIX,formysql.com
+DOMAIN-SUFFIX,goldwavechina.cn
 DOMAIN-SUFFIX,guitarpro.cc
 DOMAIN-SUFFIX,huishenghuiying.com.cn
 DOMAIN-SUFFIX,hypeapp.cn
@@ -1181,6 +1184,7 @@ DOMAIN-SUFFIX,overturechina.com
 DOMAIN-SUFFIX,passwordrecovery.cn
 DOMAIN-SUFFIX,pdfexpert.cc
 DOMAIN-SUFFIX,photozoomchina.com
+DOMAIN-SUFFIX,ps-chajian.com
 DOMAIN-SUFFIX,shankejingling.com
 DOMAIN-SUFFIX,ultraiso.net
 DOMAIN-SUFFIX,vegaschina.cn
@@ -1192,9 +1196,11 @@ DOMAIN-SUFFIX,yuanchengxiezuo.com
 DOMAIN-SUFFIX,zbrushcn.com
 DOMAIN-SUFFIX,zhzzx.com
 
-# ------------------------------------------------------------------------------------------------------------------------ #
 
-# Privacy
+
+
+
+# > Privacy
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,airpr.com
 DOMAIN-SUFFIX,cr-nielsen.com
