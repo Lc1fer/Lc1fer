@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,cn
 # > Outlook
   - DOMAIN,outlook.office365.com
   - DOMAIN,smtp-mail.outlook.com
@@ -78,3 +77,4 @@ payload:
 # DOMAIN,statics.teams.cdn.office.net
   - PROCESS-NAME,ms-teams.exe
 # > User
+  - DOMAIN-SUFFIX,cn
