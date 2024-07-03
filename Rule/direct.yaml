@@ -69,6 +69,7 @@ payload:
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,uTorrent.exe
   - PROCESS-NAME,aDrive.exe
+  - PROCESS-NAME,ms-teams.exe
 # > User
 
 
