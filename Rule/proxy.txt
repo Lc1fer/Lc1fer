@@ -1,20 +1,32 @@
-# 规则数量：当前共 54 条规则
+# 更新时间：2024年6月17日 05:45
+# 规则数量：当前共 80 条规则
 
 DOMAIN,api.xmancdn.net
 DOMAIN,browser-intake-datadoghq.com
+DOMAIN,cdn-dynmedia-1.microsoft.com
+DOMAIN,cdn.cookielaw.org
 DOMAIN,copilot.microsoft.com
 DOMAIN,dap.pat-issuer.cloudflare.com
 DOMAIN,dns.google
+DOMAIN,lightning.warnermediacdn.com
 DOMAIN,mozilla.cloudflare-dns.com
+DOMAIN,nexitally.com
+DOMAIN,rsshub.app
 DOMAIN,scontent-nrt1-2.cdninstagram.com
 DOMAIN,sydney.bing.com
 DOMAIN,uzwbdv.xyz
 DOMAIN,workingcopy.app
 DOMAIN,www.bing.com
 DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,github.com
@@ -26,17 +38,31 @@ DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,hdhive.org
 DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,ibruce.info
+DOMAIN-SUFFIX,impactradius-event.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,lencr.org
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,microsoft.com 
 DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,mikrotik.com
 DOMAIN-SUFFIX,mtgglobals.com
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nobyda.github.io
 DOMAIN-SUFFIX,ntp.org
+DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,qianji.app
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sharethis.com
+DOMAIN-SUFFIX,stbuttons.click
 DOMAIN-SUFFIX,sub-store.vercel.app
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,t.co
@@ -45,6 +71,7 @@ DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,voipraider.com
+DOMAIN-SUFFIX,wmcdp.io
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
