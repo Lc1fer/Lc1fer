@@ -23,6 +23,7 @@ DOMAIN,conf-darwin.xycdn.com
 DOMAIN,csy.ll.tcdnos.com
 DOMAIN,csy.pandora.tcdnos.com
 DOMAIN,cube.elemecdn.com
+DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,dir.1212338883-2-1.gcloudsvcs.com
 DOMAIN,download.2.1212338883.wz.gcloudgbs.com
 DOMAIN,downupdate.aly.tcdnos.com
@@ -32,12 +33,14 @@ DOMAIN,downupdate.ws.tcdnos.com
 DOMAIN,gdctyunct.inter.71edge.com
 DOMAIN,hdns.ksyun.com
 DOMAIN,httpdns.c.cdnhwc2.com
+DOMAIN,hwypandora.ll.tcdnos.com
 DOMAIN,id6.me
 DOMAIN,idcconfig.gcloudsdk.com
 DOMAIN,ipv6.cn.voice.gcloudcs.com
 DOMAIN,jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,jdpay.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,lefox-data-library-cdn.cdfsunrise.com
+DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN,lf1-cdn-tos.bytescm.com
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
@@ -56,6 +59,7 @@ DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,static.fengkongcloud.com
+DOMAIN,teams.events.data.microsoft.com
 DOMAIN,wkmp2.tingyun.com
 DOMAIN,xinstall.top
 DOMAIN-KEYWORD,apple-support.akadns.net
@@ -124,6 +128,7 @@ DOMAIN-SUFFIX,bytemastatic.com
 DOMAIN-SUFFIX,bytetcc.com
 DOMAIN-SUFFIX,bytetos.com
 DOMAIN-SUFFIX,c-ctrip.com
+DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,chinanetcenter.com
@@ -224,6 +229,9 @@ DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-SUFFIX,ssports.com
 DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,teams.cdn.live.net
+DOMAIN-SUFFIX,teams.live.com
+DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,tec73.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencentmusic.com

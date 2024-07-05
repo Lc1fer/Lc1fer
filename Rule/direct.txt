@@ -1,5 +1,5 @@
-# 更新时间：2024年7月3日 10:43
-# 规则数量：当前共 270 条规则
+# 更新时间：2024年7月4日 21:53
+# 规则数量：当前共 274 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -26,6 +26,7 @@ DOMAIN,conf-darwin.xycdn.com
 DOMAIN,csy.ll.tcdnos.com
 DOMAIN,csy.pandora.tcdnos.com
 DOMAIN,cube.elemecdn.com
+DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,dir.1212338883-2-1.gcloudsvcs.com
 DOMAIN,download.2.1212338883.wz.gcloudgbs.com
 DOMAIN,downupdate.aly.tcdnos.com
@@ -35,12 +36,14 @@ DOMAIN,downupdate.ws.tcdnos.com
 DOMAIN,gdctyunct.inter.71edge.com
 DOMAIN,hdns.ksyun.com
 DOMAIN,httpdns.c.cdnhwc2.com
+DOMAIN,hwypandora.ll.tcdnos.com
 DOMAIN,id6.me
 DOMAIN,idcconfig.gcloudsdk.com
 DOMAIN,ipv6.cn.voice.gcloudcs.com
 DOMAIN,jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,jdpay.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,lefox-data-library-cdn.cdfsunrise.com
+DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN,lf1-cdn-tos.bytescm.com
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
@@ -127,6 +130,7 @@ DOMAIN-SUFFIX,bytemastatic.com
 DOMAIN-SUFFIX,bytetcc.com
 DOMAIN-SUFFIX,bytetos.com
 DOMAIN-SUFFIX,c-ctrip.com
+DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,chinanetcenter.com
@@ -270,4 +274,3 @@ IP-CIDR,224.0.0.0/4
 IP-CIDR6,::1/128
 IP-CIDR6,fc00::/7
 IP-CIDR6,fe80::/10
-USER-AGENT,SpeedTest*

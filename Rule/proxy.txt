@@ -1,5 +1,5 @@
-# 更新时间：2024年7月1日 17:17
-# 规则数量：当前共 97 条规则
+# 更新时间：2024年7月4日 08:46
+# 规则数量：当前共 99 条规则
 
 DOMAIN,api.xmancdn.net
 DOMAIN,browser-intake-datadoghq.com
@@ -17,6 +17,8 @@ DOMAIN,nexitally.com
 DOMAIN,rsshub.app
 DOMAIN,scontent-nrt1-2.cdninstagram.com
 DOMAIN,sydney.bing.com
+DOMAIN,t.me
+DOMAIN,telegram.org
 DOMAIN,uzwbdv.xyz
 DOMAIN,workingcopy.app
 DOMAIN,www.bing.com
