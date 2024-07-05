@@ -1,11 +1,12 @@
-# 更新时间：2024年7月5日 15:51
-# 规则数量：当前共 100 条规则
+# 更新时间：2024年7月5日 16:19
+# 规则数量：当前共 103 条规则
 
 DOMAIN,api.xmancdn.net
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn-dynmedia-1.microsoft.com
 DOMAIN,cdn.cookielaw.org
 DOMAIN,cdn.jsdelivr.net
+DOMAIN,cdn.sapphire.microsoftapp.net
 DOMAIN,cdn.v2ex.com
 DOMAIN,challenges.cloudflare.com
 DOMAIN,copilot.microsoft.com
@@ -21,7 +22,6 @@ DOMAIN,t.me
 DOMAIN,telegram.org
 DOMAIN,uzwbdv.xyz
 DOMAIN,workingcopy.app
-DOMAIN,www.bing.com
 DOMAIN-SUFFIX,112114.eu.org
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordusercontent.com
@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,digicert.com
@@ -60,7 +61,6 @@ DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,max.com
-DOMAIN-SUFFIX,microsoft.com 
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,mikrotik.com
 DOMAIN-SUFFIX,mixpanel.com
@@ -92,6 +92,7 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,voipraider.com
 DOMAIN-SUFFIX,wmcdp.io
 DOMAIN-SUFFIX,wowyijiu.today
+DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
@@ -101,4 +102,3 @@ IP-ASN,59930,no-resolve
 IP-ASN,62014,no-resolve
 IP-ASN,62041,no-resolve
 IP-CIDR,5.28.192.0/18,no-resolve
-DOMAIN-SUFFIX,x.com
