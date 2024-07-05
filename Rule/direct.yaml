@@ -78,3 +78,18 @@ payload:
   - PROCESS-NAME,ms-teams.exe
 # > User
   - DOMAIN-SUFFIX,cn
+  
+  
+  
+PROCESS-NAME,BitComet
+PROCESS-NAME,BitComet.exe
+PROCESS-NAME,BitComet_x64.exe
+PROCESS-NAME,aDrive.exe
+PROCESS-NAME,aria2c
+PROCESS-NAME,aria2c.exe
+PROCESS-NAME,baidunetdisk.exe
+PROCESS-NAME,ms-teams.exe
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,uTorrent
+PROCESS-NAME,uTorrent.exe
