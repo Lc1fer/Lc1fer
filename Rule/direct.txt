@@ -274,3 +274,4 @@ IP-CIDR,224.0.0.0/4,no-resolve
 IP-CIDR6,::1/128,no-resolve
 IP-CIDR6,fc00::/7,no-resolve
 IP-CIDR6,fe80::/10,no-resolve
+DOMAIN-SUFFIX,kaspersky-labs.com
