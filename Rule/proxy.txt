@@ -1,5 +1,5 @@
-# 更新时间：2024年7月4日 08:46
-# 规则数量：当前共 99 条规则
+# 更新时间：2024年7月5日 15:51
+# 规则数量：当前共 100 条规则
 
 DOMAIN,api.xmancdn.net
 DOMAIN,browser-intake-datadoghq.com
@@ -68,6 +68,7 @@ DOMAIN-SUFFIX,mtgglobals.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nobyda.github.io
+DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,onetrust.com
