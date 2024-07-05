@@ -1,7 +1,7 @@
-# 更新时间：2024年7月4日 21:53
-# 规则数量：当前共 274 条规则
+# 更新时间：2024年7月5日 18:02
+# 规则数量：当前共 276 条规则
 
-DOMAIN-SUFFIX,microsoft.com 
+DOMAIN-SUFFIX,imazing.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,acjs.aliyun.com
@@ -182,6 +182,7 @@ DOMAIN-SUFFIX,jchunuo.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jomoxd.com
+DOMAIN-SUFFIX,kaspersky-labs.com
 DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,kuiniuca.com
 DOMAIN-SUFFIX,kwaizt.com
@@ -194,6 +195,7 @@ DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,mi-fds.com
 DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,microsoft.com 
 DOMAIN-SUFFIX,mijia.tech
 DOMAIN-SUFFIX,miso-lab.com
 DOMAIN-SUFFIX,miwifi.com
@@ -207,6 +209,7 @@ DOMAIN-SUFFIX,onethingpcs.com
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-SUFFIX,pps.tv
 DOMAIN-SUFFIX,ppsimg.com
@@ -275,4 +278,3 @@ IP-CIDR,224.0.0.0/4,no-resolve
 IP-CIDR6,::1/128,no-resolve
 IP-CIDR6,fc00::/7,no-resolve
 IP-CIDR6,fe80::/10,no-resolve
-DOMAIN-SUFFIX,kaspersky-labs.com
