@@ -59,7 +59,6 @@ DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,static.fengkongcloud.com
-DOMAIN,teams.events.data.microsoft.com
 DOMAIN,wkmp2.tingyun.com
 DOMAIN,xinstall.top
 DOMAIN-KEYWORD,apple-support.akadns.net
@@ -229,9 +228,6 @@ DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-SUFFIX,ssports.com
 DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,teams.cdn.live.net
-DOMAIN-SUFFIX,teams.live.com
-DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,tec73.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencentmusic.com
