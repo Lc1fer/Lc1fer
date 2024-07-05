@@ -1,11 +1,9 @@
 DOMAIN,api.xmancdn.net
 DOMAIN,browser-intake-datadoghq.com
-DOMAIN,cdn-dynmedia-1.microsoft.com
 DOMAIN,cdn.cookielaw.org
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdn.v2ex.com
 DOMAIN,challenges.cloudflare.com
-DOMAIN,copilot.microsoft.com
 DOMAIN,dap.pat-issuer.cloudflare.com
 DOMAIN,dns.google
 DOMAIN,lightning.warnermediacdn.com
@@ -13,12 +11,10 @@ DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,nexitally.com
 DOMAIN,rsshub.app
 DOMAIN,scontent-nrt1-2.cdninstagram.com
-DOMAIN,sydney.bing.com
 DOMAIN,t.me
 DOMAIN,telegram.org
 DOMAIN,uzwbdv.xyz
 DOMAIN,workingcopy.app
-DOMAIN,www.bing.com
 DOMAIN-SUFFIX,112114.eu.org
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordusercontent.com
@@ -57,8 +53,6 @@ DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,max.com
-DOMAIN-SUFFIX,microsoft.com 
-DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,mikrotik.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,mtgglobals.com
