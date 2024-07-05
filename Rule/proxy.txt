@@ -101,3 +101,4 @@ IP-ASN,59930,no-resolve
 IP-ASN,62014,no-resolve
 IP-ASN,62041,no-resolve
 IP-CIDR,5.28.192.0/18,no-resolve
+DOMAIN-SUFFIX,x.com
