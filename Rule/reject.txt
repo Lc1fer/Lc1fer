@@ -1,5 +1,5 @@
-# 更新时间：2024年7月6日 06:05
-# 规则数量：7803
+# 更新时间：2024年7月7日 06:05
+# 规则数量：7818
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1513,6 +1513,8 @@ DOMAIN-SUFFIX,baifen.music.baidu.com
 DOMAIN-SUFFIX,baihuwang.com
 DOMAIN-SUFFIX,baijs02.xyz
 DOMAIN-SUFFIX,baijs03.xyz
+DOMAIN-SUFFIX,baijs05.xyz
+DOMAIN-SUFFIX,baijs06.xyz
 DOMAIN-SUFFIX,baitaiad.com
 DOMAIN-SUFFIX,baitu1llbkotsfthllcjeg.com
 DOMAIN-SUFFIX,baitu3lllqubyqmttdkjsv.com
@@ -2393,6 +2395,7 @@ DOMAIN-SUFFIX,dmdnlr.xyz
 DOMAIN-SUFFIX,dmeia.xyz
 DOMAIN-SUFFIX,dmg-dd.oss-accelerate.aliyuncs.com
 DOMAIN-SUFFIX,dmm.aizhan.com
+DOMAIN-SUFFIX,dmnxkj.cn
 DOMAIN-SUFFIX,dmpqjn.xyz
 DOMAIN-SUFFIX,dmr.cnhoney.com
 DOMAIN-SUFFIX,dms.fx678.com
@@ -2431,6 +2434,8 @@ DOMAIN-SUFFIX,doubleverify.com
 DOMAIN-SUFFIX,doujs01.xyz
 DOMAIN-SUFFIX,doujs02.xyz
 DOMAIN-SUFFIX,doujs03.xyz
+DOMAIN-SUFFIX,doujs05.xyz
+DOMAIN-SUFFIX,doujs06.xyz
 DOMAIN-SUFFIX,downmn.com
 DOMAIN-SUFFIX,downmz.com
 DOMAIN-SUFFIX,doxihz.xyz
@@ -2756,6 +2761,7 @@ DOMAIN-SUFFIX,fdrxdr.xyz
 DOMAIN-SUFFIX,fdswrgg.cn
 DOMAIN-SUFFIX,fdytdc.xyz
 DOMAIN-SUFFIX,feakio.top
+DOMAIN-SUFFIX,febtzd.xyz
 DOMAIN-SUFFIX,fefgvh.xyz
 DOMAIN-SUFFIX,fehrda.xyz
 DOMAIN-SUFFIX,feih.com.cn
@@ -2787,6 +2793,7 @@ DOMAIN-SUFFIX,fgttbz.xyz
 DOMAIN-SUFFIX,fguhyg.cn
 DOMAIN-SUFFIX,fgukchz.icu
 DOMAIN-SUFFIX,fgwerg.top
+DOMAIN-SUFFIX,fgwuw.com
 DOMAIN-SUFFIX,fhddnh.xyz
 DOMAIN-SUFFIX,fhdjdv.xyz
 DOMAIN-SUFFIX,fherunm.cn
@@ -3127,6 +3134,7 @@ DOMAIN-SUFFIX,gsiawq.xyz
 DOMAIN-SUFFIX,gsjdzx.com
 DOMAIN-SUFFIX,gslejoki.xyz
 DOMAIN-SUFFIX,gsuxyg.xyz
+DOMAIN-SUFFIX,gsywcc.xyz
 DOMAIN-SUFFIX,gszetzdm.xyz
 DOMAIN-SUFFIX,gt.duowan.com
 DOMAIN-SUFFIX,gt.yy.com
@@ -3153,6 +3161,8 @@ DOMAIN-SUFFIX,gvbhae0.com
 DOMAIN-SUFFIX,gvbta.icu
 DOMAIN-SUFFIX,gw1jvhs.com
 DOMAIN-SUFFIX,gw2cddpt2hao.asia
+DOMAIN-SUFFIX,gw2cddpt2hao.cloud
+DOMAIN-SUFFIX,gw2cddpt2hao.site
 DOMAIN-SUFFIX,gwdobvs.cn
 DOMAIN-SUFFIX,gwide.xyz
 DOMAIN-SUFFIX,gwivqo.xyz
@@ -3598,6 +3608,7 @@ DOMAIN-SUFFIX,iprefer.com.tw
 DOMAIN-SUFFIX,ipryes.top
 DOMAIN-SUFFIX,ipsoazr.icu
 DOMAIN-SUFFIX,ipssss.com
+DOMAIN-SUFFIX,iptuy.cn
 DOMAIN-SUFFIX,ipuswrg.cn
 DOMAIN-SUFFIX,iqede.xyz
 DOMAIN-SUFFIX,iqgoukn.cn
@@ -4138,6 +4149,7 @@ DOMAIN-SUFFIX,kycxhgrp.xyz
 DOMAIN-SUFFIX,kydzfldt.xyz
 DOMAIN-SUFFIX,kyemwo.xyz
 DOMAIN-SUFFIX,kyikdee.cn
+DOMAIN-SUFFIX,kyislod.top
 DOMAIN-SUFFIX,kyjwtxei.xyz
 DOMAIN-SUFFIX,kykqss.xyz
 DOMAIN-SUFFIX,kymahuxv.xyz
@@ -4241,6 +4253,7 @@ DOMAIN-SUFFIX,lifyeldl.top
 DOMAIN-SUFFIX,ligfdjnfd.cn
 DOMAIN-SUFFIX,lih6e.site
 DOMAIN-SUFFIX,liitwrz.icu
+DOMAIN-SUFFIX,lijlrz.xyz
 DOMAIN-SUFFIX,limopf.top
 DOMAIN-SUFFIX,lingsiqiwu.com
 DOMAIN-SUFFIX,linj.top
@@ -4967,6 +4980,7 @@ DOMAIN-SUFFIX,okokw.com
 DOMAIN-SUFFIX,okpcyp.icu
 DOMAIN-SUFFIX,okwan.cn
 DOMAIN-SUFFIX,okwkaa.xyz
+DOMAIN-SUFFIX,olgcpwc.icu
 DOMAIN-SUFFIX,olltcqg.xyz
 DOMAIN-SUFFIX,olmnvbgufy.top
 DOMAIN-SUFFIX,omgpl.com
@@ -5015,6 +5029,7 @@ DOMAIN-SUFFIX,oqyiapj.cn
 DOMAIN-SUFFIX,orbnarb.xyz
 DOMAIN-SUFFIX,orbxiul.xyz
 DOMAIN-SUFFIX,orssengseen.com
+DOMAIN-SUFFIX,ortlisk.top
 DOMAIN-SUFFIX,oryhic.xyz
 DOMAIN-SUFFIX,osafsr.xyz
 DOMAIN-SUFFIX,osancik.top
@@ -6570,6 +6585,7 @@ DOMAIN-SUFFIX,uri6.com
 DOMAIN-SUFFIX,urlaw.cn
 DOMAIN-SUFFIX,urlet.cn
 DOMAIN-SUFFIX,urqwzbu.cn
+DOMAIN-SUFFIX,urtlist.top
 DOMAIN-SUFFIX,urueuah.cn
 DOMAIN-SUFFIX,usancit.top
 DOMAIN-SUFFIX,usejj.makepolo.cn
