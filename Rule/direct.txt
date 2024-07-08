@@ -1,5 +1,5 @@
-# 更新时间：2024年7月7日 16:42
-# 规则数量：当前共 278 条规则
+# 更新时间：2024年7月7日 21:43
+# 规则数量：当前共 279 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -209,6 +209,7 @@ DOMAIN-SUFFIX,oceanengine.com
 DOMAIN-SUFFIX,onethingpcs.com
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pki.goog

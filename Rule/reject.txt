@@ -1,5 +1,5 @@
-# 更新时间：2024年7月7日 06:05
-# 规则数量：7818
+# 更新时间：2024年7月8日 06:05
+# 规则数量：7828
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -2840,6 +2840,7 @@ DOMAIN-SUFFIX,fnfhjka.xyz
 DOMAIN-SUFFIX,fngcgbl.icu
 DOMAIN-SUFFIX,fnitw.xyz
 DOMAIN-SUFFIX,fnjoomqa.icu
+DOMAIN-SUFFIX,fodrxl.xyz
 DOMAIN-SUFFIX,fogolakda.top
 DOMAIN-SUFFIX,foirkrt.icu
 DOMAIN-SUFFIX,foizico.cn
@@ -3312,6 +3313,7 @@ DOMAIN-SUFFIX,hiqua.xyz
 DOMAIN-SUFFIX,hitchprivilege.com
 DOMAIN-SUFFIX,hitchun.com
 DOMAIN-SUFFIX,hixutb.xyz
+DOMAIN-SUFFIX,hjammiz.icu
 DOMAIN-SUFFIX,hjdha.cn
 DOMAIN-SUFFIX,hjdkvt.xyz
 DOMAIN-SUFFIX,hjgkr0g.xyz
@@ -3325,6 +3327,7 @@ DOMAIN-SUFFIX,hkbumv.icu
 DOMAIN-SUFFIX,hkctmldg.icu
 DOMAIN-SUFFIX,hkkeafj.cn
 DOMAIN-SUFFIX,hkljed.xyz
+DOMAIN-SUFFIX,hknoq.cn
 DOMAIN-SUFFIX,hkpeghqu.icu
 DOMAIN-SUFFIX,hkrytf.xyz
 DOMAIN-SUFFIX,hkscldggm.xyz
@@ -4058,6 +4061,7 @@ DOMAIN-SUFFIX,kmjndas.com
 DOMAIN-SUFFIX,kmlpgjh.xyz
 DOMAIN-SUFFIX,kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 DOMAIN-SUFFIX,kmnhgna.com
+DOMAIN-SUFFIX,kmruv.cn
 DOMAIN-SUFFIX,kmwclt.xyz
 DOMAIN-SUFFIX,knalzld.top
 DOMAIN-SUFFIX,kncrya.xyz
@@ -4339,6 +4343,7 @@ DOMAIN-SUFFIX,lrbvxx.xyz
 DOMAIN-SUFFIX,lrdyfz.xyz
 DOMAIN-SUFFIX,lrlsrz.xyz
 DOMAIN-SUFFIX,lrqpyhn.icu
+DOMAIN-SUFFIX,lrtlisl.top
 DOMAIN-SUFFIX,lrxdnyq.cn
 DOMAIN-SUFFIX,lryqef.xyz
 DOMAIN-SUFFIX,lsancil.top
@@ -5794,6 +5799,7 @@ DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,segmentify.com
 DOMAIN-SUFFIX,segoyg.xyz
 DOMAIN-SUFFIX,sekindo.com
+DOMAIN-SUFFIX,semhgk.xyz
 DOMAIN-SUFFIX,sensifyfugged.com
 DOMAIN-SUFFIX,sentiance.com
 DOMAIN-SUFFIX,servebom.com
@@ -6047,6 +6053,7 @@ DOMAIN-SUFFIX,sx.fakjkwp.cn
 DOMAIN-SUFFIX,sxlmggx12.com
 DOMAIN-SUFFIX,sxoejoc.icu
 DOMAIN-SUFFIX,sxtnpzd.xyz
+DOMAIN-SUFFIX,syislob.top
 DOMAIN-SUFFIX,syiwgwsqwngrdw.xyz
 DOMAIN-SUFFIX,syjkscy.cn
 DOMAIN-SUFFIX,symaa.cn
@@ -7222,6 +7229,7 @@ DOMAIN-SUFFIX,xn--521-x72fh66s.cn
 DOMAIN-SUFFIX,xn--9kq29i0tjy6b044actm.com
 DOMAIN-SUFFIX,xn--gmq238c5fy.com
 DOMAIN-SUFFIX,xn--jvrp4x1zyfta.net
+DOMAIN-SUFFIX,xn--sssy7vrppusjyv0a.com
 DOMAIN-SUFFIX,xn--w9q675dm1p7em.net
 DOMAIN-SUFFIX,xn--wgvp78a61swpe6zdozj.cn
 DOMAIN-SUFFIX,xn--xhq326apqhcx0d.cn
@@ -7288,6 +7296,7 @@ DOMAIN-SUFFIX,xulizui6.com
 DOMAIN-SUFFIX,xunsfr.xyz
 DOMAIN-SUFFIX,xuoizbtl.xyz
 DOMAIN-SUFFIX,xuwfmhh.icu
+DOMAIN-SUFFIX,xuxwvh.xyz
 DOMAIN-SUFFIX,xuyanlong1.cn
 DOMAIN-SUFFIX,xuzsdn.xyz
 DOMAIN-SUFFIX,xvbcjh.xyz
@@ -7321,6 +7330,7 @@ DOMAIN-SUFFIX,xxlihf.xyz
 DOMAIN-SUFFIX,xxniln.xyz
 DOMAIN-SUFFIX,xxsmad1.com
 DOMAIN-SUFFIX,xxsmad2.com
+DOMAIN-SUFFIX,xxsmad3.com
 DOMAIN-SUFFIX,xxxuhx.xyz
 DOMAIN-SUFFIX,xxxx68xxxx.com
 DOMAIN-SUFFIX,xy7elite.com
