@@ -1,6 +1,8 @@
-# 更新时间：2024年7月9日 16:50
-# 规则数量：当前共 304 条规则
+# 更新时间：2024年7月9日 18:04
+# 规则数量：当前共 305 条规则
 
+DOMAIN-SUFFIX,kaspersky.com
+DOMAIN-SUFFIX,volcsiriusbd.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,acjs.aliyun.com
@@ -66,6 +68,7 @@ DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,static.fengkongcloud.com
+DOMAIN,wkbrs2.tingyun.com
 DOMAIN,wkmp2.tingyun.com
 DOMAIN,xinstall.top
 DOMAIN-KEYWORD,apple-support.akadns.net
