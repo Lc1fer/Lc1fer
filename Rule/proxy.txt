@@ -1,6 +1,10 @@
 # 更新时间：2024年7月9日 15:54
 # 规则数量：当前共 118 条规则
 
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN,ipswbeta.dev
+DOMAIN,ipsw.dev
+DOMAIN,ipsw.me
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
@@ -8,9 +12,7 @@ DOMAIN,cdn.cookielaw.org
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdn.sapphire.microsoftapp.net
 DOMAIN,cdn.v2ex.com
-DOMAIN,challenges.cloudflare.com
 DOMAIN,copilot.microsoft.com
-DOMAIN,dap.pat-issuer.cloudflare.com
 DOMAIN,dns.google
 DOMAIN,framerusercontent.com
 DOMAIN,http-inputs-notion.splunkcloud.com
