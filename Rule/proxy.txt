@@ -1,6 +1,7 @@
 # 更新时间：2024年7月6日 14:00
 # 规则数量：当前共 106 条规则
 
+DOMAIN,www.bing.com
 DOMAIN,api.xmancdn.net
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn-dynmedia-1.microsoft.com
@@ -30,7 +31,6 @@ DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,bamgrid.com
-DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,chatgpt.com
@@ -74,7 +74,6 @@ DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nobyda.github.io
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
-DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,plex.tv
