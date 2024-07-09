@@ -1,12 +1,6 @@
-# 更新时间：2024年7月9日 10:18
-# 规则数量：当前共 291 条规则
+# 更新时间：2024年7月9日 15:53
+# 规则数量：当前共 300 条规则
 
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,chinaz.com
-DOMAIN-SUFFIX,hotmail.com
-DOMAIN-SUFFIX,dailygn.com
-DOMAIN-SUFFIX,douyinstatic.com
-DOMAIN-SUFFIX,kuaishou.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,acjs.aliyun.com
@@ -142,6 +136,7 @@ DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,chinanetcenter.com
+DOMAIN-SUFFIX,chinaz.com
 DOMAIN-SUFFIX,cl2009.com
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,cn
@@ -149,6 +144,7 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,ctripins.com
 DOMAIN-SUFFIX,d3games.com
+DOMAIN-SUFFIX,dailygn.com
 DOMAIN-SUFFIX,dcarapi.com
 DOMAIN-SUFFIX,dcarimg.com
 DOMAIN-SUFFIX,dcarstatic.com
@@ -159,6 +155,7 @@ DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,dpfile.com
 DOMAIN-SUFFIX,ecombdapi.com
@@ -169,12 +166,14 @@ DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fcbox.com
 DOMAIN-SUFFIX,fevermi.com
 DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,hdnd01.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,healthjd.com
+DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,httpdns.pro
 DOMAIN-SUFFIX,huami.com
 DOMAIN-SUFFIX,huazhu.com
@@ -193,9 +192,12 @@ DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jomoxd.com
 DOMAIN-SUFFIX,kaspersky-labs.com
+DOMAIN-SUFFIX,kuaishou.com
 DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,kuiniuca.com
 DOMAIN-SUFFIX,kwaizt.com
+DOMAIN-SUFFIX,lanzoup.com
+DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,manyoukeji2024.com
 DOMAIN-SUFFIX,maoyan.com

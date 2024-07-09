@@ -1,5 +1,5 @@
-# 更新时间：2024年7月9日 15:29
-# 规则数量：当前共 112 条规则
+# 更新时间：2024年7月9日 15:54
+# 规则数量：当前共 118 条规则
 
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
@@ -13,16 +13,20 @@ DOMAIN,copilot.microsoft.com
 DOMAIN,dap.pat-issuer.cloudflare.com
 DOMAIN,dns.google
 DOMAIN,framerusercontent.com
+DOMAIN,http-inputs-notion.splunkcloud.com
 DOMAIN,lightning.warnermediacdn.com
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,nexitally.com
 DOMAIN,rsshub.app
 DOMAIN,scontent-nrt1-2.cdninstagram.com
+DOMAIN,sing-box.sagernet.org
 DOMAIN,sydney.bing.com
 DOMAIN,t.me
 DOMAIN,tailscale.com
+DOMAIN,tanju.vip
 DOMAIN,telegram.org
 DOMAIN,uzwbdv.xyz
+DOMAIN,wiki.metacubex.one
 DOMAIN,workingcopy.app
 DOMAIN,www.bing.com
 DOMAIN-SUFFIX,112114.eu.org
@@ -43,6 +47,7 @@ DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fileball.app
@@ -68,12 +73,14 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,meijutt.net
 DOMAIN-SUFFIX,mikrotik.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,mtgglobals.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,onetrust.com
