@@ -1,8 +1,8 @@
-# 更新时间：2024年7月6日 14:00
+# 更新时间：2024年7月9日 12:38
 # 规则数量：当前共 106 条规则
 
-DOMAIN,www.bing.com
 DOMAIN,api.xmancdn.net
+DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn.cookielaw.org
 DOMAIN,cdn.jsdelivr.net
@@ -12,6 +12,7 @@ DOMAIN,challenges.cloudflare.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,dap.pat-issuer.cloudflare.com
 DOMAIN,dns.google
+DOMAIN,framerusercontent.com
 DOMAIN,lightning.warnermediacdn.com
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,nexitally.com
@@ -22,11 +23,13 @@ DOMAIN,t.me
 DOMAIN,telegram.org
 DOMAIN,uzwbdv.xyz
 DOMAIN,workingcopy.app
+DOMAIN,www.bing.com
 DOMAIN-SUFFIX,112114.eu.org
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN-SUFFIX,adjust.net.in
 DOMAIN-SUFFIX,agilebits.com
+DOMAIN-SUFFIX,apollo.io
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,bamgrid.com
@@ -41,6 +44,7 @@ DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
@@ -56,6 +60,7 @@ DOMAIN-SUFFIX,hdhive.org
 DOMAIN-SUFFIX,ibruce.info
 DOMAIN-SUFFIX,impactradius-event.com
 DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,liveperson.net
@@ -77,6 +82,8 @@ DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,stbuttons.click
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,sub-store.vercel.app
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,t.co
