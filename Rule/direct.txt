@@ -1,6 +1,7 @@
 # 更新时间：2024年7月9日 10:18
 # 规则数量：当前共 291 条规则
 
+DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,chinaz.com
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,dailygn.com

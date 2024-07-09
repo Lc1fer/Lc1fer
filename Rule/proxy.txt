@@ -66,7 +66,6 @@ DOMAIN-SUFFIX,impactradius-event.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,lencr.org
-DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,mikrotik.com
