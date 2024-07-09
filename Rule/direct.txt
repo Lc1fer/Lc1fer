@@ -1,5 +1,5 @@
-# 更新时间：2024年7月9日 16:35
-# 规则数量：当前共 302 条规则
+# 更新时间：2024年7月9日 16:50
+# 规则数量：当前共 304 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -46,6 +46,7 @@ DOMAIN,jdpay.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,lefox-data-library-cdn.cdfsunrise.com
 DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN,lf1-cdn-tos.bytescm.com
+DOMAIN,lizhi.shop
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
 DOMAIN,miot-spec.org
@@ -60,6 +61,7 @@ DOMAIN,rumt-zh.com
 DOMAIN,seeds-open.xycdn.com
 DOMAIN,sgamecdn.cn.gcloudcs.com
 DOMAIN,shadow.elemecdn.com
+DOMAIN,shop-cdn.lizhi.shop
 DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
