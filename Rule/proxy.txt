@@ -1,9 +1,6 @@
-# 更新时间：2024年7月9日 12:38
-# 规则数量：当前共 106 条规则
+# 更新时间：2024年7月9日 15:29
+# 规则数量：当前共 112 条规则
 
-DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,playrix.com
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
@@ -23,6 +20,7 @@ DOMAIN,rsshub.app
 DOMAIN,scontent-nrt1-2.cdninstagram.com
 DOMAIN,sydney.bing.com
 DOMAIN,t.me
+DOMAIN,tailscale.com
 DOMAIN,telegram.org
 DOMAIN,uzwbdv.xyz
 DOMAIN,workingcopy.app
@@ -32,8 +30,10 @@ DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN-SUFFIX,adjust.net.in
 DOMAIN-SUFFIX,agilebits.com
+DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,apollo.io
 DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bugsnag.com
@@ -49,6 +49,7 @@ DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,globalsign.com
@@ -74,14 +75,16 @@ DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,mtgglobals.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nobyda.github.io
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,playrix.com
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,qianji.app
 DOMAIN-SUFFIX,revenuecat.com
+DOMAIN-SUFFIX,rudderstack.com
+DOMAIN-SUFFIX,sanity.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,stbuttons.click
