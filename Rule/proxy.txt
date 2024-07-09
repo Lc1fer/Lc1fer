@@ -74,7 +74,6 @@ DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nobyda.github.io
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
-DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,openai.com
