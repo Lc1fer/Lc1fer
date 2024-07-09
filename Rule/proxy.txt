@@ -1,10 +1,6 @@
-# 更新时间：2024年7月9日 15:54
-# 规则数量：当前共 118 条规则
+# 更新时间：2024年7月9日 16:35
+# 规则数量：当前共 121 条规则
 
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN,ipswbeta.dev
-DOMAIN,ipsw.dev
-DOMAIN,ipsw.me
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
@@ -16,6 +12,9 @@ DOMAIN,copilot.microsoft.com
 DOMAIN,dns.google
 DOMAIN,framerusercontent.com
 DOMAIN,http-inputs-notion.splunkcloud.com
+DOMAIN,ipsw.dev
+DOMAIN,ipsw.me
+DOMAIN,ipswbeta.dev
 DOMAIN,lightning.warnermediacdn.com
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,nexitally.com
@@ -34,6 +33,7 @@ DOMAIN,www.bing.com
 DOMAIN-SUFFIX,112114.eu.org
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordusercontent.com
+DOMAIN-SUFFIX,423down.com
 DOMAIN-SUFFIX,adjust.net.in
 DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,amplitude.com
@@ -45,6 +45,7 @@ DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,disney-plus.net
