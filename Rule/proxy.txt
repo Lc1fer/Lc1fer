@@ -4,7 +4,6 @@
 DOMAIN,www.bing.com
 DOMAIN,api.xmancdn.net
 DOMAIN,browser-intake-datadoghq.com
-DOMAIN,cdn-dynmedia-1.microsoft.com
 DOMAIN,cdn.cookielaw.org
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdn.sapphire.microsoftapp.net
@@ -62,9 +61,6 @@ DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,max.com
-DOMAIN-SUFFIX,microsoft-falcon.io
-DOMAIN-SUFFIX,microsoftapp.net
-DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,mikrotik.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,msn.com
