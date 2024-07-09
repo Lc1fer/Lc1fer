@@ -1,4 +1,4 @@
-# 更新时间：2024年7月9日 15:53
+# 更新时间：2024年7月9日 16:17
 # 规则数量：当前共 300 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
@@ -191,6 +191,7 @@ DOMAIN-SUFFIX,jchunuo.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jomoxd.com
+DOMAIN-SUFFIX,jyshare.com
 DOMAIN-SUFFIX,kaspersky-labs.com
 DOMAIN-SUFFIX,kuaishou.com
 DOMAIN-SUFFIX,kuaishouzt.com
