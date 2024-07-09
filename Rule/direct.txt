@@ -1,5 +1,5 @@
-# 更新时间：2024年7月7日 21:43
-# 规则数量：当前共 279 条规则
+# 更新时间：2024年7月8日 21:41
+# 规则数量：当前共 282 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -55,6 +55,7 @@ DOMAIN,pandora.sjy.tcdnos.com
 DOMAIN,pandora.szxy.tcdnos.com
 DOMAIN,qncdnct.inter.71edge.com
 DOMAIN,qosidc.gcloudsdk.com
+DOMAIN,rumt-zh.com
 DOMAIN,seeds-open.xycdn.com
 DOMAIN,sgamecdn.cn.gcloudcs.com
 DOMAIN,shadow.elemecdn.com
@@ -205,6 +206,7 @@ DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,ndcpp.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,netease.im
+DOMAIN-SUFFIX,nmbyh.com
 DOMAIN-SUFFIX,oceanengine.com
 DOMAIN-SUFFIX,onethingpcs.com
 DOMAIN-SUFFIX,ooklaserver.net
@@ -223,6 +225,7 @@ DOMAIN-SUFFIX,qishui.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qweather.com
 DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,rtxapp.com
 DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,searchpstatp.com
 DOMAIN-SUFFIX,servicewechat.com

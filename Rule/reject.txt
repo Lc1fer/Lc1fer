@@ -1,5 +1,5 @@
-# 更新时间：2024年7月8日 06:05
-# 规则数量：7828
+# 更新时间：2024年7月9日 06:05
+# 规则数量：7842
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -145,6 +145,7 @@ DOMAIN,adx.yiche.com
 DOMAIN,adxlog.vivo.com.cn
 DOMAIN,afd.baidu.com
 DOMAIN,afdconf.baidu.com
+DOMAIN,al-log.d.meituan.net
 DOMAIN,al.autohome.com.cn
 DOMAIN,als.baidu.com
 DOMAIN,amap-aos-info-nogw.amap.com
@@ -1064,6 +1065,7 @@ DOMAIN-SUFFIX,acgshenshicha.cn
 DOMAIN-SUFFIX,achicih.gitee.io
 DOMAIN-SUFFIX,aclsx.cn
 DOMAIN-SUFFIX,acodes.b2b.cn
+DOMAIN-SUFFIX,acqaghx.icu
 DOMAIN-SUFFIX,acqc9.com
 DOMAIN-SUFFIX,acsc10.com
 DOMAIN-SUFFIX,acsegt86.shop
@@ -1343,6 +1345,7 @@ DOMAIN-SUFFIX,am.szhome.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,ameidj.xyz
 DOMAIN-SUFFIX,amerzbj.cn
+DOMAIN-SUFFIX,amfhby.cn
 DOMAIN-SUFFIX,amidicestrins.com
 DOMAIN-SUFFIX,amoad.com
 DOMAIN-SUFFIX,amobee.com
@@ -1596,6 +1599,7 @@ DOMAIN-SUFFIX,bdcode.35d1.com
 DOMAIN-SUFFIX,bdcode.qinglm.com
 DOMAIN-SUFFIX,bdcode.youke.com
 DOMAIN-SUFFIX,bdfg9a.icu
+DOMAIN-SUFFIX,bdfjw.cn
 DOMAIN-SUFFIX,bdgg.qjy168.com
 DOMAIN-SUFFIX,bdjdpyrt.xyz
 DOMAIN-SUFFIX,bdjfea.cn
@@ -1800,6 +1804,7 @@ DOMAIN-SUFFIX,brightcom.com
 DOMAIN-SUFFIX,brixel.cn
 DOMAIN-SUFFIX,brookssa.com
 DOMAIN-SUFFIX,brorzpj.cn
+DOMAIN-SUFFIX,brtlisv.top
 DOMAIN-SUFFIX,brtzgnd.xyz
 DOMAIN-SUFFIX,bryonypie.com
 DOMAIN-SUFFIX,brzfqq.com
@@ -2436,6 +2441,7 @@ DOMAIN-SUFFIX,doujs02.xyz
 DOMAIN-SUFFIX,doujs03.xyz
 DOMAIN-SUFFIX,doujs05.xyz
 DOMAIN-SUFFIX,doujs06.xyz
+DOMAIN-SUFFIX,doujs07.xyz
 DOMAIN-SUFFIX,downmn.com
 DOMAIN-SUFFIX,downmz.com
 DOMAIN-SUFFIX,doxihz.xyz
@@ -2660,6 +2666,7 @@ DOMAIN-SUFFIX,eq.af31f.site
 DOMAIN-SUFFIX,eqcwpeo.cn
 DOMAIN-SUFFIX,eqghuu.com
 DOMAIN-SUFFIX,eqknlsw.xyz
+DOMAIN-SUFFIX,eqkvks.xyz
 DOMAIN-SUFFIX,eqqwgw.xyz
 DOMAIN-SUFFIX,equkgm.xyz
 DOMAIN-SUFFIX,er.5ykj.cn
@@ -3712,6 +3719,7 @@ DOMAIN-SUFFIX,jdbeht.xyz
 DOMAIN-SUFFIX,jdbfknsbkldns.com
 DOMAIN-SUFFIX,jdcnwd.com
 DOMAIN-SUFFIX,jddaw.com
+DOMAIN-SUFFIX,jddebug.com
 DOMAIN-SUFFIX,jdipsuma.top
 DOMAIN-SUFFIX,jdkic.com
 DOMAIN-SUFFIX,jdoshba.top
@@ -4233,6 +4241,7 @@ DOMAIN-SUFFIX,lfzk2cp.icu
 DOMAIN-SUFFIX,lgecqrb.com
 DOMAIN-SUFFIX,lgidskil.top
 DOMAIN-SUFFIX,lgoewtd.icu
+DOMAIN-SUFFIX,lgpjw.cn
 DOMAIN-SUFFIX,lgtpdt.xyz
 DOMAIN-SUFFIX,lguaud.icu
 DOMAIN-SUFFIX,lhdlbp.xyz
@@ -4911,6 +4920,7 @@ DOMAIN-SUFFIX,nxhwvt.xyz
 DOMAIN-SUFFIX,nxledn.xyz
 DOMAIN-SUFFIX,nxtxxcm.xyz
 DOMAIN-SUFFIX,nyfgpbsc.xyz
+DOMAIN-SUFFIX,nyfstb.xyz
 DOMAIN-SUFFIX,nyhgjmlg.xyz
 DOMAIN-SUFFIX,nyhgvn.xyz
 DOMAIN-SUFFIX,nykvdwi.cn
@@ -5777,6 +5787,7 @@ DOMAIN-SUFFIX,sdfgbuy.com
 DOMAIN-SUFFIX,sdfqs2.com
 DOMAIN-SUFFIX,sdfsad562.xyz
 DOMAIN-SUFFIX,sdfyiu.com
+DOMAIN-SUFFIX,sdipsumb.top
 DOMAIN-SUFFIX,sdjbcjsbdjk.com
 DOMAIN-SUFFIX,sdjbvjsbvjz.com
 DOMAIN-SUFFIX,sdjbvskjvds.com
@@ -6369,6 +6380,7 @@ DOMAIN-SUFFIX,tunovl.xyz
 DOMAIN-SUFFIX,tuoizbtl.xyz
 DOMAIN-SUFFIX,tuotianxia.top
 DOMAIN-SUFFIX,tupian6666.com
+DOMAIN-SUFFIX,tupian9999.com
 DOMAIN-SUFFIX,tuplzt.xyz
 DOMAIN-SUFFIX,tupwiwm.com
 DOMAIN-SUFFIX,tuqnwz.icu
@@ -7333,6 +7345,8 @@ DOMAIN-SUFFIX,xxsmad2.com
 DOMAIN-SUFFIX,xxsmad3.com
 DOMAIN-SUFFIX,xxxuhx.xyz
 DOMAIN-SUFFIX,xxxx68xxxx.com
+DOMAIN-SUFFIX,xxxx88xxxx.com
+DOMAIN-SUFFIX,xxxx96xxxx.com
 DOMAIN-SUFFIX,xy7elite.com
 DOMAIN-SUFFIX,xybnfn.xyz
 DOMAIN-SUFFIX,xycxhgrp.xyz
