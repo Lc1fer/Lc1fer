@@ -1,6 +1,8 @@
 # 更新时间：2024年7月9日 10:18
 # 规则数量：当前共 291 条规则
 
+DOMAIN-SUFFIX,dailygn.com
+DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,kuaishou.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
