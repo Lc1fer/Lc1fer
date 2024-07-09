@@ -1,14 +1,6 @@
-# 更新时间：2024年7月8日 21:41
-# 规则数量：当前共 282 条规则
+# 更新时间：2024年7月9日 10:18
+# 规则数量：当前共 291 条规则
 
-DOMAIN-SUFFIX,microsoft-falcon.io
-DOMAIN-SUFFIX,microsoftapp.net
-DOMAIN-SUFFIX,microsoftonline.com
-DOMAIN-SUFFIX,idouyinvod.com
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,office.net
-DOMAIN-SUFFIX,weilayun.com
-DOMAIN-SUFFIX,office.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,acjs.aliyun.com
@@ -126,6 +118,7 @@ DOMAIN-SUFFIX,bilicomics.com
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biliimg.com
 DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,byteacctimg.com
 DOMAIN-SUFFIX,byted-static.com
 DOMAIN-SUFFIX,bytedance.com
@@ -153,6 +146,7 @@ DOMAIN-SUFFIX,d3games.com
 DOMAIN-SUFFIX,dcarapi.com
 DOMAIN-SUFFIX,dcarimg.com
 DOMAIN-SUFFIX,dcarstatic.com
+DOMAIN-SUFFIX,deppon.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,didistatic.com
@@ -182,6 +176,7 @@ DOMAIN-SUFFIX,ibytedapm.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,imazing.com
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
@@ -204,7 +199,10 @@ DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,mi-fds.com
 DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,microsoft-falcon.io
 DOMAIN-SUFFIX,microsoft.com 
+DOMAIN-SUFFIX,microsoftapp.net
+DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,mijia.tech
 DOMAIN-SUFFIX,miso-lab.com
 DOMAIN-SUFFIX,miwifi.com
@@ -216,6 +214,8 @@ DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,nmbyh.com
 DOMAIN-SUFFIX,oceanengine.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,onethingpcs.com
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
@@ -266,6 +266,7 @@ DOMAIN-SUFFIX,umsns.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weilayun.com
 DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xiaomi.com
