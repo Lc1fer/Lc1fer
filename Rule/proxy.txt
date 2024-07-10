@@ -1,5 +1,5 @@
-# 更新时间：2024年7月9日 16:35
-# 规则数量：当前共 121 条规则
+# 更新时间：2024年7月10日 09:27
+# 规则数量：当前共 125 条规则
 
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
@@ -11,6 +11,7 @@ DOMAIN,cdn.v2ex.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,dns.google
 DOMAIN,framerusercontent.com
+DOMAIN,gitlab.com
 DOMAIN,http-inputs-notion.splunkcloud.com
 DOMAIN,ipsw.dev
 DOMAIN,ipsw.me
@@ -30,6 +31,7 @@ DOMAIN,uzwbdv.xyz
 DOMAIN,wiki.metacubex.one
 DOMAIN,workingcopy.app
 DOMAIN,www.bing.com
+DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,112114.eu.org
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordusercontent.com

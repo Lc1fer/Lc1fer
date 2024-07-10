@@ -1,5 +1,5 @@
-# 更新时间：2024年7月10日 08:58
-# 规则数量：当前共 308 条规则
+# 更新时间：2024年7月10日 09:24
+# 规则数量：当前共 309 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -186,6 +186,7 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,imazing.com
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
