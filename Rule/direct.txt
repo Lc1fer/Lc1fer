@@ -1,8 +1,6 @@
-# 更新时间：2024年7月9日 18:04
-# 规则数量：当前共 305 条规则
+# 更新时间：2024年7月10日 08:58
+# 规则数量：当前共 308 条规则
 
-DOMAIN-SUFFIX,kaspersky.com
-DOMAIN-SUFFIX,volcsiriusbd.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,acjs.aliyun.com
@@ -199,6 +197,7 @@ DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jomoxd.com
 DOMAIN-SUFFIX,jyshare.com
 DOMAIN-SUFFIX,kaspersky-labs.com
+DOMAIN-SUFFIX,kaspersky.com
 DOMAIN-SUFFIX,kuaishou.com
 DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,kuiniuca.com
@@ -222,6 +221,7 @@ DOMAIN-SUFFIX,mijia.tech
 DOMAIN-SUFFIX,miso-lab.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,ndcpp.com
@@ -280,6 +280,7 @@ DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umetrip.com
 DOMAIN-SUFFIX,umsns.com
 DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,volcsiriusbd.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weilayun.com
