@@ -1,6 +1,7 @@
 # 更新时间：2024年7月10日 15:26
 # 规则数量：当前共 309 条规则
 
+DOMAIN-SUFFIX,douyincdn.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,acjs.aliyun.com
