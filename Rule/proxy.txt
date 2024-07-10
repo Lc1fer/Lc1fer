@@ -1,6 +1,7 @@
 # 更新时间：2024年7月10日 09:27
 # 规则数量：当前共 125 条规则
 
+DOMAIN,srtku.com
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
