@@ -1,4 +1,4 @@
-# 更新时间：2024年7月10日 09:24
+# 更新时间：2024年7月10日 15:26
 # 规则数量：当前共 309 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
@@ -138,6 +138,7 @@ DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,cdntips.net
 DOMAIN-SUFFIX,chinanetcenter.com
 DOMAIN-SUFFIX,chinaz.com
 DOMAIN-SUFFIX,cl2009.com
@@ -180,6 +181,7 @@ DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,httpdns.pro
 DOMAIN-SUFFIX,huami.com
 DOMAIN-SUFFIX,huazhu.com
+DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,ibytedapm.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
@@ -265,6 +267,7 @@ DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tec73.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,tencenttds.com
 DOMAIN-SUFFIX,tianti.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,toutiao.com
