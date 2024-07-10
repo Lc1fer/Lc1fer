@@ -20,7 +20,3 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 IP-ASN,714
 IP-ASN,6185
-
-
-git@github.com:Lc1fer/Lc1fer.git
-https://github.com/Lc1fer/Lc1fer.git
