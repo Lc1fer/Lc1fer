@@ -35,7 +35,6 @@ DOMAIN,downupdate.bytes.tcdnos.com
 DOMAIN,downupdate.gtyy.tcdnos.com
 DOMAIN,downupdate.ws.tcdnos.com
 DOMAIN,gdctyunct.inter.71edge.com
-DOMAIN,hdns.ksyun.com
 DOMAIN,httpdns.c.cdnhwc2.com
 DOMAIN,hwypandora.ll.tcdnos.com
 DOMAIN,id6.me
@@ -200,7 +199,6 @@ DOMAIN-SUFFIX,jyshare.com
 DOMAIN-SUFFIX,kaspersky-labs.com
 DOMAIN-SUFFIX,kaspersky.com
 DOMAIN-SUFFIX,kuaishou.com
-DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,kuiniuca.com
 DOMAIN-SUFFIX,kwaizt.com
 DOMAIN-SUFFIX,lanzoup.com
@@ -234,7 +232,6 @@ DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,onethingpcs.com
 DOMAIN-SUFFIX,ooklaserver.net
-DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,pcbeta.com
 DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
