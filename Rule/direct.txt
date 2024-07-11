@@ -1,5 +1,5 @@
-# 更新时间：2024年7月11日 11:10
-# 规则数量：当前共 315 条规则
+# 更新时间：2024年7月11日 13:38
+# 规则数量：当前共 322 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -12,6 +12,7 @@ DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement.com
 DOMAIN,aw-s.tripcdn.com
 DOMAIN,bdcdnct.inter.71edge.com
+DOMAIN,biz-idphoto.obs.cn-north-4.myhuaweicloud.com
 DOMAIN,bsy.pandora.tcdnos.com
 DOMAIN,bsy.update.tcdnos.com
 DOMAIN,c.dun.163yun.com
@@ -141,11 +142,13 @@ DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdntips.net
+DOMAIN-SUFFIX,chaxungou.com
 DOMAIN-SUFFIX,chinanetcenter.com
 DOMAIN-SUFFIX,chinaz.com
 DOMAIN-SUFFIX,cl2009.com
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,ctripins.com
@@ -213,8 +216,11 @@ DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,manyoukeji2024.com
 DOMAIN-SUFFIX,maoyan.com
 DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,meitu.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,meitudata.com
+DOMAIN-SUFFIX,meitustat.com
 DOMAIN-SUFFIX,mi-fds.com
 DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,mi.com
@@ -232,6 +238,7 @@ DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,ndcpp.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,netease.im
+DOMAIN-SUFFIX,netpock.com
 DOMAIN-SUFFIX,nmbyh.com
 DOMAIN-SUFFIX,oceanengine.com
 DOMAIN-SUFFIX,office.com

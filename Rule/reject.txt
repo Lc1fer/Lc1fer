@@ -1,5 +1,5 @@
-# 更新时间：2024年7月10日 06:05
-# 规则数量：7852
+# 更新时间：2024年7月11日 06:05
+# 规则数量：7864
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1518,6 +1518,7 @@ DOMAIN-SUFFIX,baijs02.xyz
 DOMAIN-SUFFIX,baijs03.xyz
 DOMAIN-SUFFIX,baijs05.xyz
 DOMAIN-SUFFIX,baijs06.xyz
+DOMAIN-SUFFIX,baijs07.xyz
 DOMAIN-SUFFIX,baitaiad.com
 DOMAIN-SUFFIX,baitu1llbkotsfthllcjeg.com
 DOMAIN-SUFFIX,baitu3lllqubyqmttdkjsv.com
@@ -1926,6 +1927,7 @@ DOMAIN-SUFFIX,cb.baidu.com
 DOMAIN-SUFFIX,cbcgqs.xyz
 DOMAIN-SUFFIX,cbcvou.xyz
 DOMAIN-SUFFIX,cbdm.weathercn.com
+DOMAIN-SUFFIX,cbgrqi.xyz
 DOMAIN-SUFFIX,cbjs.baidu.com
 DOMAIN-SUFFIX,cbthkumwa96.shop
 DOMAIN-SUFFIX,cbttnmo.xyz
@@ -2442,6 +2444,7 @@ DOMAIN-SUFFIX,doujs03.xyz
 DOMAIN-SUFFIX,doujs05.xyz
 DOMAIN-SUFFIX,doujs06.xyz
 DOMAIN-SUFFIX,doujs07.xyz
+DOMAIN-SUFFIX,doujs08.xyz
 DOMAIN-SUFFIX,downmn.com
 DOMAIN-SUFFIX,downmz.com
 DOMAIN-SUFFIX,doxihz.xyz
@@ -3291,6 +3294,7 @@ DOMAIN-SUFFIX,hfjhr.cn
 DOMAIN-SUFFIX,hfjk3wa.com
 DOMAIN-SUFFIX,hfjsliu.top
 DOMAIN-SUFFIX,hfk7j.top
+DOMAIN-SUFFIX,hfptbb.cn
 DOMAIN-SUFFIX,hfresgtyytjncvvh.com
 DOMAIN-SUFFIX,hfwld.cn
 DOMAIN-SUFFIX,hgcgnfe.icu
@@ -3397,6 +3401,7 @@ DOMAIN-SUFFIX,hrjg.com.cn
 DOMAIN-SUFFIX,hrngmf.com
 DOMAIN-SUFFIX,hrnkdr.xyz
 DOMAIN-SUFFIX,hrnvfp.xyz
+DOMAIN-SUFFIX,hrrjff.xyz
 DOMAIN-SUFFIX,hrtinqj.cn
 DOMAIN-SUFFIX,hs-analytics.net
 DOMAIN-SUFFIX,hscnpk86.shop
@@ -3632,6 +3637,7 @@ DOMAIN-SUFFIX,irmbyu.xyz
 DOMAIN-SUFFIX,ironsrc.com
 DOMAIN-SUFFIX,irs01.com
 DOMAIN-SUFFIX,irtefs.xyz
+DOMAIN-SUFFIX,irtliso.top
 DOMAIN-SUFFIX,iruacwa.xyz
 DOMAIN-SUFFIX,is686.com
 DOMAIN-SUFFIX,isancio.top
@@ -4684,6 +4690,7 @@ DOMAIN-SUFFIX,mtienlx.top
 DOMAIN-SUFFIX,mtnwxhjv.xyz
 DOMAIN-SUFFIX,mttpsy6666.cc
 DOMAIN-SUFFIX,mtwmuy.xyz
+DOMAIN-SUFFIX,mtwuxss.icu
 DOMAIN-SUFFIX,mtwwzqdx.xyz
 DOMAIN-SUFFIX,mu6m1.com
 DOMAIN-SUFFIX,mueid.xyz
@@ -5842,6 +5849,7 @@ DOMAIN-SUFFIX,sgg.southcn.com
 DOMAIN-SUFFIX,sggu.cn
 DOMAIN-SUFFIX,sgidskib.top
 DOMAIN-SUFFIX,sglahyea.xyz
+DOMAIN-SUFFIX,sgru.cn
 DOMAIN-SUFFIX,sh996.dftoutiao.com
 DOMAIN-SUFFIX,shangwenchao4.cn
 DOMAIN-SUFFIX,shanvezhu.com
@@ -5990,6 +5998,7 @@ DOMAIN-SUFFIX,sqgnqc.xyz
 DOMAIN-SUFFIX,sregfle.cn
 DOMAIN-SUFFIX,srldkqj.cn
 DOMAIN-SUFFIX,srlhgo.cn
+DOMAIN-SUFFIX,srtb.msn.cn
 DOMAIN-SUFFIX,srwwce.xyz
 DOMAIN-SUFFIX,srzpsbf.xyz
 DOMAIN-SUFFIX,ss.ting55.com
@@ -6773,6 +6782,7 @@ DOMAIN-SUFFIX,vfjsa6do.icu
 DOMAIN-SUFFIX,vflorp.xyz
 DOMAIN-SUFFIX,vfphbh.xyz
 DOMAIN-SUFFIX,vfsvv1.com
+DOMAIN-SUFFIX,vftvbx.xyz
 DOMAIN-SUFFIX,vfvad.top
 DOMAIN-SUFFIX,vfxrpl.xyz
 DOMAIN-SUFFIX,vfzfrx.xyz
@@ -6860,6 +6870,7 @@ DOMAIN-SUFFIX,vrvm.com
 DOMAIN-SUFFIX,vrwdsvr.icu
 DOMAIN-SUFFIX,vrxhnr.xyz
 DOMAIN-SUFFIX,vserv.mobi
+DOMAIN-SUFFIX,vsjrnh.xyz
 DOMAIN-SUFFIX,vsqovxf.icu
 DOMAIN-SUFFIX,vswswlz.icu
 DOMAIN-SUFFIX,vszzzj.xyz
@@ -6949,6 +6960,7 @@ DOMAIN-SUFFIX,wdadad.cn
 DOMAIN-SUFFIX,wdakda.cn
 DOMAIN-SUFFIX,wdcigo.xyz
 DOMAIN-SUFFIX,wddsva0.com
+DOMAIN-SUFFIX,wdipsume.top
 DOMAIN-SUFFIX,wdoshbe.top
 DOMAIN-SUFFIX,web-ad.xyz
 DOMAIN-SUFFIX,web.51fishplace.com
