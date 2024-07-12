@@ -1,5 +1,6 @@
 # 更新时间：2024年7月11日 19:11
 # 规则数量：当前共 131 条规则
+
 DOMAIN-SUFFIX,adguard.com
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
