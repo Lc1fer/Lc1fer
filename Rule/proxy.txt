@@ -1,6 +1,22 @@
 # 更新时间：2024年7月11日 19:11
 # 规则数量：当前共 131 条规则
 
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,adguard.info
 DOMAIN-SUFFIX,adguard.com
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
@@ -28,7 +44,6 @@ DOMAIN,sydney.bing.com
 DOMAIN,t.me
 DOMAIN,tailscale.com
 DOMAIN,tanju.vip
-DOMAIN,telegram.org
 DOMAIN,uzwbdv.xyz
 DOMAIN,wiki.metacubex.one
 DOMAIN,workingcopy.app

@@ -1,7 +1,6 @@
-# 更新时间：2024年7月12日 10:33
-# 规则数量：当前共 324 条规则
+# 更新时间：2024年7月12日 15:08
+# 规则数量：当前共 327 条规则
 
-DOMAIN-SUFFIX,gwdang.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,acjs.aliyun.com
@@ -183,6 +182,7 @@ DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,gwdang.com
 DOMAIN-SUFFIX,hdnd01.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,healthjd.com
@@ -271,6 +271,7 @@ DOMAIN-SUFFIX,sf-card.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,shujupie.com
 DOMAIN-SUFFIX,shxnetwork.com
+DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,soboten.com
 DOMAIN-SUFFIX,sohu.com
@@ -308,6 +309,7 @@ DOMAIN-SUFFIX,xiaomi.net
 DOMAIN-SUFFIX,xiaomiyoupin.com
 DOMAIN-SUFFIX,yonghuivip.com
 DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,zdmimg.com
 DOMAIN-SUFFIX,zepp.com
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
