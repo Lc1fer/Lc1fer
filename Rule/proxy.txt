@@ -1,23 +1,6 @@
-# 更新时间：2024年7月11日 19:11
-# 规则数量：当前共 131 条规则
+# 更新时间：2024年7月13日 07:33
+# 规则数量：当前共 149 条规则
 
-DOMAIN-SUFFIX,cdn-telegram.org
-DOMAIN-SUFFIX,comments.app
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,quiz.directory
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,adguard.info
-DOMAIN-SUFFIX,adguard.com
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
@@ -52,6 +35,9 @@ DOMAIN-SUFFIX,112114.eu.org
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN-SUFFIX,423down.com
+DOMAIN-SUFFIX,adguard.com
+DOMAIN-SUFFIX,adguard.info
+DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,adjust.net.in
 DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,agilebits.com
@@ -62,8 +48,10 @@ DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,disney-plus.net
@@ -85,6 +73,7 @@ DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
@@ -95,6 +84,7 @@ DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,impactradius-event.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,liveperson.net
@@ -116,6 +106,7 @@ DOMAIN-SUFFIX,playrix.com
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,qianji.app
+DOMAIN-SUFFIX,quiz.directory
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,rudderstack.com
 DOMAIN-SUFFIX,sanity.io
@@ -127,8 +118,19 @@ DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,sub-store.vercel.app
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,telegraph-image.pages.dev
 DOMAIN-SUFFIX,telemetrydeck.com
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,termius.com
+DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,trip.com
