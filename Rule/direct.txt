@@ -1,6 +1,8 @@
-# 更新时间：2024年7月12日 15:08
-# 规则数量：当前共 327 条规则
+# 更新时间：2024年7月13日 18:26
+# 规则数量：当前共 328 条规则
 
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,acjs.aliyun.com
@@ -79,6 +81,7 @@ DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,21cn.com
+DOMAIN-SUFFIX,2dfire.com
 DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,737.com
