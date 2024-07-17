@@ -1,8 +1,6 @@
-# 更新时间：2024年7月13日 18:26
-# 规则数量：当前共 328 条规则
+# 更新时间：2024年7月16日 07:08
+# 规则数量：当前共 336 条规则
 
-DOMAIN-SUFFIX,1password.com
-DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,acjs.aliyun.com
@@ -15,6 +13,7 @@ DOMAIN,app-measurement.com
 DOMAIN,aw-s.tripcdn.com
 DOMAIN,bdcdnct.inter.71edge.com
 DOMAIN,biz-idphoto.obs.cn-north-4.myhuaweicloud.com
+DOMAIN,bj29-hz.cn-hangzhou.data.alicloudccp.com
 DOMAIN,bsy.pandora.tcdnos.com
 DOMAIN,bsy.update.tcdnos.com
 DOMAIN,c.dun.163yun.com
@@ -24,11 +23,13 @@ DOMAIN,cdn.cnbj1.fds.api.mi-img.com
 DOMAIN,cdn.staticfile.org
 DOMAIN,cdn.wanhuahai.com
 DOMAIN,cdn.ynuf.aliapp.org
+DOMAIN,cdnpic.wuuxiang.com
 DOMAIN,cn-beijing-data.aliyundrive.net
 DOMAIN,cn.voice.gcloudcs.com
 DOMAIN,conf-darwin.xycdn.com
 DOMAIN,csy.ll.tcdnos.com
 DOMAIN,csy.pandora.tcdnos.com
+DOMAIN,ctyunhljdcdn.qnqcdn.net
 DOMAIN,cube.elemecdn.com
 DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,dir.1212338883-2-1.gcloudsvcs.com
@@ -69,6 +70,7 @@ DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,static.fengkongcloud.com
+DOMAIN,web.cdn.openinstall.io
 DOMAIN,wkbrs2.tingyun.com
 DOMAIN,wkmp2.tingyun.com
 DOMAIN,xinstall.top
@@ -80,6 +82,8 @@ DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN-SUFFIX,21cn.com
 DOMAIN-SUFFIX,2dfire.com
 DOMAIN-SUFFIX,300hu.com
@@ -266,6 +270,7 @@ DOMAIN-SUFFIX,qishui.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qweather.com
 DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,rtxapp.com
 DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,searchpstatp.com
@@ -296,6 +301,7 @@ DOMAIN-SUFFIX,toutiaovod.com
 DOMAIN-SUFFIX,tratao.com
 DOMAIN-SUFFIX,ucweb.com
 DOMAIN-SUFFIX,udache.com
+DOMAIN-SUFFIX,ugdtimg.com
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umetrip.com
 DOMAIN-SUFFIX,umsns.com
