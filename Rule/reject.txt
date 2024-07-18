@@ -1,5 +1,5 @@
-# 更新时间：2024年7月17日 06:05
-# 规则数量：7922
+# 更新时间：2024年7月18日 06:05
+# 规则数量：7931
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -145,6 +145,7 @@ DOMAIN,adx.yiche.com
 DOMAIN,adxlog.vivo.com.cn
 DOMAIN,afd.baidu.com
 DOMAIN,afdconf.baidu.com
+DOMAIN,affcpatrk.com
 DOMAIN,al-log.d.meituan.net
 DOMAIN,al.autohome.com.cn
 DOMAIN,als.baidu.com
@@ -1255,6 +1256,7 @@ DOMAIN-SUFFIX,adtongji.xyz
 DOMAIN-SUFFIX,adtonus.com
 DOMAIN-SUFFIX,adtrace.org
 DOMAIN-SUFFIX,adtx2.cn
+DOMAIN-SUFFIX,adukwai.com
 DOMAIN-SUFFIX,adunite.com
 DOMAIN-SUFFIX,adutp.com
 DOMAIN-SUFFIX,adv-sv-show.focus.cn
@@ -1729,6 +1731,7 @@ DOMAIN-SUFFIX,bkae.top
 DOMAIN-SUFFIX,bkbbjtfp.xyz
 DOMAIN-SUFFIX,bkhblj.xyz
 DOMAIN-SUFFIX,bkjlf58.com
+DOMAIN-SUFFIX,bkxpph.xyz
 DOMAIN-SUFFIX,bkxuprh.cn
 DOMAIN-SUFFIX,bkyhq.cn
 DOMAIN-SUFFIX,bkzmtp.xyz
@@ -3974,6 +3977,7 @@ DOMAIN-SUFFIX,jy.zhongxues.com
 DOMAIN-SUFFIX,jy135.com
 DOMAIN-SUFFIX,jy147a.com
 DOMAIN-SUFFIX,jyewkb.icu
+DOMAIN-SUFFIX,jyfdbj.xyz
 DOMAIN-SUFFIX,jygiizv.icu
 DOMAIN-SUFFIX,jyisloa.top
 DOMAIN-SUFFIX,jynthelon.com
@@ -4249,6 +4253,7 @@ DOMAIN-SUFFIX,lckjqtx.xyz
 DOMAIN-SUFFIX,lctcbtly.xyz
 DOMAIN-SUFFIX,lczk.cn
 DOMAIN-SUFFIX,ldgjwdohqbi.xyz
+DOMAIN-SUFFIX,ldipsuml.top
 DOMAIN-SUFFIX,ldjhlqr.cn
 DOMAIN-SUFFIX,ldjnbn.xyz
 DOMAIN-SUFFIX,ldoshbl.top
@@ -5270,6 +5275,7 @@ DOMAIN-SUFFIX,pl520.com
 DOMAIN-SUFFIX,placeiq.com
 DOMAIN-SUFFIX,placelocal.com
 DOMAIN-SUFFIX,plbs9k.icu
+DOMAIN-SUFFIX,plecnyz.icu
 DOMAIN-SUFFIX,plnbnd.xyz
 DOMAIN-SUFFIX,plnrkgc.xyz
 DOMAIN-SUFFIX,plnshao.xyz
@@ -5455,6 +5461,7 @@ DOMAIN-SUFFIX,qheoy.cn
 DOMAIN-SUFFIX,qhjm600.com
 DOMAIN-SUFFIX,qhocciks.com
 DOMAIN-SUFFIX,qhodog.xyz
+DOMAIN-SUFFIX,qhscsu.xyz
 DOMAIN-SUFFIX,qhssjyb.xyz
 DOMAIN-SUFFIX,qhtdmlf.xyz
 DOMAIN-SUFFIX,qhx1h2g.com
@@ -6558,6 +6565,7 @@ DOMAIN-SUFFIX,uckgqa.xyz
 DOMAIN-SUFFIX,ucqihfh.cn
 DOMAIN-SUFFIX,uctutu3789.xyz
 DOMAIN-SUFFIX,udb3n.icu
+DOMAIN-SUFFIX,udd1i5.zhihu.com
 DOMAIN-SUFFIX,udeztrb.cn
 DOMAIN-SUFFIX,udheansv.com
 DOMAIN-SUFFIX,udiab1.jianshu.com
@@ -6956,6 +6964,7 @@ DOMAIN-SUFFIX,vwsgmf.icu
 DOMAIN-SUFFIX,vwtjvd.xyz
 DOMAIN-SUFFIX,vwyycnq.cn
 DOMAIN-SUFFIX,vxdpmxw.xyz
+DOMAIN-SUFFIX,vxdrfr.xyz
 DOMAIN-SUFFIX,vxfdepn.cn
 DOMAIN-SUFFIX,vxhtxt.xyz
 DOMAIN-SUFFIX,vxpdfb.xyz

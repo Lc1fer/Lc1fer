@@ -1,5 +1,5 @@
-# 更新时间：2024年7月16日 07:08
-# 规则数量：当前共 336 条规则
+# 更新时间：2024年7月18日 17:43
+# 规则数量：当前共 340 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -31,6 +31,7 @@ DOMAIN,csy.ll.tcdnos.com
 DOMAIN,csy.pandora.tcdnos.com
 DOMAIN,ctyunhljdcdn.qnqcdn.net
 DOMAIN,cube.elemecdn.com
+DOMAIN,delivery.elemecdn.com
 DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,dir.1212338883-2-1.gcloudsvcs.com
 DOMAIN,download.2.1212338883.wz.gcloudgbs.com
@@ -88,6 +89,7 @@ DOMAIN-SUFFIX,21cn.com
 DOMAIN-SUFFIX,2dfire.com
 DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,54yt.net
 DOMAIN-SUFFIX,737.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,aliapp.org
@@ -150,6 +152,7 @@ DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdntips.net
 DOMAIN-SUFFIX,chaxungou.com
+DOMAIN-SUFFIX,china.com
 DOMAIN-SUFFIX,chinanetcenter.com
 DOMAIN-SUFFIX,chinaz.com
 DOMAIN-SUFFIX,cl2009.com
@@ -280,6 +283,7 @@ DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,shujupie.com
 DOMAIN-SUFFIX,shxnetwork.com
 DOMAIN-SUFFIX,smzdm.com
+DOMAIN-SUFFIX,snrat.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,soboten.com
 DOMAIN-SUFFIX,sohu.com
