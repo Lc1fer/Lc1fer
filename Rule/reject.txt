@@ -1,5 +1,5 @@
-# 更新时间：2024年7月18日 06:05
-# 规则数量：7931
+# 更新时间：2024年7月19日 06:05
+# 规则数量：7937
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1611,6 +1611,7 @@ DOMAIN-SUFFIX,bdcode.youke.com
 DOMAIN-SUFFIX,bdfg9a.icu
 DOMAIN-SUFFIX,bdfjw.cn
 DOMAIN-SUFFIX,bdgg.qjy168.com
+DOMAIN-SUFFIX,bdipsumv.top
 DOMAIN-SUFFIX,bdjdpyrt.xyz
 DOMAIN-SUFFIX,bdjfea.cn
 DOMAIN-SUFFIX,bdjiaoben.wmxa.cn
@@ -3558,6 +3559,7 @@ DOMAIN-SUFFIX,ielgag.top
 DOMAIN-SUFFIX,iephrenhq.com
 DOMAIN-SUFFIX,ievvo.xyz
 DOMAIN-SUFFIX,iewtwo.xyz
+DOMAIN-SUFFIX,ieymhkx.icu
 DOMAIN-SUFFIX,ifbfksf.xyz
 DOMAIN-SUFFIX,ifbqves.cn
 DOMAIN-SUFFIX,ifewo.xyz
@@ -3945,6 +3947,7 @@ DOMAIN-SUFFIX,jupeicha.cn
 DOMAIN-SUFFIX,jusha.com
 DOMAIN-SUFFIX,justapp.top
 DOMAIN-SUFFIX,jutwzssh.icu
+DOMAIN-SUFFIX,juznlx.xyz
 DOMAIN-SUFFIX,jvjlkih.com
 DOMAIN-SUFFIX,jvjmjt.xyz
 DOMAIN-SUFFIX,jvkqkzu.cn
@@ -4601,6 +4604,7 @@ DOMAIN-SUFFIX,microad.jp
 DOMAIN-SUFFIX,mifyeldx.top
 DOMAIN-SUFFIX,migo011.top
 DOMAIN-SUFFIX,miiepofl.xyz
+DOMAIN-SUFFIX,mikka.app
 DOMAIN-SUFFIX,milk.yesky.com.cn
 DOMAIN-SUFFIX,mini.hao123.com
 DOMAIN-SUFFIX,miningzhizhong.top
@@ -4619,6 +4623,7 @@ DOMAIN-SUFFIX,mkitgfs.com
 DOMAIN-SUFFIX,mkjnba.com
 DOMAIN-SUFFIX,mkjnbg.com
 DOMAIN-SUFFIX,mkjnha.com
+DOMAIN-SUFFIX,mkscy6.cn
 DOMAIN-SUFFIX,mldzwmt.xyz
 DOMAIN-SUFFIX,mlegyu.xyz
 DOMAIN-SUFFIX,mlhdvjv.xyz
@@ -4669,6 +4674,7 @@ DOMAIN-SUFFIX,mobjump.com
 DOMAIN-SUFFIX,moead.xyz
 DOMAIN-SUFFIX,mogtrmjz.xyz
 DOMAIN-SUFFIX,mohvxrvd.xyz
+DOMAIN-SUFFIX,molpmh.xyz
 DOMAIN-SUFFIX,momoguoji.xyz
 DOMAIN-SUFFIX,mondigo.cn
 DOMAIN-SUFFIX,moobtcnse.xyz

@@ -1,5 +1,5 @@
-# 更新时间：2024年7月15日 15:25
-# 规则数量：当前共 157 条规则
+# 更新时间：2024年7月18日 22:05
+# 规则数量：当前共 159 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -60,6 +60,7 @@ DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fileball.app
+DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,fontawesome.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gitbook.com
@@ -85,6 +86,7 @@ DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,impactradius-event.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,jellybusgo.com
 DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,licdn.com
