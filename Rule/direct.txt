@@ -1,5 +1,5 @@
-# 更新时间：2024年7月18日 19:24
-# 规则数量：当前共 341 条规则
+# 更新时间：2024年7月21日 22:50
+# 规则数量：当前共 350 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -39,18 +39,23 @@ DOMAIN,downupdate.aly.tcdnos.com
 DOMAIN,downupdate.bytes.tcdnos.com
 DOMAIN,downupdate.gtyy.tcdnos.com
 DOMAIN,downupdate.ws.tcdnos.com
+DOMAIN,fp-it.fengkongcloud.com
 DOMAIN,gdctyunct.inter.71edge.com
 DOMAIN,h5-data.elemecdn.com
 DOMAIN,httpdns.c.cdnhwc2.com
 DOMAIN,hwypandora.ll.tcdnos.com
 DOMAIN,id6.me
 DOMAIN,idcconfig.gcloudsdk.com
+DOMAIN,img.elemecdn.com
+DOMAIN,img01.luckincoffeecdn.com
+DOMAIN,img04.luckincoffeecdn.com
 DOMAIN,ipv6.cn.voice.gcloudcs.com
 DOMAIN,jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,jdpay.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,lefox-data-library-cdn.cdfsunrise.com
 DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN,lf1-cdn-tos.bytescm.com
+DOMAIN,lf9-cdn-tos.bytecdntp.com
 DOMAIN,lizhi.shop
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
@@ -187,6 +192,7 @@ DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fcbox.com
 DOMAIN-SUFFIX,fevermi.com
 DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,goofish.com
@@ -224,6 +230,7 @@ DOMAIN-SUFFIX,kuiniuca.com
 DOMAIN-SUFFIX,kwaizt.com
 DOMAIN-SUFFIX,lanzoup.com
 DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,lkcoffee.com
 DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,manyoukeji2024.com
 DOMAIN-SUFFIX,maoyan.com
@@ -271,6 +278,7 @@ DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qianjiapp.com
 DOMAIN-SUFFIX,qikekeji.com
 DOMAIN-SUFFIX,qishui.com
+DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qweather.com
 DOMAIN-SUFFIX,qy.net
@@ -296,6 +304,7 @@ DOMAIN-SUFFIX,tec73.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,tencenttds.com
+DOMAIN-SUFFIX,tenmh.com
 DOMAIN-SUFFIX,tianti.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,toutiao.com
