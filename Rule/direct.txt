@@ -1,5 +1,5 @@
-# 更新时间：2024年7月21日 22:50
-# 规则数量：当前共 350 条规则
+# 更新时间：2024年7月23日 12:26
+# 规则数量：当前共 352 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -40,6 +40,7 @@ DOMAIN,downupdate.bytes.tcdnos.com
 DOMAIN,downupdate.gtyy.tcdnos.com
 DOMAIN,downupdate.ws.tcdnos.com
 DOMAIN,fp-it.fengkongcloud.com
+DOMAIN,fuss10.elemecdn.com
 DOMAIN,gdctyunct.inter.71edge.com
 DOMAIN,h5-data.elemecdn.com
 DOMAIN,httpdns.c.cdnhwc2.com
@@ -331,6 +332,7 @@ DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net
 DOMAIN-SUFFIX,xiaomiyoupin.com
 DOMAIN-SUFFIX,yonghuivip.com
+DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,zdmimg.com
 DOMAIN-SUFFIX,zepp.com
