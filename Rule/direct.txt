@@ -1,5 +1,5 @@
-# 更新时间：2024年7月23日 12:26
-# 规则数量：当前共 352 条规则
+# 更新时间：2024年7月26日 07:24
+# 规则数量：当前共 353 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -39,6 +39,7 @@ DOMAIN,downupdate.aly.tcdnos.com
 DOMAIN,downupdate.bytes.tcdnos.com
 DOMAIN,downupdate.gtyy.tcdnos.com
 DOMAIN,downupdate.ws.tcdnos.com
+DOMAIN,easytomessage.com
 DOMAIN,fp-it.fengkongcloud.com
 DOMAIN,fuss10.elemecdn.com
 DOMAIN,gdctyunct.inter.71edge.com
