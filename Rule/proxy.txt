@@ -1,5 +1,5 @@
-# 更新时间：2024年7月20日 18:57
-# 规则数量：当前共 162 条规则
+# 更新时间：2024年7月27日 09:40
+# 规则数量：当前共 163 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,apollo.io
 DOMAIN-SUFFIX,appbaqend.com
 DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,aptv.app
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bugsnag.com
