@@ -1,10 +1,11 @@
-# 更新时间：2024年7月27日 09:40
-# 规则数量：当前共 163 条规则
+# 更新时间：2024年7月28日 09:03
+# 规则数量：当前共 165 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
+DOMAIN,cdn.branch.io
 DOMAIN,cdn.cookielaw.org
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdn.sapphire.microsoftapp.net
@@ -108,6 +109,7 @@ DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
+DOMAIN-SUFFIX,olympics.com
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oyunfor.com
