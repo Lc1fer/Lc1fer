@@ -1,5 +1,5 @@
-# 更新时间：2024年7月28日 17:46
-# 规则数量：当前共 359 条规则
+# 更新时间：2024年7月30日 06:38
+# 规则数量：当前共 363 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -100,6 +100,7 @@ DOMAIN-SUFFIX,21cn.com
 DOMAIN-SUFFIX,2dfire.com
 DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,51zmt.top
 DOMAIN-SUFFIX,54yt.net
 DOMAIN-SUFFIX,737.com
 DOMAIN-SUFFIX,aaplimg.com
@@ -230,6 +231,7 @@ DOMAIN-SUFFIX,jchunuo.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jomoxd.com
+DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jyshare.com
 DOMAIN-SUFFIX,kaspersky-labs.com
 DOMAIN-SUFFIX,kaspersky.com
@@ -285,6 +287,7 @@ DOMAIN-SUFFIX,puata.info
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qianjiapp.com
 DOMAIN-SUFFIX,qikekeji.com
+DOMAIN-SUFFIX,qingting.fm
 DOMAIN-SUFFIX,qishui.com
 DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,qq.com
@@ -334,6 +337,7 @@ DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weilayun.com
 DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,whalenas.com
 DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net

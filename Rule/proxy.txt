@@ -1,5 +1,5 @@
-# 更新时间：2024年7月28日 09:03
-# 规则数量：当前共 165 条规则
+# 更新时间：2024年7月29日 21:08
+# 规则数量：当前共 167 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -21,6 +21,7 @@ DOMAIN,ipsw.dev
 DOMAIN,ipsw.me
 DOMAIN,ipswbeta.dev
 DOMAIN,lightning.warnermediacdn.com
+DOMAIN,lvlv.lv
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,nexitally.com
 DOMAIN,rsshub.app
@@ -41,6 +42,7 @@ DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.info
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,adjust.net.in
+DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,amplitude.com
