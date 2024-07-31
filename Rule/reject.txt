@@ -1,5 +1,5 @@
-# 更新时间：2024年7月30日 06:05
-# 规则数量：6600
+# 更新时间：2024年7月31日 06:05
+# 规则数量：6606
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1685,6 +1685,7 @@ DOMAIN-SUFFIX,bwuwirv.cn
 DOMAIN-SUFFIX,bxbyll.xyz
 DOMAIN-SUFFIX,bxjhlhk.xyz
 DOMAIN-SUFFIX,bxlmrl.xyz
+DOMAIN-SUFFIX,bxmazls.icu
 DOMAIN-SUFFIX,bxnxdlb.xyz
 DOMAIN-SUFFIX,bxoaeju.icu
 DOMAIN-SUFFIX,bxsnews.com
@@ -2795,6 +2796,7 @@ DOMAIN-SUFFIX,gunepszy.xyz
 DOMAIN-SUFFIX,gunmi.cn
 DOMAIN-SUFFIX,gushi.network
 DOMAIN-SUFFIX,guwohvw.icu
+DOMAIN-SUFFIX,guyhok.xyz
 DOMAIN-SUFFIX,guysfair.com
 DOMAIN-SUFFIX,gvbhae0.com
 DOMAIN-SUFFIX,gvbta.icu
@@ -3404,6 +3406,7 @@ DOMAIN-SUFFIX,juznlx.xyz
 DOMAIN-SUFFIX,jvjlkih.com
 DOMAIN-SUFFIX,jvkqkzu.cn
 DOMAIN-SUFFIX,jweoe.xyz
+DOMAIN-SUFFIX,jwerilxa.top
 DOMAIN-SUFFIX,jwerioa.top
 DOMAIN-SUFFIX,jwfesuk.cn
 DOMAIN-SUFFIX,jwg365.cn
@@ -4152,6 +4155,7 @@ DOMAIN-SUFFIX,nndzsw1.com
 DOMAIN-SUFFIX,nnfalf.xyz
 DOMAIN-SUFFIX,nnqwe.xyz
 DOMAIN-SUFFIX,nnrbyty.xyz
+DOMAIN-SUFFIX,nnvjbb.xyz
 DOMAIN-SUFFIX,noafoaji.xyz
 DOMAIN-SUFFIX,nongjingly.com
 DOMAIN-SUFFIX,norse.mingxiaow.com
@@ -4948,6 +4952,7 @@ DOMAIN-SUFFIX,shbzdkj.cn
 DOMAIN-SUFFIX,shbzegs.cn
 DOMAIN-SUFFIX,shbzogs.cn
 DOMAIN-SUFFIX,shbzokj.cn
+DOMAIN-SUFFIX,shbzpgs.cn
 DOMAIN-SUFFIX,shbzqgs.cn
 DOMAIN-SUFFIX,shbzqkj.cn
 DOMAIN-SUFFIX,shequdaohang.com
@@ -6581,6 +6586,7 @@ DOMAIN-SUFFIX,zxrcfw.com
 DOMAIN-SUFFIX,zxrtb.com
 DOMAIN-SUFFIX,zxw51.com
 DOMAIN-SUFFIX,zyfnbl.xyz
+DOMAIN-SUFFIX,zylizz.xyz
 DOMAIN-SUFFIX,zyzo.cn
 DOMAIN-SUFFIX,zzad.com
 DOMAIN-SUFFIX,zzd6.com

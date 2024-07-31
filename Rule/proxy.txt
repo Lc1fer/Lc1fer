@@ -1,5 +1,5 @@
-# 更新时间：2024年7月29日 21:08
-# 规则数量：当前共 167 条规则
+# 更新时间：2024年7月30日 22:30
+# 规则数量：当前共 171 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -11,10 +11,13 @@ DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdn.sapphire.microsoftapp.net
 DOMAIN,cdn.v2ex.com
 DOMAIN,copilot.microsoft.com
+DOMAIN,d18dyiwu97wm6q.cloudfront.net
 DOMAIN,dns.google
 DOMAIN,errortrace.dev
+DOMAIN,fash2043.cloudycdn.services
 DOMAIN,filterra.net
 DOMAIN,framerusercontent.com
+DOMAIN,gglive.vn
 DOMAIN,gitlab.com
 DOMAIN,http-inputs-notion.splunkcloud.com
 DOMAIN,ipsw.dev
@@ -89,6 +92,7 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,hdhive.org
 DOMAIN-SUFFIX,ibruce.info
+DOMAIN-SUFFIX,iill.top
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,impactradius-event.com
 DOMAIN-SUFFIX,instagram.com

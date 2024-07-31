@@ -1,5 +1,5 @@
-# 更新时间：2024年7月30日 06:38
-# 规则数量：当前共 363 条规则
+# 更新时间：2024年7月31日 07:24
+# 规则数量：当前共 365 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -233,6 +233,7 @@ DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jomoxd.com
 DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jyshare.com
+DOMAIN-SUFFIX,kan0512.com
 DOMAIN-SUFFIX,kaspersky-labs.com
 DOMAIN-SUFFIX,kaspersky.com
 DOMAIN-SUFFIX,kuaishou.com
@@ -257,6 +258,7 @@ DOMAIN-SUFFIX,microsoft-falcon.io
 DOMAIN-SUFFIX,microsoft.com 
 DOMAIN-SUFFIX,microsoftapp.net
 DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,mijia.tech
 DOMAIN-SUFFIX,miso-lab.com
 DOMAIN-SUFFIX,miwifi.com
