@@ -1,5 +1,5 @@
-# 更新时间：2024年7月31日 07:24
-# 规则数量：当前共 365 条规则
+# 更新时间：2024年8月1日 15:47
+# 规则数量：当前共 368 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -82,6 +82,7 @@ DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,static.fengkongcloud.com
+DOMAIN,tamaegis.com
 DOMAIN,web.cdn.openinstall.io
 DOMAIN,wkbrs2.tingyun.com
 DOMAIN,wkmp2.tingyun.com
@@ -160,6 +161,7 @@ DOMAIN-SUFFIX,bytetos.com
 DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,c360dn.com
 DOMAIN-SUFFIX,camera360.com
+DOMAIN-SUFFIX,camscanner.com
 DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdntips.net
@@ -223,6 +225,7 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,imazing.com
+DOMAIN-SUFFIX,intsig.net
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,itunes.com
