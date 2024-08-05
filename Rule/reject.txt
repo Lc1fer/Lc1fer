@@ -1,5 +1,5 @@
-# 更新时间：2024年8月3日 06:05
-# 规则数量：6634
+# 更新时间：2024年8月5日 06:05
+# 规则数量：6633
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -112,7 +112,6 @@ DOMAIN,adsebs.ximalaya.com
 DOMAIN,adserver.pandora.com
 DOMAIN,adservice.sigmob.cn
 DOMAIN,adservice.tohsoft.com
-DOMAIN,adserviceretry.kglink.cn
 DOMAIN,adserviceretry.kugou.com
 DOMAIN,adsfile.bssdlbig.kugou.com
 DOMAIN,adsfilebssdlbig.tx.kugou.com
