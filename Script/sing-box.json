@@ -104,7 +104,7 @@
         "download_detour": "direct"
       }
     ],
-    "final": "final",
+    "final": "proxy",
     "auto_detect_interface": true
   },
   "outbounds": [
