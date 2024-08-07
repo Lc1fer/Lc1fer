@@ -1,4 +1,4 @@
-# 更新时间：2024年8月2日 18:42
+# 更新时间：2024年8月6日 12:34
 # 规则数量：当前共 172 条规则
 
 DOMAIN,acctcdn.msftauth.net
@@ -35,7 +35,6 @@ DOMAIN,sydney.bing.com
 DOMAIN,t.me
 DOMAIN,tailscale.com
 DOMAIN,tanju.vip
-DOMAIN,uzwbdv.xyz
 DOMAIN,wiki.metacubex.one
 DOMAIN,workingcopy.app
 DOMAIN,www.bing.com
@@ -55,6 +54,7 @@ DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,aptv.app
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,bidmachine.io
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,cdn-telegram.org
