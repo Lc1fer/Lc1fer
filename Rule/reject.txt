@@ -1,5 +1,5 @@
-# 更新时间：2024年8月9日 06:05
-# 规则数量：6656
+# 更新时间：2024年8月9日 13:23
+# 规则数量：6665
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1420,6 +1420,7 @@ DOMAIN-SUFFIX,baijs02.shop
 DOMAIN-SUFFIX,baijs02.xyz
 DOMAIN-SUFFIX,baijs03.xyz
 DOMAIN-SUFFIX,baijs04.shop
+DOMAIN-SUFFIX,baijs05.shop
 DOMAIN-SUFFIX,baijs05.xyz
 DOMAIN-SUFFIX,baijs06.xyz
 DOMAIN-SUFFIX,baijs07.xyz
@@ -1857,6 +1858,7 @@ DOMAIN-SUFFIX,clgvlvbc.xyz
 DOMAIN-SUFFIX,cliffnsc.xyz
 DOMAIN-SUFFIX,clisatf.top
 DOMAIN-SUFFIX,clkdbbvy.xyz
+DOMAIN-SUFFIX,clkwnl.xyz
 DOMAIN-SUFFIX,clmkwi.xyz
 DOMAIN-SUFFIX,clotfun.mobi
 DOMAIN-SUFFIX,clotfun.online
@@ -2191,6 +2193,7 @@ DOMAIN-SUFFIX,doujs02.xyz
 DOMAIN-SUFFIX,doujs03.shop
 DOMAIN-SUFFIX,doujs03.xyz
 DOMAIN-SUFFIX,doujs04.shop
+DOMAIN-SUFFIX,doujs05.shop
 DOMAIN-SUFFIX,doujs05.xyz
 DOMAIN-SUFFIX,doujs06.xyz
 DOMAIN-SUFFIX,doujs07.xyz
@@ -2917,6 +2920,7 @@ DOMAIN-SUFFIX,hgthpj.xyz
 DOMAIN-SUFFIX,hgxwhpba.xyz
 DOMAIN-SUFFIX,hh.jiankang.com
 DOMAIN-SUFFIX,hh6820123.com
+DOMAIN-SUFFIX,hhausq.top
 DOMAIN-SUFFIX,hhffks967.shop
 DOMAIN-SUFFIX,hhffnu135.shop
 DOMAIN-SUFFIX,hi.xiunm.cn
@@ -4053,6 +4057,7 @@ DOMAIN-SUFFIX,mvevgi.xyz
 DOMAIN-SUFFIX,mvirkw.xyz
 DOMAIN-SUFFIX,mvng.cn
 DOMAIN-SUFFIX,mvpqrydt.xyz
+DOMAIN-SUFFIX,mwerilxx.top
 DOMAIN-SUFFIX,mweriox.top
 DOMAIN-SUFFIX,mwfyab.icu
 DOMAIN-SUFFIX,mwqucr.icu
@@ -4208,6 +4213,7 @@ DOMAIN-SUFFIX,nwpcptmm.xyz
 DOMAIN-SUFFIX,nwrgdifq.xyz
 DOMAIN-SUFFIX,nwxaxx.xyz
 DOMAIN-SUFFIX,nxledn.xyz
+DOMAIN-SUFFIX,nxrajr.xyz
 DOMAIN-SUFFIX,nxtxxcm.xyz
 DOMAIN-SUFFIX,nxxkxr.xyz
 DOMAIN-SUFFIX,nyfgpbsc.xyz
@@ -4820,6 +4826,7 @@ DOMAIN-SUFFIX,rotondelibya.com
 DOMAIN-SUFFIX,rouqiuqq.cn
 DOMAIN-SUFFIX,roxewwq.cn
 DOMAIN-SUFFIX,roxfrv.xyz
+DOMAIN-SUFFIX,rpeutxu.icu
 DOMAIN-SUFFIX,rpnufv.xyz
 DOMAIN-SUFFIX,rpyor0k.xyz
 DOMAIN-SUFFIX,rqmob.com
@@ -4974,6 +4981,7 @@ DOMAIN-SUFFIX,shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 DOMAIN-SUFFIX,share.gzdsw.com
 DOMAIN-SUFFIX,shareaholic.com
 DOMAIN-SUFFIX,sharethrough.com
+DOMAIN-SUFFIX,shbxugs.cn
 DOMAIN-SUFFIX,shbzdkj.cn
 DOMAIN-SUFFIX,shbzegs.cn
 DOMAIN-SUFFIX,shbzkkj.cn
@@ -5682,6 +5690,7 @@ DOMAIN-SUFFIX,usxuyr.icu
 DOMAIN-SUFFIX,usyliet.top
 DOMAIN-SUFFIX,ut.taobao.com
 DOMAIN-SUFFIX,utarget.ru
+DOMAIN-SUFFIX,utewyc.xyz
 DOMAIN-SUFFIX,utienlt.top
 DOMAIN-SUFFIX,utkauo.xyz
 DOMAIN-SUFFIX,utlove02.com
