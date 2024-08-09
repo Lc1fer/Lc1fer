@@ -1,6 +1,8 @@
 # 更新时间：2024年8月9日 06:00
 # 规则数量：当前共 175 条规则
 
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
