@@ -1,5 +1,5 @@
-# 更新时间：2024年8月10日 06:05
-# 规则数量：6665
+# 更新时间：2024年8月11日 06:05
+# 规则数量：6668
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1397,7 +1397,6 @@ DOMAIN-SUFFIX,b1.b2b168.net
 DOMAIN-SUFFIX,b1.c1km4.com
 DOMAIN-SUFFIX,b1.engdvd.com
 DOMAIN-SUFFIX,b1.xiao84.com
-DOMAIN-SUFFIX,b17.8794.cn
 DOMAIN-SUFFIX,b2pk.com
 DOMAIN-SUFFIX,b37r5.cyou
 DOMAIN-SUFFIX,b477.life
@@ -1941,6 +1940,7 @@ DOMAIN-SUFFIX,crjeymh.cn
 DOMAIN-SUFFIX,crlsxny.xyz
 DOMAIN-SUFFIX,crodfnyk.xyz
 DOMAIN-SUFFIX,crtlisf.top
+DOMAIN-SUFFIX,crutvncf.top
 DOMAIN-SUFFIX,crvbnac.xyz
 DOMAIN-SUFFIX,crwdcntrl.net
 DOMAIN-SUFFIX,cry2h.cn
@@ -2645,6 +2645,7 @@ DOMAIN-SUFFIX,gemini.yahoo.com
 DOMAIN-SUFFIX,geotmt.com
 DOMAIN-SUFFIX,gepvgv.icu
 DOMAIN-SUFFIX,gfbdb1.com
+DOMAIN-SUFFIX,gfchck.xyz
 DOMAIN-SUFFIX,gfdfegg.cn
 DOMAIN-SUFFIX,gfdfgfgr.cn
 DOMAIN-SUFFIX,gfdgfhh.cn
@@ -3326,7 +3327,6 @@ DOMAIN-SUFFIX,jiubuhua.com
 DOMAIN-SUFFIX,jiupaozi.com
 DOMAIN-SUFFIX,jiusudie.com
 DOMAIN-SUFFIX,jivvjl.xyz
-DOMAIN-SUFFIX,jiyan.net
 DOMAIN-SUFFIX,jjade.xyz
 DOMAIN-SUFFIX,jjklrcw.com
 DOMAIN-SUFFIX,jjvzqjh.xyz
@@ -3564,6 +3564,7 @@ DOMAIN-SUFFIX,knhmgn.com
 DOMAIN-SUFFIX,knifdlad.top
 DOMAIN-SUFFIX,knjmhmk.com
 DOMAIN-SUFFIX,knpkxgfp.xyz
+DOMAIN-SUFFIX,knuinws.icu
 DOMAIN-SUFFIX,kochava.com
 DOMAIN-SUFFIX,kogtrmjz.xyz
 DOMAIN-SUFFIX,kokojia.com
@@ -5830,6 +5831,7 @@ DOMAIN-SUFFIX,vidoomy.com
 DOMAIN-SUFFIX,viewdeos.com
 DOMAIN-SUFFIX,vihqpr.xyz
 DOMAIN-SUFFIX,viladram.xyz
+DOMAIN-SUFFIX,vinsgcs.com
 DOMAIN-SUFFIX,vioyugo.cn
 DOMAIN-SUFFIX,vip.ludu319.com
 DOMAIN-SUFFIX,vip.min1319.com
@@ -6572,6 +6574,7 @@ DOMAIN-SUFFIX,zjdruhn.xyz
 DOMAIN-SUFFIX,zjgfq.com
 DOMAIN-SUFFIX,zjjlhvo.xyz
 DOMAIN-SUFFIX,zjliloveyou.ixiunv.com
+DOMAIN-SUFFIX,zjplnz.xyz
 DOMAIN-SUFFIX,zjrtxt.xyz
 DOMAIN-SUFFIX,zk.91post.com
 DOMAIN-SUFFIX,zk6.me
