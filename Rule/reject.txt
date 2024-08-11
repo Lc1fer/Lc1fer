@@ -1,5 +1,5 @@
-# 更新时间：2024年8月11日 06:05
-# 规则数量：6668
+# 更新时间：2024年8月12日 06:05
+# 规则数量：6679
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -2106,6 +2106,7 @@ DOMAIN-SUFFIX,dfvmzx.xyz
 DOMAIN-SUFFIX,dfxvkgz.xyz
 DOMAIN-SUFFIX,dgaxrjj0jwpwp.cloudfront.net
 DOMAIN-SUFFIX,dghhot.com
+DOMAIN-SUFFIX,dgkship.icu
 DOMAIN-SUFFIX,dhgfhedxx.xyz
 DOMAIN-SUFFIX,dhl.135320.com
 DOMAIN-SUFFIX,dian.brecm.xyz
@@ -2356,6 +2357,7 @@ DOMAIN-SUFFIX,ejdhmed.xyz
 DOMAIN-SUFFIX,ejolul.xyz
 DOMAIN-SUFFIX,ejunshi.com
 DOMAIN-SUFFIX,ejxo0.online
+DOMAIN-SUFFIX,ekltes.xyz
 DOMAIN-SUFFIX,ekzzed.icu
 DOMAIN-SUFFIX,elas666.pics
 DOMAIN-SUFFIX,elemea.xyz
@@ -2992,6 +2994,7 @@ DOMAIN-SUFFIX,hrnkdr.xyz
 DOMAIN-SUFFIX,hrnvfp.xyz
 DOMAIN-SUFFIX,hrrjff.xyz
 DOMAIN-SUFFIX,hrtlisu.top
+DOMAIN-SUFFIX,hrutvncu.top
 DOMAIN-SUFFIX,hs-analytics.net
 DOMAIN-SUFFIX,hscnpk86.shop
 DOMAIN-SUFFIX,hscq8.cyou
@@ -3798,6 +3801,7 @@ DOMAIN-SUFFIX,lvdedf.xyz
 DOMAIN-SUFFIX,lvehaisen.com
 DOMAIN-SUFFIX,lveodaz.icu
 DOMAIN-SUFFIX,lvnlrmn.xyz
+DOMAIN-SUFFIX,lvnzrh.xyz
 DOMAIN-SUFFIX,lvphbj.xyz
 DOMAIN-SUFFIX,lwdcnz.xyz
 DOMAIN-SUFFIX,lweriol.top
@@ -4428,6 +4432,7 @@ DOMAIN-SUFFIX,pexavfro.xyz
 DOMAIN-SUFFIX,pfhj89w.com
 DOMAIN-SUFFIX,pfjfjid.xyz
 DOMAIN-SUFFIX,pfjtgxc.cn
+DOMAIN-SUFFIX,pfkgl.top
 DOMAIN-SUFFIX,pg-ad-b1.nosdn.127.net
 DOMAIN-SUFFIX,pgcciax.icu
 DOMAIN-SUFFIX,pgght17.com
@@ -4490,6 +4495,7 @@ DOMAIN-SUFFIX,pnvtlh.xyz
 DOMAIN-SUFFIX,pnxtnp.xyz
 DOMAIN-SUFFIX,po2qgo.xyz
 DOMAIN-SUFFIX,poiwer.com
+DOMAIN-SUFFIX,pojdnf.xyz
 DOMAIN-SUFFIX,poke88.com
 DOMAIN-SUFFIX,polarmobile.com
 DOMAIN-SUFFIX,polepole.cn
@@ -4983,8 +4989,10 @@ DOMAIN-SUFFIX,share.gzdsw.com
 DOMAIN-SUFFIX,shareaholic.com
 DOMAIN-SUFFIX,sharethrough.com
 DOMAIN-SUFFIX,shbxugs.cn
+DOMAIN-SUFFIX,shbxukj.cn
 DOMAIN-SUFFIX,shbzdkj.cn
 DOMAIN-SUFFIX,shbzegs.cn
+DOMAIN-SUFFIX,shbzikj.cn
 DOMAIN-SUFFIX,shbzkkj.cn
 DOMAIN-SUFFIX,shbzlkj.cn
 DOMAIN-SUFFIX,shbzngs.cn
@@ -5116,6 +5124,7 @@ DOMAIN-SUFFIX,sprout-ad.com
 DOMAIN-SUFFIX,spsfupq.cn
 DOMAIN-SUFFIX,sqevnrb.com
 DOMAIN-SUFFIX,sqgnqc.xyz
+DOMAIN-SUFFIX,sravga.xyz
 DOMAIN-SUFFIX,srldkqj.cn
 DOMAIN-SUFFIX,srtb.msn.cn
 DOMAIN-SUFFIX,srtlisb.top
@@ -5941,6 +5950,7 @@ DOMAIN-SUFFIX,wdcigo.xyz
 DOMAIN-SUFFIX,wddsva0.com
 DOMAIN-SUFFIX,wdipsume.top
 DOMAIN-SUFFIX,wdoshbe.top
+DOMAIN-SUFFIX,wdxxx.top
 DOMAIN-SUFFIX,web-ad.xyz
 DOMAIN-SUFFIX,web.51fishplace.com
 DOMAIN-SUFFIX,web.900.la
@@ -6138,6 +6148,7 @@ DOMAIN-SUFFIX,xhbshv.xyz
 DOMAIN-SUFFIX,xhfxtqt.xyz
 DOMAIN-SUFFIX,xhgpuxim.xyz
 DOMAIN-SUFFIX,xhiit0n.xyz
+DOMAIN-SUFFIX,xhlkvx.xyz
 DOMAIN-SUFFIX,xhnvgdkw.xyz
 DOMAIN-SUFFIX,xhsdwjes.xyz
 DOMAIN-SUFFIX,xhubsxmg.xyz
