@@ -49,7 +49,7 @@ for file_name in files_to_convert:
             elif key == 'DOMAIN-KEYWORD':
                 json_data['rules'][0]['domain_keyword'].append(value)
             elif key == 'IP-CIDR':
-                value = value.replace('no-resolve', '').strip()
+                value = value.replace(',no-resolve', '').strip()
                 json_data['rules'][0]['ip_cidr'].append(value)
 
     # 移除空的字段
