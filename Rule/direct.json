@@ -5,6 +5,7 @@
       "domain": [
         "5b0988e595225.cdn.sohucs.com",
         "a-rsc.elemecdn.com",
+        "a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com",
         "acjs.aliyun.com",
         "ak-s.tripcdn.com",
         "aos-cdn-files.cn-hangzhou.oss.aliyun-inc.com",
@@ -341,6 +342,7 @@
         "umeng.com",
         "umetrip.com",
         "umsns.com",
+        "vegslb.com",
         "volces.com",
         "volcsiriusbd.com",
         "waimaimingtang.com",
@@ -373,14 +375,14 @@
         "speedtest"
       ],
       "ip_cidr": [
-        "0.0.0.0/8",
-        "10.0.0.0/8",
-        "100.64.0.0/10",
-        "127.0.0.0/8",
-        "169.254.0.0/16",
-        "172.16.0.0/12",
-        "192.168.0.0/16",
-        "224.0.0.0/4"
+        "0.0.0.0/8,",
+        "10.0.0.0/8,",
+        "100.64.0.0/10,",
+        "127.0.0.0/8,",
+        "169.254.0.0/16,",
+        "172.16.0.0/12,",
+        "192.168.0.0/16,",
+        "224.0.0.0/4,"
       ]
     }
   ]
