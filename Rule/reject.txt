@@ -1,6 +1,5 @@
-# 更新时间：2024年8月13日 06:05
-# 规则数量：6685
-
+# 更新时间：2024年8月14日 06:05
+# 规则数量：6688
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1423,6 +1422,7 @@ DOMAIN-SUFFIX,baijs03.xyz
 DOMAIN-SUFFIX,baijs04.shop
 DOMAIN-SUFFIX,baijs05.shop
 DOMAIN-SUFFIX,baijs05.xyz
+DOMAIN-SUFFIX,baijs06.shop
 DOMAIN-SUFFIX,baijs06.xyz
 DOMAIN-SUFFIX,baijs07.xyz
 DOMAIN-SUFFIX,baijs08.xyz
@@ -2199,6 +2199,7 @@ DOMAIN-SUFFIX,doujs03.xyz
 DOMAIN-SUFFIX,doujs04.shop
 DOMAIN-SUFFIX,doujs05.shop
 DOMAIN-SUFFIX,doujs05.xyz
+DOMAIN-SUFFIX,doujs06.shop
 DOMAIN-SUFFIX,doujs06.xyz
 DOMAIN-SUFFIX,doujs07.xyz
 DOMAIN-SUFFIX,doujs08.xyz
@@ -3299,6 +3300,7 @@ DOMAIN-SUFFIX,jflwhf.xyz
 DOMAIN-SUFFIX,jg1668.com
 DOMAIN-SUFFIX,jgblvt.xyz
 DOMAIN-SUFFIX,jgidskia.top
+DOMAIN-SUFFIX,jgjyxf.xyz
 DOMAIN-SUFFIX,jglgjz.xyz
 DOMAIN-SUFFIX,jgmywh.icu
 DOMAIN-SUFFIX,jgntjtyf.icu
@@ -3373,6 +3375,7 @@ DOMAIN-SUFFIX,jquery.envi-met.com.cn
 DOMAIN-SUFFIX,jqvajfvs.xyz
 DOMAIN-SUFFIX,jrpolj.xyz
 DOMAIN-SUFFIX,jrtlisa.top
+DOMAIN-SUFFIX,jrutvnca.top
 DOMAIN-SUFFIX,js.263y.com
 DOMAIN-SUFFIX,js.92aliyun.com
 DOMAIN-SUFFIX,js.bju888.com
@@ -4437,7 +4440,6 @@ DOMAIN-SUFFIX,pexavfro.xyz
 DOMAIN-SUFFIX,pfhj89w.com
 DOMAIN-SUFFIX,pfjfjid.xyz
 DOMAIN-SUFFIX,pfjtgxc.cn
-DOMAIN-SUFFIX,pfkgl.top
 DOMAIN-SUFFIX,pg-ad-b1.nosdn.127.net
 DOMAIN-SUFFIX,pgcciax.icu
 DOMAIN-SUFFIX,pgght17.com
