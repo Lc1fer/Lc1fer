@@ -23,8 +23,8 @@ for file_name in files_to_convert:
 
     # 初始化 JSON 数据结构
     json_data = {
-        "version": 1,
-        "rules": create_empty_rule_set()
+        "version": 2,
+        "rules": [create_empty_rule_set()]  # 将 rules 改为列表，包含一个字典
     }
 
     with open(txt_path, 'r') as txt_file:
@@ -39,15 +39,15 @@ for file_name in files_to_convert:
             value = value.strip()
 
             if key == 'DOMAIN':
-                json_data['rules']['domain'].append(value)
+                json_data['rules'][0]['domain'].append(value)
             elif key == 'DOMAIN-SUFFIX':
-                json_data['rules']['domain_suffix'].append(value)
+                json_data['rules'][0]['domain_suffix'].append(value)
             elif key == 'DOMAIN-KEYWORD':
-                json_data['rules']['domain_keyword'].append(value)
+                json_data['rules'][0]['domain_keyword'].append(value)
             elif key == 'IP-CIDR':
-                value = value.replace('no-resolve', '').strip()
-                json_data['rules']['ip_cidr'].append(value)
+                value = value.replace(',no-resolve', '').strip()
+                json_data['rules'][0]['ip_cidr'].append(value)
 
     # 将结构化的数据保存为 JSON 文件
     with open(json_path, 'w') as json_file:
-        json.dump(json_data, json_file, indent=4)
+        json.dump(json_data, json_file, indent=4)  # 使用默认的 4 个空格缩进
