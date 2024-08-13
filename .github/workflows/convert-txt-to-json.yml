@@ -1,0 +1,47 @@
+name: Convert TXT to JSON
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Convert TXT to JSON
+      run: |
+        import os
+        import json
+
+        files_to_convert = ['direct.txt', 'proxy.txt', 'reject.txt']
+        base_dir = 'Rule'
+
+        for file_name in files_to_convert:
+            txt_path = os.path.join(base_dir, file_name)
+            json_path = os.path.join(base_dir, file_name.replace('.txt', '.json'))
+
+            with open(txt_path, 'r') as txt_file:
+                lines = txt_file.readlines()
+
+            data = [line.strip() for line in lines if line.strip()]
+
+            with open(json_path, 'w') as json_file:
+                json.dump(data, json_file, indent=4)
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add Rule/*.json
+        git commit -m 'Convert TXT to JSON'
+        git push
