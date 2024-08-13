@@ -13,6 +13,10 @@ def create_empty_rule_set():
         "ip_cidr": []
     }
 
+# 移除空的字段
+def remove_empty_fields(rules):
+    return {k: v for k, v in rules.items() if v}
+
 # 处理每个 txt 文件并生成对应的 json 文件
 for file_name in files_to_convert:
     txt_path = os.path.join(base_dir, file_name)
@@ -45,9 +49,12 @@ for file_name in files_to_convert:
             elif key == 'DOMAIN-KEYWORD':
                 json_data['rules'][0]['domain_keyword'].append(value)
             elif key == 'IP-CIDR':
-                value = value.replace(',no-resolve', '').strip()
+                value = value.replace('no-resolve', '').strip()
                 json_data['rules'][0]['ip_cidr'].append(value)
 
-    # 将结构化的数据保存为 JSON 文件
+    # 移除空的字段
+    json_data['rules'][0] = remove_empty_fields(json_data['rules'][0])
+
+    # 将结构化的数据保存为 JSON 文件，并使用 2 个空格缩进
     with open(json_path, 'w') as json_file:
-        json.dump(json_data, json_file, indent=2)  # 使用默认的 4 个空格缩进
+        json.dump(json_data, json_file, indent=2)
