@@ -3,7 +3,7 @@ name: Convert TXT to JSON
 on:
   workflow_dispatch:  # 手动触发
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 6 * * *"  # 定时触发，设置为每天 6:00 AM
 
 jobs:
   convert:
@@ -22,10 +22,17 @@ jobs:
       run: |
         python Script/convert_txt_to_json.py
 
-    - name: Commit and Push changes
+    - name: Check if there are changes to commit
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
+        if git diff --quiet; then
+          echo "No changes to commit."
+          exit 0
+        fi
+
+    - name: Commit and Push changes
+      run: |
         git add Rule/*.json
         git commit -m 'Convert TXT to JSON'
         git push
