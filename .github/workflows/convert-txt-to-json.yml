@@ -3,7 +3,7 @@ name: Convert TXT to JSON
 on:
   workflow_dispatch:  # 手动触发
   schedule:
-    - cron: "30 6 * * *"  # 定时触发，设置为每天 6:00 AM
+    - cron: "0 6 * * *"  # 定时触发，设置为每天 6:00 AM
 
 jobs:
   convert:
