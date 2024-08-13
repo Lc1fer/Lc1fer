@@ -20,7 +20,7 @@ jobs:
 
     - name: Run Python script to convert TXT to JSON
       run: |
-        python script/convert_txt_to_json.py
+        python Script/convert_txt_to_json.py
 
     - name: Commit and Push changes
       run: |
