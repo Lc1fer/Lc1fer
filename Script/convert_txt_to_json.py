@@ -27,13 +27,16 @@ def process_file(txt_path):
     
     with open(txt_path, 'r') as txt_file:
         for line in txt_file:
-            key, value = map(str.strip, line.split(',', 1))
-            
-            if key in RULE_TYPES:
-                # 处理 IP-CIDR 特殊情况
-                if key == 'IP-CIDR':
-                    value = value.replace(',no-resolve', '').strip()
-                rule_set[RULE_TYPES[key]].append(value)
+            line = line.strip()
+            # 确保行中有逗号，且能分割成 key 和 value 两部分
+            if ',' in line:
+                key, value = map(str.strip, line.split(',', 1))
+                
+                if key in RULE_TYPES:
+                    # 处理 IP-CIDR 特殊情况
+                    if key == 'IP-CIDR':
+                        value = value.replace(',no-resolve', '').strip()
+                    rule_set[RULE_TYPES[key]].append(value)
     
     return remove_empty_fields(rule_set)
 
