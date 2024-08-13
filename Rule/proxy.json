@@ -177,9 +177,8 @@
         "youtube.com",
         "ytimg.com"
       ],
-      "domain_keyword": [],
       "ip_cidr": [
-        "5.28.192.0/18"
+        "5.28.192.0/18,"
       ]
     }
   ]
