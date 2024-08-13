@@ -50,4 +50,4 @@ for file_name in files_to_convert:
 
     # 将结构化的数据保存为 JSON 文件
     with open(json_path, 'w') as json_file:
-        json.dump(json_data, json_file, indent=4)  # 使用默认的 4 个空格缩进
+        json.dump(json_data, json_file, indent=2)  # 使用默认的 4 个空格缩进
