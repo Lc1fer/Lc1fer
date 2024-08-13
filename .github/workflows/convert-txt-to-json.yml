@@ -22,17 +22,16 @@ jobs:
       run: |
         python Script/convert_txt_to_json.py
 
-    - name: Check if there are changes to commit
+    - name: Commit and Push changes if there are any
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-        if git diff --quiet; then
-          echo "No changes to commit."
-          exit 0
-        fi
-
-    - name: Commit and Push changes
-      run: |
         git add Rule/*.json
-        git commit -m 'Convert TXT to JSON'
-        git push
+        
+        # 仅在有更改时才进行提交和推送
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m 'Convert TXT to JSON'
+          git push
+        fi
