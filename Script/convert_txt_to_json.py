@@ -5,14 +5,17 @@ import json
 FILES_TO_CONVERT = ['direct.txt', 'proxy.txt', 'reject.txt']
 BASE_DIR = 'Rule'
 
-# 定义 JSON 结构的模板
+# 规则类型定义，可以方便地在这里添加或修改规则类型
+RULE_TYPES = {
+    'DOMAIN': 'domain',
+    'DOMAIN-SUFFIX': 'domain_suffix',
+    'DOMAIN-KEYWORD': 'domain_keyword',
+    'IP-CIDR': 'ip_cidr'
+}
+
+# 创建规则模板
 def create_rule_set():
-    return {
-        "domain": [],
-        "domain_suffix": [],
-        "domain_keyword": [],
-        "ip_cidr": []
-    }
+    return {v: [] for v in RULE_TYPES.values()}
 
 # 移除空的字段
 def remove_empty_fields(rules):
@@ -26,14 +29,11 @@ def process_file(txt_path):
         for line in txt_file:
             key, value = map(str.strip, line.split(',', 1))
             
-            if key == 'DOMAIN':
-                rule_set['domain'].append(value)
-            elif key == 'DOMAIN-SUFFIX':
-                rule_set['domain_suffix'].append(value)
-            elif key == 'DOMAIN-KEYWORD':
-                rule_set['domain_keyword'].append(value)
-            elif key == 'IP-CIDR':
-                rule_set['ip_cidr'].append(value.replace(',no-resolve', '').strip())
+            if key in RULE_TYPES:
+                # 处理 IP-CIDR 特殊情况
+                if key == 'IP-CIDR':
+                    value = value.replace(',no-resolve', '').strip()
+                rule_set[RULE_TYPES[key]].append(value)
     
     return remove_empty_fields(rule_set)
 
