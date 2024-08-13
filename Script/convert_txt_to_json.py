@@ -55,7 +55,7 @@ for file_name in files_to_convert:
                 json_data['rules']['domain_keyword'].append(value)
             elif key == 'IP-CIDR':
                 # 去除 IP-CIDR 后的 no-resolve
-                value = value.replace('no-resolve', '').strip()
+                value = value.replace(',no-resolve', '').strip()
                 json_data['rules']['ip_cidr'].append(value)
             else:
                 print(f"Unknown key in {file_name}: {key}")  # 添加调试信息
