@@ -30,14 +30,22 @@ for file_name in files_to_convert:
     # 解析 txt 文件内容并填充到 JSON 结构中
     for line in lines:
         line = line.strip()
-        if line.startswith('DOMAIN'):
-            json_data['rules']['domain'].append(line.split('=')[1].strip())
-        elif line.startswith('DOMAIN-SUFFIX'):
-            json_data['rules']['domain_suffix'].append(line.split('=')[1].strip())
-        elif line.startswith('DOMAIN-KEYWORD'):
-            json_data['rules']['domain_keyword'].append(line.split('=')[1].strip())
-        elif line.startswith('IP-CIDR'):
-            json_data['rules']['ip_cidr'].append(line.split('=')[1].strip())
+
+        # 检查是否存在 '=' 并且确保有两个部分
+        if '=' in line:
+            key, value = line.split('=', 1)
+            value = value.strip()
+
+            if key == 'DOMAIN':
+                json_data['rules']['domain'].append(value)
+            elif key == 'DOMAIN-SUFFIX':
+                json_data['rules']['domain_suffix'].append(value)
+            elif key == 'DOMAIN-KEYWORD':
+                json_data['rules']['domain_keyword'].append(value)
+            elif key == 'IP-CIDR':
+                json_data['rules']['ip_cidr'].append(value)
+        else:
+            print(f"Skipping invalid line in {file_name}: {line}")
 
     # 将结构化的数据保存为 JSON 文件
     with open(json_path, 'w') as json_file:
