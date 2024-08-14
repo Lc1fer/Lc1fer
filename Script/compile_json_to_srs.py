@@ -1,7 +1,8 @@
 import os
 import subprocess
 
-# 定义目录
+# 要编译的 JSON 文件列表
+files_to_compile = ['direct.json', 'proxy.json', 'reject.json']
 base_dir = 'Rule'
 
 def compile_json_to_srs(json_path, srs_path):
@@ -19,13 +20,10 @@ def compile_json_to_srs(json_path, srs_path):
         print(f"Failed to compile {json_path}: {e}")
         print(e.stderr)  # 打印错误信息
 
-def compile_all_json_in_directory(directory):
-    for file_name in os.listdir(directory):
-        if file_name.endswith('.json'):
-            json_path = os.path.join(directory, file_name)
-            srs_path = os.path.join(directory, file_name.replace('.json', '.srs'))
-            compile_json_to_srs(json_path, srs_path)
-
 # 主函数
 if __name__ == '__main__':
-    compile_all_json_in_directory(base_dir)
+    for file_name in files_to_compile:
+        json_path = os.path.join(base_dir, file_name)
+        srs_path = os.path.join(base_dir, file_name.replace('.json', '.srs'))
+        print(f"Compiling {json_path} to {srs_path}...")
+        compile_json_to_srs(json_path, srs_path)
