@@ -1,6 +1,7 @@
 # 更新时间：2024年8月13日 20:27
 # 规则数量：当前共 379 条规则
 
+DOMAIN-SUFFIX,1password.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
