@@ -1,4 +1,4 @@
-name: Convert TXT to JSON and Compile to Binary Rule-Set
+name: TXT-JSON-Binary
 
 on:
   workflow_dispatch:  # 允许手动触发
