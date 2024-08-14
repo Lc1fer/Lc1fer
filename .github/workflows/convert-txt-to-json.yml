@@ -1,9 +1,12 @@
 name: Convert TXT to JSON
 
 on:
-  workflow_dispatch:  # 手动触发
+  push:
+    paths:
+      - 'Rule/**'  # 仅当 Rule 文件夹内的文件发生更改时触发
+  workflow_dispatch:  # 允许手动触发
   schedule:
-    - cron: "50 0 * * *"  
+    - cron: "0 0 * * *"  
 
 jobs:
   convert:
