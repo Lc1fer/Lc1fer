@@ -14,10 +14,17 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - name: Delay execution by 1 minute
+      run: sleep 60  # 延迟 1 分钟
+
     - name: Compile JSON to SRS
       run: |
         chmod +x Singbox/sing-box  # 确保可执行权限
-        Singbox/sing-box rule-set compile --output Rule/direct.srs Rule/direct.json
+        # 遍历 Rule 目录下所有 .json 文件并编译为 .srs
+        for json_file in Rule/*.json; do
+          srs_file="${json_file%.json}.srs"  # 将 .json 扩展名替换为 .srs
+          Singbox/sing-box rule-set compile --output "$srs_file" "$json_file"
+        done
 
     - name: Commit and Push compiled files if there are any
       run: |
