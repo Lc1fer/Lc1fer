@@ -1,0 +1,40 @@
+name: Compile JSON to Binary Rule-Set
+
+on:
+  push:
+    paths:
+      - 'Rule/*.json'  # 仅在 JSON 文件更新时触发
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Download sing-box
+      run: |
+        wget https://github.com/SagerNet/sing-box/releases/download/v1.9.3/sing-box-linux-amd64-v1.9.3.tar.gz
+        tar -xzf sing-box-linux-amd64-v1.9.3.tar.gz
+        sudo mv sing-box-linux-amd64 /usr/local/bin/sing-box
+        sudo chmod +x /usr/local/bin/sing-box
+
+    - name: Compile JSON to SRS
+      run: |
+        python Script/compile_json_to_srs.py
+
+    - name: Commit and Push compiled files if there are any
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add Rule/*.srs
+        
+        # 仅在有更改时才进行提交和推送
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m 'Compile JSON to SRS'
+          git push
+        fi
