@@ -37,6 +37,7 @@ jobs:
         else
           git commit -m 'Convert TXT to JSON'
           git push
+        fi
 
     - name: Delay execution by 1 minute
       run: sleep 60  # 延迟 1 分钟
@@ -62,3 +63,4 @@ jobs:
         else
           git commit -m 'Compile JSON to SRS'
           git push
+        fi
