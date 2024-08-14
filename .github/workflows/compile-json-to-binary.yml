@@ -35,3 +35,4 @@ jobs:
         else
           git commit -m 'Compile JSON to SRS'
           git push
+        fi
