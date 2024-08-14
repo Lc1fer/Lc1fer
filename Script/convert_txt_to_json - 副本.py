@@ -1,7 +1,8 @@
 import os
 import json
 
-# 配置目录
+# 配置文件和目录
+FILES_TO_CONVERT = ['direct.txt', 'proxy.txt', 'reject.txt']
 BASE_DIR = 'Rule'
 
 # 规则类型定义，可以方便地在这里添加或修改规则类型
@@ -41,10 +42,7 @@ def process_file(txt_path):
 
 # 主函数，转换所有文件
 def convert_files():
-    # 获取 Rule 目录下所有的 txt 文件
-    txt_files = [f for f in os.listdir(BASE_DIR) if f.endswith('.txt')]
-
-    for file_name in txt_files:
+    for file_name in FILES_TO_CONVERT:
         txt_path = os.path.join(BASE_DIR, file_name)
         json_path = os.path.join(BASE_DIR, file_name.replace('.txt', '.json'))
 
@@ -52,7 +50,7 @@ def convert_files():
             continue
 
         json_data = {
-            "version": 1,
+            "version": 2,
             "rules": [process_file(txt_path)]
         }
 
