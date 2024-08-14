@@ -2,9 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "ip_cidr": [
-        "5.28.192.0/18"
-      ],
       "domain": [
         "acctcdn.msftauth.net",
         "api.xmancdn.net",
@@ -46,9 +43,9 @@
         "yummy.best"
       ],
       "domain_suffix": [
+        "112114.eu.org",
         "1password.com",
         "1passwordusercontent.com",
-        "112114.eu.org",
         "423down.com",
         "adguard.com",
         "adguard.info",
@@ -71,6 +68,7 @@
         "chatgpt.com",
         "cloudflare.com",
         "comments.app",
+        "crisp.chat",
         "digicert.com",
         "discomax.com",
         "disney-plus.net",
@@ -179,6 +177,9 @@
         "yahoo.com",
         "youtube.com",
         "ytimg.com"
+      ],
+      "ip_cidr": [
+        "5.28.192.0/18"
       ]
     }
   ]
