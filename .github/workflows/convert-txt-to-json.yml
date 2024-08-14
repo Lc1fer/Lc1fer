@@ -2,7 +2,7 @@ name: Convert TXT to JSON
 
 on:
   schedule:
-    - cron: "0 30 * * *"
+    - cron: "0 40 * * *"
 
 jobs:
   convert:
