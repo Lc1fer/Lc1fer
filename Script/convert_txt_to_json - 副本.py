@@ -4,7 +4,7 @@ import json
 # 配置目录
 BASE_DIR = 'Rule'
 
-# 规则类型定义
+# 规则类型定义，可以方便地在这里添加或修改规则类型
 RULE_TYPES = {
     'DOMAIN': 'domain',
     'DOMAIN-SUFFIX': 'domain_suffix',
@@ -15,7 +15,7 @@ RULE_TYPES = {
 
 # 创建规则模板
 def create_rule_set():
-    return {v: [] for v in set(RULE_TYPES.values())}
+    return {v: [] for v in RULE_TYPES.values()}
 
 # 移除空的字段
 def remove_empty_fields(rules):
@@ -33,8 +33,8 @@ def process_file(txt_path):
                 key, value = map(str.strip, line.split(',', 1))
                 
                 if key in RULE_TYPES:
-                    # 处理 IP-CIDR 和 IP-CIDR6 的特殊情况
-                    if key in ['IP-CIDR', 'IP-CIDR6']:
+                    # 处理 IP-CIDR 特殊情况
+                    if key == 'IP-CIDR':
                         value = value.replace(',no-resolve', '').strip()
                     rule_set[RULE_TYPES[key]].append(value)
     
