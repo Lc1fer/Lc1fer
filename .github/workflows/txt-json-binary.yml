@@ -16,7 +16,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Delay execution by 1 minute
+    - name: Delay execution by 10 s
       run: sleep 10  # 延迟 10 秒
 
     - name: Set up Python
@@ -42,7 +42,7 @@ jobs:
           git push
         fi
 
-    - name: Delay execution by 1 minute
+    - name: Delay execution by 30 s
       run: sleep 30  # 延迟 30 秒
 
     - name: Compile JSON to SRS
