@@ -1,9 +1,8 @@
 name: Convert TXT to JSON
 
 on:
-  workflow_dispatch:  # 手动触发
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 30 * * *"
 
 jobs:
   convert:
