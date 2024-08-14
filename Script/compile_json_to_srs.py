@@ -18,13 +18,22 @@ def compile_json_to_srs(json_path, srs_path):
     except subprocess.CalledProcessError as e:
         print(f"Failed to compile {json_path}: {e}")
         print(e.stderr)  # 打印错误信息
+    except Exception as e:
+        print(f"An unexpected error occurred while compiling {json_path}: {e}")
 
 def compile_all_json_in_directory(directory):
-    for file_name in os.listdir(directory):
-        if file_name.endswith('.json'):
-            json_path = os.path.join(directory, file_name)
-            srs_path = os.path.join(directory, file_name.replace('.json', '.srs'))
-            compile_json_to_srs(json_path, srs_path)
+    files = [f for f in os.listdir(directory) if f.endswith('.json')]
+    if not files:
+        print("No JSON files found in directory.")
+        return
+    
+    for file_name in files:
+        json_path = os.path.join(directory, file_name)
+        srs_path = os.path.join(directory, file_name.replace('.json', '.srs'))
+        print(f"Compiling {json_path} to {srs_path}...")
+        compile_json_to_srs(json_path, srs_path)
+    
+    print("All files processed.")
 
 # 主函数
 if __name__ == '__main__':
