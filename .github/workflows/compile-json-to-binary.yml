@@ -14,17 +14,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Download sing-box
-      run: |
-        wget https://github.com/SagerNet/sing-box/releases/download/v1.9.3/sing-box-1.9.3-linux-amd64.tar.gz
-        tar -xzf sing-box-1.9.3-linux-amd64.tar.gz
-        tar -xf sing-box-1.9.3-linux-amd64.tar
-        sudo mv sing-box /usr/local/bin/sing-box
-        sudo chmod +x /usr/local/bin/sing-box
-
     - name: Compile JSON to SRS
       run: |
-        python Script/compile_json_to_srs.py
+        chmod +x Singbox/sing-box  # 确保可执行权限
+        Singbox/sing-box rule-set compile --output Rule/direct.srs Rule/direct.json
 
     - name: Commit and Push compiled files if there are any
       run: |
