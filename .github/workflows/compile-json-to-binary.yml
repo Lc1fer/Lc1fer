@@ -16,9 +16,10 @@ jobs:
 
     - name: Download sing-box
       run: |
-        wget https://github.com/SagerNet/sing-box/releases/download/v1.9.3/sing-box-linux-amd64-v1.9.3.tar.gz
-        tar -xzf sing-box-linux-amd64-v1.9.3.tar.gz
-        sudo mv sing-box-linux-amd64 /usr/local/bin/sing-box
+        wget https://github.com/SagerNet/sing-box/releases/download/v1.9.3/sing-box-1.9.3-linux-amd64.tar.gz
+        tar -xzf sing-box-1.9.3-linux-amd64.tar.gz
+        tar -xf sing-box-1.9.3-linux-amd64.tar
+        sudo mv sing-box /usr/local/bin/sing-box
         sudo chmod +x /usr/local/bin/sing-box
 
     - name: Compile JSON to SRS
