@@ -1,10 +1,12 @@
 name: Compile JSON to Binary Rule-Set
 
 on:
+  workflow_dispatch:  # 允许手动触发
+  schedule:
+    - cron: '35 22 * * *' # 6:35 AM UTC+8
   push:
     paths:
       - 'Rule/*.json'  # 仅在 JSON 文件更新时触发
-  workflow_dispatch:  # 允许手动触发
 
 jobs:
   compile:
