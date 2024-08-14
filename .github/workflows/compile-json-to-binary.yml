@@ -14,6 +14,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - name: Delay execution by 1 minute
+      run: sleep 60  # 延迟 1 分钟
+
     - name: Compile JSON to SRS
       run: |
         chmod +x Singbox/sing-box  # 确保可执行权限
