@@ -2,6 +2,9 @@
   "version": 1,
   "rules": [
     {
+      "ip_cidr": [
+        "5.28.192.0/18"
+      ],
       "domain": [
         "acctcdn.msftauth.net",
         "api.xmancdn.net",
@@ -176,9 +179,6 @@
         "yahoo.com",
         "youtube.com",
         "ytimg.com"
-      ],
-      "ip_cidr": [
-        "5.28.192.0/18"
       ]
     }
   ]
