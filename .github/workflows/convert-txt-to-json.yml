@@ -6,7 +6,8 @@ on:
       - 'Rule/**'  # 仅当 Rule 文件夹内的文件发生更改时触发
   workflow_dispatch:  # 允许手动触发
   schedule:
-    - cron: '0 0 * * *'  
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * *'
 
 jobs:
   convert:
