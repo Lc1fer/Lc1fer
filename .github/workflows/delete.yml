@@ -12,6 +12,6 @@ jobs:
       - name: Delete workflow runs
         uses: GitRML/delete-workflow-runs@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 默认的 GITHUB_TOKEN
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           retain_days: 5
