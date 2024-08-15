@@ -1,10 +1,8 @@
 import os
 import json
 
-# 配置目录
 BASE_DIR = 'Rule'
 
-# 规则类型定义
 RULE_TYPES = {
     'DOMAIN': 'domain',
     'DOMAIN-SUFFIX': 'domain_suffix',
@@ -13,7 +11,6 @@ RULE_TYPES = {
     'IP-CIDR6': 'ip_cidr'
 }
 
-# 处理单个文件
 def process_file(txt_path):
     rule_set = {v: [] for v in RULE_TYPES.values()}
     
@@ -27,9 +24,8 @@ def process_file(txt_path):
                         value = value.replace(',no-resolve', '').strip()
                     rule_set[RULE_TYPES[key]].append(value)
     
-    return {k: v for k, v in rule_set.items() if v}  # 移除空字段
+    return {k: v for k, v in rule_set.items() if v}
 
-# 主函数，转换所有文件
 def convert_files():
     txt_files = [f for f in os.listdir(BASE_DIR) if f.endswith('.txt')]
 
