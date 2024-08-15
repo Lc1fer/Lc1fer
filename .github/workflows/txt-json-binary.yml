@@ -2,8 +2,8 @@ name: TXT-JSON-Binary
 
 on:
   workflow_dispatch:  # 允许手动触发
-  schedule:
-    - cron: '30 22 * * *'  # 6:30 AM UTC+8
+#  schedule:
+#    - cron: '30 22 * * *'  # 6:30 AM UTC+8
   push:
     paths:
       - 'Rule/*.txt'  # 当 Rule 文件夹内的 .txt 文件发生更改时触发
