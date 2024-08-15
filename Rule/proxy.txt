@@ -1,5 +1,5 @@
-# 更新时间：2024年8月14日 22:57
-# 规则数量：当前共 178 条规则
+# 更新时间：2024年8月15日 10:48
+# 规则数量：当前共 179 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -71,6 +71,7 @@ DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,dyneti.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facereplacerext.com
 DOMAIN-SUFFIX,fileball.app
