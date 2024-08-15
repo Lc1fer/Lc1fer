@@ -1,5 +1,5 @@
-# 更新时间：2024年8月15日 06:05
-# 规则数量：6702
+# 更新时间：2024年8月16日 06:05
+# 规则数量：6706
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -695,6 +695,7 @@ DOMAIN-SUFFIX,555bbb777www.com
 DOMAIN-SUFFIX,555ppp777ppp.com
 DOMAIN-SUFFIX,5698tp.com
 DOMAIN-SUFFIX,57573zubo36833.com
+DOMAIN-SUFFIX,5891344.xn--j1amh
 DOMAIN-SUFFIX,58mingri.cn
 DOMAIN-SUFFIX,58mingtian.cn
 DOMAIN-SUFFIX,58tg.com
@@ -5009,6 +5010,7 @@ DOMAIN-SUFFIX,shbzegs.cn
 DOMAIN-SUFFIX,shbzikj.cn
 DOMAIN-SUFFIX,shbzjgs.cn
 DOMAIN-SUFFIX,shbzjkj.cn
+DOMAIN-SUFFIX,shbzkgs.cn
 DOMAIN-SUFFIX,shbzkkj.cn
 DOMAIN-SUFFIX,shbzlkj.cn
 DOMAIN-SUFFIX,shbzngs.cn
@@ -5144,6 +5146,7 @@ DOMAIN-SUFFIX,sravga.xyz
 DOMAIN-SUFFIX,srldkqj.cn
 DOMAIN-SUFFIX,srtb.msn.cn
 DOMAIN-SUFFIX,srtlisb.top
+DOMAIN-SUFFIX,srutvncb.top
 DOMAIN-SUFFIX,srwwce.xyz
 DOMAIN-SUFFIX,srzpsbf.xyz
 DOMAIN-SUFFIX,ss.ting55.com
@@ -5734,6 +5737,7 @@ DOMAIN-SUFFIX,uu3192uu.com
 DOMAIN-SUFFIX,uu8811uu.com
 DOMAIN-SUFFIX,uuiaoq.top
 DOMAIN-SUFFIX,uuishsa.com
+DOMAIN-SUFFIX,uumnxiet.top
 DOMAIN-SUFFIX,uunfybw.cn
 DOMAIN-SUFFIX,uuoizbtl.xyz
 DOMAIN-SUFFIX,uutytp.com
