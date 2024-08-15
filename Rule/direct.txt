@@ -1,5 +1,5 @@
-# 更新时间：2024年8月13日 20:27
-# 规则数量：当前共 379 条规则
+# 更新时间：2024年8月15日 07:08
+# 规则数量：当前共 380 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -77,6 +77,7 @@ DOMAIN,pandora.szxy.tcdnos.com
 DOMAIN,qncdnct.inter.71edge.com
 DOMAIN,qosidc.gcloudsdk.com
 DOMAIN,rumt-zh.com
+DOMAIN,s3.cn-north-1.jdcloud-oss.com
 DOMAIN,seeds-open.xycdn.com
 DOMAIN,sgamecdn.cn.gcloudcs.com
 DOMAIN,shadow.elemecdn.com
