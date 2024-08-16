@@ -1,5 +1,5 @@
-# 更新时间：2024年8月15日 10:48
-# 规则数量：当前共 179 条规则
+# 更新时间：2024年8月16日 10:02
+# 规则数量：当前共 181 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -168,6 +168,8 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,usertrust.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,voipraider.com
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wmcdp.io
 DOMAIN-SUFFIX,wowyijiu.today
 DOMAIN-SUFFIX,x.com
