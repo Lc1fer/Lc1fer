@@ -1,5 +1,5 @@
-# 更新时间：2024年8月18日 17:39
-# 规则数量：当前共 388 条规则
+# 更新时间：2024年8月18日 23:00
+# 规则数量：当前共 390 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -180,6 +180,7 @@ DOMAIN-SUFFIX,chinaz.com
 DOMAIN-SUFFIX,cl2009.com
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,cnyiot.com
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,csdn.net
@@ -187,6 +188,7 @@ DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,ctripins.com
 DOMAIN-SUFFIX,d3games.com
 DOMAIN-SUFFIX,dailygn.com
+DOMAIN-SUFFIX,daxiang91.com
 DOMAIN-SUFFIX,dcarapi.com
 DOMAIN-SUFFIX,dcarimg.com
 DOMAIN-SUFFIX,dcarstatic.com
