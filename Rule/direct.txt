@@ -1,11 +1,12 @@
-# 更新时间：2024年8月18日 13:34
-# 规则数量：当前共 386 条规则
+# 更新时间：2024年8月18日 17:39
+# 规则数量：当前共 388 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
 DOMAIN,acjs.aliyun.com
 DOMAIN,ak-s.tripcdn.com
+DOMAIN,anchongshop.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,aos-cdn-files.cn-hangzhou.oss.aliyun-inc.com
 DOMAIN,apd-pcdniegwzlogin.teg.tencent-cloud.net
 DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
@@ -125,6 +126,7 @@ DOMAIN-SUFFIX,aliyundrive.com
 DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,anchong001.com
 DOMAIN-SUFFIX,anticheatexpert.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-dns.net
