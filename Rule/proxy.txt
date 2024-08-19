@@ -1,5 +1,5 @@
-# 更新时间：2024年8月16日 10:02
-# 规则数量：当前共 181 条规则
+# 更新时间：2024年8月19日 20:52
+# 规则数量：当前共 182 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -148,6 +148,7 @@ DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,taiwanmobile.com
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram-cdn.org
