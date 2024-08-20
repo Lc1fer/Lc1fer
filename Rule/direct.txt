@@ -1,5 +1,5 @@
-# 更新时间：2024年8月20日 13:53
-# 规则数量：当前共 392 条规则
+# 更新时间：2024年8月20日 23:10
+# 规则数量：当前共 393 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -138,6 +138,7 @@ DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baike.com
+DOMAIN-SUFFIX,bangdao-tech.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bcelive.com
 DOMAIN-SUFFIX,bdimg.com
