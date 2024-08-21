@@ -1,5 +1,5 @@
-# 更新时间：2024年8月21日 06:05
-# 规则数量：6748
+# 更新时间：2024年8月22日 06:05
+# 规则数量：6758
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1428,6 +1428,7 @@ DOMAIN-SUFFIX,baijs06.shop
 DOMAIN-SUFFIX,baijs06.xyz
 DOMAIN-SUFFIX,baijs07.shop
 DOMAIN-SUFFIX,baijs07.xyz
+DOMAIN-SUFFIX,baijs08.shop
 DOMAIN-SUFFIX,baijs08.xyz
 DOMAIN-SUFFIX,baitu3lllqubyqmttdkjsv.com
 DOMAIN-SUFFIX,baitugu.com
@@ -2037,6 +2038,7 @@ DOMAIN-SUFFIX,d6.mobaders.com
 DOMAIN-SUFFIX,da.daji.com
 DOMAIN-SUFFIX,da.hunantv.com
 DOMAIN-SUFFIX,da.mgtv.com
+DOMAIN-SUFFIX,dabajd.xyz
 DOMAIN-SUFFIX,dadawm.cc
 DOMAIN-SUFFIX,dadxnl.xyz
 DOMAIN-SUFFIX,dafapromo.com
@@ -2140,6 +2142,7 @@ DOMAIN-SUFFIX,djs.baomihua.com
 DOMAIN-SUFFIX,djxpnuo.xyz
 DOMAIN-SUFFIX,djxzk.top
 DOMAIN-SUFFIX,dk45h.icu
+DOMAIN-SUFFIX,dkhffh.xyz
 DOMAIN-SUFFIX,dkjwbv.xyz
 DOMAIN-SUFFIX,dkvakldvnsv.com
 DOMAIN-SUFFIX,dkyd6.xyz
@@ -2212,6 +2215,7 @@ DOMAIN-SUFFIX,doujs06.shop
 DOMAIN-SUFFIX,doujs06.xyz
 DOMAIN-SUFFIX,doujs07.shop
 DOMAIN-SUFFIX,doujs07.xyz
+DOMAIN-SUFFIX,doujs08.shop
 DOMAIN-SUFFIX,doujs08.xyz
 DOMAIN-SUFFIX,doujs09.xyz
 DOMAIN-SUFFIX,downmn.com
@@ -2928,6 +2932,7 @@ DOMAIN-SUFFIX,henghost.com
 DOMAIN-SUFFIX,hesrod.icu
 DOMAIN-SUFFIX,hetlwsu.top
 DOMAIN-SUFFIX,hevctt.xyz
+DOMAIN-SUFFIX,hewrutu.top
 DOMAIN-SUFFIX,hexcvb.xyz
 DOMAIN-SUFFIX,hfbfbvmjdmxc.com
 DOMAIN-SUFFIX,hfjk3wa.com
@@ -3481,6 +3486,7 @@ DOMAIN-SUFFIX,jyewkb.icu
 DOMAIN-SUFFIX,jyfdbj.xyz
 DOMAIN-SUFFIX,jygiizv.icu
 DOMAIN-SUFFIX,jyisloa.top
+DOMAIN-SUFFIX,jyjrbz.xyz
 DOMAIN-SUFFIX,jynthelon.com
 DOMAIN-SUFFIX,jypvzd.xyz
 DOMAIN-SUFFIX,jyqkijp.icu
@@ -3565,6 +3571,7 @@ DOMAIN-SUFFIX,kjjjusb.xyz
 DOMAIN-SUFFIX,kjrspnbf.xyz
 DOMAIN-SUFFIX,kjubky.xyz
 DOMAIN-SUFFIX,kjvaqbyebqarl.top
+DOMAIN-SUFFIX,kjxhd.cn
 DOMAIN-SUFFIX,kkacrgx.icu
 DOMAIN-SUFFIX,kkbbjtfp.xyz
 DOMAIN-SUFFIX,kkeojk.xyz
@@ -3774,6 +3781,7 @@ DOMAIN-SUFFIX,ljnrjt.xyz
 DOMAIN-SUFFIX,ljpbtjq.xyz
 DOMAIN-SUFFIX,ljzcawea.icu
 DOMAIN-SUFFIX,lkdybkwi.xyz
+DOMAIN-SUFFIX,lkdyft.xyz
 DOMAIN-SUFFIX,lkenflknkd.com
 DOMAIN-SUFFIX,lkmhn.com
 DOMAIN-SUFFIX,lknhrnd.com
@@ -3984,6 +3992,7 @@ DOMAIN-SUFFIX,misjgy.xyz
 DOMAIN-SUFFIX,mito03.top
 DOMAIN-SUFFIX,miwfkm.xyz
 DOMAIN-SUFFIX,mixer.sina.cn
+DOMAIN-SUFFIX,miycoc.xyz
 DOMAIN-SUFFIX,mjappzvz.xyz
 DOMAIN-SUFFIX,mkbbjtfp.xyz
 DOMAIN-SUFFIX,mkitgfs.com
@@ -6545,6 +6554,7 @@ DOMAIN-SUFFIX,yunsennet.com
 DOMAIN-SUFFIX,yunzuowen.com
 DOMAIN-SUFFIX,yutiqf.icu
 DOMAIN-SUFFIX,yuwenbin.host
+DOMAIN-SUFFIX,yuwqsk.xyz
 DOMAIN-SUFFIX,yv8zs.online
 DOMAIN-SUFFIX,yvbjctqs.xyz
 DOMAIN-SUFFIX,yvnxetmq.xyz
