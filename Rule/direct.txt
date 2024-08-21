@@ -1,5 +1,5 @@
-# 更新时间：2024年8月21日 06:13
-# 规则数量：当前共 394 条规则
+# 更新时间：2024年8月21日 22:46
+# 规则数量：当前共 396 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -90,6 +90,7 @@ DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,static.fengkongcloud.com
 DOMAIN,tamaegis.com
+DOMAIN,tongji.dcloud.io
 DOMAIN,uzwbdv.xyz
 DOMAIN,web.cdn.openinstall.io
 DOMAIN,wkbrs2.tingyun.com
@@ -326,6 +327,7 @@ DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,sf-card.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,shobserver.com
+DOMAIN-SUFFIX,shqmxx.com
 DOMAIN-SUFFIX,shujupie.com
 DOMAIN-SUFFIX,shxnetwork.com
 DOMAIN-SUFFIX,sj-hospital.org
