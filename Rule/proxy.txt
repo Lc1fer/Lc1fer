@@ -1,11 +1,12 @@
-# 更新时间：2024年8月19日 20:52
-# 规则数量：当前共 182 条规则
+# 更新时间：2024年8月22日 22:41
+# 规则数量：当前共 183 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn.branch.io
+DOMAIN,cdn.churchofjesuschrist.org
 DOMAIN,cdn.cookielaw.org
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdn.sapphire.microsoftapp.net
