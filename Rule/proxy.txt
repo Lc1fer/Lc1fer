@@ -1,5 +1,5 @@
-# 更新时间：2024年8月22日 22:41
-# 规则数量：当前共 183 条规则
+# 更新时间：2024年8月23日 09:23
+# 规则数量：当前共 185 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -8,6 +8,7 @@ DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn.branch.io
 DOMAIN,cdn.churchofjesuschrist.org
 DOMAIN,cdn.cookielaw.org
+DOMAIN,cdn.honey.io
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdn.sapphire.microsoftapp.net
 DOMAIN,cdn.v2ex.com
@@ -141,6 +142,7 @@ DOMAIN-SUFFIX,sanity.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,sprig.com
 DOMAIN-SUFFIX,stbuttons.click
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripe.network
