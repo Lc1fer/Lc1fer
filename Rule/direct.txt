@@ -1,5 +1,5 @@
-# 更新时间：2024年8月22日 22:58
-# 规则数量：当前共 397 条规则
+# 更新时间：2024年8月23日 15:54
+# 规则数量：当前共 398 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -121,6 +121,7 @@ DOMAIN-SUFFIX,alibabachengdun.com
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alipan.com
+DOMAIN-SUFFIX,alipay-eco.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,aliyuncs.com
