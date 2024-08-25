@@ -1,5 +1,5 @@
-# 更新时间：2024年8月25日 06:33
-# 规则数量：当前共 401 条规则
+# 更新时间：2024年8月25日 07:56
+# 规则数量：当前共 402 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -298,6 +298,7 @@ DOMAIN-SUFFIX,ndcpp.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,netpock.com
+DOMAIN-SUFFIX,ngarihealth.com
 DOMAIN-SUFFIX,nmbyh.com
 DOMAIN-SUFFIX,nuomi.com
 DOMAIN-SUFFIX,oceanengine.com
