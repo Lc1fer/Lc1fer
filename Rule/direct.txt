@@ -1,5 +1,5 @@
-# 更新时间：2024年8月25日 11:05
-# 规则数量：当前共 404 条规则
+# 更新时间：2024年8月25日 13:16
+# 规则数量：当前共 405 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -106,6 +106,7 @@ DOMAIN-KEYWORD,apple.com.edgekey.net
 DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,114-91.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,21cn.com
