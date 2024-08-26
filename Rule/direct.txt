@@ -1,5 +1,5 @@
-# 更新时间：2024年8月26日 14:08
-# 规则数量：当前共 409 条规则
+# 更新时间：2024年8月26日 21:54
+# 规则数量：当前共 410 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -183,6 +183,7 @@ DOMAIN-SUFFIX,c360dn.com
 DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,camscanner.com
 DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdntips.net
 DOMAIN-SUFFIX,chaxungou.com
