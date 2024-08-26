@@ -1,5 +1,5 @@
-# 更新时间：2024年8月26日 09:56
-# 规则数量：当前共 407 条规则
+# 更新时间：2024年8月26日 12:24
+# 规则数量：当前共 408 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -74,6 +74,7 @@ DOMAIN,lf9-cdn-tos.bytecdntp.com
 DOMAIN,lizhi.shop
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
+DOMAIN,mchcdnpublic-40010.sh.gfp.tencent-cloud.com
 DOMAIN,miot-spec.org
 DOMAIN,nr-op.elemecdn.com
 DOMAIN,ntp.aliyun.com
