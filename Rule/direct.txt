@@ -1,5 +1,5 @@
-# 更新时间：2024年8月27日 23:05
-# 规则数量：当前共 411 条规则
+# 更新时间：2024年8月28日 11:54
+# 规则数量：当前共 412 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -64,6 +64,7 @@ DOMAIN,img05.luckincoffeecdn.com
 DOMAIN,ipv6.cn.voice.gcloudcs.com
 DOMAIN,jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,jdpay.s3.cn-north-1.jdcloud-oss.com
+DOMAIN,jfe.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,jisuhuilv.market.alicloudapi.com
 DOMAIN,lefox-data-library-cdn.cdfsunrise.com
 DOMAIN,lf-cdn-tos.bytescm.com
