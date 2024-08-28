@@ -1,5 +1,5 @@
-# 更新时间：2024年8月28日 11:54
-# 规则数量：当前共 412 条规则
+# 更新时间：2024年8月28日 16:07
+# 规则数量：当前共 413 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -357,6 +357,7 @@ DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-SUFFIX,ssports.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tec73.com
+DOMAIN-SUFFIX,telefen.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,tencenttds.com
