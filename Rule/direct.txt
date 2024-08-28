@@ -1,5 +1,5 @@
-# 更新时间：2024年8月28日 16:07
-# 规则数量：当前共 413 条规则
+# 更新时间：2024年8月28日 22:15
+# 规则数量：当前共 414 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -112,6 +112,7 @@ DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,114-91.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,17usoft.com
 DOMAIN-SUFFIX,21cn.com
 DOMAIN-SUFFIX,2dfire.com
 DOMAIN-SUFFIX,300hu.com
