@@ -1,5 +1,5 @@
-# 更新时间：2024年8月29日 06:05
-# 规则数量：6817
+# 更新时间：2024年8月30日 06:05
+# 规则数量：6827
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -834,6 +834,7 @@ DOMAIN-SUFFIX,913mj.xyz
 DOMAIN-SUFFIX,91friend.com
 DOMAIN-SUFFIX,91veg.com
 DOMAIN-SUFFIX,9216tp1.com
+DOMAIN-SUFFIX,93692zubo66936.com
 DOMAIN-SUFFIX,94ab.com
 DOMAIN-SUFFIX,94lm.com
 DOMAIN-SUFFIX,94n33.fun
@@ -1007,6 +1008,7 @@ DOMAIN-SUFFIX,ac.art456.com
 DOMAIN-SUFFIX,ac1.pingpingw.com
 DOMAIN-SUFFIX,acc.3gbizhi.com
 DOMAIN-SUFFIX,acdf115.cn
+DOMAIN-SUFFIX,acdfwe113.cn
 DOMAIN-SUFFIX,acdref117.cn
 DOMAIN-SUFFIX,acdrewrf711.cn
 DOMAIN-SUFFIX,acdwef114.cn
@@ -1427,6 +1429,7 @@ DOMAIN-SUFFIX,baidujs.cnys.com
 DOMAIN-SUFFIX,baiduvjsbvjknlsvsv.com
 DOMAIN-SUFFIX,baifen.music.baidu.com
 DOMAIN-SUFFIX,baihuwang.com
+DOMAIN-SUFFIX,baijs010.shop
 DOMAIN-SUFFIX,baijs010.xyz
 DOMAIN-SUFFIX,baijs011.xyz
 DOMAIN-SUFFIX,baijs02.shop
@@ -2064,6 +2067,7 @@ DOMAIN-SUFFIX,daima.aixiaola.com
 DOMAIN-SUFFIX,daima.diaoben.net
 DOMAIN-SUFFIX,daima.ijq.tv
 DOMAIN-SUFFIX,daima.ssata.cn
+DOMAIN-SUFFIX,daima.wenkuwenku.com
 DOMAIN-SUFFIX,daima.ysdui.com
 DOMAIN-SUFFIX,daima.yuzhulin.com
 DOMAIN-SUFFIX,dairzih.com
@@ -2094,6 +2098,7 @@ DOMAIN-SUFFIX,dawdlealmonry.com
 DOMAIN-SUFFIX,dblijd.xyz
 DOMAIN-SUFFIX,dbpxivi.xyz
 DOMAIN-SUFFIX,dceuhnpc57.shop
+DOMAIN-SUFFIX,dchyjb.xyz
 DOMAIN-SUFFIX,dclpjx.xyz
 DOMAIN-SUFFIX,dcsxv.com
 DOMAIN-SUFFIX,dd1.diymianmo.com
@@ -2219,6 +2224,7 @@ DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,doubleverify.com
 DOMAIN-SUFFIX,doujs01.shop
 DOMAIN-SUFFIX,doujs01.xyz
+DOMAIN-SUFFIX,doujs010.shop
 DOMAIN-SUFFIX,doujs010.xyz
 DOMAIN-SUFFIX,doujs02.shop
 DOMAIN-SUFFIX,doujs02.xyz
@@ -2672,6 +2678,7 @@ DOMAIN-SUFFIX,gameone.com
 DOMAIN-SUFFIX,ganjituiguang.ganji.com
 DOMAIN-SUFFIX,gaochen12.top
 DOMAIN-SUFFIX,gbc27.online
+DOMAIN-SUFFIX,gbfedashb4.fun
 DOMAIN-SUFFIX,gblxtlo.xyz
 DOMAIN-SUFFIX,gcbtgh26.xyz
 DOMAIN-SUFFIX,gccnntq.cn
@@ -5444,6 +5451,7 @@ DOMAIN-SUFFIX,tenmax.io
 DOMAIN-SUFFIX,terraclicks.com
 DOMAIN-SUFFIX,teslaamg.obs.cn-east-3.myhuaweicloud.com
 DOMAIN-SUFFIX,tetlwsi.top
+DOMAIN-SUFFIX,tewruti.top
 DOMAIN-SUFFIX,tewsdnka35.xyz
 DOMAIN-SUFFIX,tf.360.cn
 DOMAIN-SUFFIX,tfcdn.jingmiuyyds.com
@@ -6550,6 +6558,7 @@ DOMAIN-SUFFIX,ymhyw6.lol
 DOMAIN-SUFFIX,ymmiyun.com
 DOMAIN-SUFFIX,ymniqh.icu
 DOMAIN-SUFFIX,ymtracking.com
+DOMAIN-SUFFIX,ymwjwe.xyz
 DOMAIN-SUFFIX,ynfxxbp.xyz
 DOMAIN-SUFFIX,ynzhby.com
 DOMAIN-SUFFIX,ynztzh.com
@@ -6802,6 +6811,7 @@ DOMAIN-SUFFIX,zyzo.cn
 DOMAIN-SUFFIX,zzad.com
 DOMAIN-SUFFIX,zzd6.com
 DOMAIN-SUFFIX,zzlong14.cn
+DOMAIN-SUFFIX,zztxfj.xyz
 IP-CIDR,101.124.19.122/32,no-resolve
 IP-CIDR,101.227.200.11/32,no-resolve
 IP-CIDR,101.227.200.28/32,no-resolve
