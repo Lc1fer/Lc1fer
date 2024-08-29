@@ -1,5 +1,5 @@
-# 更新时间：2024年8月28日 22:15
-# 规则数量：当前共 414 条规则
+# 更新时间：2024年8月29日 11:46
+# 规则数量：当前共 415 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -15,6 +15,7 @@ DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement.com
 DOMAIN,aw-s.tripcdn.com
 DOMAIN,bdcdnct.inter.71edge.com
+DOMAIN,beijing-tgb.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,biz-idphoto.obs.cn-north-4.myhuaweicloud.com
 DOMAIN,bj29-hz.cn-hangzhou.data.alicloudccp.com
 DOMAIN,bsy.pandora.tcdnos.com
