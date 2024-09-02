@@ -1,5 +1,5 @@
-# 更新时间：2024年9月2日 10:40
-# 规则数量：当前共 420 条规则
+# 更新时间：2024年9月2日 23:06
+# 规则数量：当前共 421 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -96,6 +96,7 @@ DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,static.fengkongcloud.com
+DOMAIN,static.tripcdn.com
 DOMAIN,tamaegis.com
 DOMAIN,tongji.dcloud.io
 DOMAIN,uzwbdv.xyz
