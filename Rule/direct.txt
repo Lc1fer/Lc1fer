@@ -1,5 +1,5 @@
-# 更新时间：2024年9月4日 15:00
-# 规则数量：当前共 424 条规则
+# 更新时间：2024年9月4日 22:13
+# 规则数量：当前共 425 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -30,6 +30,7 @@ DOMAIN,cdn.wanhuahai.com
 DOMAIN,cdn.ynuf.aliapp.org
 DOMAIN,cdnpic.wuuxiang.com
 DOMAIN,cf.aliyun.com
+DOMAIN,cjhy-isv.isvjcloud.com
 DOMAIN,cn-beijing-data.aliyundrive.net
 DOMAIN,cn.voice.gcloudcs.com
 DOMAIN,conf-darwin.xycdn.com
