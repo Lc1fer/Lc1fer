@@ -1,5 +1,5 @@
-# 更新时间：2024年9月3日 06:00
-# 规则数量：当前共 187 条规则
+# 更新时间：2024年9月5日 17:57
+# 规则数量：当前共 188 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -18,6 +18,7 @@ DOMAIN,dns.google
 DOMAIN,errortrace.dev
 DOMAIN,fash2043.cloudycdn.services
 DOMAIN,filterra.net
+DOMAIN,flowercloud.net
 DOMAIN,framerusercontent.com
 DOMAIN,gglive.vn
 DOMAIN,gitlab.com
