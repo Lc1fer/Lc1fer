@@ -1,5 +1,5 @@
-# 更新时间：2024年9月7日 20:50
-# 规则数量：当前共 426 条规则
+# 更新时间：2024年9月7日 22:15
+# 规则数量：当前共 428 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -80,6 +80,7 @@ DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
 DOMAIN,mchcdnpublic-40010.sh.gfp.tencent-cloud.com
 DOMAIN,miot-spec.org
+DOMAIN,mipay.com
 DOMAIN,nr-op.elemecdn.com
 DOMAIN,ntp.aliyun.com
 DOMAIN,pandora.bytes.tcdnos.com
@@ -304,6 +305,7 @@ DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoftapp.net
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,miguvideo.com
+DOMAIN-SUFFIX,miinsurtech.com
 DOMAIN-SUFFIX,mijia.tech
 DOMAIN-SUFFIX,mintegral.net
 DOMAIN-SUFFIX,miso-lab.com
