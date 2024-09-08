@@ -1,5 +1,5 @@
-# 更新时间：2024年9月8日 05:25
-# 规则数量：当前共 430 条规则
+# 更新时间：2024年9月8日 11:01
+# 规则数量：当前共 431 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -11,6 +11,7 @@ DOMAIN,aos-cdn-files.cn-hangzhou.oss.aliyun-inc.com
 DOMAIN,apd-pcdniegwzlogin.teg.tencent-cloud.net
 DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN,apd-vodp2plogin.teg.tencent-cloud.net
 DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement.com

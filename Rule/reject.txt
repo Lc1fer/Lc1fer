@@ -1,5 +1,5 @@
-# 更新时间：2024年9月7日 06:05
-# 规则数量：6909
+# 更新时间：2024年9月8日 06:05
+# 规则数量：6916
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1400,6 +1400,7 @@ DOMAIN-SUFFIX,axhfeum.xyz
 DOMAIN-SUFFIX,axonix.com
 DOMAIN-SUFFIX,aymwiq.xyz
 DOMAIN-SUFFIX,aynufyns.xyz
+DOMAIN-SUFFIX,azenco.xyz
 DOMAIN-SUFFIX,aziekg.xyz
 DOMAIN-SUFFIX,azkrya.xyz
 DOMAIN-SUFFIX,azsqkrc.icu
@@ -2628,6 +2629,7 @@ DOMAIN-SUFFIX,fptdxkm.com
 DOMAIN-SUFFIX,fpvdrzx.xyz
 DOMAIN-SUFFIX,fq01.shop
 DOMAIN-SUFFIX,fq02.shop
+DOMAIN-SUFFIX,fq03.shop
 DOMAIN-SUFFIX,fq67.top
 DOMAIN-SUFFIX,fqbjzj.xyz
 DOMAIN-SUFFIX,fqfclmlo.xyz
@@ -2680,6 +2682,7 @@ DOMAIN-SUFFIX,g0fc3.com
 DOMAIN-SUFFIX,g1.pptair.com
 DOMAIN-SUFFIX,g1.tagtic.cn
 DOMAIN-SUFFIX,g1.taijuba.com
+DOMAIN-SUFFIX,g11edashb1.fun
 DOMAIN-SUFFIX,g2ak5.com
 DOMAIN-SUFFIX,g6tgashb.fun
 DOMAIN-SUFFIX,g7ghdash2.fun
@@ -2725,6 +2728,7 @@ DOMAIN-SUFFIX,gepvgv.icu
 DOMAIN-SUFFIX,geqshb22.fun
 DOMAIN-SUFFIX,gesdxashb1.fun
 DOMAIN-SUFFIX,gesfdashb5.fun
+DOMAIN-SUFFIX,gesvfvfhhb6.fun
 DOMAIN-SUFFIX,gewqashbwq.fun
 DOMAIN-SUFFIX,gfbdb1.com
 DOMAIN-SUFFIX,gfchck.xyz
@@ -3562,6 +3566,7 @@ DOMAIN-SUFFIX,jxwqu.cn
 DOMAIN-SUFFIX,jy.zhongxues.com
 DOMAIN-SUFFIX,jy01.shop
 DOMAIN-SUFFIX,jy04.shop
+DOMAIN-SUFFIX,jy05.shop
 DOMAIN-SUFFIX,jy135.com
 DOMAIN-SUFFIX,jy147a.com
 DOMAIN-SUFFIX,jyewkb.icu
@@ -3911,6 +3916,7 @@ DOMAIN-SUFFIX,lovespenhas.com
 DOMAIN-SUFFIX,lozmtk.cn
 DOMAIN-SUFFIX,lrdyfz.xyz
 DOMAIN-SUFFIX,lrtlisl.top
+DOMAIN-SUFFIX,lrutvncl.top
 DOMAIN-SUFFIX,lrxdnyq.cn
 DOMAIN-SUFFIX,lryqef.xyz
 DOMAIN-SUFFIX,lsfevr.xyz
@@ -3955,6 +3961,7 @@ DOMAIN-SUFFIX,lyz.radio366.com
 DOMAIN-SUFFIX,lznfuab.xyz
 DOMAIN-SUFFIX,lznpcwl.xyz
 DOMAIN-SUFFIX,lzvjtxe.xyz
+DOMAIN-SUFFIX,lzzqfj.xyz
 DOMAIN-SUFFIX,m.21haodianmt.com
 DOMAIN-SUFFIX,m.91heima.cn
 DOMAIN-SUFFIX,m.ailezhai.cn
