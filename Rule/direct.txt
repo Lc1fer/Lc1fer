@@ -1,5 +1,5 @@
-# 更新时间：2024年9月8日 11:01
-# 规则数量：当前共 431 条规则
+# 更新时间：2024年9月8日 14:56
+# 规则数量：当前共 432 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -176,6 +176,7 @@ DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biliimg.com
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bus365.com
 DOMAIN-SUFFIX,byteacctimg.com
 DOMAIN-SUFFIX,byted-static.com
 DOMAIN-SUFFIX,bytedance.com
