@@ -1,0 +1,66 @@
+name: TXT-JSON-Binary
+
+on:
+  workflow_dispatch:
+#  schedule:
+#    - cron: '30 22 * * *'  # 6:30 AM UTC+8
+  push:
+    paths:
+      - 'Rule/*.txt'
+
+jobs:
+  convert_and_compile:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Delay execution
+      run: sleep 10
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+
+    - name: Run Python script to convert TXT to JSON
+      run: |
+        python Script/convert_txt_to_json.py
+
+    - name: Commit JSON files if there are any
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add Rule/*.json
+        
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m 'Convert TXT to JSON'
+          git push
+        fi
+
+    - name: Delay execution
+      run: sleep 30
+
+    - name: Compile JSON to SRS
+      run: |
+        chmod +x Singbox/sing-box
+        for json_file in Rule/*.json; do
+          srs_file="${json_file%.json}.srs"
+          Singbox/sing-box rule-set compile --output "$srs_file" "$json_file"
+        done
+
+    - name: Commit SRS files if there are any
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add Rule/*.srs
+        
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m 'Compile JSON to SRS'
+          git push
+        fi
