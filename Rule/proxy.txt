@@ -1,5 +1,5 @@
-# 更新时间：2024年9月10日 10:51
-# 规则数量：当前共 191 条规则
+# 更新时间：2024年9月10日 19:09
+# 规则数量：当前共 192 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -34,6 +34,7 @@ DOMAIN,rsshub.app
 DOMAIN,scontent-nrt1-2.cdninstagram.com
 DOMAIN,sing-box.sagernet.org
 DOMAIN,srtku.com
+DOMAIN,stentvessel.shop
 DOMAIN,sydney.bing.com
 DOMAIN,t.me
 DOMAIN,tailscale.com
