@@ -1,5 +1,5 @@
-# 更新时间：2024年9月7日 15:46
-# 规则数量：当前共 189 条规则
+# 更新时间：2024年9月10日 10:51
+# 规则数量：当前共 191 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
@@ -120,6 +120,7 @@ DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,mtgglobals.com
+DOMAIN-SUFFIX,mtsws.net
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nodeseek.com
@@ -141,6 +142,7 @@ DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,qianji.app
 DOMAIN-SUFFIX,quiz.directory
 DOMAIN-SUFFIX,revenuecat.com
+DOMAIN-SUFFIX,rline1.ru
 DOMAIN-SUFFIX,rudderstack.com
 DOMAIN-SUFFIX,sanity.io
 DOMAIN-SUFFIX,sentry.io
