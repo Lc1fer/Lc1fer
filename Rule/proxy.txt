@@ -1,5 +1,4 @@
-# 更新时间：2024年9月22日 06:28
-# 规则数量：当前共 193 条规则
+# 更新时间：# 规则数量：当前共 193 条规则
 
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
