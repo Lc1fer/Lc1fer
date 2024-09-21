@@ -1,5 +1,5 @@
-# 更新时间：2024年9月16日 08:34
-# 规则数量：当前共 435 条规则
+# 更新时间：2024年9月21日 19:27
+# 规则数量：当前共 437 条规则
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
@@ -13,6 +13,7 @@ DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN,apd-vodp2plogin.teg.tencent-cloud.net
+DOMAIN,api.caiyunapp.com
 DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement.com
 DOMAIN,aw-s.tripcdn.com
@@ -366,6 +367,7 @@ DOMAIN-SUFFIX,shanghaiairport.com
 DOMAIN-SUFFIX,shobserver.com
 DOMAIN-SUFFIX,shqmxx.com
 DOMAIN-SUFFIX,shujupie.com
+DOMAIN-SUFFIX,shunicomtest.com
 DOMAIN-SUFFIX,shxnetwork.com
 DOMAIN-SUFFIX,sj-hospital.org
 DOMAIN-SUFFIX,smzdm.com
