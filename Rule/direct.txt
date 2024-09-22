@@ -100,6 +100,7 @@ DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,static.fengkongcloud.com
 DOMAIN,static.tripcdn.com
+DOMAIN,staticresource-40111.sh.gfp.tencent-cloud.com
 DOMAIN,tamaegis.com
 DOMAIN,tongji.dcloud.io
 DOMAIN,uzwbdv.xyz
@@ -115,6 +116,7 @@ DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,114-91.com
+DOMAIN-SUFFIX,118114.net
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,17usoft.com
