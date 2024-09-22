@@ -1,5 +1,5 @@
 # 规则数量：193
-
+# 规则数量：194
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
