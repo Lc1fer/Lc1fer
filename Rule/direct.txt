@@ -1,4 +1,4 @@
-# 更新时间：# 规则数量：当前共 438 条规则
+# 规则数量：438
 
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
