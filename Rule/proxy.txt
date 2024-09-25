@@ -28,6 +28,7 @@ DOMAIN,lvlv.lv
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,nexitally.com
 DOMAIN,rsshub.app
+DOMAIN,scontent-nrt1-1.cdninstagram.com
 DOMAIN,scontent-nrt1-2.cdninstagram.com
 DOMAIN,sing-box.sagernet.org
 DOMAIN,srtku.com
