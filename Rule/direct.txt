@@ -79,6 +79,7 @@ DOMAIN,lizhi.shop
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
 DOMAIN,mchcdnpublic-40010.sh.gfp.tencent-cloud.com
+DOMAIN,menus-omp-pro-cdn.acewill.net
 DOMAIN,miot-spec.org
 DOMAIN,mipay.com
 DOMAIN,nr-op.elemecdn.com
@@ -132,6 +133,7 @@ DOMAIN-SUFFIX,5thhospital.com
 DOMAIN-SUFFIX,737.com
 DOMAIN-SUFFIX,95516.com
 DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,acewill.net
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alibaba-inc.com
 DOMAIN-SUFFIX,alibaba.com
@@ -409,6 +411,7 @@ DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weilayun.com
 DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,welcrm.com
 DOMAIN-SUFFIX,whalenas.com
 DOMAIN-SUFFIX,wuuxiang.com
 DOMAIN-SUFFIX,xiaojukeji.com
