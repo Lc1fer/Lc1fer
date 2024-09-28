@@ -18,6 +18,7 @@ DOMAIN,bdcdnct.inter.71edge.com
 DOMAIN,beijing-tgb.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,biz-idphoto.obs.cn-north-4.myhuaweicloud.com
 DOMAIN,bj29-hz.cn-hangzhou.data.alicloudccp.com
+DOMAIN,boce-cdn.my-imcloud.com
 DOMAIN,bsy.pandora.tcdnos.com
 DOMAIN,bsy.update.tcdnos.com
 DOMAIN,c.dun.163yun.com
@@ -127,6 +128,7 @@ DOMAIN-SUFFIX,2dfire.com
 DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,3conline.com
+DOMAIN-SUFFIX,51rxzc.com
 DOMAIN-SUFFIX,51zmt.top
 DOMAIN-SUFFIX,54yt.net
 DOMAIN-SUFFIX,5thhospital.com
