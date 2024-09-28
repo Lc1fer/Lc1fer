@@ -1,5 +1,5 @@
-# 更新时间：2024年9月27日 06:05
-# 规则数量：6546
+# 更新时间：2024年9月28日 06:05
+# 规则数量：6553
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -1956,11 +1956,13 @@ DOMAIN-SUFFIX,cudaojia.com
 DOMAIN-SUFFIX,cupfox.app
 DOMAIN-SUFFIX,cuvtnzv.cn
 DOMAIN-SUFFIX,cvbjctqs.xyz
+DOMAIN-SUFFIX,cvdfvdfv90.fun
 DOMAIN-SUFFIX,cvfgere96.cn
 DOMAIN-SUFFIX,cvgrszkg.xyz
 DOMAIN-SUFFIX,cvnxetmq.xyz
 DOMAIN-SUFFIX,cvtbdap.xyz
 DOMAIN-SUFFIX,cvudqzoa.xyz
+DOMAIN-SUFFIX,cvujac.xyz
 DOMAIN-SUFFIX,cwaterf.top
 DOMAIN-SUFFIX,cwerilxf.top
 DOMAIN-SUFFIX,cweriof.top
@@ -2074,6 +2076,7 @@ DOMAIN-SUFFIX,deliver.ifeng.com
 DOMAIN-SUFFIX,delivery.playallvideos.com
 DOMAIN-SUFFIX,delivery.wasu.cn
 DOMAIN-SUFFIX,demifa.top
+DOMAIN-SUFFIX,denjpl.xyz
 DOMAIN-SUFFIX,destinyssa.com
 DOMAIN-SUFFIX,df63x.xyz
 DOMAIN-SUFFIX,df888.eastday.com
@@ -2458,6 +2461,7 @@ DOMAIN-SUFFIX,fdyacma.icu
 DOMAIN-SUFFIX,feakio.top
 DOMAIN-SUFFIX,febtzd.xyz
 DOMAIN-SUFFIX,fefgvh.xyz
+DOMAIN-SUFFIX,fefwe334.fun
 DOMAIN-SUFFIX,fehrda.xyz
 DOMAIN-SUFFIX,feih.com.cn
 DOMAIN-SUFFIX,feijied.xyz
@@ -2698,6 +2702,7 @@ DOMAIN-SUFFIX,ghgasdb365.shop
 DOMAIN-SUFFIX,ghgasdt963.shop
 DOMAIN-SUFFIX,ghghgf.51dongshi.com
 DOMAIN-SUFFIX,ghghgf.xuexiwa.com
+DOMAIN-SUFFIX,ghiuge55.fun
 DOMAIN-SUFFIX,ghjedashb6.fun
 DOMAIN-SUFFIX,ghreha.top
 DOMAIN-SUFFIX,gicjtss.cn
@@ -5761,6 +5766,7 @@ DOMAIN-SUFFIX,vqbzpv.xyz
 DOMAIN-SUFFIX,vqlwoy.xyz
 DOMAIN-SUFFIX,vrdxznr.xyz
 DOMAIN-SUFFIX,vreqnait.com
+DOMAIN-SUFFIX,vrinqop.icu
 DOMAIN-SUFFIX,vrivslffndepxqd.xyz
 DOMAIN-SUFFIX,vrnblp.xyz
 DOMAIN-SUFFIX,vrnrpzy.xyz
@@ -5933,6 +5939,7 @@ DOMAIN-SUFFIX,ws.wenshenxiu.com
 DOMAIN-SUFFIX,wsadad.cn
 DOMAIN-SUFFIX,wscewc.xyz
 DOMAIN-SUFFIX,wsdwbfs.cn
+DOMAIN-SUFFIX,wsgayq.xyz
 DOMAIN-SUFFIX,wsgblw.com
 DOMAIN-SUFFIX,wshufa.com
 DOMAIN-SUFFIX,wsod.com
