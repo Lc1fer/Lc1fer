@@ -352,6 +352,7 @@ DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,puata.info
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qianjiapp.com
+DOMAIN-SUFFIX,qiezibenpao.com
 DOMAIN-SUFFIX,qikekeji.com
 DOMAIN-SUFFIX,qingting.fm
 DOMAIN-SUFFIX,qishui.com
