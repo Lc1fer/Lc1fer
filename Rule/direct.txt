@@ -13,6 +13,7 @@ DOMAIN,apd-vodp2plogin.teg.tencent-cloud.net
 DOMAIN,api.caiyunapp.com
 DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement.com
+DOMAIN,apps.eshiyun.info
 DOMAIN,aw-s.tripcdn.com
 DOMAIN,bdcdnct.inter.71edge.com
 DOMAIN,beijing-tgb.s3.cn-north-1.jdcloud-oss.com
