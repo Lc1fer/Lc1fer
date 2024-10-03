@@ -124,6 +124,8 @@ DOMAIN-SUFFIX,118114.net
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,17usoft.com
+DOMAIN-SUFFIX,189cube.com
+DOMAIN-SUFFIX,189smarthome.com
 DOMAIN-SUFFIX,1der-ad.com
 DOMAIN-SUFFIX,21cn.com
 DOMAIN-SUFFIX,2dfire.com
@@ -342,6 +344,7 @@ DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,onethingpcs.com
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,oplay.net
+DOMAIN-SUFFIX,ott4china.com
 DOMAIN-SUFFIX,pcbeta.com
 DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
