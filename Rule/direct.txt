@@ -90,6 +90,7 @@ DOMAIN,ntp.aliyun.com
 DOMAIN,pandora.bytes.tcdnos.com
 DOMAIN,pandora.sjy.tcdnos.com
 DOMAIN,pandora.szxy.tcdnos.com
+DOMAIN,pull-m1.wxlivecdn.com
 DOMAIN,qncdnct.inter.71edge.com
 DOMAIN,qosidc.gcloudsdk.com
 DOMAIN,rumt-zh.com
