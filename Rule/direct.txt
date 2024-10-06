@@ -405,6 +405,7 @@ DOMAIN-SUFFIX,toutiaoimg.com
 DOMAIN-SUFFIX,toutiaostatic.com
 DOMAIN-SUFFIX,toutiaovod.com
 DOMAIN-SUFFIX,tratao.com
+DOMAIN-SUFFIX,txrjy.com
 DOMAIN-SUFFIX,ucweb.com
 DOMAIN-SUFFIX,udache.com
 DOMAIN-SUFFIX,ugdtimg.com
