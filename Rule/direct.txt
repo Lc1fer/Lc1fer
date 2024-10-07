@@ -28,6 +28,7 @@ DOMAIN,c.mipcdn.com
 DOMAIN,cambrian-images.cdn.bcebos.com
 DOMAIN,cdn.cnbj0.fds.api.mi-img.com
 DOMAIN,cdn.cnbj1.fds.api.mi-img.com
+DOMAIN,cdn.dingxiang-inc.com
 DOMAIN,cdn.staticfile.org
 DOMAIN,cdn.wanhuahai.com
 DOMAIN,cdn.ynuf.aliapp.org
