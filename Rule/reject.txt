@@ -1,5 +1,5 @@
-# 更新时间：2024年10月7日 06:05
-# 规则数量：6668
+# 更新时间：2024年10月8日 06:05
+# 规则数量：6676
 
 DOMAIN,118.89.204.198
 DOMAIN,a.cpic.com.cn
@@ -736,6 +736,7 @@ DOMAIN-SUFFIX,6969aa.cn
 DOMAIN-SUFFIX,6b70b1086b.com
 DOMAIN-SUFFIX,6b856ee58e.com
 DOMAIN-SUFFIX,6d63d3.com
+DOMAIN-SUFFIX,6efgcdcjr000.fun
 DOMAIN-SUFFIX,6gcstb.xyz
 DOMAIN-SUFFIX,6pznpz.com
 DOMAIN-SUFFIX,6slb0.cyou
@@ -1685,6 +1686,7 @@ DOMAIN-SUFFIX,bvubasnf.com
 DOMAIN-SUFFIX,bvxiht.xyz
 DOMAIN-SUFFIX,bweriov.top
 DOMAIN-SUFFIX,bwjfnj.xyz
+DOMAIN-SUFFIX,bwurserv.top
 DOMAIN-SUFFIX,bwuwirv.cn
 DOMAIN-SUFFIX,bxbyll.xyz
 DOMAIN-SUFFIX,bxjhlhk.xyz
@@ -2335,6 +2337,7 @@ DOMAIN-SUFFIX,ecma.bdimg.com
 DOMAIN-SUFFIX,ecmb.bdimg.com
 DOMAIN-SUFFIX,ecpshapm.xyz
 DOMAIN-SUFFIX,ectyet.top
+DOMAIN-SUFFIX,edadmy.xyz
 DOMAIN-SUFFIX,edghkc.xyz
 DOMAIN-SUFFIX,edickew.top
 DOMAIN-SUFFIX,edipsumw.top
@@ -3167,6 +3170,7 @@ DOMAIN-SUFFIX,imgoss1380.top
 DOMAIN-SUFFIX,imgoss2255.top
 DOMAIN-SUFFIX,imgoss511.top
 DOMAIN-SUFFIX,imgoss820.top
+DOMAIN-SUFFIX,imndl.icu
 DOMAIN-SUFFIX,imusye.xyz
 DOMAIN-SUFFIX,imwxsu.xyz
 DOMAIN-SUFFIX,imxsvpxe.xyz
@@ -3527,6 +3531,7 @@ DOMAIN-SUFFIX,kgidskid.top
 DOMAIN-SUFFIX,kgipui.xyz
 DOMAIN-SUFFIX,kgqcse.xyz
 DOMAIN-SUFFIX,kgubus.xyz
+DOMAIN-SUFFIX,kgymoc.xyz
 DOMAIN-SUFFIX,khcsvdc.icu
 DOMAIN-SUFFIX,khrtac.xiangha.com
 DOMAIN-SUFFIX,khzyojb.cn
@@ -3803,6 +3808,7 @@ DOMAIN-SUFFIX,lwdcnz.xyz
 DOMAIN-SUFFIX,lweriol.top
 DOMAIN-SUFFIX,lwprdv.xyz
 DOMAIN-SUFFIX,lwrohd.xyz
+DOMAIN-SUFFIX,lwurserl.top
 DOMAIN-SUFFIX,lxryhx.xyz
 DOMAIN-SUFFIX,lxting.com
 DOMAIN-SUFFIX,lxtuzcb.cn
@@ -4481,6 +4487,7 @@ DOMAIN-SUFFIX,pl520.com
 DOMAIN-SUFFIX,placeiq.com
 DOMAIN-SUFFIX,placelocal.com
 DOMAIN-SUFFIX,plecnyz.icu
+DOMAIN-SUFFIX,plfwxtgu.icu
 DOMAIN-SUFFIX,plnbnd.xyz
 DOMAIN-SUFFIX,plnrkgc.xyz
 DOMAIN-SUFFIX,plotafb.com
@@ -6197,6 +6204,7 @@ DOMAIN-SUFFIX,xlrjnhxi.xyz
 DOMAIN-SUFFIX,xltmjevd.xyz
 DOMAIN-SUFFIX,xlviirdr.com
 DOMAIN-SUFFIX,xlwrdnrw.xyz
+DOMAIN-SUFFIX,xlxehr.xyz
 DOMAIN-SUFFIX,xlypzbzs.xyz
 DOMAIN-SUFFIX,xmhszb.xyz
 DOMAIN-SUFFIX,xmkmryu.icu
