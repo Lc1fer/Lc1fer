@@ -3,6 +3,7 @@ DOMAIN,a-rsc.elemecdn.com
 DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
 DOMAIN,acjs.aliyun.com
 DOMAIN,ak-s.tripcdn.com
+DOMAIN,alicoccdnct-db.inter.71edge.com
 DOMAIN,anchongshop.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,aos-cdn-files.cn-hangzhou.oss.aliyun-inc.com
 DOMAIN,apd-pcdniegwzlogin.teg.tencent-cloud.net
