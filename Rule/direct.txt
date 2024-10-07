@@ -236,6 +236,7 @@ DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,dingxiang-inc.com
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com

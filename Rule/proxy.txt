@@ -19,6 +19,7 @@ DOMAIN,flowercloud.net
 DOMAIN,framerusercontent.com
 DOMAIN,gglive.vn
 DOMAIN,gitlab.com
+DOMAIN,hostloc.com
 DOMAIN,http-inputs-notion.splunkcloud.com
 DOMAIN,ipsw.dev
 DOMAIN,ipsw.me
