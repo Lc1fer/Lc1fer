@@ -225,6 +225,7 @@ DOMAIN-SUFFIX,csdn.net
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,ctripins.com
+DOMAIN-SUFFIX,cuopen.net
 DOMAIN-SUFFIX,d3games.com
 DOMAIN-SUFFIX,dailygn.com
 DOMAIN-SUFFIX,daxiang91.com
@@ -372,6 +373,7 @@ DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qweather.com
 DOMAIN-SUFFIX,qy.net
 DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,rokid.com
 DOMAIN-SUFFIX,rtxapp.com
 DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,searchpstatp.com
