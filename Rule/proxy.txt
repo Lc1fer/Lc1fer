@@ -1,3 +1,4 @@
+DOMAIN,1596384882.rsc.cdn77.org
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
@@ -9,6 +10,7 @@ DOMAIN,cdn.honey.io
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdn.sapphire.microsoftapp.net
 DOMAIN,cdn.v2ex.com
+DOMAIN,cdnperf.qwilt.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,d18dyiwu97wm6q.cloudfront.net
 DOMAIN,dns.google
@@ -24,10 +26,13 @@ DOMAIN,http-inputs-notion.splunkcloud.com
 DOMAIN,ipsw.dev
 DOMAIN,ipsw.me
 DOMAIN,ipswbeta.dev
+DOMAIN,ipv4dns.com
 DOMAIN,lightning.warnermediacdn.com
 DOMAIN,lvlv.lv
+DOMAIN,medianova-cdnvperf.mncdn.com
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,nexitally.com
+DOMAIN,ovh-cdn.perfops.io
 DOMAIN,rsshub.app
 DOMAIN,scontent-nrt1-1.cdninstagram.com
 DOMAIN,scontent-nrt1-2.cdninstagram.com
@@ -69,6 +74,7 @@ DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,crisp.chat
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,discomax.com
@@ -79,9 +85,11 @@ DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,dyneti.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facereplacerext.com
+DOMAIN-SUFFIX,fastly-analytics.com
 DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,fontawesome.com
+DOMAIN-SUFFIX,gcorelabs.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ghost.io
 DOMAIN-SUFFIX,gitbook.com
@@ -109,6 +117,8 @@ DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,impactradius-event.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,jellybusgo.com
 DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,lencr.org
@@ -149,6 +159,7 @@ DOMAIN-SUFFIX,rudderstack.com
 DOMAIN-SUFFIX,sanity.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sharethis.com
+DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,sprig.com
 DOMAIN-SUFFIX,stbuttons.click

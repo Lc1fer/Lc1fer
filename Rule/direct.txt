@@ -88,11 +88,13 @@ DOMAIN,mchcdnpublic-40010.sh.gfp.tencent-cloud.com
 DOMAIN,menus-omp-pro-cdn.acewill.net
 DOMAIN,miot-spec.org
 DOMAIN,mipay.com
+DOMAIN,newscdnct.inter.71edge.com
 DOMAIN,nr-op.elemecdn.com
 DOMAIN,ntp.aliyun.com
 DOMAIN,pandora.bytes.tcdnos.com
 DOMAIN,pandora.sjy.tcdnos.com
 DOMAIN,pandora.szxy.tcdnos.com
+DOMAIN,pubstatic.b0.upaiyun.com
 DOMAIN,pull-m1.wxlivecdn.com
 DOMAIN,qncdnct.inter.71edge.com
 DOMAIN,qosidc.gcloudsdk.com
@@ -288,6 +290,8 @@ DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,imazing.com
 DOMAIN-SUFFIX,intsig.net
+DOMAIN-SUFFIX,ip138.com
+DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,itunes.com
