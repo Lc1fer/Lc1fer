@@ -32,6 +32,7 @@ DOMAIN,cdn.dingxiang-inc.com
 DOMAIN,cdn.staticfile.org
 DOMAIN,cdn.wanhuahai.com
 DOMAIN,cdn.ynuf.aliapp.org
+DOMAIN,cdnfile.sspai.com
 DOMAIN,cdnpic.wuuxiang.com
 DOMAIN,cf.aliyun.com
 DOMAIN,cjhy-isv.isvjcloud.com
@@ -232,6 +233,7 @@ DOMAIN-SUFFIX,daxiang91.com
 DOMAIN-SUFFIX,dcarapi.com
 DOMAIN-SUFFIX,dcarimg.com
 DOMAIN-SUFFIX,dcarstatic.com
+DOMAIN-SUFFIX,dcarvod.com
 DOMAIN-SUFFIX,deppon.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,didialift.com
@@ -249,6 +251,7 @@ DOMAIN-SUFFIX,ecombdapi.com
 DOMAIN-SUFFIX,ecombdimg.com
 DOMAIN-SUFFIX,ecombdpage.com
 DOMAIN-SUFFIX,ecombdstatic.com
+DOMAIN-SUFFIX,edge-byted.com
 DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,ele.me
 DOMAIN-SUFFIX,elongstatic.com
