@@ -47,6 +47,7 @@ DOMAIN,sydney.bing.com
 DOMAIN,t.me
 DOMAIN,tailscale.com
 DOMAIN,tanju.vip
+DOMAIN,test.b-cdn.net
 DOMAIN,testvideo.b-cdn.net
 DOMAIN,wiki.metacubex.one
 DOMAIN,workingcopy.app
@@ -131,6 +132,7 @@ DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,llnwd.net
+DOMAIN-SUFFIX,llnwi.net
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,meijutt.net
 DOMAIN-SUFFIX,mikrotik.com
@@ -201,6 +203,7 @@ DOMAIN-SUFFIX,voipraider.com
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wmcdp.io
+DOMAIN-SUFFIX,worldssl.net
 DOMAIN-SUFFIX,wowyijiu.today
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,yahoo.com

@@ -412,6 +412,7 @@ DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,tencenttds.com
 DOMAIN-SUFFIX,tenmh.com
 DOMAIN-SUFFIX,tianti.com
+DOMAIN-SUFFIX,tjjt360.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,toutiaoapi.com
