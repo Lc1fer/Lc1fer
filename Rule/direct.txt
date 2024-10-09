@@ -262,6 +262,7 @@ DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fcbox.com
 DOMAIN-SUFFIX,fevermi.com
 DOMAIN-SUFFIX,gamersky.com
+DOMAIN-SUFFIX,gantanhao.com
 DOMAIN-SUFFIX,geetest.com
 DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,getui.com
