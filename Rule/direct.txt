@@ -16,6 +16,7 @@ DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement.com
 DOMAIN,apps.eshiyun.info
 DOMAIN,aw-s.tripcdn.com
+DOMAIN,bailingual.marmot-cloud.com
 DOMAIN,bdcdnct.inter.71edge.com
 DOMAIN,beijing-tgb.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,biz-idphoto.obs.cn-north-4.myhuaweicloud.com
@@ -396,6 +397,7 @@ DOMAIN-SUFFIX,shujupie.com
 DOMAIN-SUFFIX,shunicomtest.com
 DOMAIN-SUFFIX,shxnetwork.com
 DOMAIN-SUFFIX,sj-hospital.org
+DOMAIN-SUFFIX,sjxydc.com
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snrat.com
 DOMAIN-SUFFIX,snssdk.com
