@@ -42,6 +42,7 @@ DOMAIN,scontent-nrt1-1.cdninstagram.com
 DOMAIN,scontent-nrt1-2.cdninstagram.com
 DOMAIN,sing-box.sagernet.org
 DOMAIN,srtku.com
+DOMAIN,static.cloudflareinsights.com
 DOMAIN,stentvessel.shop
 DOMAIN,sydney.bing.com
 DOMAIN,t.me
