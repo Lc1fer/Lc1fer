@@ -4,6 +4,7 @@ DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
 DOMAIN,acjs.aliyun.com
 DOMAIN,ak-s.tripcdn.com
 DOMAIN,alicoccdnct-db.inter.71edge.com
+DOMAIN,alivia.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,anchongshop.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,aos-cdn-files.cn-hangzhou.oss.aliyun-inc.com
 DOMAIN,apd-pcdniegwzlogin.teg.tencent-cloud.net
@@ -98,6 +99,7 @@ DOMAIN,ntp.aliyun.com
 DOMAIN,pandora.bytes.tcdnos.com
 DOMAIN,pandora.sjy.tcdnos.com
 DOMAIN,pandora.szxy.tcdnos.com
+DOMAIN,poplic.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,pubstatic.b0.upaiyun.com
 DOMAIN,pull-m1.wxlivecdn.com
 DOMAIN,qncdnct.inter.71edge.com
