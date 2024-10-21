@@ -123,6 +123,7 @@ DOMAIN,uzwbdv.xyz
 DOMAIN,web.cdn.openinstall.io
 DOMAIN,wkbrs2.tingyun.com
 DOMAIN,wkmp2.tingyun.com
+DOMAIN,wxb-rc.isvjcloud.com
 DOMAIN,xinstall.top
 DOMAIN,ztoken.uyunad.com
 DOMAIN-KEYWORD,apple-support.akadns.net
@@ -282,6 +283,7 @@ DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,guanmeikj.com
 DOMAIN-SUFFIX,gwdang.com
 DOMAIN-SUFFIX,gzhc365.com
 DOMAIN-SUFFIX,hdnd01.com
