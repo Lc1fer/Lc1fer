@@ -352,6 +352,7 @@ DOMAIN-SUFFIX,miinsurtech.com
 DOMAIN-SUFFIX,mijia.tech
 DOMAIN-SUFFIX,mintegral.net
 DOMAIN-SUFFIX,miso-lab.com
+DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,mob.com
@@ -458,9 +459,11 @@ DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,welcrm.com
 DOMAIN-SUFFIX,whalenas.com
 DOMAIN-SUFFIX,wuuxiang.com
+DOMAIN-SUFFIX,xiaoaisound.com
 DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net
+DOMAIN-SUFFIX,xiaomixiaoai.com
 DOMAIN-SUFFIX,xiaomiyoupin.com
 DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,yiworld.com
