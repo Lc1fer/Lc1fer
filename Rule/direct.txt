@@ -93,6 +93,7 @@ DOMAIN,mchcdnpublic-40010.sh.gfp.tencent-cloud.com
 DOMAIN,menus-omp-pro-cdn.acewill.net
 DOMAIN,miot-spec.org
 DOMAIN,mipay.com
+DOMAIN,n98-lf-effect-aweme-302-ncdn.byteeffecttos.com
 DOMAIN,newscdnct.inter.71edge.com
 DOMAIN,nr-op.elemecdn.com
 DOMAIN,ntp.aliyun.com
