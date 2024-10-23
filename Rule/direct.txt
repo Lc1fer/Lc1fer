@@ -72,6 +72,7 @@ DOMAIN,img03.luckincoffeecdn.com
 DOMAIN,img03.sogoucdn.com
 DOMAIN,img04.luckincoffeecdn.com
 DOMAIN,img05.luckincoffeecdn.com
+DOMAIN,imgopen.xmcdn.com
 DOMAIN,ipv6.cn.voice.gcloudcs.com
 DOMAIN,jdhjy-hm.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
@@ -202,6 +203,7 @@ DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biliimg.com
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bosszhipin.com
 DOMAIN-SUFFIX,bus365.com
 DOMAIN-SUFFIX,byteacctimg.com
 DOMAIN-SUFFIX,byted-static.com
@@ -254,6 +256,7 @@ DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,dingxiang-inc.com
+DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com
