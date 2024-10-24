@@ -285,6 +285,7 @@ DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,goofish.com
+DOMAIN-SUFFIX,googlesyndication-cn.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,guanmeikj.com

@@ -3,6 +3,7 @@ DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
+DOMAIN,cdn-f.adsmoloco.com
 DOMAIN,cdn.branch.io
 DOMAIN,cdn.churchofjesuschrist.org
 DOMAIN,cdn.cookielaw.org
