@@ -64,6 +64,7 @@ DOMAIN-SUFFIX,adguard.info
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,adjust.net.in
 DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,adsmoloco.com
 DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,amazonaws.com
