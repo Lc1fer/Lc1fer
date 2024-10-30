@@ -13,6 +13,7 @@ DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN,apd-vodp2plogin.teg.tencent-cloud.net
 DOMAIN,api.caiyunapp.com
+DOMAIN,apischedule.ksyungslb.com
 DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement.com
 DOMAIN,apps.eshiyun.info
