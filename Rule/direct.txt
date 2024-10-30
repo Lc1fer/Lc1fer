@@ -210,6 +210,7 @@ DOMAIN-SUFFIX,byted-static.com
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,byteeffecttos.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,byteimg.com
