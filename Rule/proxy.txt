@@ -175,6 +175,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,split.io
 DOMAIN-SUFFIX,sprig.com
 DOMAIN-SUFFIX,stbuttons.click
 DOMAIN-SUFFIX,stripe.com

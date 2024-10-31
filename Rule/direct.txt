@@ -2,6 +2,7 @@ DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
 DOMAIN,acjs.aliyun.com
+DOMAIN,aigc-material.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,ak-s.tripcdn.com
 DOMAIN,alicoccdnct-db.inter.71edge.com
 DOMAIN,alivia.obs.cn-east-3.myhuaweicloud.com
@@ -79,6 +80,8 @@ DOMAIN,jdhjy-hm.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,jdpay.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,jfe.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
+DOMAIN,jfe.s3.cn-north-1.jdcloud-oss.com
+DOMAIN,jff.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,jisuhuilv.market.alicloudapi.com
 DOMAIN,lefox-data-library-cdn.cdfsunrise.com
 DOMAIN,lf-cdn-tos.bytescm.com
@@ -88,6 +91,7 @@ DOMAIN,lf3-cdn-tos.bytecdntp.com
 DOMAIN,lf3-cdn-tos.bytescm.com
 DOMAIN,lf9-cdn-tos.bytecdntp.com
 DOMAIN,lf9-lkcdn-tos.byted-ug.com
+DOMAIN,ling-cdn.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,lizhi.shop
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
@@ -159,6 +163,7 @@ DOMAIN-SUFFIX,95516.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,acewill.net
 DOMAIN-SUFFIX,adcomeon.com
+DOMAIN-SUFFIX,aihuishou.com
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alibaba-inc.com
 DOMAIN-SUFFIX,alibaba.com
@@ -247,6 +252,7 @@ DOMAIN-SUFFIX,cuopen.net
 DOMAIN-SUFFIX,d3games.com
 DOMAIN-SUFFIX,dailygn.com
 DOMAIN-SUFFIX,daxiang91.com
+DOMAIN-SUFFIX,dbrjw.com
 DOMAIN-SUFFIX,dcarapi.com
 DOMAIN-SUFFIX,dcarimg.com
 DOMAIN-SUFFIX,dcarstatic.com
