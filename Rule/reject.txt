@@ -1,5 +1,5 @@
-# 更新时间：2024年10月31日 06:05
-# 规则数量：6734
+# 更新时间：2024年11月1日 06:05
+# 规则数量：6741
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -615,6 +615,7 @@ DOMAIN-SUFFIX,6b70b1086b.com
 DOMAIN-SUFFIX,6b856ee58e.com
 DOMAIN-SUFFIX,6d63d3.com
 DOMAIN-SUFFIX,6efgcdcjr000.fun
+DOMAIN-SUFFIX,6ft8a.icu
 DOMAIN-SUFFIX,6gcstb.xyz
 DOMAIN-SUFFIX,6pznpz.com
 DOMAIN-SUFFIX,6qyxeob.xyz
@@ -1106,6 +1107,7 @@ DOMAIN-SUFFIX,ai.bioon.com
 DOMAIN-SUFFIX,aiclk.com
 DOMAIN-SUFFIX,aidmat.icu
 DOMAIN-SUFFIX,aiiaqw.xyz
+DOMAIN-SUFFIX,aikkits.com
 DOMAIN-SUFFIX,aiknx.cn
 DOMAIN-SUFFIX,aili.com
 DOMAIN-SUFFIX,aiqks.top
@@ -1368,6 +1370,7 @@ DOMAIN-SUFFIX,bdad.gaotie.net
 DOMAIN-SUFFIX,bdasd.chdbook.cn
 DOMAIN-SUFFIX,bdasd.chinabig.com.cn
 DOMAIN-SUFFIX,bdasd.wmxa.cn
+DOMAIN-SUFFIX,bdawrsi.icu
 DOMAIN-SUFFIX,bdcm.kandianla.com
 DOMAIN-SUFFIX,bdcode.2345.com
 DOMAIN-SUFFIX,bdcode.35d1.com
@@ -2920,6 +2923,7 @@ DOMAIN-SUFFIX,honknl.xyz
 DOMAIN-SUFFIX,hontont.com
 DOMAIN-SUFFIX,hotjar.com
 DOMAIN-SUFFIX,hotjar.io
+DOMAIN-SUFFIX,houbliu.top
 DOMAIN-SUFFIX,houvxliu.top
 DOMAIN-SUFFIX,hov15.icu
 DOMAIN-SUFFIX,hoxdotye.icu
@@ -3138,6 +3142,7 @@ DOMAIN-SUFFIX,iobvmtx.xyz
 DOMAIN-SUFFIX,iolsrikq.xyz
 DOMAIN-SUFFIX,iossdok.com
 DOMAIN-SUFFIX,ioswhi.com
+DOMAIN-SUFFIX,ioublio.top
 DOMAIN-SUFFIX,iouvxlio.top
 DOMAIN-SUFFIX,ioykmxa.icu
 DOMAIN-SUFFIX,ipad.pc899.cn
@@ -4658,6 +4663,7 @@ DOMAIN-SUFFIX,qiyeb.iaskbus.com
 DOMAIN-SUFFIX,qiyegongqiu1.qiyegongqiu.com
 DOMAIN-SUFFIX,qjoges.xyz
 DOMAIN-SUFFIX,qjwvwu.xyz
+DOMAIN-SUFFIX,qkgllif.icu
 DOMAIN-SUFFIX,qkikkg.xyz
 DOMAIN-SUFFIX,qkitery.top
 DOMAIN-SUFFIX,qkscga.xyz
@@ -6036,6 +6042,7 @@ DOMAIN-SUFFIX,whfpbc.99.com.cn
 DOMAIN-SUFFIX,whgh1.icu
 DOMAIN-SUFFIX,whqgyo.xyz
 DOMAIN-SUFFIX,whranc.cn
+DOMAIN-SUFFIX,whrwlxg.icu
 DOMAIN-SUFFIX,widespace.com
 DOMAIN-SUFFIX,widget.ezprice.com.tw
 DOMAIN-SUFFIX,wigetmedia.com

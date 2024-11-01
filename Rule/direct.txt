@@ -57,6 +57,7 @@ DOMAIN,downupdate.bytes.tcdnos.com
 DOMAIN,downupdate.gtyy.tcdnos.com
 DOMAIN,downupdate.ws.tcdnos.com
 DOMAIN,easytomessage.com
+DOMAIN,fgw.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,fp-it.fengkongcloud.com
 DOMAIN,fuss10.elemecdn.com
 DOMAIN,gdctyunct.inter.71edge.com
@@ -87,6 +88,7 @@ DOMAIN,lefox-data-library-cdn.cdfsunrise.com
 DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN,lf-developer-cdn.open-douyin.com
 DOMAIN,lf1-cdn-tos.bytescm.com
+DOMAIN,lf26-stark-cdn.bdgp.cc
 DOMAIN,lf3-cdn-tos.bytecdntp.com
 DOMAIN,lf3-cdn-tos.bytescm.com
 DOMAIN,lf9-cdn-tos.bytecdntp.com
@@ -132,6 +134,7 @@ DOMAIN,wkbrs2.tingyun.com
 DOMAIN,wkmp2.tingyun.com
 DOMAIN,wxb-rc.isvjcloud.com
 DOMAIN,xinstall.top
+DOMAIN,yilabao.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,ztoken.uyunad.com
 DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
@@ -153,6 +156,7 @@ DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,365yg.com
 DOMAIN-SUFFIX,3conline.com
+DOMAIN-SUFFIX,3gppnetwork.org
 DOMAIN-SUFFIX,51rxzc.com
 DOMAIN-SUFFIX,51youdian.com
 DOMAIN-SUFFIX,51zmt.top

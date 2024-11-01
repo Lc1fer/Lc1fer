@@ -13,6 +13,7 @@ DOMAIN,cdn.sapphire.microsoftapp.net
 DOMAIN,cdn.v2ex.com
 DOMAIN,cdnperf.cachefly.net
 DOMAIN,cdnperf.qwilt.com
+DOMAIN,cloudflareinsights.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,d18dyiwu97wm6q.cloudfront.net
 DOMAIN,d3888oxgux3fey.cloudfront.net
