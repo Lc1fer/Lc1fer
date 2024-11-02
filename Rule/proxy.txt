@@ -204,6 +204,7 @@ DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,uncn.jp
 DOMAIN-SUFFIX,usertrust.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,voipraider.com
