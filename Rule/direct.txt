@@ -77,6 +77,7 @@ DOMAIN,img04.luckincoffeecdn.com
 DOMAIN,img05.luckincoffeecdn.com
 DOMAIN,imgopen.xmcdn.com
 DOMAIN,ipv6.cn.voice.gcloudcs.com
+DOMAIN,jd-mod-space.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,jdhjy-hm.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,jdpay.s3.cn-north-1.jdcloud-oss.com
