@@ -69,6 +69,7 @@ DOMAIN-SUFFIX,adsmoloco.com
 DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,apollo.io
 DOMAIN-SUFFIX,appbaqend.com
