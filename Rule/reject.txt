@@ -1,5 +1,5 @@
-# 更新时间：2024年11月5日 06:05
-# 规则数量：6778
+# 更新时间：2024年11月6日 06:05
+# 规则数量：6785
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -485,6 +485,7 @@ DOMAIN-SUFFIX,2pwja.cn
 DOMAIN-SUFFIX,2qy9zm.cn
 DOMAIN-SUFFIX,2rbda.icu
 DOMAIN-SUFFIX,2s8s.com
+DOMAIN-SUFFIX,2sfpy.icu
 DOMAIN-SUFFIX,2u3v4w5x6y.com
 DOMAIN-SUFFIX,3.5646.cn
 DOMAIN-SUFFIX,3.cjcp.cn
@@ -2901,6 +2902,7 @@ DOMAIN-SUFFIX,hitchprivilege.com
 DOMAIN-SUFFIX,hitchun.com
 DOMAIN-SUFFIX,hitoxx.xyz
 DOMAIN-SUFFIX,hixutb.xyz
+DOMAIN-SUFFIX,hj8gf.icu
 DOMAIN-SUFFIX,hjammiz.icu
 DOMAIN-SUFFIX,hjdha.cn
 DOMAIN-SUFFIX,hjjshv.xyz
@@ -3161,6 +3163,7 @@ DOMAIN-SUFFIX,ioublio.top
 DOMAIN-SUFFIX,iouvxlio.top
 DOMAIN-SUFFIX,ioykmxa.icu
 DOMAIN-SUFFIX,ipad.pc899.cn
+DOMAIN-SUFFIX,ipqajyy.icu
 DOMAIN-SUFFIX,iprefer.com.tw
 DOMAIN-SUFFIX,ipryes.top
 DOMAIN-SUFFIX,ipsoazr.icu
@@ -3767,6 +3770,7 @@ DOMAIN-SUFFIX,lnxkrd.xyz
 DOMAIN-SUFFIX,local.hniux.cn
 DOMAIN-SUFFIX,localytics.com
 DOMAIN-SUFFIX,log.hunantv.com
+DOMAIN-SUFFIX,loublil.top
 DOMAIN-SUFFIX,love.furenkeji.com
 DOMAIN-SUFFIX,loveameng.top
 DOMAIN-SUFFIX,lovespenhas.com
@@ -4289,6 +4293,7 @@ DOMAIN-SUFFIX,ohdvafp.xyz
 DOMAIN-SUFFIX,ohkfmi.xyz
 DOMAIN-SUFFIX,ohncc.cn
 DOMAIN-SUFFIX,ohopao.xyz
+DOMAIN-SUFFIX,ohtusgy.icu
 DOMAIN-SUFFIX,oiu09.cn
 DOMAIN-SUFFIX,oiuuuc.xyz
 DOMAIN-SUFFIX,ojooo.com
@@ -4327,6 +4332,7 @@ DOMAIN-SUFFIX,onxeacj.cn
 DOMAIN-SUFFIX,onxtxdm.xyz
 DOMAIN-SUFFIX,ooejkd.xyz
 DOMAIN-SUFFIX,oojjsa.com
+DOMAIN-SUFFIX,ooublik.top
 DOMAIN-SUFFIX,oouiqi.xyz
 DOMAIN-SUFFIX,open-adx.com
 DOMAIN-SUFFIX,openx.com
@@ -6308,6 +6314,7 @@ DOMAIN-SUFFIX,xmhszb.xyz
 DOMAIN-SUFFIX,xmkmryu.icu
 DOMAIN-SUFFIX,xmlgzr.xyz
 DOMAIN-SUFFIX,xmlwizard.com
+DOMAIN-SUFFIX,xmm.wxc.cc
 DOMAIN-SUFFIX,xmnkgi.cn
 DOMAIN-SUFFIX,xn--1qwynp09f.net
 DOMAIN-SUFFIX,xn--2qu96gouvko1a.com

@@ -124,6 +124,7 @@ DOMAIN,shop-cdn.lizhi.shop
 DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
+DOMAIN,sspai.com
 DOMAIN,static.fengkongcloud.com
 DOMAIN,static.tripcdn.com
 DOMAIN,staticresource-40111.sh.gfp.tencent-cloud.com
