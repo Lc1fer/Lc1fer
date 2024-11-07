@@ -232,6 +232,7 @@ DOMAIN-SUFFIX,bytetcc.com
 DOMAIN-SUFFIX,bytetos.com
 DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,c360dn.com
+DOMAIN-SUFFIX,cainiao.com
 DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,camscanner.com
 DOMAIN-SUFFIX,ccb.com
@@ -297,6 +298,7 @@ DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,gitcode.com
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,googlesyndication-cn.com
@@ -337,6 +339,7 @@ DOMAIN-SUFFIX,jnly.com
 DOMAIN-SUFFIX,jomoxd.com
 DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jyshare.com
+DOMAIN-SUFFIX,kaba365.com
 DOMAIN-SUFFIX,kan0512.com
 DOMAIN-SUFFIX,kaspersky-labs.com
 DOMAIN-SUFFIX,kaspersky.com
