@@ -329,6 +329,7 @@ DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,jchunuo.com
@@ -421,6 +422,7 @@ DOMAIN-SUFFIX,rcuts.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,rokid.com
 DOMAIN-SUFFIX,rtxapp.com
+DOMAIN-SUFFIX,ruanmei.com
 DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,searchpstatp.com
 DOMAIN-SUFFIX,servicewechat.com

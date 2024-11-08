@@ -58,6 +58,7 @@ DOMAIN,www.bing.com
 DOMAIN,yummy.best
 DOMAIN-SUFFIX,112114.eu.org
 DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1passwordservices.com
 DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN-SUFFIX,423down.com
 DOMAIN-SUFFIX,adguard.com
@@ -96,6 +97,7 @@ DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,dyneti.com
 DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,facereplacerext.com
 DOMAIN-SUFFIX,fastly-analytics.com
 DOMAIN-SUFFIX,fileball.app
