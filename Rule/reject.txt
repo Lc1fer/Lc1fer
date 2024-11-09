@@ -1,5 +1,5 @@
-# 更新时间：2024年11月8日 06:05
-# 规则数量：6793
+# 更新时间：2024年11月9日 06:05
+# 规则数量：6805
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -1861,6 +1861,7 @@ DOMAIN-SUFFIX,crlsxny.xyz
 DOMAIN-SUFFIX,crnmyrk.icu
 DOMAIN-SUFFIX,crodfnyk.xyz
 DOMAIN-SUFFIX,crtlisf.top
+DOMAIN-SUFFIX,cruhut.com
 DOMAIN-SUFFIX,crutvncf.top
 DOMAIN-SUFFIX,crvbnac.xyz
 DOMAIN-SUFFIX,crwdcntrl.net
@@ -2042,6 +2043,7 @@ DOMAIN-SUFFIX,dgkship.icu
 DOMAIN-SUFFIX,dgrgr34.fun
 DOMAIN-SUFFIX,dhgfhedxx.xyz
 DOMAIN-SUFFIX,dhl.135320.com
+DOMAIN-SUFFIX,dhukul.com
 DOMAIN-SUFFIX,dian.brecm.xyz
 DOMAIN-SUFFIX,dian500.com
 DOMAIN-SUFFIX,dianassb.com
@@ -2062,6 +2064,7 @@ DOMAIN-SUFFIX,djs.baomihua.com
 DOMAIN-SUFFIX,djxpnuo.xyz
 DOMAIN-SUFFIX,dk45h.icu
 DOMAIN-SUFFIX,dkasdeerw.xyz
+DOMAIN-SUFFIX,dkasffredf.xyz
 DOMAIN-SUFFIX,dkhffh.xyz
 DOMAIN-SUFFIX,dkstrtss.xyz
 DOMAIN-SUFFIX,dktad.com
@@ -2872,6 +2875,7 @@ DOMAIN-SUFFIX,heloisessa.com
 DOMAIN-SUFFIX,hendehy.com
 DOMAIN-SUFFIX,henghost.com
 DOMAIN-SUFFIX,heryt111.fun
+DOMAIN-SUFFIX,herzotph.icu
 DOMAIN-SUFFIX,hetlwsu.top
 DOMAIN-SUFFIX,hevctt.xyz
 DOMAIN-SUFFIX,hewrutu.top
@@ -3173,6 +3177,7 @@ DOMAIN-SUFFIX,ipsoazr.icu
 DOMAIN-SUFFIX,ipssss.com
 DOMAIN-SUFFIX,iptuy.cn
 DOMAIN-SUFFIX,ipuswrg.cn
+DOMAIN-SUFFIX,ipyhf.icu
 DOMAIN-SUFFIX,iqgessh.icu
 DOMAIN-SUFFIX,iqs871.com
 DOMAIN-SUFFIX,iqveat.icu
@@ -4597,6 +4602,7 @@ DOMAIN-SUFFIX,pv.sohu.com
 DOMAIN-SUFFIX,pv4b.com
 DOMAIN-SUFFIX,pvhjkzo.xyz
 DOMAIN-SUFFIX,pviasld.icu
+DOMAIN-SUFFIX,pvk2e.icu
 DOMAIN-SUFFIX,pvlnjwr.xyz
 DOMAIN-SUFFIX,pvnzrr.xyz
 DOMAIN-SUFFIX,pvpdbth.xyz
@@ -4705,6 +4711,7 @@ DOMAIN-SUFFIX,qmgria.cn
 DOMAIN-SUFFIX,qnalzly.top
 DOMAIN-SUFFIX,qnifdlay.top
 DOMAIN-SUFFIX,qnqtgyq.icu
+DOMAIN-SUFFIX,qnvwjpr.icu
 DOMAIN-SUFFIX,qoubliy.top
 DOMAIN-SUFFIX,qouvxliy.top
 DOMAIN-SUFFIX,qpawkw.xyz
@@ -4823,6 +4830,7 @@ DOMAIN-SUFFIX,redirectpopads.com
 DOMAIN-SUFFIX,redmx.cn
 DOMAIN-SUFFIX,redyzlmc.xyz
 DOMAIN-SUFFIX,regwiuv.cn
+DOMAIN-SUFFIX,reisyxy.icu
 DOMAIN-SUFFIX,reklamstore.com
 DOMAIN-SUFFIX,rekmob.com
 DOMAIN-SUFFIX,relap.io
@@ -4970,6 +4978,7 @@ DOMAIN-SUFFIX,sc4mh.cn
 DOMAIN-SUFFIX,scanfang.com
 DOMAIN-SUFFIX,scfh9.cn
 DOMAIN-SUFFIX,scoev.cn
+DOMAIN-SUFFIX,scoldak.com
 DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,script-bd.baixing.net
 DOMAIN-SUFFIX,script302.top
@@ -6477,6 +6486,7 @@ DOMAIN-SUFFIX,yfzpxnb.xyz
 DOMAIN-SUFFIX,ygfgzmzo.xyz
 DOMAIN-SUFFIX,ygh5.cn
 DOMAIN-SUFFIX,ygipjqf.icu
+DOMAIN-SUFFIX,ygoibya.icu
 DOMAIN-SUFFIX,ygyzx.cn
 DOMAIN-SUFFIX,yhbheroq.xyz
 DOMAIN-SUFFIX,yhdd1.com
@@ -6574,6 +6584,7 @@ DOMAIN-SUFFIX,ypyjyhny.xyz
 DOMAIN-SUFFIX,yqdnad.icu
 DOMAIN-SUFFIX,yqlxkzs.cn
 DOMAIN-SUFFIX,yqlxwb.icu
+DOMAIN-SUFFIX,yrarhzuq.xyz
 DOMAIN-SUFFIX,yretx.cn
 DOMAIN-SUFFIX,yrszy.com.cn
 DOMAIN-SUFFIX,ys2000.cdn.bcebos.com
@@ -6703,6 +6714,7 @@ DOMAIN-SUFFIX,zisu.cn.com
 DOMAIN-SUFFIX,ziyzcu.buzz
 DOMAIN-SUFFIX,zjdruhn.xyz
 DOMAIN-SUFFIX,zjgfq.com
+DOMAIN-SUFFIX,zjib0.icu
 DOMAIN-SUFFIX,zjjlhvo.xyz
 DOMAIN-SUFFIX,zjliloveyou.ixiunv.com
 DOMAIN-SUFFIX,zjplnz.xyz
