@@ -1,5 +1,5 @@
-# 更新时间：2024年11月10日 06:05
-# 规则数量：6819
+# 更新时间：2024年11月11日 06:05
+# 规则数量：6828
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -523,6 +523,7 @@ DOMAIN-SUFFIX,3q1lsj.cn
 DOMAIN-SUFFIX,3ri.cc
 DOMAIN-SUFFIX,3uvz5.xyz
 DOMAIN-SUFFIX,415677.com
+DOMAIN-SUFFIX,41grk.icu
 DOMAIN-SUFFIX,420909.cn
 DOMAIN-SUFFIX,4336wang.cn
 DOMAIN-SUFFIX,44180055.cn
@@ -2266,6 +2267,7 @@ DOMAIN-SUFFIX,ecmb.bdimg.com
 DOMAIN-SUFFIX,ecpshapm.xyz
 DOMAIN-SUFFIX,ectyet.top
 DOMAIN-SUFFIX,edadmy.xyz
+DOMAIN-SUFFIX,eddcc.icu
 DOMAIN-SUFFIX,edghkc.xyz
 DOMAIN-SUFFIX,edickew.top
 DOMAIN-SUFFIX,edipsumw.top
@@ -2447,6 +2449,7 @@ DOMAIN-SUFFIX,fefwe334.fun
 DOMAIN-SUFFIX,fehrda.xyz
 DOMAIN-SUFFIX,feih.com.cn
 DOMAIN-SUFFIX,feijied.xyz
+DOMAIN-SUFFIX,feittoill.com
 DOMAIN-SUFFIX,fekpcd.icu
 DOMAIN-SUFFIX,fendeyrziz.top
 DOMAIN-SUFFIX,fenxi.com
@@ -3430,6 +3433,7 @@ DOMAIN-SUFFIX,jwerioa.top
 DOMAIN-SUFFIX,jwfesuk.cn
 DOMAIN-SUFFIX,jwg365.cn
 DOMAIN-SUFFIX,jwhdgt.icu
+DOMAIN-SUFFIX,jwhjqjfl.icu
 DOMAIN-SUFFIX,jwjzf.online
 DOMAIN-SUFFIX,jwursera.top
 DOMAIN-SUFFIX,jxad.jx163.com
@@ -3495,6 +3499,7 @@ DOMAIN-SUFFIX,kdoshbd.top
 DOMAIN-SUFFIX,kdpic.pchome.com.tw
 DOMAIN-SUFFIX,kdqlbm.cn
 DOMAIN-SUFFIX,kdsahkln.xyz
+DOMAIN-SUFFIX,kdzgrvn.icu
 DOMAIN-SUFFIX,kebi1.top
 DOMAIN-SUFFIX,kebohjhh.xyz
 DOMAIN-SUFFIX,kefeng56.com
@@ -3647,6 +3652,7 @@ DOMAIN-SUFFIX,kwurserd.top
 DOMAIN-SUFFIX,kwyamu.xyz
 DOMAIN-SUFFIX,kxdhrqz.xyz
 DOMAIN-SUFFIX,kxxfdwt.cn
+DOMAIN-SUFFIX,kxygsjv.icu
 DOMAIN-SUFFIX,ky595images.com
 DOMAIN-SUFFIX,kyaywy.xyz
 DOMAIN-SUFFIX,kycxhgrp.xyz
@@ -3687,6 +3693,7 @@ DOMAIN-SUFFIX,lardmoni.com
 DOMAIN-SUFFIX,lbjdbym.xyz
 DOMAIN-SUFFIX,lbjekygz.icu
 DOMAIN-SUFFIX,lbqdaua.icu
+DOMAIN-SUFFIX,lcd.aivote.com
 DOMAIN-SUFFIX,lcefsf.icu
 DOMAIN-SUFFIX,lckjqtx.xyz
 DOMAIN-SUFFIX,lctcbtly.xyz
@@ -5081,6 +5088,7 @@ DOMAIN-SUFFIX,shbzpgs.cn
 DOMAIN-SUFFIX,shbzqgs.cn
 DOMAIN-SUFFIX,shbzqkj.cn
 DOMAIN-SUFFIX,shequdaohang.com
+DOMAIN-SUFFIX,shestieh.com
 DOMAIN-SUFFIX,shili.downxia.com
 DOMAIN-SUFFIX,shili.wanyx.com
 DOMAIN-SUFFIX,shilian168.cn
@@ -5505,6 +5513,7 @@ DOMAIN-SUFFIX,tptgvh.xyz
 DOMAIN-SUFFIX,tptp002.cfd
 DOMAIN-SUFFIX,tpyerxzn.xyz
 DOMAIN-SUFFIX,tpzatf.xyz
+DOMAIN-SUFFIX,tqanmatx.icu
 DOMAIN-SUFFIX,tqbrnd.xyz
 DOMAIN-SUFFIX,tqjqripb.xyz
 DOMAIN-SUFFIX,tqtqvb.xyz
