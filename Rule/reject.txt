@@ -1,5 +1,5 @@
-# 更新时间：2024年11月11日 06:05
-# 规则数量：6828
+# 更新时间：2024年11月12日 06:05
+# 规则数量：6831
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -691,6 +691,7 @@ DOMAIN-SUFFIX,88p2p.com
 DOMAIN-SUFFIX,88tm6.cc
 DOMAIN-SUFFIX,8961.jianbihua.com
 DOMAIN-SUFFIX,89hdn.cn
+DOMAIN-SUFFIX,8ail6.icu
 DOMAIN-SUFFIX,8d07a.xyz
 DOMAIN-SUFFIX,8en.net
 DOMAIN-SUFFIX,8feichai.com
@@ -1623,6 +1624,7 @@ DOMAIN-SUFFIX,c.mnjkw.cn
 DOMAIN-SUFFIX,c.nuhcpf.com
 DOMAIN-SUFFIX,c.pcswtw.cn
 DOMAIN-SUFFIX,c.tvsou.com
+DOMAIN-SUFFIX,c05ua.icu
 DOMAIN-SUFFIX,c1.4qx.net
 DOMAIN-SUFFIX,c1.chajiaotong.com
 DOMAIN-SUFFIX,c1.china.cn
@@ -2159,6 +2161,7 @@ DOMAIN-SUFFIX,dqrdwz.icu
 DOMAIN-SUFFIX,dqzehgha.xyz
 DOMAIN-SUFFIX,dr.mlcuzee.cn
 DOMAIN-SUFFIX,dreuaxk.icu
+DOMAIN-SUFFIX,drihmae.com
 DOMAIN-SUFFIX,drjs123.com
 DOMAIN-SUFFIX,drmcmm.baidu.com
 DOMAIN-SUFFIX,drpsjp.xyz
