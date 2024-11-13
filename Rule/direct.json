@@ -82,6 +82,7 @@
         "img05.luckincoffeecdn.com",
         "imgopen.xmcdn.com",
         "ipv6.cn.voice.gcloudcs.com",
+        "isv-bundle-195075254364.s3.cn-north-1.jdcloud-oss.com",
         "jd-mod-space.s3.cn-north-1.jdcloud-oss.com",
         "jdhjy-hm.s3.cn-north-1.jdcloud-oss.com",
         "jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com",
@@ -502,7 +503,9 @@
         "zhihu.com",
         "zhimg.com",
         "zhipin.com",
-        "zijieapi.com"
+        "zijieapi.com",
+        "zto.com",
+        "ztomember.com"
       ],
       "domain_keyword": [
         "apple-support.akadns.net",
