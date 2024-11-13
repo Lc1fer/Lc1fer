@@ -77,6 +77,7 @@ DOMAIN,img04.luckincoffeecdn.com
 DOMAIN,img05.luckincoffeecdn.com
 DOMAIN,imgopen.xmcdn.com
 DOMAIN,ipv6.cn.voice.gcloudcs.com
+DOMAIN,isv-bundle-195075254364.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,jd-mod-space.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,jdhjy-hm.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
@@ -502,6 +503,8 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhipin.com
 DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,zto.com
+DOMAIN-SUFFIX,ztomember.com
 IP-ASN,6185,no-resolve
 IP-ASN,714,no-resolve
 IP-CIDR,0.0.0.0/8,no-resolve
