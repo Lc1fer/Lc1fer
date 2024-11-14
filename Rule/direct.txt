@@ -503,6 +503,7 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhipin.com
 DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,zt-express.com
 DOMAIN-SUFFIX,zto.com
 DOMAIN-SUFFIX,ztomember.com
 IP-ASN,6185,no-resolve
