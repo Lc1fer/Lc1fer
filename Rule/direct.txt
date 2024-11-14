@@ -280,6 +280,7 @@ DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,dpfile.com
 DOMAIN-SUFFIX,dutils.com
+DOMAIN-SUFFIX,e-sscard.com
 DOMAIN-SUFFIX,ecombdapi.com
 DOMAIN-SUFFIX,ecombdimg.com
 DOMAIN-SUFFIX,ecombdpage.com
