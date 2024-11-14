@@ -1,5 +1,5 @@
-# 更新时间：2024年11月14日 06:05
-# 规则数量：6851
+# 更新时间：2024年11月15日 06:05
+# 规则数量：6859
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -1575,6 +1575,7 @@ DOMAIN-SUFFIX,btyhnraw653.shop
 DOMAIN-SUFFIX,bu1.duba.com
 DOMAIN-SUFFIX,bu1.vvvdj.com
 DOMAIN-SUFFIX,bugzmn.icu
+DOMAIN-SUFFIX,bujlmitd.icu
 DOMAIN-SUFFIX,bujz.top
 DOMAIN-SUFFIX,bulldogcpi.com
 DOMAIN-SUFFIX,bumnxiev.top
@@ -1761,6 +1762,7 @@ DOMAIN-SUFFIX,chsdwjes.xyz
 DOMAIN-SUFFIX,chubsxmg.xyz
 DOMAIN-SUFFIX,chunmiaosh.com
 DOMAIN-SUFFIX,chunyuqiufeng.com
+DOMAIN-SUFFIX,chupl.icu
 DOMAIN-SUFFIX,chushoushijian.cn
 DOMAIN-SUFFIX,chzjidgc.xyz
 DOMAIN-SUFFIX,ciimar.icu
@@ -1917,6 +1919,7 @@ DOMAIN-SUFFIX,cvtbdap.xyz
 DOMAIN-SUFFIX,cvudqzoa.xyz
 DOMAIN-SUFFIX,cvujac.xyz
 DOMAIN-SUFFIX,cwaterf.top
+DOMAIN-SUFFIX,cweisif.top
 DOMAIN-SUFFIX,cwerilxf.top
 DOMAIN-SUFFIX,cweriof.top
 DOMAIN-SUFFIX,cwgucvm.icu
@@ -3024,6 +3027,7 @@ DOMAIN-SUFFIX,hvuqkb.cn
 DOMAIN-SUFFIX,hvxrvef.xyz
 DOMAIN-SUFFIX,hvzrrvj.cn
 DOMAIN-SUFFIX,hwateru.top
+DOMAIN-SUFFIX,hweisiu.top
 DOMAIN-SUFFIX,hwerilxu.top
 DOMAIN-SUFFIX,hweriou.top
 DOMAIN-SUFFIX,hwhacum.cn
@@ -3806,6 +3810,7 @@ DOMAIN-SUFFIX,lnnsvj.xyz
 DOMAIN-SUFFIX,lnxkrd.xyz
 DOMAIN-SUFFIX,local.hniux.cn
 DOMAIN-SUFFIX,localytics.com
+DOMAIN-SUFFIX,locpikbb.icu
 DOMAIN-SUFFIX,log.hunantv.com
 DOMAIN-SUFFIX,loublil.top
 DOMAIN-SUFFIX,love.furenkeji.com
@@ -4653,6 +4658,7 @@ DOMAIN-SUFFIX,pxrs6.cn
 DOMAIN-SUFFIX,pxtjfmv.xyz
 DOMAIN-SUFFIX,pxx.tnklrs.cn
 DOMAIN-SUFFIX,pxxnejx.xyz
+DOMAIN-SUFFIX,pxyjqea.icu
 DOMAIN-SUFFIX,pxzrlf.xyz
 DOMAIN-SUFFIX,pzfqzv.xyz
 DOMAIN-SUFFIX,pznlpp.xyz
@@ -6432,6 +6438,7 @@ DOMAIN-SUFFIX,xuldtcip.icu
 DOMAIN-SUFFIX,xulizui6.com
 DOMAIN-SUFFIX,xunsfr.xyz
 DOMAIN-SUFFIX,xuoizbtl.xyz
+DOMAIN-SUFFIX,xuugnuits.com
 DOMAIN-SUFFIX,xuxwvh.xyz
 DOMAIN-SUFFIX,xuyanlong1.cn
 DOMAIN-SUFFIX,xuzsdn.xyz
@@ -6482,6 +6489,7 @@ DOMAIN-SUFFIX,xzwtbdtq.xyz
 DOMAIN-SUFFIX,xzxforn.xyz
 DOMAIN-SUFFIX,y.21haodianmt.com
 DOMAIN-SUFFIX,y.photoint.net
+DOMAIN-SUFFIX,y0mwy.icu
 DOMAIN-SUFFIX,y1.junshitt.com
 DOMAIN-SUFFIX,y1.spreton.com
 DOMAIN-SUFFIX,y341i.xyz
