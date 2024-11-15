@@ -87,6 +87,7 @@ DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chinadsl.net
+DOMAIN-SUFFIX,chinaliftoff.io
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,comodoca.com
