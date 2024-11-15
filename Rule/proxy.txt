@@ -1,10 +1,12 @@
 DOMAIN,1596384882.rsc.cdn77.org
+DOMAIN,acctcdn.msauth.net
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn-f.adsmoloco.com
 DOMAIN,cdn.branch.io
+DOMAIN,cdn.chinaliftoff-creatives.io
 DOMAIN,cdn.churchofjesuschrist.org
 DOMAIN,cdn.cookielaw.org
 DOMAIN,cdn.honey.io
