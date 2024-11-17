@@ -1,5 +1,5 @@
-# 更新时间：2024年11月16日 06:05
-# 规则数量：6866
+# 更新时间：2024年11月17日 06:05
+# 规则数量：6873
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -2329,6 +2329,7 @@ DOMAIN-SUFFIX,ejunshi.com
 DOMAIN-SUFFIX,ejxo0.online
 DOMAIN-SUFFIX,ekltes.xyz
 DOMAIN-SUFFIX,ekykse.xyz
+DOMAIN-SUFFIX,ekzmk.icu
 DOMAIN-SUFFIX,ekzzed.icu
 DOMAIN-SUFFIX,elas666.pics
 DOMAIN-SUFFIX,elemea.xyz
@@ -2835,6 +2836,7 @@ DOMAIN-SUFFIX,gyjgrvd.cn
 DOMAIN-SUFFIX,gyunce.xyz
 DOMAIN-SUFFIX,gz-data.com
 DOMAIN-SUFFIX,gzads.com
+DOMAIN-SUFFIX,gzfsqrc.icu
 DOMAIN-SUFFIX,gzhying1.cn
 DOMAIN-SUFFIX,gzsscr.cn
 DOMAIN-SUFFIX,gzxnlk.com
@@ -3660,6 +3662,7 @@ DOMAIN-SUFFIX,kvskknklssv.com
 DOMAIN-SUFFIX,kvsvug.xyz
 DOMAIN-SUFFIX,kvyyyde.cn
 DOMAIN-SUFFIX,kwaterd.top
+DOMAIN-SUFFIX,kweisid.top
 DOMAIN-SUFFIX,kwerilxd.top
 DOMAIN-SUFFIX,kweriod.top
 DOMAIN-SUFFIX,kwgqaqf.icu
@@ -4212,6 +4215,7 @@ DOMAIN-SUFFIX,nextclick.pl
 DOMAIN-SUFFIX,nfldgbt.xyz
 DOMAIN-SUFFIX,nfptyfk.xyz
 DOMAIN-SUFFIX,ngnxyub.cn
+DOMAIN-SUFFIX,ngxzkaxf.icu
 DOMAIN-SUFFIX,nhbprf.xyz
 DOMAIN-SUFFIX,nhcdn.cn
 DOMAIN-SUFFIX,nhjn788.fun
@@ -4299,6 +4303,7 @@ DOMAIN-SUFFIX,o.phb123.com
 DOMAIN-SUFFIX,o1.jyjyj.cn
 DOMAIN-SUFFIX,o1b04.cyou
 DOMAIN-SUFFIX,o333o.com
+DOMAIN-SUFFIX,o8zoz.icu
 DOMAIN-SUFFIX,oa-panther.data.aliyun.com
 DOMAIN-SUFFIX,oafhif.icu
 DOMAIN-SUFFIX,oaftaijo.net
@@ -4757,6 +4762,7 @@ DOMAIN-SUFFIX,qoubliy.top
 DOMAIN-SUFFIX,qouvxliy.top
 DOMAIN-SUFFIX,qpawkw.xyz
 DOMAIN-SUFFIX,qpesok.xyz
+DOMAIN-SUFFIX,qphkuua.icu
 DOMAIN-SUFFIX,qpigoa.xyz
 DOMAIN-SUFFIX,qpyrqg.xyz
 DOMAIN-SUFFIX,qpzegye.cn
@@ -5324,6 +5330,7 @@ DOMAIN-SUFFIX,svncowt.cn
 DOMAIN-SUFFIX,swad332.fun
 DOMAIN-SUFFIX,swarku.xyz
 DOMAIN-SUFFIX,swaterb.top
+DOMAIN-SUFFIX,sweisib.top
 DOMAIN-SUFFIX,swerilxb.top
 DOMAIN-SUFFIX,sweriob.top
 DOMAIN-SUFFIX,swsegi.xyz
