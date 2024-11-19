@@ -1,5 +1,5 @@
-# 更新时间：2024年11月18日 06:05
-# 规则数量：6880
+# 更新时间：2024年11月19日 06:05
+# 规则数量：6887
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -2110,6 +2110,7 @@ DOMAIN-SUFFIX,dm.zjut.cc
 DOMAIN-SUFFIX,dm.zuowenku.net
 DOMAIN-SUFFIX,dm1.ddwk8.cn
 DOMAIN-SUFFIX,dm1.zjydt.com
+DOMAIN-SUFFIX,dmevejjt.icu
 DOMAIN-SUFFIX,dmg-dd.oss-accelerate.aliyuncs.com
 DOMAIN-SUFFIX,dmm.aizhan.com
 DOMAIN-SUFFIX,dmnqfn.xyz
@@ -3116,6 +3117,7 @@ DOMAIN-SUFFIX,iewtwo.xyz
 DOMAIN-SUFFIX,ieymhkx.icu
 DOMAIN-SUFFIX,iffobi.xyz
 DOMAIN-SUFFIX,ifjslio.top
+DOMAIN-SUFFIX,iflucav.icu
 DOMAIN-SUFFIX,ifmccdn.icu
 DOMAIN-SUFFIX,ifxqubw.icu
 DOMAIN-SUFFIX,iggbky.xyz
@@ -4816,6 +4818,7 @@ DOMAIN-SUFFIX,qvrfddm.cn
 DOMAIN-SUFFIX,qvxtzi.xyz
 DOMAIN-SUFFIX,qw9cu.cyou
 DOMAIN-SUFFIX,qwe0231141.bj.bcebos.com
+DOMAIN-SUFFIX,qweisiy.top
 DOMAIN-SUFFIX,qwerioy.top
 DOMAIN-SUFFIX,qwmamh.icu
 DOMAIN-SUFFIX,qwnmfiti.xyz
@@ -5636,6 +5639,7 @@ DOMAIN-SUFFIX,tvpqnh.xyz
 DOMAIN-SUFFIX,tvpqrydt.xyz
 DOMAIN-SUFFIX,twamjb.cn
 DOMAIN-SUFFIX,tweezesmalanga.com
+DOMAIN-SUFFIX,tweisii.top
 DOMAIN-SUFFIX,twerilxi.top
 DOMAIN-SUFFIX,twerioi.top
 DOMAIN-SUFFIX,twj6s.icu
@@ -6236,6 +6240,7 @@ DOMAIN-SUFFIX,wscewc.xyz
 DOMAIN-SUFFIX,wsdwbfs.cn
 DOMAIN-SUFFIX,wsgayq.xyz
 DOMAIN-SUFFIX,wsgblw.com
+DOMAIN-SUFFIX,wsgnihbh.icu
 DOMAIN-SUFFIX,wshufa.com
 DOMAIN-SUFFIX,wsod.com
 DOMAIN-SUFFIX,wsoqwm.xyz
@@ -6708,6 +6713,7 @@ DOMAIN-SUFFIX,yxamkm.xyz
 DOMAIN-SUFFIX,yxcrcc.xyz
 DOMAIN-SUFFIX,yxgfcj.com
 DOMAIN-SUFFIX,yxgqgq.xyz
+DOMAIN-SUFFIX,yxjcyxy.icu
 DOMAIN-SUFFIX,yxkbgg.xyz
 DOMAIN-SUFFIX,yxptcrss.xyz
 DOMAIN-SUFFIX,yxrmbjw.icu
@@ -6766,6 +6772,7 @@ DOMAIN-SUFFIX,zeustechnology.com
 DOMAIN-SUFFIX,zfcoin.cn
 DOMAIN-SUFFIX,zfp32.buzz
 DOMAIN-SUFFIX,zfvtswv.xyz
+DOMAIN-SUFFIX,zfwgn.icu
 DOMAIN-SUFFIX,zg.mmyuer.com
 DOMAIN-SUFFIX,zghsep.icu
 DOMAIN-SUFFIX,zgm1.com
