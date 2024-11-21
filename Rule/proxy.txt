@@ -145,6 +145,7 @@ DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,llnwi.net
+DOMAIN-SUFFIX,loli.net
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,meijutt.net
 DOMAIN-SUFFIX,mikrotik.com
