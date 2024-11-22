@@ -456,6 +456,7 @@ DOMAIN-SUFFIX,telefen.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,tencenttds.com
+DOMAIN-SUFFIX,tengmed.com
 DOMAIN-SUFFIX,tenmh.com
 DOMAIN-SUFFIX,tfogc.com
 DOMAIN-SUFFIX,tianti.com
