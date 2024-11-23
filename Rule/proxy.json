@@ -4,6 +4,7 @@
     {
       "domain": [
         "1596384882.rsc.cdn77.org",
+        "aadcdn.msftauth.net",
         "acctcdn.msauth.net",
         "acctcdn.msftauth.net",
         "api.xmancdn.net",
@@ -40,6 +41,7 @@
         "ipswbeta.dev",
         "ipv4dns.com",
         "lightning.warnermediacdn.com",
+        "logincdn.msauth.net",
         "lvlv.lv",
         "media-edge.1e100cdn.net",
         "medianova-cdnvperf.mncdn.com",
@@ -185,6 +187,7 @@
         "revenuecat.com",
         "rline1.ru",
         "rudderstack.com",
+        "s-microsoft.com",
         "sanity.io",
         "sentry.io",
         "sharethis.com",
