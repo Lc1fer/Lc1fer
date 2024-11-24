@@ -211,6 +211,7 @@ DOMAIN-SUFFIX,termius.com
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
