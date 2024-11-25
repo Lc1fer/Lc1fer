@@ -139,6 +139,7 @@ DOMAIN,wkmp2.tingyun.com
 DOMAIN,wxb-rc.isvjcloud.com
 DOMAIN,xinstall.top
 DOMAIN,yilabao.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
+DOMAIN,zd-code.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,ztoken.uyunad.com
 DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
@@ -207,6 +208,7 @@ DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,bdurl.net
 DOMAIN-SUFFIX,bdxiguaimg.com
 DOMAIN-SUFFIX,bdxiguastatic.com
+DOMAIN-SUFFIX,beibiyisheng.com
 DOMAIN-SUFFIX,bendibao.com
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
