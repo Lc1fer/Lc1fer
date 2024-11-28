@@ -130,6 +130,7 @@ DOMAIN,sspai.com
 DOMAIN,static.fengkongcloud.com
 DOMAIN,static.tripcdn.com
 DOMAIN,staticresource-40111.sh.gfp.tencent-cloud.com
+DOMAIN,store.mp.video.tencent-cloud.com
 DOMAIN,tamaegis.com
 DOMAIN,tongji.dcloud.io
 DOMAIN,uzwbdv.xyz
@@ -280,6 +281,7 @@ DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doupay.com
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinec.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
@@ -343,6 +345,7 @@ DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,jchunuo.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,jinritemai.com
 DOMAIN-SUFFIX,jkcsjd.com
 DOMAIN-SUFFIX,jnly.com
 DOMAIN-SUFFIX,jomoxd.com
