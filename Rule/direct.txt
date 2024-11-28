@@ -277,6 +277,7 @@ DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,dingxiang-inc.com
 DOMAIN-SUFFIX,doubleclick-cn.net
+DOMAIN-SUFFIX,doupay.com
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com
@@ -289,6 +290,7 @@ DOMAIN-SUFFIX,ecombdapi.com
 DOMAIN-SUFFIX,ecombdimg.com
 DOMAIN-SUFFIX,ecombdpage.com
 DOMAIN-SUFFIX,ecombdstatic.com
+DOMAIN-SUFFIX,ecombdvod.com
 DOMAIN-SUFFIX,edge-byted.com
 DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,ele.me
