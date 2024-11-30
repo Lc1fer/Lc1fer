@@ -282,6 +282,7 @@ DOMAIN-SUFFIX,doupay.com
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinec.com
+DOMAIN-SUFFIX,douyinliving.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
@@ -310,6 +311,7 @@ DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,gitcode.com
 DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,gitv.tv
 DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,googlesyndication-cn.com
 DOMAIN-SUFFIX,gstatic.com
