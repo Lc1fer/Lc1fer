@@ -5,6 +5,7 @@ DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
 DOMAIN,browser-intake-datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN,cdn-f.adsmoloco.com
 DOMAIN,cdn.branch.io
 DOMAIN,cdn.chinaliftoff-creatives.io
