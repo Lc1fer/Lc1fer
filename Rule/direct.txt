@@ -52,6 +52,7 @@ DOMAIN,delivery.elemecdn.com
 DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,dimg04.tripcdn.com
 DOMAIN,dir.1212338883-2-1.gcloudsvcs.com
+DOMAIN,dl1.aliyundrive.cloud
 DOMAIN,download.2.1212338883.wz.gcloudgbs.com
 DOMAIN,downupdate.aly.tcdnos.com
 DOMAIN,downupdate.bytes.tcdnos.com
