@@ -428,6 +428,7 @@ DOMAIN-SUFFIX,qiezibenpao.com
 DOMAIN-SUFFIX,qikekeji.com
 DOMAIN-SUFFIX,qingting.fm
 DOMAIN-SUFFIX,qishui.com
+DOMAIN-SUFFIX,qiyi.com
 DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qweather.com
@@ -506,6 +507,7 @@ DOMAIN-SUFFIX,xiaomi.net
 DOMAIN-SUFFIX,xiaomixiaoai.com
 DOMAIN-SUFFIX,xiaomiyoupin.com
 DOMAIN-SUFFIX,xinqiucc.com
+DOMAIN-SUFFIX,xnnu.com
 DOMAIN-SUFFIX,yiworld.com
 DOMAIN-SUFFIX,yonghuivip.com
 DOMAIN-SUFFIX,youdao.com
