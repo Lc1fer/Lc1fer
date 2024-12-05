@@ -1,7 +1,6 @@
-# 更新时间：2024年12月5日 06:05
-# 规则数量：7024
+# 更新时间：2024年12月5日 14:05
+# 规则数量：7023
 
-404: Not Found
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
 DOMAIN,a0.app.xiaomi.com
