@@ -403,6 +403,7 @@ DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,netpock.com
 DOMAIN-SUFFIX,ngarihealth.com
 DOMAIN-SUFFIX,nmbyh.com
+DOMAIN-SUFFIX,ntalker.com
 DOMAIN-SUFFIX,nuomi.com
 DOMAIN-SUFFIX,oceanengine.com
 DOMAIN-SUFFIX,office.com
