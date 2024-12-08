@@ -1,5 +1,5 @@
-# 更新时间：2024年12月7日 06:05
-# 规则数量：7046
+# 更新时间：2024年12月8日 06:05
+# 规则数量：7055
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -2310,6 +2310,7 @@ DOMAIN-SUFFIX,e1zin.icu
 DOMAIN-SUFFIX,e3inu.space
 DOMAIN-SUFFIX,e5yx.com
 DOMAIN-SUFFIX,e8d7.icu
+DOMAIN-SUFFIX,e9h.icu
 DOMAIN-SUFFIX,eabvmue.cn
 DOMAIN-SUFFIX,eacdf119.cn
 DOMAIN-SUFFIX,eacqihh.icu
@@ -3005,6 +3006,7 @@ DOMAIN-SUFFIX,hixutb.xyz
 DOMAIN-SUFFIX,hj8gf.icu
 DOMAIN-SUFFIX,hjammiz.icu
 DOMAIN-SUFFIX,hjdha.cn
+DOMAIN-SUFFIX,hjimtyu.top
 DOMAIN-SUFFIX,hjjshv.xyz
 DOMAIN-SUFFIX,hjkhxfh.360doc.cn
 DOMAIN-SUFFIX,hjnjjcw.xyz
@@ -3199,10 +3201,12 @@ DOMAIN-SUFFIX,ihgluu.xyz
 DOMAIN-SUFFIX,ihssdas.icu
 DOMAIN-SUFFIX,ihwlek.com
 DOMAIN-SUFFIX,ii1.chajiaotong.com
+DOMAIN-SUFFIX,ii3.icu
 DOMAIN-SUFFIX,iia1.pikacn.com
 DOMAIN-SUFFIX,iincon.icu
 DOMAIN-SUFFIX,iiwoqm.xyz
 DOMAIN-SUFFIX,ijeujkdhnvb.top
+DOMAIN-SUFFIX,ijimtyo.top
 DOMAIN-SUFFIX,ijksec.xyz
 DOMAIN-SUFFIX,ijmxco.xyz
 DOMAIN-SUFFIX,ijvla.cn
@@ -3268,6 +3272,7 @@ DOMAIN-SUFFIX,insfengdata.com
 DOMAIN-SUFFIX,insurads.com
 DOMAIN-SUFFIX,inte.sogou.com
 DOMAIN-SUFFIX,inworket.com
+DOMAIN-SUFFIX,inzut.com
 DOMAIN-SUFFIX,ioaiqp.top
 DOMAIN-SUFFIX,iobvmtx.xyz
 DOMAIN-SUFFIX,iolsrikq.xyz
@@ -3290,6 +3295,7 @@ DOMAIN-SUFFIX,iqi4l.icu
 DOMAIN-SUFFIX,iqs871.com
 DOMAIN-SUFFIX,iqveat.icu
 DOMAIN-SUFFIX,irgxwk.xyz
+DOMAIN-SUFFIX,irkrors.com
 DOMAIN-SUFFIX,irmbyu.xyz
 DOMAIN-SUFFIX,ironsrc.com
 DOMAIN-SUFFIX,irqaci.xyz
@@ -4529,6 +4535,7 @@ DOMAIN-SUFFIX,osyliek.top
 DOMAIN-SUFFIX,otbeksf.cn
 DOMAIN-SUFFIX,otmebdr.cn
 DOMAIN-SUFFIX,otxlhpm.xyz
+DOMAIN-SUFFIX,ouiokaq.top
 DOMAIN-SUFFIX,oumnxiek.top
 DOMAIN-SUFFIX,ouplc.icu
 DOMAIN-SUFFIX,ouresdk.top
@@ -5531,6 +5538,7 @@ DOMAIN-SUFFIX,t0sfe1.com
 DOMAIN-SUFFIX,t1.612.com
 DOMAIN-SUFFIX,t1.xuefen.com.cn
 DOMAIN-SUFFIX,t6.china-xian.com
+DOMAIN-SUFFIX,t7t.icu
 DOMAIN-SUFFIX,ta20k.xyz
 DOMAIN-SUFFIX,tabmo.io
 DOMAIN-SUFFIX,taboola.com
@@ -5841,6 +5849,7 @@ DOMAIN-SUFFIX,u4ccj.icu
 DOMAIN-SUFFIX,u55011.com
 DOMAIN-SUFFIX,u5ps5.icu
 DOMAIN-SUFFIX,u68t5.icu
+DOMAIN-SUFFIX,u6u.icu
 DOMAIN-SUFFIX,u78s.top
 DOMAIN-SUFFIX,u7u9.com
 DOMAIN-SUFFIX,u833ij.com
