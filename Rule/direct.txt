@@ -144,6 +144,7 @@ DOMAIN,www.xingsuyun58.com
 DOMAIN,wxb-rc.isvjcloud.com
 DOMAIN,xinstall.top
 DOMAIN,yilabao.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
+DOMAIN,zconfig.elemecdn.com
 DOMAIN,zd-code.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,ztoken.uyunad.com
 DOMAIN-KEYWORD,apple-support.akadns.net
