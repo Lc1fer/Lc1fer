@@ -100,6 +100,7 @@ DOMAIN,lf9-lkcdn-tos.byted-ug.com
 DOMAIN,ling-cdn.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,lizhi.shop
 DOMAIN,lyra-m.jdcloud.com
+DOMAIN,lzcrm-rc.isvjcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
 DOMAIN,mchcdnpublic-40010.sh.gfp.tencent-cloud.com
 DOMAIN,menus-omp-pro-cdn.acewill.net
@@ -109,6 +110,7 @@ DOMAIN,n98-lf-effect-aweme-302-ncdn.byteeffecttos.com
 DOMAIN,newscdnct.inter.71edge.com
 DOMAIN,nr-op.elemecdn.com
 DOMAIN,ntp.aliyun.com
+DOMAIN,ntp1.aliyun.com
 DOMAIN,pandora.bytes.tcdnos.com
 DOMAIN,pandora.sjy.tcdnos.com
 DOMAIN,pandora.szxy.tcdnos.com
