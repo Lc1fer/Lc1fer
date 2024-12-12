@@ -1,6 +1,8 @@
 # 更新时间：2024年12月12日 06:05
 # 规则数量：7087
 
+DOMAIN,eplan.prod.sentinelcloud.com
+DOMAIN,licensingservice.epulse.cloud
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
 DOMAIN,a0.app.xiaomi.com
