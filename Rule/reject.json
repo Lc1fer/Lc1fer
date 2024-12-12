@@ -3,6 +3,8 @@
   "rules": [
     {
       "domain": [
+        "eplan.prod.sentinelcloud.com",
+        "licensingservice.epulse.cloud",
         "118.89.204.198",
         "a.wkanx.com",
         "a0.app.xiaomi.com",
