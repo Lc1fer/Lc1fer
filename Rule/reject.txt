@@ -1,8 +1,6 @@
-# 更新时间：2024年12月12日 06:05
-# 规则数量：7087
+# 更新时间：2024年12月13日 06:05
+# 规则数量：7099
 
-DOMAIN,eplan.prod.sentinelcloud.com
-DOMAIN,licensingservice.epulse.cloud
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
 DOMAIN,a0.app.xiaomi.com
@@ -164,6 +162,7 @@ DOMAIN,dispatcher.360in.com
 DOMAIN,dsp.fcbox.com
 DOMAIN,dsp.toutiao.com
 DOMAIN,duclick.baidu.com
+DOMAIN,eplan.prod.sentinelcloud.com
 DOMAIN,etl.xlmc.sandai.net
 DOMAIN,exp.360in.com
 DOMAIN,flash.sec.miui.com
@@ -205,6 +204,7 @@ DOMAIN,js.users.51.la
 DOMAIN,kad.gotokeep.com
 DOMAIN,kgmobilestat.kugou.com
 DOMAIN,kgmobilestatbak.kugou.com
+DOMAIN,licensingservice.epulse.cloud
 DOMAIN,livep.l.t002.ottcn.com
 DOMAIN,log.51wnl-cq.com
 DOMAIN,log.ycapp.yiche.com
@@ -853,6 +853,7 @@ DOMAIN-SUFFIX,a2wx.icu
 DOMAIN-SUFFIX,a3.jandan.net
 DOMAIN-SUFFIX,a32a.com.cn
 DOMAIN-SUFFIX,a4bj6.xyz
+DOMAIN-SUFFIX,a7c.icu
 DOMAIN-SUFFIX,a8.net
 DOMAIN-SUFFIX,a9.com
 DOMAIN-SUFFIX,a99hz.space
@@ -1172,6 +1173,7 @@ DOMAIN-SUFFIX,alime-pic.oss-cn-hangzhou.aliyuncs.com
 DOMAIN-SUFFIX,alitui.weibo.com
 DOMAIN-SUFFIX,allkmbr.icu
 DOMAIN-SUFFIX,alllget.com
+DOMAIN-SUFFIX,altolsqy.com
 DOMAIN-SUFFIX,alwaysc.com
 DOMAIN-SUFFIX,aly.la
 DOMAIN-SUFFIX,am.szhome.com
@@ -2576,6 +2578,7 @@ DOMAIN-SUFFIX,fjxstt.xyz
 DOMAIN-SUFFIX,fjzimaoqu.cn
 DOMAIN-SUFFIX,fkesfg.com
 DOMAIN-SUFFIX,fkhxlz.xyz
+DOMAIN-SUFFIX,fkjdiefz.icu
 DOMAIN-SUFFIX,fkjsjwbs.xyz
 DOMAIN-SUFFIX,fkku194.com
 DOMAIN-SUFFIX,fklgndklbngg.com
@@ -3893,6 +3896,7 @@ DOMAIN-SUFFIX,lizijing12.top
 DOMAIN-SUFFIX,ljbrbz.xyz
 DOMAIN-SUFFIX,ljdofz.xyz
 DOMAIN-SUFFIX,ljhbhy.cn
+DOMAIN-SUFFIX,ljimtyl.top
 DOMAIN-SUFFIX,ljnrjt.xyz
 DOMAIN-SUFFIX,ljpbtjq.xyz
 DOMAIN-SUFFIX,ljvc0.icu
@@ -4314,6 +4318,7 @@ DOMAIN-SUFFIX,ndysxhs.icu
 DOMAIN-SUFFIX,needqnv.xyz
 DOMAIN-SUFFIX,neess105.top
 DOMAIN-SUFFIX,nefrpt.top
+DOMAIN-SUFFIX,neldatsy.com
 DOMAIN-SUFFIX,nend.net
 DOMAIN-SUFFIX,nenmu1obbi.info
 DOMAIN-SUFFIX,nerydw.xyz
@@ -4473,6 +4478,7 @@ DOMAIN-SUFFIX,ohopao.xyz
 DOMAIN-SUFFIX,ohtusgy.icu
 DOMAIN-SUFFIX,oiu09.cn
 DOMAIN-SUFFIX,oiuuuc.xyz
+DOMAIN-SUFFIX,ojimtyk.top
 DOMAIN-SUFFIX,ojooo.com
 DOMAIN-SUFFIX,ojvpigx.xyz
 DOMAIN-SUFFIX,ok8867s.com
@@ -5483,6 +5489,7 @@ DOMAIN-SUFFIX,superjj.online
 DOMAIN-SUFFIX,supersonic.com
 DOMAIN-SUFFIX,supersonicads.com
 DOMAIN-SUFFIX,suresdb.top
+DOMAIN-SUFFIX,suzalsln.com
 DOMAIN-SUFFIX,suzoqz.icu
 DOMAIN-SUFFIX,sv2fo.icu
 DOMAIN-SUFFIX,sv5nm.icu
@@ -5762,6 +5769,7 @@ DOMAIN-SUFFIX,tt123.eastday.com
 DOMAIN-SUFFIX,tt3sm4.cn
 DOMAIN-SUFFIX,ttad125.com
 DOMAIN-SUFFIX,ttdpxh.xyz
+DOMAIN-SUFFIX,tteferty33.fun
 DOMAIN-SUFFIX,ttgbnmk.top
 DOMAIN-SUFFIX,ttnwxhjv.xyz
 DOMAIN-SUFFIX,ttroytj33.fun
@@ -6488,6 +6496,7 @@ DOMAIN-SUFFIX,x0y081e.xyz
 DOMAIN-SUFFIX,x1.52aoteman.com
 DOMAIN-SUFFIX,x1fyw.icu
 DOMAIN-SUFFIX,x2y22.fun
+DOMAIN-SUFFIX,x4d.icu
 DOMAIN-SUFFIX,xa7j.icu
 DOMAIN-SUFFIX,xadulxs.cn
 DOMAIN-SUFFIX,xafuzcxr.xyz
@@ -6855,6 +6864,7 @@ DOMAIN-SUFFIX,ypyjyhny.xyz
 DOMAIN-SUFFIX,yqdnad.icu
 DOMAIN-SUFFIX,yqlxkzs.cn
 DOMAIN-SUFFIX,yqlxwb.icu
+DOMAIN-SUFFIX,yqlzccxn.icu
 DOMAIN-SUFFIX,yrarhzuq.xyz
 DOMAIN-SUFFIX,yrccils0spqnkc3.xyz
 DOMAIN-SUFFIX,yretx.cn

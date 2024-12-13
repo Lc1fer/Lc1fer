@@ -48,6 +48,7 @@ DOMAIN,csy.ll.tcdnos.com
 DOMAIN,csy.pandora.tcdnos.com
 DOMAIN,ctyunhljdcdn.qnqcdn.net
 DOMAIN,cube.elemecdn.com
+DOMAIN,d1d99990a4b6be0d73e0c76fe174d678.v.smtcdns.com
 DOMAIN,delivery.elemecdn.com
 DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,dimg04.tripcdn.com
