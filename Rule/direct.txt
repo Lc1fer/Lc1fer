@@ -227,6 +227,7 @@ DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biliimg.com
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bitautoimg.com
 DOMAIN-SUFFIX,bosszhipin.com
 DOMAIN-SUFFIX,bus365.com
 DOMAIN-SUFFIX,byteacctimg.com
@@ -514,6 +515,7 @@ DOMAIN-SUFFIX,xiaomixiaoai.com
 DOMAIN-SUFFIX,xiaomiyoupin.com
 DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,xnnu.com
+DOMAIN-SUFFIX,yiche.com
 DOMAIN-SUFFIX,yiworld.com
 DOMAIN-SUFFIX,yonghuivip.com
 DOMAIN-SUFFIX,youdao.com

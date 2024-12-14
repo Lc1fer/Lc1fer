@@ -1,5 +1,5 @@
-# 更新时间：2024年12月13日 06:05
-# 规则数量：7099
+# 更新时间：2024年12月14日 06:05
+# 规则数量：7110
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -1526,6 +1526,7 @@ DOMAIN-SUFFIX,biz.gexing.com
 DOMAIN-SUFFIX,bizible.com
 DOMAIN-SUFFIX,bjappzvz.xyz
 DOMAIN-SUFFIX,bjhhbox.xyz
+DOMAIN-SUFFIX,bjimtyv.top
 DOMAIN-SUFFIX,bjjabc.com
 DOMAIN-SUFFIX,bjrspnbf.xyz
 DOMAIN-SUFFIX,bjs.faxingzhan.com
@@ -2007,6 +2008,7 @@ DOMAIN-SUFFIX,d.dgzj.com
 DOMAIN-SUFFIX,d.win10com.com
 DOMAIN-SUFFIX,d.ziyuanm.com
 DOMAIN-SUFFIX,d0.xcar.com.cn
+DOMAIN-SUFFIX,d0m.icu
 DOMAIN-SUFFIX,d1.1ppt.com
 DOMAIN-SUFFIX,d1.3158.cn
 DOMAIN-SUFFIX,d1.5h.com
@@ -2077,6 +2079,7 @@ DOMAIN-SUFFIX,dchyjb.xyz
 DOMAIN-SUFFIX,dclpjx.xyz
 DOMAIN-SUFFIX,dd1.diymianmo.com
 DOMAIN-SUFFIX,ddaixdz.cn
+DOMAIN-SUFFIX,dddstew6cw8.fun
 DOMAIN-SUFFIX,ddgjjj.com
 DOMAIN-SUFFIX,ddielv.cn
 DOMAIN-SUFFIX,ddkh59.com
@@ -2116,6 +2119,7 @@ DOMAIN-SUFFIX,dgkship.icu
 DOMAIN-SUFFIX,dgrgr34.fun
 DOMAIN-SUFFIX,dheirzeh.com
 DOMAIN-SUFFIX,dhgfhedxx.xyz
+DOMAIN-SUFFIX,dhkqqe.top
 DOMAIN-SUFFIX,dhl.135320.com
 DOMAIN-SUFFIX,dhukul.com
 DOMAIN-SUFFIX,dian.brecm.xyz
@@ -3475,6 +3479,7 @@ DOMAIN-SUFFIX,jmylj.cn
 DOMAIN-SUFFIX,jnalzla.top
 DOMAIN-SUFFIX,jndxsuy.xyz
 DOMAIN-SUFFIX,jnifdlaa.top
+DOMAIN-SUFFIX,jo4.icu
 DOMAIN-SUFFIX,jofknbpe.xyz
 DOMAIN-SUFFIX,joiwnq2.cn
 DOMAIN-SUFFIX,jollyspring.com
@@ -4123,6 +4128,7 @@ DOMAIN-SUFFIX,mixer.sina.cn
 DOMAIN-SUFFIX,miycoc.xyz
 DOMAIN-SUFFIX,mjappzvz.xyz
 DOMAIN-SUFFIX,mjbidlg.icu
+DOMAIN-SUFFIX,mjimtyx.top
 DOMAIN-SUFFIX,mkbbjtfp.xyz
 DOMAIN-SUFFIX,mkiterx.top
 DOMAIN-SUFFIX,mkitgfs.com
@@ -4580,6 +4586,7 @@ DOMAIN-SUFFIX,oweriok.top
 DOMAIN-SUFFIX,owkmmo.xyz
 DOMAIN-SUFFIX,owneriq.net
 DOMAIN-SUFFIX,ownlocal.com
+DOMAIN-SUFFIX,owsrgljb.icu
 DOMAIN-SUFFIX,owurserk.top
 DOMAIN-SUFFIX,owyame.xyz
 DOMAIN-SUFFIX,oxkqeu.xyz
@@ -6384,6 +6391,7 @@ DOMAIN-SUFFIX,wkrhel.icu
 DOMAIN-SUFFIX,wkybwa.xyz
 DOMAIN-SUFFIX,wkywrc.cn
 DOMAIN-SUFFIX,wkzsmj.icu
+DOMAIN-SUFFIX,wkzw.me
 DOMAIN-SUFFIX,wl.uqwjdhgv.top
 DOMAIN-SUFFIX,wlkukrv.icu
 DOMAIN-SUFFIX,wlzlrlp.xyz
@@ -6620,6 +6628,7 @@ DOMAIN-SUFFIX,xnbuapwp.icu
 DOMAIN-SUFFIX,xnfhxszj.xyz
 DOMAIN-SUFFIX,xnpuw.cn
 DOMAIN-SUFFIX,xnqboqc.icu
+DOMAIN-SUFFIX,xoceonsl.com
 DOMAIN-SUFFIX,xogtrmjz.xyz
 DOMAIN-SUFFIX,xoqsxdpx.xyz
 DOMAIN-SUFFIX,xpanama.net
@@ -6870,6 +6879,7 @@ DOMAIN-SUFFIX,yrccils0spqnkc3.xyz
 DOMAIN-SUFFIX,yretx.cn
 DOMAIN-SUFFIX,yrhxttwa.xyz
 DOMAIN-SUFFIX,yrszy.com.cn
+DOMAIN-SUFFIX,yruadj.top
 DOMAIN-SUFFIX,ys2000.cdn.bcebos.com
 DOMAIN-SUFFIX,ys630.com
 DOMAIN-SUFFIX,yshlor.icu
@@ -7001,6 +7011,7 @@ DOMAIN-SUFFIX,zhrrzug.xyz
 DOMAIN-SUFFIX,zhy333.com
 DOMAIN-SUFFIX,zikeke7.com
 DOMAIN-SUFFIX,zio8.icu
+DOMAIN-SUFFIX,ziqniduy.com
 DOMAIN-SUFFIX,zisu.cn.com
 DOMAIN-SUFFIX,ziyzcu.buzz
 DOMAIN-SUFFIX,zjdruhn.xyz
