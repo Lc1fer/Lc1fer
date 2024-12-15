@@ -1,5 +1,5 @@
-# 更新时间：2024年12月14日 06:05
-# 规则数量：7110
+# 更新时间：2024年12月15日 06:05
+# 规则数量：7116
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -713,6 +713,7 @@ DOMAIN-SUFFIX,89hdn.cn
 DOMAIN-SUFFIX,8ail6.icu
 DOMAIN-SUFFIX,8d07a.xyz
 DOMAIN-SUFFIX,8en.net
+DOMAIN-SUFFIX,8et.icu
 DOMAIN-SUFFIX,8feichai.com
 DOMAIN-SUFFIX,8gra3.icu
 DOMAIN-SUFFIX,8jkx.com
@@ -1327,6 +1328,7 @@ DOMAIN-SUFFIX,b1.b2b168.net
 DOMAIN-SUFFIX,b1.c1km4.com
 DOMAIN-SUFFIX,b1.engdvd.com
 DOMAIN-SUFFIX,b1.xiao84.com
+DOMAIN-SUFFIX,b10.justacdn.net
 DOMAIN-SUFFIX,b2pk.com
 DOMAIN-SUFFIX,b37r5.cyou
 DOMAIN-SUFFIX,b477.life
@@ -1948,6 +1950,7 @@ DOMAIN-SUFFIX,cszlks.com
 DOMAIN-SUFFIX,ctc.weather.com.cn
 DOMAIN-SUFFIX,ctcxflak.xyz
 DOMAIN-SUFFIX,cthbini.xyz
+DOMAIN-SUFFIX,ctimiyf.top
 DOMAIN-SUFFIX,ctkyom.xyz
 DOMAIN-SUFFIX,ctlacnh.icu
 DOMAIN-SUFFIX,ctlrarz.xyz
@@ -3090,6 +3093,7 @@ DOMAIN-SUFFIX,hsvchnsvncvvd.com
 DOMAIN-SUFFIX,hsvmtn.xyz
 DOMAIN-SUFFIX,hsylieu.top
 DOMAIN-SUFFIX,hthvc.icu
+DOMAIN-SUFFIX,htimiyu.top
 DOMAIN-SUFFIX,htoetgk.icu
 DOMAIN-SUFFIX,htrurb.xyz
 DOMAIN-SUFFIX,https-filtering-check.adtidy.org
@@ -5751,6 +5755,7 @@ DOMAIN-SUFFIX,trafmag.com
 DOMAIN-SUFFIX,traktum.com
 DOMAIN-SUFFIX,trebleperfect.com
 DOMAIN-SUFFIX,treferty33.fun
+DOMAIN-SUFFIX,treimphens.com
 DOMAIN-SUFFIX,tremorhub.com
 DOMAIN-SUFFIX,tremormedia.com
 DOMAIN-SUFFIX,tremorvideo.com
@@ -7057,6 +7062,7 @@ DOMAIN-SUFFIX,zpvuugw.cn
 DOMAIN-SUFFIX,zq.lansedir.com
 DOMAIN-SUFFIX,zqgixxp.icu
 DOMAIN-SUFFIX,zqkxlf.com
+DOMAIN-SUFFIX,zr3.icu
 DOMAIN-SUFFIX,zrdga.cn
 DOMAIN-SUFFIX,zrkksps.icu
 DOMAIN-SUFFIX,zrljzgs.xyz

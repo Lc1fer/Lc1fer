@@ -450,6 +450,8 @@ DOMAIN-SUFFIX,searchpstatp.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,sf-card.com
 DOMAIN-SUFFIX,sf-express.com
+DOMAIN-SUFFIX,sgmlink.com
+DOMAIN-SUFFIX,sgmsonline.com
 DOMAIN-SUFFIX,shairportbus.com
 DOMAIN-SUFFIX,shanghaiairport.com
 DOMAIN-SUFFIX,shobserver.com
