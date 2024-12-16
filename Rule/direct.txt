@@ -1,4 +1,5 @@
 DOMAIN,14b57e3e179b6873e1d6f54cd08f66a1.v.smtcdns.com
+DOMAIN,483ff21f7f219d36e43620f7f6ff7865.v.smtcdns.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
@@ -30,6 +31,7 @@ DOMAIN,bsy.pandora.tcdnos.com
 DOMAIN,bsy.update.tcdnos.com
 DOMAIN,c.dun.163yun.com
 DOMAIN,c.mipcdn.com
+DOMAIN,caaceed4aeaf2.cdn.sohucs.com
 DOMAIN,cambrian-images.cdn.bcebos.com
 DOMAIN,cdn.cnbj0.fds.api.mi-img.com
 DOMAIN,cdn.cnbj1.fds.api.mi-img.com
@@ -63,6 +65,7 @@ DOMAIN,easytomessage.com
 DOMAIN,fgw.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,fp-it.fengkongcloud.com
 DOMAIN,fuss10.elemecdn.com
+DOMAIN,g.yccdn.com
 DOMAIN,gdctyunct.inter.71edge.com
 DOMAIN,h5-data.elemecdn.com
 DOMAIN,hdns.ksyun.com
@@ -92,6 +95,7 @@ DOMAIN,jisuhuilv.market.alicloudapi.com
 DOMAIN,lefox-data-library-cdn.cdfsunrise.com
 DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN,lf-developer-cdn.open-douyin.com
+DOMAIN,lf-douyin-mobile.bytecdn.com
 DOMAIN,lf1-cdn-tos.bytescm.com
 DOMAIN,lf26-stark-cdn.bdgp.cc
 DOMAIN,lf3-cdn-tos.bytecdntp.com
@@ -227,6 +231,7 @@ DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biliimg.com
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bitauto.com
 DOMAIN-SUFFIX,bitautoimg.com
 DOMAIN-SUFFIX,bosszhipin.com
 DOMAIN-SUFFIX,bus365.com
@@ -284,6 +289,7 @@ DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,dingxiang-inc.com
+DOMAIN-SUFFIX,dongchedi.com
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doupay.com
 DOMAIN-SUFFIX,douyin.com

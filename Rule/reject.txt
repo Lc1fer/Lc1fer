@@ -1,5 +1,5 @@
-# 更新时间：2024年12月15日 06:05
-# 规则数量：7116
+# 更新时间：2024年12月16日 06:05
+# 规则数量：7127
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -527,6 +527,7 @@ DOMAIN-SUFFIX,3dh9y.com
 DOMAIN-SUFFIX,3dwwwgame.com
 DOMAIN-SUFFIX,3hufi.site
 DOMAIN-SUFFIX,3i2i.com
+DOMAIN-SUFFIX,3lo.icu
 DOMAIN-SUFFIX,3ndra.icu
 DOMAIN-SUFFIX,3ni.icu
 DOMAIN-SUFFIX,3p8801.co
@@ -1141,6 +1142,7 @@ DOMAIN-SUFFIX,ahyyqq.xyz
 DOMAIN-SUFFIX,ai.bioon.com
 DOMAIN-SUFFIX,aiclk.com
 DOMAIN-SUFFIX,aidmat.icu
+DOMAIN-SUFFIX,aigfednd.icu
 DOMAIN-SUFFIX,aiiaqw.xyz
 DOMAIN-SUFFIX,aikkits.com
 DOMAIN-SUFFIX,aiknx.cn
@@ -1805,6 +1807,7 @@ DOMAIN-SUFFIX,chinesean.com
 DOMAIN-SUFFIX,chmueyv.icu
 DOMAIN-SUFFIX,chnci.com
 DOMAIN-SUFFIX,chnvgdkw.xyz
+DOMAIN-SUFFIX,chonaesor.com
 DOMAIN-SUFFIX,chong-wu.net
 DOMAIN-SUFFIX,chooncv.icu
 DOMAIN-SUFFIX,chrtds.xyz
@@ -2969,6 +2972,7 @@ DOMAIN-SUFFIX,hcdjy.xyz
 DOMAIN-SUFFIX,hcgbhq.com
 DOMAIN-SUFFIX,hciwyv.icu
 DOMAIN-SUFFIX,hcqumrjbx.xyz
+DOMAIN-SUFFIX,hcznaubp.icu
 DOMAIN-SUFFIX,hdaidj.cn
 DOMAIN-SUFFIX,hdamcsu.top
 DOMAIN-SUFFIX,hdapp1003-a.akamaihd.net
@@ -3341,6 +3345,7 @@ DOMAIN-SUFFIX,it8vh.site
 DOMAIN-SUFFIX,itadapi.ithome.com.tw
 DOMAIN-SUFFIX,itakrid.icu
 DOMAIN-SUFFIX,iteyi.xyz
+DOMAIN-SUFFIX,itimiyo.top
 DOMAIN-SUFFIX,itjcqlp.icu
 DOMAIN-SUFFIX,itjgwn.xyz
 DOMAIN-SUFFIX,itqwesk.icu
@@ -3544,6 +3549,7 @@ DOMAIN-SUFFIX,jsxwfb.xyz
 DOMAIN-SUFFIX,jsyefc.com
 DOMAIN-SUFFIX,jsyliea.top
 DOMAIN-SUFFIX,jtezxmpb.xyz
+DOMAIN-SUFFIX,jtimiya.top
 DOMAIN-SUFFIX,jtyusia.top
 DOMAIN-SUFFIX,jtzdld.xyz
 DOMAIN-SUFFIX,juandou.com
@@ -4913,6 +4919,7 @@ DOMAIN-SUFFIX,qkscga.xyz
 DOMAIN-SUFFIX,ql.uzuzuz.com
 DOMAIN-SUFFIX,qlbbowx.xyz
 DOMAIN-SUFFIX,qlcbeg.xyz
+DOMAIN-SUFFIX,qm2.icu
 DOMAIN-SUFFIX,qmbdta.cn
 DOMAIN-SUFFIX,qmgria.cn
 DOMAIN-SUFFIX,qnalzly.top
@@ -5767,6 +5774,7 @@ DOMAIN-SUFFIX,trimmoits.com
 DOMAIN-SUFFIX,trojangfw.xyz
 DOMAIN-SUFFIX,trpyceq.cn
 DOMAIN-SUFFIX,trutvnci.top
+DOMAIN-SUFFIX,truxedku.com
 DOMAIN-SUFFIX,trvdp.com
 DOMAIN-SUFFIX,trvxbd.xyz
 DOMAIN-SUFFIX,ts166.net
@@ -6169,6 +6177,7 @@ DOMAIN-SUFFIX,vdvcjlp.cn
 DOMAIN-SUFFIX,ve0ke.icu
 DOMAIN-SUFFIX,veaiyl.icu
 DOMAIN-SUFFIX,vecggfp.icu
+DOMAIN-SUFFIX,vegaingi.com
 DOMAIN-SUFFIX,veinteractive.com
 DOMAIN-SUFFIX,vejhln.xyz
 DOMAIN-SUFFIX,vendimob.pl
@@ -6311,6 +6320,7 @@ DOMAIN-SUFFIX,wap.hfoyjg.cn
 DOMAIN-SUFFIX,wap001.bytravel.cn
 DOMAIN-SUFFIX,wap1.laogu.wang
 DOMAIN-SUFFIX,wapstart.ru
+DOMAIN-SUFFIX,warped-bus.com
 DOMAIN-SUFFIX,watchingthat.net
 DOMAIN-SUFFIX,waymom.xyz
 DOMAIN-SUFFIX,wbaj.cn
@@ -6399,6 +6409,7 @@ DOMAIN-SUFFIX,wkzsmj.icu
 DOMAIN-SUFFIX,wkzw.me
 DOMAIN-SUFFIX,wl.uqwjdhgv.top
 DOMAIN-SUFFIX,wlkukrv.icu
+DOMAIN-SUFFIX,wlouqsz.xyz
 DOMAIN-SUFFIX,wlzlrlp.xyz
 DOMAIN-SUFFIX,wm.mipcdn.com
 DOMAIN-SUFFIX,wm.szdushi.com.cn
