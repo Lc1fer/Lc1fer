@@ -460,6 +460,7 @@ DOMAIN-SUFFIX,sgmlink.com
 DOMAIN-SUFFIX,sgmsonline.com
 DOMAIN-SUFFIX,shairportbus.com
 DOMAIN-SUFFIX,shanghaiairport.com
+DOMAIN-SUFFIX,shanghaionstar.com
 DOMAIN-SUFFIX,shobserver.com
 DOMAIN-SUFFIX,shqmxx.com
 DOMAIN-SUFFIX,shujupie.com
