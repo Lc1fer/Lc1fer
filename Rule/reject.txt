@@ -1,5 +1,5 @@
-# 更新时间：2024年12月17日 06:05
-# 规则数量：7134
+# 更新时间：2024年12月18日 06:05
+# 规则数量：7141
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -1818,6 +1818,7 @@ DOMAIN-SUFFIX,chunmiaosh.com
 DOMAIN-SUFFIX,chunyuqiufeng.com
 DOMAIN-SUFFIX,chupl.icu
 DOMAIN-SUFFIX,chushoushijian.cn
+DOMAIN-SUFFIX,chussuth.com
 DOMAIN-SUFFIX,chzjidgc.xyz
 DOMAIN-SUFFIX,cidhmxxb.icu
 DOMAIN-SUFFIX,ciimar.icu
@@ -1919,6 +1920,7 @@ DOMAIN-SUFFIX,cqcrci.xyz
 DOMAIN-SUFFIX,cqisam.xyz
 DOMAIN-SUFFIX,cqpph.cn
 DOMAIN-SUFFIX,cr-nielsen.com
+DOMAIN-SUFFIX,craegvin.com
 DOMAIN-SUFFIX,crayon.meishichina.com
 DOMAIN-SUFFIX,crazyit8.com
 DOMAIN-SUFFIX,crbbhp.xyz
@@ -3226,6 +3228,7 @@ DOMAIN-SUFFIX,iggbky.xyz
 DOMAIN-SUFFIX,igidskio.top
 DOMAIN-SUFFIX,igkgag.xyz
 DOMAIN-SUFFIX,ihcxue.xyz
+DOMAIN-SUFFIX,ihearsoh.com
 DOMAIN-SUFFIX,ihgluu.xyz
 DOMAIN-SUFFIX,ihssdas.icu
 DOMAIN-SUFFIX,ihwlek.com
@@ -3568,6 +3571,7 @@ DOMAIN-SUFFIX,junshizhanlue.com
 DOMAIN-SUFFIX,juresda.top
 DOMAIN-SUFFIX,jusha.com
 DOMAIN-SUFFIX,justapp.top
+DOMAIN-SUFFIX,juutckrt.icu
 DOMAIN-SUFFIX,juznlx.xyz
 DOMAIN-SUFFIX,jwatera.top
 DOMAIN-SUFFIX,jweisia.top
@@ -4260,6 +4264,7 @@ DOMAIN-SUFFIX,mvirkw.xyz
 DOMAIN-SUFFIX,mvmqos.xyz
 DOMAIN-SUFFIX,mvng.cn
 DOMAIN-SUFFIX,mvpqrydt.xyz
+DOMAIN-SUFFIX,mvwitz.xyz
 DOMAIN-SUFFIX,mwerilxx.top
 DOMAIN-SUFFIX,mweriox.top
 DOMAIN-SUFFIX,mwqetvn.icu
@@ -4314,6 +4319,7 @@ DOMAIN-SUFFIX,n5725.com
 DOMAIN-SUFFIX,n5n5s.icu
 DOMAIN-SUFFIX,n6579.com
 DOMAIN-SUFFIX,n7181.com
+DOMAIN-SUFFIX,n7a.icu
 DOMAIN-SUFFIX,na06.cn
 DOMAIN-SUFFIX,nahgvfhs.xyz
 DOMAIN-SUFFIX,nahjzx.xyz
@@ -4385,6 +4391,7 @@ DOMAIN-SUFFIX,nlrsrx.xyz
 DOMAIN-SUFFIX,nltsvf.xyz
 DOMAIN-SUFFIX,nlvwdlnhfnnw.com
 DOMAIN-SUFFIX,nlxgjwye.icu
+DOMAIN-SUFFIX,nm2.icu
 DOMAIN-SUFFIX,nmhbmfxh.icu
 DOMAIN-SUFFIX,nmmemzi.icu
 DOMAIN-SUFFIX,nmntgd.cn
