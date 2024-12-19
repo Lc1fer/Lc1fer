@@ -1,5 +1,5 @@
-# 更新时间：2024年12月18日 06:05
-# 规则数量：7141
+# 更新时间：2024年12月19日 06:05
+# 规则数量：7146
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -550,6 +550,7 @@ DOMAIN-SUFFIX,4fs3r.icu
 DOMAIN-SUFFIX,4i1.icu
 DOMAIN-SUFFIX,4imk5.online
 DOMAIN-SUFFIX,4ir17.icu
+DOMAIN-SUFFIX,4jc.icu
 DOMAIN-SUFFIX,4jffu.cn
 DOMAIN-SUFFIX,4l903.com
 DOMAIN-SUFFIX,4mads.com
@@ -4962,6 +4963,7 @@ DOMAIN-SUFFIX,qrwcss.xyz
 DOMAIN-SUFFIX,qsfbmol.cn
 DOMAIN-SUFFIX,qsyliey.top
 DOMAIN-SUFFIX,qtciam.xyz
+DOMAIN-SUFFIX,qtimiyy.top
 DOMAIN-SUFFIX,qtmojo.com
 DOMAIN-SUFFIX,qtoidch.icu
 DOMAIN-SUFFIX,qtq632.com
@@ -5217,6 +5219,7 @@ DOMAIN-SUFFIX,scoev.cn
 DOMAIN-SUFFIX,scoldak.com
 DOMAIN-SUFFIX,sconat.com
 DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,screspoy.com
 DOMAIN-SUFFIX,script-bd.baixing.net
 DOMAIN-SUFFIX,script302.top
 DOMAIN-SUFFIX,scroscoi.com
@@ -5803,6 +5806,7 @@ DOMAIN-SUFFIX,ttad125.com
 DOMAIN-SUFFIX,ttdpxh.xyz
 DOMAIN-SUFFIX,tteferty33.fun
 DOMAIN-SUFFIX,ttgbnmk.top
+DOMAIN-SUFFIX,ttimiyi.top
 DOMAIN-SUFFIX,ttnwxhjv.xyz
 DOMAIN-SUFFIX,ttroytj33.fun
 DOMAIN-SUFFIX,ttrruq749.shop
@@ -5919,6 +5923,7 @@ DOMAIN-SUFFIX,u6u.icu
 DOMAIN-SUFFIX,u78s.top
 DOMAIN-SUFFIX,u7u9.com
 DOMAIN-SUFFIX,u833ij.com
+DOMAIN-SUFFIX,ua2.icu
 DOMAIN-SUFFIX,uafuzcxr.xyz
 DOMAIN-SUFFIX,uahozcfq.xyz
 DOMAIN-SUFFIX,uaiosio.top
