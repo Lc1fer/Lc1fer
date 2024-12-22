@@ -3,6 +3,7 @@ DOMAIN,483ff21f7f219d36e43620f7f6ff7865.v.smtcdns.com
 DOMAIN,5b0988e595225.cdn.sohucs.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
+DOMAIN,abc9a7471b3f2615b9833ee3c3f49d90.v.smtcdns.com
 DOMAIN,acjs.aliyun.com
 DOMAIN,aigc-material.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,ak-s.tripcdn.com
@@ -51,6 +52,7 @@ DOMAIN,csy.pandora.tcdnos.com
 DOMAIN,ctyunhljdcdn.qnqcdn.net
 DOMAIN,cube.elemecdn.com
 DOMAIN,d1d99990a4b6be0d73e0c76fe174d678.v.smtcdns.com
+DOMAIN,d588106c180066c44ebaa97e6480cb77.v.smtcdns.com
 DOMAIN,delivery.elemecdn.com
 DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,dimg04.tripcdn.com
@@ -379,6 +381,7 @@ DOMAIN-SUFFIX,lanzoup.com
 DOMAIN-SUFFIX,lifang001.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,lkcoffee.com
+DOMAIN-SUFFIX,lkme.cc
 DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,manmanbuy.com
 DOMAIN-SUFFIX,manyoukeji2024.com
