@@ -1,5 +1,6 @@
 DOMAIN,0f9c8012c2ac994d104e10d3049ef584.v.smtcdns.com
 DOMAIN,113-7-203-35-ad917a1a.ksyungslb.com
+DOMAIN,113-7-203-36-ada639c0.ksyungslb.com
 DOMAIN,14b57e3e179b6873e1d6f54cd08f66a1.v.smtcdns.com
 DOMAIN,24a112bf19d46a4e73b78bfb4f8648a2.v.smtcdns.com
 DOMAIN,483ff21f7f219d36e43620f7f6ff7865.v.smtcdns.com
@@ -421,6 +422,7 @@ DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,ndcpp.com
+DOMAIN-SUFFIX,ndcppx.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,netpock.com
@@ -480,6 +482,7 @@ DOMAIN-SUFFIX,shxnetwork.com
 DOMAIN-SUFFIX,sj-hospital.org
 DOMAIN-SUFFIX,sjxydc.com
 DOMAIN-SUFFIX,sjyymarket.com
+DOMAIN-SUFFIX,smogfly.club
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snrat.com
 DOMAIN-SUFFIX,snssdk.com
