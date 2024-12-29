@@ -307,6 +307,7 @@ DOMAIN-SUFFIX,dcarimg.com
 DOMAIN-SUFFIX,dcarstatic.com
 DOMAIN-SUFFIX,dcarvod.com
 DOMAIN-SUFFIX,dcdapp.com
+DOMAIN-SUFFIX,ddpai.com
 DOMAIN-SUFFIX,deppon.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,didialift.com
