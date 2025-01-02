@@ -1,4 +1,4 @@
-# 更新时间：2025年1月2日 23:19
+# 更新时间：2025年1月3日 00:43
 # 规则数量：6238
 
 DOMAIN,118.89.204.198
@@ -156,7 +156,7 @@ DOMAIN,cf-ads.pinger.com
 DOMAIN,counter.kingsoft.com
 DOMAIN,counter.ksosoft.com
 DOMAIN,cwx.lianwangtech.com
-# DOMAIN,data.mistat.xiaomi.com
+DOMAIN,data.mistat.xiaomi.com
 DOMAIN,de.as.pptv.com
 DOMAIN,dispatcher.360in.com
 DOMAIN,dsp.fcbox.com
