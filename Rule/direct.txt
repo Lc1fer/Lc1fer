@@ -402,6 +402,7 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,ietheivaicai.com
+DOMAIN-SUFFIX,igexin.com
 DOMAIN-SUFFIX,imazing.com
 DOMAIN-SUFFIX,intsig.net
 DOMAIN-SUFFIX,ip138.com
@@ -547,6 +548,7 @@ DOMAIN-SUFFIX,tenmh.com
 DOMAIN-SUFFIX,tfogc.com
 DOMAIN-SUFFIX,tianti.com
 DOMAIN-SUFFIX,tjjt360.com
+DOMAIN-SUFFIX,tlivesource.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,toutiaoapi.com
