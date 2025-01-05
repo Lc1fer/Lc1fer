@@ -1,5 +1,5 @@
-# 更新时间：2025年1月4日 06:05
-# 规则数量：5821
+# 更新时间：2025年1月5日 06:05
+# 规则数量：5832
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -1227,6 +1227,7 @@ DOMAIN-SUFFIX,bbtta91.shop
 DOMAIN-SUFFIX,bbttf26.shop
 DOMAIN-SUFFIX,bbxyxt.xyz
 DOMAIN-SUFFIX,bchina-1.xsfaya.com
+DOMAIN-SUFFIX,bclimiv.top
 DOMAIN-SUFFIX,bd-china-1.appmobile.cn
 DOMAIN-SUFFIX,bd-js.duote.com
 DOMAIN-SUFFIX,bd-js1.2345.com
@@ -1941,6 +1942,7 @@ DOMAIN-SUFFIX,dqlhuf.icu
 DOMAIN-SUFFIX,dqlrfmwp.icu
 DOMAIN-SUFFIX,dqrdwz.icu
 DOMAIN-SUFFIX,dr.mlcuzee.cn
+DOMAIN-SUFFIX,drandoxo.com
 DOMAIN-SUFFIX,drenqils.com
 DOMAIN-SUFFIX,dreuaxk.icu
 DOMAIN-SUFFIX,drihmae.com
@@ -2511,6 +2513,7 @@ DOMAIN-SUFFIX,h0d.icu
 DOMAIN-SUFFIX,h1.cfxinxi.cn
 DOMAIN-SUFFIX,h1.kukuw.com
 DOMAIN-SUFFIX,h1.wk2.com
+DOMAIN-SUFFIX,h5r.icu
 DOMAIN-SUFFIX,h6295.com
 DOMAIN-SUFFIX,ha723.icu
 DOMAIN-SUFFIX,hades.qyer.com
@@ -2589,6 +2592,7 @@ DOMAIN-SUFFIX,hitchun.com
 DOMAIN-SUFFIX,hitoxx.xyz
 DOMAIN-SUFFIX,hj8gf.icu
 DOMAIN-SUFFIX,hjammiz.icu
+DOMAIN-SUFFIX,hjdjfl.icu
 DOMAIN-SUFFIX,hjimtyu.top
 DOMAIN-SUFFIX,hjjshv.xyz
 DOMAIN-SUFFIX,hjkhxfh.360doc.cn
@@ -2701,6 +2705,7 @@ DOMAIN-SUFFIX,ibaglhc.icu
 DOMAIN-SUFFIX,ibkoiw.xyz
 DOMAIN-SUFFIX,ibqemk.icu
 DOMAIN-SUFFIX,ibqmey.xyz
+DOMAIN-SUFFIX,ibyrwvi.cn
 DOMAIN-SUFFIX,ichaosheng.com
 DOMAIN-SUFFIX,ichc1.xinglinpukang.com
 DOMAIN-SUFFIX,iclimio.top
@@ -3007,6 +3012,7 @@ DOMAIN-SUFFIX,jsxwfb.xyz
 DOMAIN-SUFFIX,jsyefc.com
 DOMAIN-SUFFIX,jsyliea.top
 DOMAIN-SUFFIX,jtezxmpb.xyz
+DOMAIN-SUFFIX,jthotb.icu
 DOMAIN-SUFFIX,jtimiya.top
 DOMAIN-SUFFIX,jtyusia.top
 DOMAIN-SUFFIX,jtzdld.xyz
@@ -3071,6 +3077,7 @@ DOMAIN-SUFFIX,kalmukrattail.com
 DOMAIN-SUFFIX,kanxiao.net
 DOMAIN-SUFFIX,kaosts.com
 DOMAIN-SUFFIX,kapvu.cn
+DOMAIN-SUFFIX,katoleiy.com
 DOMAIN-SUFFIX,kawo77.com
 DOMAIN-SUFFIX,kbexos.xyz
 DOMAIN-SUFFIX,kclimid.top
@@ -3225,6 +3232,7 @@ DOMAIN-SUFFIX,lbjekygz.icu
 DOMAIN-SUFFIX,lbqdaua.icu
 DOMAIN-SUFFIX,lcd.aivote.com
 DOMAIN-SUFFIX,lcefsf.icu
+DOMAIN-SUFFIX,lclimil.top
 DOMAIN-SUFFIX,lczk.cn
 DOMAIN-SUFFIX,ldamcsl.top
 DOMAIN-SUFFIX,ldgjwdohqbi.xyz
@@ -3732,6 +3740,8 @@ DOMAIN-SUFFIX,okkkk.com
 DOMAIN-SUFFIX,okmwfq.xyz
 DOMAIN-SUFFIX,okpp01021.xyz
 DOMAIN-SUFFIX,okpp01030.xyz
+DOMAIN-SUFFIX,okpp01031.xyz
+DOMAIN-SUFFIX,okpp01040.xyz
 DOMAIN-SUFFIX,okpp12311.xyz
 DOMAIN-SUFFIX,okwan.cn
 DOMAIN-SUFFIX,olgcpwc.icu
@@ -5515,6 +5525,7 @@ DOMAIN-SUFFIX,y.photoint.net
 DOMAIN-SUFFIX,y0mwy.icu
 DOMAIN-SUFFIX,y1.junshitt.com
 DOMAIN-SUFFIX,y1.spreton.com
+DOMAIN-SUFFIX,y4l.icu
 DOMAIN-SUFFIX,y66xvgo5i.chuimg.com
 DOMAIN-SUFFIX,y7ts.icu
 DOMAIN-SUFFIX,yandexadexchange.net

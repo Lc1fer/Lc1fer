@@ -484,6 +484,7 @@ DOMAIN-SUFFIX,oplay.net
 DOMAIN-SUFFIX,ott4china.com
 DOMAIN-SUFFIX,pcbeta.com
 DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,pddugc.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pinduoduo.net
