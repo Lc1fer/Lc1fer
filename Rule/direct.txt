@@ -133,6 +133,7 @@ DOMAIN,downupdate.aly.tcdnos.com
 DOMAIN,downupdate.bytes.tcdnos.com
 DOMAIN,downupdate.gtyy.tcdnos.com
 DOMAIN,downupdate.ws.tcdnos.com
+DOMAIN,e243466723689669591d7f9920f7f3f0.v.smtcdns.com
 DOMAIN,e28578141a1248c3837e403ff0bf5635.v.smtcdns.com
 DOMAIN,e30d2600fec297bb1bcdb7d08d0a3df2.v.smtcdns.com
 DOMAIN,e8e3971ae7977cc83a6ffb58e2e82763.v.smtcdns.com
