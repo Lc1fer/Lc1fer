@@ -4,6 +4,7 @@ DOMAIN,06e22a8657b558b639f9e89e2cbe286d.v.smtcdns.com
 DOMAIN,0aec271e8fc0fb21d9e9a83146aabb62.v.smtcdns.com
 DOMAIN,0b37318ed37ef2f5e78c1e0745a15d21.v.smtcdns.com
 DOMAIN,0f9c8012c2ac994d104e10d3049ef584.v.smtcdns.com
+DOMAIN,0fe26624b6ae49f3b964dc4a334bfaae.v.smtcdns.com
 DOMAIN,113-7-203-33-adc3a7e6.ksyungslb.com
 DOMAIN,113-7-203-34-adb517d0.ksyungslb.com
 DOMAIN,113-7-203-35-ad917a1a.ksyungslb.com
@@ -142,6 +143,7 @@ DOMAIN,ead85eab5342ceaaa3862454e2d724b9.v.smtcdns.com
 DOMAIN,easytomessage.com
 DOMAIN,eeaac6790989dc38883a73e3ea96a4bc.v.smtcdns.com
 DOMAIN,es.elemecdn.com
+DOMAIN,f284818614217180b56b15473a69f6b7.v.smtcdns.com
 DOMAIN,f38cf951bd540f7f3817a3ae66781be9.v.smtcdns.com
 DOMAIN,fd29cd7882bf62b4838df83d89ae77df.v.smtcdns.com
 DOMAIN,fe377d3deaca65a513cff0c0e4e69e6d.v.smtcdns.com
@@ -194,6 +196,7 @@ DOMAIN,lizhi.shop
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzcrm-rc.isvjcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
+DOMAIN,mbpxapi.yundasys.com
 DOMAIN,mchcdnpublic-40010.sh.gfp.tencent-cloud.com
 DOMAIN,menus-omp-pro-cdn.acewill.net
 DOMAIN,miot-spec.org
@@ -237,6 +240,7 @@ DOMAIN,wkmp2.tingyun.com
 DOMAIN,www.xingsuyun58.com
 DOMAIN,wxb-rc.isvjcloud.com
 DOMAIN,xinstall.top
+DOMAIN,ydmbpic.yundasys.com
 DOMAIN,yilabao.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,zconfig.elemecdn.com
 DOMAIN,zd-code.s3.cn-north-1.jdcloud-oss.com
