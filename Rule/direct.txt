@@ -321,6 +321,7 @@ DOMAIN-SUFFIX,baidubce.com
 DOMAIN-SUFFIX,baike.com
 DOMAIN-SUFFIX,bangdao-tech.com
 DOMAIN-SUFFIX,bankcomm.com
+DOMAIN-SUFFIX,baolinet.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bcelive.com
 DOMAIN-SUFFIX,bdimg.com
@@ -397,6 +398,7 @@ DOMAIN-SUFFIX,dcarstatic.com
 DOMAIN-SUFFIX,dcarvod.com
 DOMAIN-SUFFIX,dcdapp.com
 DOMAIN-SUFFIX,ddpai.com
+DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,deppon.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,didialift.com
