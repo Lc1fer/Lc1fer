@@ -1,5 +1,6 @@
 DOMAIN,032c754ba1f20bdfa9ce3474a257b407.v.smtcdns.com
 DOMAIN,0424361a55333a1e50f7a9b001e47ce1.v.smtcdns.com
+DOMAIN,04a85108364ee68b3ad8b53ce65e27b2.v.smtcdns.com
 DOMAIN,06e22a8657b558b639f9e89e2cbe286d.v.smtcdns.com
 DOMAIN,0aec271e8fc0fb21d9e9a83146aabb62.v.smtcdns.com
 DOMAIN,0b37318ed37ef2f5e78c1e0745a15d21.v.smtcdns.com
@@ -26,11 +27,13 @@ DOMAIN,24a112bf19d46a4e73b78bfb4f8648a2.v.smtcdns.com
 DOMAIN,278cff155d5b9f8db948b23a8a7ad020.v.smtcdns.com
 DOMAIN,2b152f3202296d9176f563e7bb981729.v.smtcdns.com
 DOMAIN,2dlvuicehn2u5v3422t6up52asepsqacgbclv3ho002rutpi0s4fugd4.smogfly.cloud
+DOMAIN,30e378c45466463ef9e265db431a1362.v.smtcdns.com
 DOMAIN,320aqjvq56lq8hlpeo36brdmng7rmhren8jn50u4r3t0fdkg79kvvt9i.smogfly.cloud
 DOMAIN,34352f054e2af0d7f27aaee98bedd823.v.smtcdns.com
 DOMAIN,37558365a0c856538a57f8d86c330108.v.smtcdns.com
 DOMAIN,3b801051f993bf2c5445826ce57b536d.v.smtcdns.com
 DOMAIN,3c4e6192b93f95f5905ddab7f9052248.v.smtcdns.com
+DOMAIN,3e8d88a396470157265e1e958ad704d1.v.smtcdns.com
 DOMAIN,3fd23c7e0c4b5d518abc0a7605779a2f.v.smtcdns.com
 DOMAIN,3hf254s3cnrql195l16hrs2fu4q0ht9ocl0qmes04qo8gilp4sffueq1.smogfly.cloud
 DOMAIN,42668956c25bc5b5a7fc3f4c0f238544.v.smtcdns.com
@@ -50,9 +53,11 @@ DOMAIN,619375270339f4dbdd71163e097316b0.v.smtcdns.com
 DOMAIN,61a4b2c787b2e2ce28d82203c9b4b75b.v.smtcdns.com
 DOMAIN,628a329d5bb201810423a3f7ee4057c9.v.smtcdns.com
 DOMAIN,647d7ff216248db260d74ca76b4c8af7.v.smtcdns.com
+DOMAIN,66082c8936825635c96dcacdee7e5704.v.smtcdns.com
 DOMAIN,6ab83127ae6a23dae50f4f76b5b7d452.v.smtcdns.com
 DOMAIN,6abaf45020b5a6ea7185421f0c6aa1dc.v.smtcdns.com
 DOMAIN,6b12356462dc650a29fb615d1d18b9fe.v.smtcdns.com
+DOMAIN,6b856b6655dda12cb6d90aa04aef026f.v.smtcdns.com
 DOMAIN,70bc86181798a87485aa0baa3ba2c0e6.v.smtcdns.com
 DOMAIN,75fe92cd0346acb92d385915690d047c.v.smtcdns.com
 DOMAIN,78f83c580f700a927a06f18045c1d703.v.smtcdns.com
@@ -60,6 +65,7 @@ DOMAIN,797c2083e2ca0e660614e24ae4988fc8.v.smtcdns.com
 DOMAIN,7e1bdff278de11cfa2bafe7d1fc698df.v.smtcdns.com
 DOMAIN,801e8e49a19996e94ba29de6cda59c8b.v.smtcdns.com
 DOMAIN,8492d1d6725986265a832121cb651426.v.smtcdns.com
+DOMAIN,857435a40d0e65a06f11dfbcc5ba7d8a.v.smtcdns.com
 DOMAIN,8599284cee2054bccc6e35669dba2cd1.v.smtcdns.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
@@ -102,6 +108,7 @@ DOMAIN,bsy.pandora.tcdnos.com
 DOMAIN,bsy.update.tcdnos.com
 DOMAIN,c.dun.163yun.com
 DOMAIN,c.mipcdn.com
+DOMAIN,c0f528dd75fb0f3c7be480bde111d0cd.v.smtcdns.com
 DOMAIN,c2bba2eeb6e1d21f326c8ca009bd3f53.v.smtcdns.com
 DOMAIN,c5c780f6738d39d3839178168ca94548.v.smtcdns.com
 DOMAIN,c62e535fd6c8effb1a26ed6b7df62c22.v.smtcdns.com
@@ -246,6 +253,7 @@ DOMAIN,staticresource-40111.sh.gfp.tencent-cloud.com
 DOMAIN,store.mp.video.tencent-cloud.com
 DOMAIN,tamaegis.com
 DOMAIN,tongji.dcloud.io
+DOMAIN,ttby.v.smtcdns.com
 DOMAIN,uzwbdv.xyz
 DOMAIN,web.cdn.openinstall.io
 DOMAIN,wkbrs2.tingyun.com
@@ -316,6 +324,7 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,awemeugwave.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidubce.com
 DOMAIN-SUFFIX,baike.com
@@ -370,11 +379,13 @@ DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdntips.net
+DOMAIN-SUFFIX,chagee.com
 DOMAIN-SUFFIX,chaxungou.com
 DOMAIN-SUFFIX,che168.com
 DOMAIN-SUFFIX,china.com
 DOMAIN-SUFFIX,chinanetcenter.com
 DOMAIN-SUFFIX,chinaz.com
+DOMAIN-SUFFIX,cjjd14.com
 DOMAIN-SUFFIX,cl2009.com
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,cn
@@ -642,6 +653,7 @@ DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volcsiriusbd.com
 DOMAIN-SUFFIX,waimaimingtang.com
 DOMAIN-SUFFIX,wandafilm.com
+DOMAIN-SUFFIX,wasu.tv
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weilayun.com
