@@ -44,6 +44,7 @@ DOMAIN,lvlv.lv
 DOMAIN,media-edge.1e100cdn.net
 DOMAIN,medianova-cdnvperf.mncdn.com
 DOMAIN,mozilla.cloudflare-dns.com
+DOMAIN,napi.ltd
 DOMAIN,nexitally.com
 DOMAIN,ovh-cdn.perfops.io
 DOMAIN,rsshub.app
