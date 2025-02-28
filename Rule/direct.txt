@@ -89,6 +89,7 @@ DOMAIN,8599284cee2054bccc6e35669dba2cd1.v.smtcdns.com
 DOMAIN,87151ed0ffb042fd2eb4bb114ba33592.v.smtcdns.com
 DOMAIN,8febf0423a21577155903892ac2f5e19.v.smtcdns.com
 DOMAIN,9247b55adb0ff561cd5f01c4b17cc308.v.smtcdns.com
+DOMAIN,9cae1874a9d747b426fb73377d6526e5.v.smtcdns.com
 DOMAIN,9e9dea055f7fbf1123513e86a9413849.v.smtcdns.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
@@ -156,6 +157,7 @@ DOMAIN,cjhy-isv.isvjcloud.com
 DOMAIN,cn-beijing-data.aliyundrive.net
 DOMAIN,cn.voice.gcloudcs.com
 DOMAIN,conf-darwin.xycdn.com
+DOMAIN,cprfmmquoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2jrjnu.smogfly.cloud
 DOMAIN,csy.ll.tcdnos.com
 DOMAIN,csy.pandora.tcdnos.com
 DOMAIN,ctyunhljdcdn.qnqcdn.net
@@ -168,6 +170,7 @@ DOMAIN,d77fc70e2a9c7fcc4b1523102fb09520.v.smtcdns.com
 DOMAIN,d9030be355e4e4fd851c262228ac0949.v.smtcdns.com
 DOMAIN,d94c0827dbc46fcf5e0339a3eaa855e5.v.smtcdns.com
 DOMAIN,ddea306fac1920561dde053caf2ec8df.v.smtcdns.com
+DOMAIN,de449ba71b0b6b540b09a6b372798bb6.v.smtcdns.com
 DOMAIN,de6a64fb019ff8a477cc35f36a2a5ed3.v.smtcdns.com
 DOMAIN,delivery.elemecdn.com
 DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
@@ -197,6 +200,7 @@ DOMAIN,fe377d3deaca65a513cff0c0e4e69e6d.v.smtcdns.com
 DOMAIN,fef67b38553661183d110de613063adb.v.smtcdns.com
 DOMAIN,fgw.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,fp-it.fengkongcloud.com
+DOMAIN,fp.youzanyun.com
 DOMAIN,fuss10.elemecdn.com
 DOMAIN,g.yccdn.com
 DOMAIN,gdctyunct.inter.71edge.com
@@ -247,12 +251,14 @@ DOMAIN,ling-cdn.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,lizhi.shop
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzcrm-rc.isvjcloud.com
+DOMAIN,lzdz-isv.isvjcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
 DOMAIN,mbpxapi.yundasys.com
 DOMAIN,mchcdnpublic-40010.sh.gfp.tencent-cloud.com
 DOMAIN,menus-omp-pro-cdn.acewill.net
 DOMAIN,miot-spec.org
 DOMAIN,mipay.com
+DOMAIN,mp-isv.youzanyun.com
 DOMAIN,mpush-api.aliyun.com
 DOMAIN,n98-lf-effect-aweme-302-ncdn.byteeffecttos.com
 DOMAIN,newscdnct.inter.71edge.com
@@ -288,6 +294,8 @@ DOMAIN,static.yunpei.com
 DOMAIN,staticresource-40111.sh.gfp.tencent-cloud.com
 DOMAIN,store.mp.video.tencent-cloud.com
 DOMAIN,tamaegis.com
+DOMAIN,tj.youzanyun.com
+DOMAIN,tj1.youzanyun.com
 DOMAIN,tongji.dcloud.io
 DOMAIN,ttby.v.smtcdns.com
 DOMAIN,uzwbdv.xyz
@@ -484,6 +492,7 @@ DOMAIN-SUFFIX,fcbox.com
 DOMAIN-SUFFIX,fevermi.com
 DOMAIN-SUFFIX,gamersky.com
 DOMAIN-SUFFIX,gantanhao.com
+DOMAIN-SUFFIX,gaode.com
 DOMAIN-SUFFIX,geetest.com
 DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,getui.com
@@ -577,6 +586,7 @@ DOMAIN-SUFFIX,miinsurtech.com
 DOMAIN-SUFFIX,mijia.tech
 DOMAIN-SUFFIX,mintegral.net
 DOMAIN-SUFFIX,miso-lab.com
+DOMAIN-SUFFIX,mitvos.com
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mmstat.com
@@ -719,6 +729,7 @@ DOMAIN-SUFFIX,yonghuivip.com
 DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,youwawa.com
+DOMAIN-SUFFIX,youzan.com
 DOMAIN-SUFFIX,zdmimg.com
 DOMAIN-SUFFIX,zepp.com
 DOMAIN-SUFFIX,zhihu.com
