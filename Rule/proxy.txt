@@ -25,6 +25,7 @@ DOMAIN,d3888oxgux3fey.cloudfront.net
 DOMAIN,dns.google
 DOMAIN,errortrace.dev
 DOMAIN,fash2043.cloudycdn.services
+DOMAIN,featureassets.org
 DOMAIN,filterra.net
 DOMAIN,flowercloud.net
 DOMAIN,framerusercontent.com
@@ -141,6 +142,7 @@ DOMAIN-SUFFIX,iill.top
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,impactradius-event.com
 DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,intercom.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ip.sb
@@ -231,6 +233,7 @@ DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wmcdp.io
 DOMAIN-SUFFIX,worldssl.net
 DOMAIN-SUFFIX,wowyijiu.today
+DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,youtube.com
