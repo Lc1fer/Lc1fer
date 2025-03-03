@@ -727,6 +727,7 @@ DOMAIN-SUFFIX,welcrm.com
 DOMAIN-SUFFIX,whalenas.com
 DOMAIN-SUFFIX,woxshare.com
 DOMAIN-SUFFIX,wuuxiang.com
+DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,xiaoaisound.com
 DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xiaomi.com
