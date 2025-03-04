@@ -221,9 +221,11 @@ DOMAIN,httpdns.c.cdnhwc2.com
 DOMAIN,hwypandora.ll.tcdnos.com
 DOMAIN,id6.me
 DOMAIN,idcconfig.gcloudsdk.com
+DOMAIN,image1.ljcdn.com
 DOMAIN,img.36krcdn.com
 DOMAIN,img.dmallcdn.com
 DOMAIN,img.elemecdn.com
+DOMAIN,img.ljcdn.com
 DOMAIN,img.luckincoffeecdn.com
 DOMAIN,img01.luckincoffeecdn.com
 DOMAIN,img02.luckincoffeecdn.com
