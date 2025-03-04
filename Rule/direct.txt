@@ -705,6 +705,8 @@ DOMAIN-SUFFIX,toutiaoimg.com
 DOMAIN-SUFFIX,toutiaostatic.com
 DOMAIN-SUFFIX,toutiaovod.com
 DOMAIN-SUFFIX,tratao.com
+DOMAIN-SUFFIX,tuhu.com
+DOMAIN-SUFFIX,tuhu.org
 DOMAIN-SUFFIX,txrjy.com
 DOMAIN-SUFFIX,ubixioe.com
 DOMAIN-SUFFIX,ucweb.com
