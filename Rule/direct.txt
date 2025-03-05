@@ -85,6 +85,7 @@ DOMAIN,75fe92cd0346acb92d385915690d047c.v.smtcdns.com
 DOMAIN,774bd8e387a6ce999846687050e50d23.v.smtcdns.com
 DOMAIN,78f83c580f700a927a06f18045c1d703.v.smtcdns.com
 DOMAIN,797c2083e2ca0e660614e24ae4988fc8.v.smtcdns.com
+DOMAIN,79f611ac25bd9ae5450a3950de3d9c23.v.smtcdns.com
 DOMAIN,7bf13e2b092af684bfeae311d14a06b0.v.smtcdns.com
 DOMAIN,7e1bdff278de11cfa2bafe7d1fc698df.v.smtcdns.com
 DOMAIN,801e8e49a19996e94ba29de6cda59c8b.v.smtcdns.com
@@ -146,6 +147,7 @@ DOMAIN,c2bba2eeb6e1d21f326c8ca009bd3f53.v.smtcdns.com
 DOMAIN,c5c780f6738d39d3839178168ca94548.v.smtcdns.com
 DOMAIN,c62e535fd6c8effb1a26ed6b7df62c22.v.smtcdns.com
 DOMAIN,c63786c1e4a37d5657c1f68e60498c31.v.smtcdns.com
+DOMAIN,c67fbe7494c45491f56ca60cc32f1cba.v.smtcdns.com
 DOMAIN,c9f181307be1d9c5e31a28100151ee38.v.smtcdns.com
 DOMAIN,caaceed4aeaf2.cdn.sohucs.com
 DOMAIN,cambrian-images.cdn.bcebos.com
@@ -308,6 +310,7 @@ DOMAIN,tamaegis.com
 DOMAIN,tj.youzanyun.com
 DOMAIN,tj1.youzanyun.com
 DOMAIN,tongji.dcloud.io
+DOMAIN,tqmall-vin.s3.cn-north-1.jcloudcs.com
 DOMAIN,ttby.v.smtcdns.com
 DOMAIN,uzwbdv.xyz
 DOMAIN,web.cdn.openinstall.io
@@ -657,6 +660,7 @@ DOMAIN-SUFFIX,rtxapp.com
 DOMAIN-SUFFIX,ruanmei.com
 DOMAIN-SUFFIX,saic-gm.com
 DOMAIN-SUFFIX,sankuai.com
+DOMAIN-SUFFIX,sealaly.net
 DOMAIN-SUFFIX,searchpstatp.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,sf-card.com
