@@ -375,6 +375,7 @@ DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,anchong001.com
 DOMAIN-SUFFIX,anticheatexpert.com
+DOMAIN-SUFFIX,apitd.net
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple-mapkit.com
@@ -651,6 +652,7 @@ DOMAIN-SUFFIX,qishui.com
 DOMAIN-SUFFIX,qiyi.com
 DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qtaeixd.com
 DOMAIN-SUFFIX,qweather.com
 DOMAIN-SUFFIX,qy.net
 DOMAIN-SUFFIX,rcuts.com
