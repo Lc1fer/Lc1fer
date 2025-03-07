@@ -237,6 +237,7 @@ DOMAIN-SUFFIX,worldssl.net
 DOMAIN-SUFFIX,wowyijiu.today
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,xn--ug8h.eu.org
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
