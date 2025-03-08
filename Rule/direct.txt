@@ -463,6 +463,7 @@ DOMAIN-SUFFIX,ctripins.com
 DOMAIN-SUFFIX,cuopen.net
 DOMAIN-SUFFIX,d3games.com
 DOMAIN-SUFFIX,dailygn.com
+DOMAIN-SUFFIX,datahubtrack.com
 DOMAIN-SUFFIX,daxiang91.com
 DOMAIN-SUFFIX,dbrjw.com
 DOMAIN-SUFFIX,dcarapi.com
