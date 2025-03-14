@@ -52,6 +52,7 @@ DOMAIN,3hf254s3cnrql195l16hrs2fu4q0ht9ocl0qmes04qo8gilp4sffueq1.smogfly.cloud
 DOMAIN,42668956c25bc5b5a7fc3f4c0f238544.v.smtcdns.com
 DOMAIN,4632674a5defcfffd2b772bd818b1d48.v.smtcdns.com
 DOMAIN,47e7fe675061b2501e748d28859005ce.v.smtcdns.com
+DOMAIN,4839f0ed6604608dd1fbe0fe0abd5c6a.v.smtcdns.com
 DOMAIN,483ff21f7f219d36e43620f7f6ff7865.v.smtcdns.com
 DOMAIN,488fa25b26220c4ccf7ca3e392240ea2.v.smtcdns.com
 DOMAIN,48a666ae9a35bfab0f92f0528bf078ba.v.smtcdns.com
@@ -99,6 +100,7 @@ DOMAIN,87151ed0ffb042fd2eb4bb114ba33592.v.smtcdns.com
 DOMAIN,8febf0423a21577155903892ac2f5e19.v.smtcdns.com
 DOMAIN,9247b55adb0ff561cd5f01c4b17cc308.v.smtcdns.com
 DOMAIN,97039627593f84480e7509bdd42b4325.v.smtcdns.com
+DOMAIN,99c43034027cd6303b7ce1afc5f53e75.v.smtcdns.com
 DOMAIN,9cae1874a9d747b426fb73377d6526e5.v.smtcdns.com
 DOMAIN,9cef0621f494036a0af6da813b1c2c8e.v.smtcdns.com
 DOMAIN,9e9dea055f7fbf1123513e86a9413849.v.smtcdns.com
@@ -294,6 +296,7 @@ DOMAIN,pull-m1.wxlivecdn.com
 DOMAIN,q16477799cada3.cdn.sohucs.com
 DOMAIN,qncdnct.inter.71edge.com
 DOMAIN,qosidc.gcloudsdk.com
+DOMAIN,rescdn.qqmail.com
 DOMAIN,rumt-zh.com
 DOMAIN,s3.cn-north-1.jdcloud-oss.com
 DOMAIN,sd-gslb.xycdn.com

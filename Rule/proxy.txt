@@ -188,6 +188,7 @@ DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,qianji.app
 DOMAIN-SUFFIX,quiz.directory
 DOMAIN-SUFFIX,rapidssl.com
+DOMAIN-SUFFIX,rc-backup.com
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,rline1.ru
 DOMAIN-SUFFIX,rudderstack.com
