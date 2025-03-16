@@ -163,6 +163,7 @@ DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,meijutt.net
 DOMAIN-SUFFIX,mikrotik.com
 DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,mlinks.cc
 DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,mtgglobals.com
