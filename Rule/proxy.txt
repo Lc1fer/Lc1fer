@@ -172,6 +172,7 @@ DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,nsloon.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,oaiusercontent.com
