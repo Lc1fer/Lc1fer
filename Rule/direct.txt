@@ -6,6 +6,7 @@ DOMAIN,06e22a8657b558b639f9e89e2cbe286d.v.smtcdns.com
 DOMAIN,07d2f6f03a2a38ff2c6b43b80b5274d9.v.smtcdns.com
 DOMAIN,0aec271e8fc0fb21d9e9a83146aabb62.v.smtcdns.com
 DOMAIN,0b37318ed37ef2f5e78c1e0745a15d21.v.smtcdns.com
+DOMAIN,0e2b6760cdb4b47c494f2ae1666efc30.v.smtcdns.com
 DOMAIN,0f9c8012c2ac994d104e10d3049ef584.v.smtcdns.com
 DOMAIN,0fe26624b6ae49f3b964dc4a334bfaae.v.smtcdns.com
 DOMAIN,1002b28ad039ca46f705a547ada8e440.v.smtcdns.com
@@ -92,6 +93,7 @@ DOMAIN,79f611ac25bd9ae5450a3950de3d9c23.v.smtcdns.com
 DOMAIN,7bf13e2b092af684bfeae311d14a06b0.v.smtcdns.com
 DOMAIN,7e1bdff278de11cfa2bafe7d1fc698df.v.smtcdns.com
 DOMAIN,801e8e49a19996e94ba29de6cda59c8b.v.smtcdns.com
+DOMAIN,808271a7a3aaaaee87a19c8a1e3e866f.v.smtcdns.com
 DOMAIN,81dc26294efd357e1641352ec4950331.v.smtcdns.com
 DOMAIN,8492d1d6725986265a832121cb651426.v.smtcdns.com
 DOMAIN,857435a40d0e65a06f11dfbcc5ba7d8a.v.smtcdns.com
@@ -114,6 +116,7 @@ DOMAIN,aff0ef96966ce9b49adba56c031d47a3.v.smtcdns.com
 DOMAIN,aigc-material.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,ak-s.tripcdn.com
 DOMAIN,alicoccdnct-db.inter.71edge.com
+DOMAIN,alink.tcp.aliyun.com
 DOMAIN,alivia.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,anchongshop.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,aos-cdn-files.cn-hangzhou.oss.aliyun-inc.com
@@ -263,6 +266,7 @@ DOMAIN,lefox-data-library-cdn.cdfsunrise.com
 DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN,lf-developer-cdn.open-douyin.com
 DOMAIN,lf-douyin-mobile.bytecdn.com
+DOMAIN,lf-leads-fe-scm.bytecdn.com
 DOMAIN,lf1-cdn-tos.bytescm.com
 DOMAIN,lf26-stark-cdn.bdgp.cc
 DOMAIN,lf3-cdn-tos.bytecdntp.com
@@ -300,6 +304,7 @@ DOMAIN,qosidc.gcloudsdk.com
 DOMAIN,rescdn.qqmail.com
 DOMAIN,rumt-zh.com
 DOMAIN,s3.cn-north-1.jdcloud-oss.com
+DOMAIN,sd-gl.xycdn.com
 DOMAIN,sd-gslb.xycdn.com
 DOMAIN,seeds-open.xycdn.com
 DOMAIN,sgamecdn.cn.gcloudcs.com
