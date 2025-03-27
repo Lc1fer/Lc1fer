@@ -176,6 +176,7 @@ DOMAIN-SUFFIX,nsloon.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com
 DOMAIN-SUFFIX,olympics.com
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,onetrust.io
