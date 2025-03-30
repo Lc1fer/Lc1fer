@@ -128,6 +128,7 @@ DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,globalsign.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,godaddy.com
+DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,google.com.hk
 DOMAIN-SUFFIX,googleapis.com
