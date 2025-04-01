@@ -230,6 +230,7 @@ DOMAIN,e8e3971ae7977cc83a6ffb58e2e82763.v.smtcdns.com
 DOMAIN,ea7a0ae4f81b52d42c6ac22bb5c7fa7f.v.smtcdns.com
 DOMAIN,ead85eab5342ceaaa3862454e2d724b9.v.smtcdns.com
 DOMAIN,easytomessage.com
+DOMAIN,eb9c1a73228c5706a0a84c8f5624864c.v.smtcdns.com
 DOMAIN,eeaac6790989dc38883a73e3ea96a4bc.v.smtcdns.com
 DOMAIN,es.elemecdn.com
 DOMAIN,f220f7da99a9853e6c7afc99dfd2ef70.v.smtcdns.com
@@ -726,6 +727,7 @@ DOMAIN-SUFFIX,shxnetwork.com
 DOMAIN-SUFFIX,sinopec.com
 DOMAIN-SUFFIX,sinopecsales.com
 DOMAIN-SUFFIX,siomxity.com
+DOMAIN-SUFFIX,siomxity.net
 DOMAIN-SUFFIX,sj-hospital.org
 DOMAIN-SUFFIX,sjxydc.com
 DOMAIN-SUFFIX,sjyymarket.com
