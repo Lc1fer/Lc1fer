@@ -268,9 +268,11 @@ DOMAIN,gt1dc2auoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2nvake.smogfly.cloud
 DOMAIN,gt1dc3iuoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2lj646.smogfly.cloud
 DOMAIN,h5-data.elemecdn.com
 DOMAIN,hbcxffap.z1cdn.com
+DOMAIN,hbvmwfyp.z1cdn.com
 DOMAIN,hdns.ksyun.com
 DOMAIN,httpdns.c.cdnhwc2.com
 DOMAIN,hwypandora.ll.tcdnos.com
+DOMAIN,hxrkclbn.z1cdn.com
 DOMAIN,id6.me
 DOMAIN,idcconfig.gcloudsdk.com
 DOMAIN,image1.ljcdn.com
@@ -337,6 +339,7 @@ DOMAIN,o2oad.elemecdn.com
 DOMAIN,pandora.bytes.tcdnos.com
 DOMAIN,pandora.sjy.tcdnos.com
 DOMAIN,pandora.szxy.tcdnos.com
+DOMAIN,pbmxoypk.z1cdn.com
 DOMAIN,poplic.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,pubstatic.b0.upaiyun.com
 DOMAIN,pull-m1.wxlivecdn.com
@@ -374,6 +377,7 @@ DOMAIN,tqmall-vin.s3.cn-north-1.jcloudcs.com
 DOMAIN,ttby.v.smtcdns.com
 DOMAIN,twhgfcpk.z1cdn.com
 DOMAIN,uzwbdv.xyz
+DOMAIN,wamxyoll.z1cdn.com
 DOMAIN,web.cdn.openinstall.io
 DOMAIN,whpqscwx.z1cdn.com
 DOMAIN,wkbrs2.tingyun.com
@@ -431,6 +435,7 @@ DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabachengdun.com
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alimama.com
 DOMAIN-SUFFIX,alipan.com
 DOMAIN-SUFFIX,alipay-eco.com
 DOMAIN-SUFFIX,alipay.com
@@ -674,6 +679,7 @@ DOMAIN-SUFFIX,microsoft-falcon.io
 DOMAIN-SUFFIX,microsoft.com 
 DOMAIN-SUFFIX,microsoftapp.net
 DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,mideyouapp.top
 DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,miinsurtech.com
 DOMAIN-SUFFIX,mijia.tech
