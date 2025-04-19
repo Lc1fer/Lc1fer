@@ -67,6 +67,7 @@ DOMAIN,4839f0ed6604608dd1fbe0fe0abd5c6a.v.smtcdns.com
 DOMAIN,483ff21f7f219d36e43620f7f6ff7865.v.smtcdns.com
 DOMAIN,488fa25b26220c4ccf7ca3e392240ea2.v.smtcdns.com
 DOMAIN,48a666ae9a35bfab0f92f0528bf078ba.v.smtcdns.com
+DOMAIN,4bc7232a95349e3fd36c9ea43faa4a8b.v.smtcdns.com
 DOMAIN,4c9cb0f5697acc7e942f41d645d5e9c5.v.smtcdns.com
 DOMAIN,4ffd4f4691c223bd2b78e7efe4d67b55.v.smtcdns.com
 DOMAIN,50a061cd084b70fea6deb23d90d158bc.v.smtcdns.com
@@ -120,6 +121,7 @@ DOMAIN,8599284cee2054bccc6e35669dba2cd1.v.smtcdns.com
 DOMAIN,87151ed0ffb042fd2eb4bb114ba33592.v.smtcdns.com
 DOMAIN,8febf0423a21577155903892ac2f5e19.v.smtcdns.com
 DOMAIN,9247b55adb0ff561cd5f01c4b17cc308.v.smtcdns.com
+DOMAIN,933fe9096b10099fabf1f065c3a996dd.v.smtcdns.com
 DOMAIN,97039627593f84480e7509bdd42b4325.v.smtcdns.com
 DOMAIN,99c43034027cd6303b7ce1afc5f53e75.v.smtcdns.com
 DOMAIN,9cae1874a9d747b426fb73377d6526e5.v.smtcdns.com
@@ -223,6 +225,7 @@ DOMAIN,d6f10e3132b048c5c99dc8e3d7bca582.v.smtcdns.com
 DOMAIN,d77fc70e2a9c7fcc4b1523102fb09520.v.smtcdns.com
 DOMAIN,d9030be355e4e4fd851c262228ac0949.v.smtcdns.com
 DOMAIN,d94c0827dbc46fcf5e0339a3eaa855e5.v.smtcdns.com
+DOMAIN,da329b20ca900f3e7f236a33d1904f5d.v.smtcdns.com
 DOMAIN,dbcbe1d12b2a7bf2157577d504aa8386.v.smtcdns.com
 DOMAIN,ddea306fac1920561dde053caf2ec8df.v.smtcdns.com
 DOMAIN,de449ba71b0b6b540b09a6b372798bb6.v.smtcdns.com
@@ -258,6 +261,7 @@ DOMAIN,f38cf951bd540f7f3817a3ae66781be9.v.smtcdns.com
 DOMAIN,f500710fd8af13627a2cfa19bd6672f9.v.smtcdns.com
 DOMAIN,fd29cd7882bf62b4838df83d89ae77df.v.smtcdns.com
 DOMAIN,fd3586631b6829306cd86beb0ffebf55.v.smtcdns.com
+DOMAIN,fe04ac0c81b8359b486ad32992adfa8a.v.smtcdns.com
 DOMAIN,fe377d3deaca65a513cff0c0e4e69e6d.v.smtcdns.com
 DOMAIN,fef67b38553661183d110de613063adb.v.smtcdns.com
 DOMAIN,fgw.s3.cn-north-1.jdcloud-oss.com
@@ -324,6 +328,7 @@ DOMAIN,lf26-stark-cdn.bdgp.cc
 DOMAIN,lf3-cdn-tos.bytecdntp.com
 DOMAIN,lf3-cdn-tos.bytegeckoext.com
 DOMAIN,lf3-cdn-tos.bytescm.com
+DOMAIN,lf6-cdn-tos.bytegeckoext.com
 DOMAIN,lf9-cdn-tos.bytecdntp.com
 DOMAIN,lf9-lkcdn-tos.byted-ug.com
 DOMAIN,ling-cdn.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
@@ -570,6 +575,7 @@ DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,dingxiang-inc.com
 DOMAIN-SUFFIX,dmall.com
 DOMAIN-SUFFIX,dongchedi.com
+DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doupay.com
 DOMAIN-SUFFIX,douyin.com
@@ -647,6 +653,7 @@ DOMAIN-SUFFIX,irs03.com
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,jabpark.com
 DOMAIN-SUFFIX,jchunuo.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jdpay.com
