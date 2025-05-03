@@ -89,6 +89,7 @@ DOMAIN-SUFFIX,apollo.io
 DOMAIN-SUFFIX,appbaqend.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,aptv.app
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,bamgrid.com
