@@ -94,6 +94,7 @@ DOMAIN-SUFFIX,aptv.app
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bidmachine.io
+DOMAIN-SUFFIX,blankwonder.notion.site
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,cdn-telegram.org
@@ -203,6 +204,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,sparcs.net
 DOMAIN-SUFFIX,split.io
 DOMAIN-SUFFIX,sprig.com
 DOMAIN-SUFFIX,stbuttons.click
