@@ -470,6 +470,7 @@ DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzcrm-rc.isvjcloud.com
 DOMAIN,lzdz-isv.isvjcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
+DOMAIN,m3.zhicyun.com
 DOMAIN,mbpxapi.yundasys.com
 DOMAIN,mchcdnpublic-40010.sh.gfp.tencent-cloud.com
 DOMAIN,menus-omp-pro-cdn.acewill.net
