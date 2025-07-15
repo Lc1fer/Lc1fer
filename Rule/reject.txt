@@ -1,5 +1,5 @@
-# 更新时间：2025年7月14日 06:05
-# 规则数量：6120
+# 更新时间：2025年7月15日 06:05
+# 规则数量：6125
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -1828,6 +1828,7 @@ DOMAIN-SUFFIX,denjpl.xyz
 DOMAIN-SUFFIX,dephriezm.com
 DOMAIN-SUFFIX,depzdhamot.com
 DOMAIN-SUFFIX,derwbl.icu
+DOMAIN-SUFFIX,designx08.com
 DOMAIN-SUFFIX,df888.eastday.com
 DOMAIN-SUFFIX,dfan4.icu
 DOMAIN-SUFFIX,dfevpkzy6u.com
@@ -2734,6 +2735,7 @@ DOMAIN-SUFFIX,huo07111hy.com
 DOMAIN-SUFFIX,huo07120hy.com
 DOMAIN-SUFFIX,huo07121hy.com
 DOMAIN-SUFFIX,huo07130hy.com
+DOMAIN-SUFFIX,huo07131hy.com
 DOMAIN-SUFFIX,huohuo.huamuwo.com
 DOMAIN-SUFFIX,huoxun.wang
 DOMAIN-SUFFIX,hur05071kns.com
@@ -3503,6 +3505,7 @@ DOMAIN-SUFFIX,m1.kuanff.com
 DOMAIN-SUFFIX,m1.nn670.com
 DOMAIN-SUFFIX,m1.vodjk.com
 DOMAIN-SUFFIX,m1.we556.com
+DOMAIN-SUFFIX,m1vvvv1k2.com
 DOMAIN-SUFFIX,m2.lelemh.com
 DOMAIN-SUFFIX,m4r.fun
 DOMAIN-SUFFIX,m5.66077.cn
@@ -3888,6 +3891,7 @@ DOMAIN-SUFFIX,odxh.cn
 DOMAIN-SUFFIX,odz12g5ag.com
 DOMAIN-SUFFIX,oelj.cn
 DOMAIN-SUFFIX,oeryt111.fun
+DOMAIN-SUFFIX,oesnwi.icu
 DOMAIN-SUFFIX,oewrutk.top
 DOMAIN-SUFFIX,oexk.cn
 DOMAIN-SUFFIX,ofd.meng-an.cn
@@ -5773,6 +5777,7 @@ DOMAIN-SUFFIX,xplbxx.icu
 DOMAIN-SUFFIX,xpxi.cn
 DOMAIN-SUFFIX,xqrydt.icu
 DOMAIN-SUFFIX,xrlzhk.top
+DOMAIN-SUFFIX,xrus.cn
 DOMAIN-SUFFIX,xs.houyi.baofeng.net
 DOMAIN-SUFFIX,xs6po.icu
 DOMAIN-SUFFIX,xsrezl.icu

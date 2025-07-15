@@ -989,6 +989,7 @@ DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-SUFFIX,ssports.com
 DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,syxrt.com
 DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tec73.com
