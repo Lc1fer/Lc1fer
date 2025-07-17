@@ -98,6 +98,7 @@ DOMAIN,4632674a5defcfffd2b772bd818b1d48.v.smtcdns.com
 DOMAIN,4668eb9ddc3ebf764a4cb52565784f43.v.smtcdns.com
 DOMAIN,468d239d92e4a466612a20f3e3eb44ed.v.smtcdns.com
 DOMAIN,4750e2222a232d3fbc819b84ae70cae7.v.smtcdns.com
+DOMAIN,4758d75ac65d997121a77a89d7578aa1.v.smtcdns.com
 DOMAIN,47828afe58d2ddeeed6ad35a9c5e59d6.v.smtcdns.com
 DOMAIN,47e7fe675061b2501e748d28859005ce.v.smtcdns.com
 DOMAIN,4839f0ed6604608dd1fbe0fe0abd5c6a.v.smtcdns.com
@@ -772,6 +773,7 @@ DOMAIN-SUFFIX,ecombdstatic.com
 DOMAIN-SUFFIX,ecombdvod.com
 DOMAIN-SUFFIX,ecpsrplus.com
 DOMAIN-SUFFIX,edge-byted.com
+DOMAIN-SUFFIX,edimob.com
 DOMAIN-SUFFIX,efapiao.com
 DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,ejoy365.com
