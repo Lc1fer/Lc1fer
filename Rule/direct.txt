@@ -258,6 +258,7 @@ DOMAIN,b4a779be0362ad1a570f90e5598cb5c2.v.smtcdns.com
 DOMAIN,b5ae1e475c7df4237527bb11e64f4772.v.smtcdns.com
 DOMAIN,b696474b125b7c78f243872f36f16962.v.smtcdns.com
 DOMAIN,b6a8eca2faac1f19718b423adaef9216.v.smtcdns.com
+DOMAIN,b6fd4ddbbf771acd14b2a8c4792f0a92.v.smtcdns.com
 DOMAIN,b73adc8071e5f666d1b4588b3d193176.v.smtcdns.com
 DOMAIN,b8b74365d4516c1668859fbf5402f618.v.smtcdns.com
 DOMAIN,b8c307c83bad912635ffcc85de99b27b.v.smtcdns.com
@@ -352,6 +353,7 @@ DOMAIN,delivery.elemecdn.com
 DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,dimg04.tripcdn.com
 DOMAIN,dir.1212338883-2-1.gcloudsvcs.com
+DOMAIN,dl1-v6.aliyundrive.cloud
 DOMAIN,dl1.aliyundrive.cloud
 DOMAIN,download.2.1212338883.wz.gcloudgbs.com
 DOMAIN,downupdate.aly.tcdnos.com
@@ -384,6 +386,7 @@ DOMAIN,eebe63fe7142263af57ce7d30ce778de.v.smtcdns.com
 DOMAIN,ekpitnof.z1cdn.com
 DOMAIN,es.elemecdn.com
 DOMAIN,escvesfe.z1cdn.com
+DOMAIN,evyfhkfk.z1cdn.com
 DOMAIN,f0b3e97c2e06fa4a8cc010f806b9f511.v.smtcdns.com
 DOMAIN,f220f7da99a9853e6c7afc99dfd2ef70.v.smtcdns.com
 DOMAIN,f22ce9be20b03ec3f42ce99934130eaf.v.smtcdns.com
@@ -404,6 +407,7 @@ DOMAIN,fe377d3deaca65a513cff0c0e4e69e6d.v.smtcdns.com
 DOMAIN,fee3bb88ac6e95ca513f5aed59a5366f.v.smtcdns.com
 DOMAIN,fef67b38553661183d110de613063adb.v.smtcdns.com
 DOMAIN,fgw.s3.cn-north-1.jdcloud-oss.com
+DOMAIN,fkytujbz.z1cdn.com
 DOMAIN,fp-it.fengkongcloud.com
 DOMAIN,fp.youzanyun.com
 DOMAIN,fuibwlhf.z1cdn.com
@@ -558,10 +562,12 @@ DOMAIN,wkmp2.tingyun.com
 DOMAIN,wkrt.tingyun.com
 DOMAIN,wvcdojrt.z1cdn.com
 DOMAIN,www.xingsuyun58.com
+DOMAIN,wx-channels-webrtc-dk.qlivecdn.com
 DOMAIN,wxb-rc.isvjcloud.com
 DOMAIN,wxddizvm.z1cdn.com
 DOMAIN,xfytxwhl.z1cdn.com
 DOMAIN,xinstall.top
+DOMAIN,xtoyqfuj.z1cdn.com
 DOMAIN,ycuhshyj.z1cdn.com
 DOMAIN,ydmbpic.yundasys.com
 DOMAIN,yilabao.s3-cache-accelerate.cn-north-1.jdcloud-oss.com

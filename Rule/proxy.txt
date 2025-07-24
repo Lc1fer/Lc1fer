@@ -14,6 +14,8 @@ DOMAIN,cdn.churchofjesuschrist.org
 DOMAIN,cdn.cookielaw.org
 DOMAIN,cdn.honey.io
 DOMAIN,cdn.jsdelivr.net
+DOMAIN,cdn.kineticbloom.org
+DOMAIN,cdn.mcauto-images-production.sendgrid.net
 DOMAIN,cdn.sapphire.microsoftapp.net
 DOMAIN,cdn.v2ex.com
 DOMAIN,cdnperf.cachefly.net
@@ -40,6 +42,8 @@ DOMAIN,ipsw.dev
 DOMAIN,ipsw.me
 DOMAIN,ipswbeta.dev
 DOMAIN,ipv4dns.com
+DOMAIN,kelee.one
+DOMAIN,kit-cdn.shazam.com
 DOMAIN,lightning.warnermediacdn.com
 DOMAIN,logincdn.msauth.net
 DOMAIN,lvlv.lv
@@ -92,6 +96,7 @@ DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,aptv.app
 DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azure.net
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bidmachine.io
 DOMAIN-SUFFIX,blankwonder.notion.site
