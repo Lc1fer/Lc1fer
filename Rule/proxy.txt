@@ -73,6 +73,7 @@ DOMAIN,www.bing.com
 DOMAIN,yummy.best
 DOMAIN,zeptojs.com
 DOMAIN-SUFFIX,112114.eu.org
+DOMAIN-SUFFIX,1password.co
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordservices.com
 DOMAIN-SUFFIX,1passwordusercontent.com
