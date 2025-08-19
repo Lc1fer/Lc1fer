@@ -394,6 +394,8 @@ DOMAIN,eb9c1a73228c5706a0a84c8f5624864c.v.smtcdns.com
 DOMAIN,ee33ac7da278064dc59f864d44a7b3e8.v.smtcdns.com
 DOMAIN,eeaac6790989dc38883a73e3ea96a4bc.v.smtcdns.com
 DOMAIN,eebe63fe7142263af57ce7d30ce778de.v.smtcdns.com
+DOMAIN,ef9ce45ba3dbae4278b01cdc1ec06243.v.smtcdns.com
+DOMAIN,efe8007fd72205adc7caf67d3385b914.v.smtcdns.com
 DOMAIN,ekpitnof.z1cdn.com
 DOMAIN,es.elemecdn.com
 DOMAIN,escvesfe.z1cdn.com
@@ -1042,6 +1044,7 @@ DOMAIN-SUFFIX,tlivedns.com
 DOMAIN-SUFFIX,tlivesource.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,tongdun.net
+DOMAIN-SUFFIX,toponad.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,toutiaoapi.com
 DOMAIN-SUFFIX,toutiaoimg.com
