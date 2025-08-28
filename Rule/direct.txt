@@ -319,6 +319,7 @@ DOMAIN,case-cdn.oceanplayable.com
 DOMAIN,cb1cbbb7486632c188f93e4fda69bd0e.v.smtcdns.com
 DOMAIN,cb52b1912016eaa1a03a598ccdc1a500.v.smtcdns.com
 DOMAIN,cce4d91735e87deba8c7ef9c1ab01527.v.smtcdns.com
+DOMAIN,cd21121de4a6d96a08d8374babd99e16.v.smtcdns.com
 DOMAIN,cd35384f4a15743b0ee0c27ee0b9c818.v.smtcdns.com
 DOMAIN,cd3fe8a462fc0b945d7e9038dfcc6013.v.smtcdns.com
 DOMAIN,cd57cc5ba5275d1ff99f548fd5563365.v.smtcdns.com
@@ -417,6 +418,7 @@ DOMAIN,f54c64dad6f4397d4e1b92b1c6462879.v.smtcdns.com
 DOMAIN,f5a7e4c609c1836af03b9a8e531bfae5.v.smtcdns.com
 DOMAIN,f7742180177e03c30b06d678e3b98fe0.v.smtcdns.com
 DOMAIN,f888b2822e518955ce13884b024bc754.v.smtcdns.com
+DOMAIN,f8c536e3dd2875559b153043d5a11c26.v.smtcdns.com
 DOMAIN,fa1ff0e57d84fe8668a8469b4d2f612a.v.smtcdns.com
 DOMAIN,fc6bdef703d5a75bd68fdc10f2a08216.v.smtcdns.com
 DOMAIN,fc91ae1997d3099df0b782add8905c93.v.smtcdns.com
@@ -1019,6 +1021,7 @@ DOMAIN-SUFFIX,sinopec.com
 DOMAIN-SUFFIX,sinopecsales.com
 DOMAIN-SUFFIX,siomxity.com
 DOMAIN-SUFFIX,siomxity.net
+DOMAIN-SUFFIX,sisensing.com
 DOMAIN-SUFFIX,sj-hospital.org
 DOMAIN-SUFFIX,sjxydc.com
 DOMAIN-SUFFIX,sjyymarket.com
