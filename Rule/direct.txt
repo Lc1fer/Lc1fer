@@ -79,6 +79,7 @@ DOMAIN,34352f054e2af0d7f27aaee98bedd823.v.smtcdns.com
 DOMAIN,344cafe4109d7c08b2a30c77f627e235.v.smtcdns.com
 DOMAIN,350340427cda284af0dfdcd5dedba24f.v.smtcdns.com
 DOMAIN,360f730460203b953c16ecdbe365e2c1.v.smtcdns.com
+DOMAIN,361df79625aa1db7332b164f9410d651.v.smtcdns.com
 DOMAIN,37558365a0c856538a57f8d86c330108.v.smtcdns.com
 DOMAIN,37d5a68396ed349828aa1e26cf94044d.v.smtcdns.com
 DOMAIN,386db57b5943e1fc751e05d112e82878.v.smtcdns.com
@@ -428,6 +429,7 @@ DOMAIN,fe04ac0c81b8359b486ad32992adfa8a.v.smtcdns.com
 DOMAIN,fe377d3deaca65a513cff0c0e4e69e6d.v.smtcdns.com
 DOMAIN,fee3bb88ac6e95ca513f5aed59a5366f.v.smtcdns.com
 DOMAIN,fef67b38553661183d110de613063adb.v.smtcdns.com
+DOMAIN,ff398d6fb730d29b26a9cd4c456f177e.v.smtcdns.com
 DOMAIN,ffd9e4d98344df73367acdaabb088415.v.smtcdns.com
 DOMAIN,fgw.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,fkytujbz.z1cdn.com
@@ -505,6 +507,7 @@ DOMAIN,lhkgkjuw.z1cdn.com
 DOMAIN,lhpwiroq.z1cdn.com
 DOMAIN,ling-cdn.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,lizhi.shop
+DOMAIN,lqcsyloe.z1cdn.com
 DOMAIN,lwpxzics.z1cdn.com
 DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzcrm-rc.isvjcloud.com
@@ -902,6 +905,9 @@ DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,kuiniuca.com
 DOMAIN-SUFFIX,kunlunjyk.com
 DOMAIN-SUFFIX,kwaizt.com
+DOMAIN-SUFFIX,ky-express.com
+DOMAIN-SUFFIX,kye-erp.com
+DOMAIN-SUFFIX,kyslb.com
 DOMAIN-SUFFIX,lanyue-tech.com
 DOMAIN-SUFFIX,lanzoup.com
 DOMAIN-SUFFIX,lianjia.com
@@ -1105,6 +1111,7 @@ DOMAIN-SUFFIX,xincheng.com
 DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,xnnu.com
 DOMAIN-SUFFIX,yiche.com
+DOMAIN-SUFFIX,yingt.fun
 DOMAIN-SUFFIX,yingzhongshare.com
 DOMAIN-SUFFIX,yiworld.com
 DOMAIN-SUFFIX,yonghuivip.com
