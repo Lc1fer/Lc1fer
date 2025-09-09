@@ -1,5 +1,5 @@
-# 更新时间：2025年9月9日 15:31
-# 规则数量：5950
+# 更新时间：2025年9月9日 15:43
+# 规则数量：5952
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -1021,6 +1021,8 @@ DOMAIN-SUFFIX,admsapi.businessweekly.com.tw
 DOMAIN-SUFFIX,adnetwork.vn
 DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adnyg.com
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,adotone.com
 DOMAIN-SUFFIX,adp.cnki.net
 DOMAIN-SUFFIX,adp.cnool.net
