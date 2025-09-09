@@ -160,6 +160,7 @@ DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipapi.is
 DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,iva-api.com
 DOMAIN-SUFFIX,jd.hk
 DOMAIN-SUFFIX,jellybusgo.com
 DOMAIN-SUFFIX,legra.ph
