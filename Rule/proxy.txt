@@ -111,6 +111,7 @@ DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,crisp.chat
+DOMAIN-SUFFIX,csp.withgoogle.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,disney-plus.net
@@ -172,6 +173,7 @@ DOMAIN-SUFFIX,llnwi.net
 DOMAIN-SUFFIX,loli.net
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,meijutt.net
+DOMAIN-SUFFIX,mescroll.com
 DOMAIN-SUFFIX,mikrotik.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,mlinks.cc
