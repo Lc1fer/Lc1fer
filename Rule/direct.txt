@@ -1081,6 +1081,7 @@ DOMAIN-SUFFIX,ugdtimg.com
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umetrip.com
 DOMAIN-SUFFIX,umsns.com
+DOMAIN-SUFFIX,unicomtest.com
 DOMAIN-SUFFIX,unionpay.com
 DOMAIN-SUFFIX,vegslb.com
 DOMAIN-SUFFIX,veryzhun.com

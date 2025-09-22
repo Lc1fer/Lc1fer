@@ -123,6 +123,7 @@ DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,facereplacerext.com
 DOMAIN-SUFFIX,fastly-analytics.com
+DOMAIN-SUFFIX,fdcservers.net
 DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,fontawesome.com
@@ -247,6 +248,7 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,uncn.jp
 DOMAIN-SUFFIX,usertrust.com
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,vervegroupinc.net
 DOMAIN-SUFFIX,voipraider.com
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
