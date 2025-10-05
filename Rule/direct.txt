@@ -569,6 +569,7 @@ DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,ssbeakue.z1cdn.com
 DOMAIN,sspai.com
 DOMAIN,static-cdn-wyhy.xincheng.com
+DOMAIN,static-chain.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,static.fengkongcloud.com
 DOMAIN,static.luckincoffeecdn.com
 DOMAIN,static.tripcdn.com
@@ -891,6 +892,7 @@ DOMAIN-SUFFIX,jabpark.com
 DOMAIN-SUFFIX,jchunuo.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,jingxi.com
 DOMAIN-SUFFIX,jinritemai.com
 DOMAIN-SUFFIX,jinzhoubank.com
 DOMAIN-SUFFIX,jkcsjd.com

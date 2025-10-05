@@ -35,6 +35,7 @@ DOMAIN,gglive.vn
 DOMAIN,gitlab.com
 DOMAIN,hostloc.com
 DOMAIN,http-inputs-notion.splunkcloud.com
+DOMAIN,httpdns.yunxinfw.com
 DOMAIN,ifconfig.me
 DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
 DOMAIN,ipinfo.io
