@@ -1017,6 +1017,7 @@ DOMAIN-SUFFIX,rtxapp.com
 DOMAIN-SUFFIX,ruanmei.com
 DOMAIN-SUFFIX,saic-gm.com
 DOMAIN-SUFFIX,sankuai.com
+DOMAIN-SUFFIX,sanweimoxing.com
 DOMAIN-SUFFIX,sealaly.net
 DOMAIN-SUFFIX,searchpstatp.com
 DOMAIN-SUFFIX,servicewechat.com
