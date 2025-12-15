@@ -1,5 +1,6 @@
 DOMAIN,0013585c38b7e8d5152e91b70ce5def3.v.smtcdns.com
 DOMAIN,017fe21d2989d0d4208af99088621f51.v.smtcdns.com
+DOMAIN,01a41d71a7afb755d98ca2ca1b999f33.v.smtcdns.com
 DOMAIN,01fdbfbe4dba23cd62a112073a2ff699.v.smtcdns.com
 DOMAIN,020a83d33dc08117247b856c8d68bf79.v.smtcdns.com
 DOMAIN,030d0d9b37f354118672344db91e6971.v.smtcdns.com
@@ -45,6 +46,7 @@ DOMAIN,16cd194f1503f94db77fb086368196d1.v.smtcdns.com
 DOMAIN,18327800c80044adcb6caee4d91de9e3.v.smtcdns.com
 DOMAIN,18554167906d753a51871d8eecae765a.v.smtcdns.com
 DOMAIN,18830d53e1b8d3bed03824fdac3310cf.v.smtcdns.com
+DOMAIN,190a60e2aa7ba62efbe020a05e9f4426c44375832a6b7b6d.v.smtcdns.com
 DOMAIN,196f1527910c658fda22b794e46c834c.v.smtcdns.com
 DOMAIN,1a71343c22b251fee34afb082548da1d.v.smtcdns.com
 DOMAIN,1abaa62fa2b0526e8d82ae30b3e8313a.v.smtcdns.com
@@ -104,6 +106,7 @@ DOMAIN,4089ad887a4ca45d179e6e7a892ed20b.v.smtcdns.com
 DOMAIN,4170db89126cdaa03cd2d7d4dad504cd.v.smtcdns.com
 DOMAIN,42668956c25bc5b5a7fc3f4c0f238544.v.smtcdns.com
 DOMAIN,42e44bbf51c387021bd749935a9f5b94.v.smtcdns.com
+DOMAIN,432bd6f3c24ecd7c01c5cb28650f2650.v.smtcdns.com
 DOMAIN,43749b2c1f56235efc19f874e63b3880.v.smtcdns.com
 DOMAIN,4632674a5defcfffd2b772bd818b1d48.v.smtcdns.com
 DOMAIN,4668eb9ddc3ebf764a4cb52565784f43.v.smtcdns.com
@@ -460,12 +463,14 @@ DOMAIN,fuss10.elemecdn.com
 DOMAIN,g.yccdn.com
 DOMAIN,gdctyunct.inter.71edge.com
 DOMAIN,gfxioqay.z1cdn.com
+DOMAIN,gofsznwf.z1cdn.com
 DOMAIN,goqrqdrj.z1cdn.com
 DOMAIN,gqsixgnz.z1cdn.com
 DOMAIN,gt1dc2auoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2ljck6.smogfly.cloud
 DOMAIN,gt1dc2auoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2nvake.smogfly.cloud
 DOMAIN,gt1dc3iuoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2lj646.smogfly.cloud
 DOMAIN,guuxpusn.z1cdn.com
+DOMAIN,gvbjlcah.z1cdn.com
 DOMAIN,h5-data.elemecdn.com
 DOMAIN,hbcxffap.z1cdn.com
 DOMAIN,hbvmwfyp.z1cdn.com
@@ -610,6 +615,7 @@ DOMAIN,ttby.v.smtcdns.com
 DOMAIN,twhgfcpk.z1cdn.com
 DOMAIN,tyejwatd.z1cdn.com
 DOMAIN,ukybouir.z1cdn.com
+DOMAIN,unelejab.z1cdn.com
 DOMAIN,uqagudji.z1cdn.com
 DOMAIN,usercsscdn.wjx.com
 DOMAIN,uzwbdv.xyz
@@ -1057,6 +1063,7 @@ DOMAIN-SUFFIX,shqmxx.com
 DOMAIN-SUFFIX,shujupie.com
 DOMAIN-SUFFIX,shunicomtest.com
 DOMAIN-SUFFIX,shxnetwork.com
+DOMAIN-SUFFIX,shyingt.asia
 DOMAIN-SUFFIX,sinopec.com
 DOMAIN-SUFFIX,sinopecsales.com
 DOMAIN-SUFFIX,siomxity.com
