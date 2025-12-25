@@ -247,6 +247,7 @@ DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,uncn.jp
+DOMAIN-SUFFIX,upkit.onrender.com
 DOMAIN-SUFFIX,usertrust.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,vervegroupinc.net
