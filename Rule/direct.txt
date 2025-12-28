@@ -130,7 +130,9 @@ DOMAIN,4ffd4f4691c223bd2b78e7efe4d67b55.v.smtcdns.com
 DOMAIN,50a061cd084b70fea6deb23d90d158bc.v.smtcdns.com
 DOMAIN,50aced410404cf3be76ef6bb5c12d04e.v.smtcdns.com
 DOMAIN,50af26256f0f8d127d181edd70d7479e.v.smtcdns.com
+DOMAIN,50cb63cfdc3b5672eb75c6c481a50e30.v.smtcdns.com
 DOMAIN,53f216a850598c105d41b22d6d02079f.v.smtcdns.com
+DOMAIN,5442eb4370cabdeb423a1c7b792db6cfb5c203d7cf6a9c23.v.smtcdns.com
 DOMAIN,55b5b295656d661a2558ac4ce49f661a.v.smtcdns.com
 DOMAIN,56cea7330496d90e6beba238f6337fbf.v.smtcdns.com
 DOMAIN,571a576c9eb7db5e922c49b0a161dcff.v.smtcdns.com
@@ -440,6 +442,7 @@ DOMAIN,f539c0db03fb5339458b5a35857f91ae.v.smtcdns.com
 DOMAIN,f54c64dad6f4397d4e1b92b1c6462879.v.smtcdns.com
 DOMAIN,f5a7e4c609c1836af03b9a8e531bfae5.v.smtcdns.com
 DOMAIN,f660791665217af69de019519414fdf8.v.smtcdns.com
+DOMAIN,f6c66f922d0420b0f13b13379d0a9d3d.v.smtcdns.com
 DOMAIN,f7742180177e03c30b06d678e3b98fe0.v.smtcdns.com
 DOMAIN,f888b2822e518955ce13884b024bc754.v.smtcdns.com
 DOMAIN,f8c536e3dd2875559b153043d5a11c26.v.smtcdns.com
