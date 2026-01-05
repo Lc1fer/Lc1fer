@@ -80,6 +80,7 @@ DOMAIN,2b8f5204471a3e1d93b0290ff09d04eecd7c7a3073bd5f4d.v.smtcdns.com
 DOMAIN,2c48b5781db5bcf1f47d8c63d93c05b6.v.smtcdns.com
 DOMAIN,2dlvuicehn2u5v3422t6up52asepsqacgbclv3ho002rutpi0s4fugd4.smogfly.cloud
 DOMAIN,2ecaafbaa04fcaeea0be0c83a5949114.v.smtcdns.com
+DOMAIN,301e7b2535d76df95ca981074c076446.v.smtcdns.com
 DOMAIN,308b6db74f822147cfe9895989411445.v.smtcdns.com
 DOMAIN,30e378c45466463ef9e265db431a1362.v.smtcdns.com
 DOMAIN,320aqjvq56lq8hlpeo36brdmng7rmhren8jn50u4r3t0fdkg79kvvt9i.smogfly.cloud
@@ -87,6 +88,7 @@ DOMAIN,34352f054e2af0d7f27aaee98bedd823.v.smtcdns.com
 DOMAIN,344cafe4109d7c08b2a30c77f627e235.v.smtcdns.com
 DOMAIN,350340427cda284af0dfdcd5dedba24f.v.smtcdns.com
 DOMAIN,360f730460203b953c16ecdbe365e2c1.v.smtcdns.com
+DOMAIN,3614d6a1d856c4433180bb869b3220c6.v.smtcdns.com
 DOMAIN,361df79625aa1db7332b164f9410d651.v.smtcdns.com
 DOMAIN,37558365a0c856538a57f8d86c330108.v.smtcdns.com
 DOMAIN,37d5a68396ed349828aa1e26cf94044d.v.smtcdns.com
@@ -172,6 +174,7 @@ DOMAIN,70b58e654190a6b43216108918093d7f.v.smtcdns.com
 DOMAIN,70bc86181798a87485aa0baa3ba2c0e6.v.smtcdns.com
 DOMAIN,71ff4a28073ef9b81f89bb3dccd7b936.v.smtcdns.com
 DOMAIN,72587992e04325b84a1a73984ef6a7ff.v.smtcdns.com
+DOMAIN,7283900534d2a8c2974cab1179a4bcac.v.smtcdns.com
 DOMAIN,7429007e815eb2e7f5311129762e090f.v.smtcdns.com
 DOMAIN,751545c8800fcea652634bbf9321727f.v.smtcdns.com
 DOMAIN,75d0ae2630db4c84e1dc55f1de3c0d4e.v.smtcdns.com
@@ -223,6 +226,7 @@ DOMAIN,94a59dbbef6d590ed5ab7d71b7a858c8.v.smtcdns.com
 DOMAIN,952acc8690ee565f0c70202ef058a643.v.smtcdns.com
 DOMAIN,95689abd714cfb2381f68b8540c07cd2.v.smtcdns.com
 DOMAIN,97039627593f84480e7509bdd42b4325.v.smtcdns.com
+DOMAIN,971e2c1da29ed56a6f4d4163e2ca9cba6e564d50532951d9.v.smtcdns.com
 DOMAIN,97e4c756b9c7f6cbd64891fab6ca095c.v.smtcdns.com
 DOMAIN,983346fc2098747d5dc73030fbd1467a.v.smtcdns.com
 DOMAIN,98b144eeb9ca046515f42cc98187043f.v.smtcdns.com
@@ -339,6 +343,7 @@ DOMAIN,case-cdn.oceanplayable.com
 DOMAIN,cb1cbbb7486632c188f93e4fda69bd0e.v.smtcdns.com
 DOMAIN,cb3078e30fbd9bf3f519dd335fc7f6c4.v.smtcdns.com
 DOMAIN,cb52b1912016eaa1a03a598ccdc1a500.v.smtcdns.com
+DOMAIN,cbe1859373528c6e2ff57e0d33233efc7d8314a055157b4d.v.smtcdns.com
 DOMAIN,cce4d91735e87deba8c7ef9c1ab01527.v.smtcdns.com
 DOMAIN,cd21121de4a6d96a08d8374babd99e16.v.smtcdns.com
 DOMAIN,cd35384f4a15743b0ee0c27ee0b9c818.v.smtcdns.com
@@ -357,6 +362,7 @@ DOMAIN,cdnpic.wuuxiang.com
 DOMAIN,ce544c0b8567fc73df7ac743f6154324.v.smtcdns.com
 DOMAIN,ce55c83a24f1117053f01551ed1f1d85.v.smtcdns.com
 DOMAIN,cf.aliyun.com
+DOMAIN,cjgame3cdn.chujinggamefun.com
 DOMAIN,cjhy-isv.isvjcloud.com
 DOMAIN,cn-beijing-data.aliyundrive.net
 DOMAIN,cn-hangzhou-data.aliyundrive.net
@@ -432,6 +438,7 @@ DOMAIN,escvesfe.z1cdn.com
 DOMAIN,etrack05.com
 DOMAIN,evyfhkfk.z1cdn.com
 DOMAIN,express-resource.s3.cn-north-1.jdcloud-oss.com
+DOMAIN,f031686982c2746b5b827df1c2d6c8d9.v.smtcdns.com
 DOMAIN,f0b3e97c2e06fa4a8cc010f806b9f511.v.smtcdns.com
 DOMAIN,f220f7da99a9853e6c7afc99dfd2ef70.v.smtcdns.com
 DOMAIN,f22ce9be20b03ec3f42ce99934130eaf.v.smtcdns.com
@@ -549,6 +556,9 @@ DOMAIN,lyra-m.jdcloud.com
 DOMAIN,lzcrm-rc.isvjcloud.com
 DOMAIN,lzdz-isv.isvjcloud.com
 DOMAIN,lzkj-isv.isvjcloud.com
+DOMAIN,m16.zhicyun.com
+DOMAIN,m17.zhicyun.com
+DOMAIN,m19.zhicyun.com
 DOMAIN,m3.zhicyun.com
 DOMAIN,m6.zhicyun.com
 DOMAIN,mbpxapi.yundasys.com
@@ -589,6 +599,7 @@ DOMAIN,rlcyvlze.z1cdn.com
 DOMAIN,rrlaybqq.z1cdn.com
 DOMAIN,rumt-zh.com
 DOMAIN,s3.cn-north-1.jdcloud-oss.com
+DOMAIN,saas-web.hdlcdns.com
 DOMAIN,sd-gl.xycdn.com
 DOMAIN,sd-gslb.xycdn.com
 DOMAIN,seeds-open.xycdn.com
@@ -803,6 +814,7 @@ DOMAIN-SUFFIX,chinanetcenter.com
 DOMAIN-SUFFIX,chinanums.com
 DOMAIN-SUFFIX,chinapay.com
 DOMAIN-SUFFIX,chinaz.com
+DOMAIN-SUFFIX,chujinggamefun.com
 DOMAIN-SUFFIX,cibntv.net
 DOMAIN-SUFFIX,cjjd14.com
 DOMAIN-SUFFIX,cl2009.com
@@ -892,6 +904,7 @@ DOMAIN-SUFFIX,guanmeikj.com
 DOMAIN-SUFFIX,gwdang.com
 DOMAIN-SUFFIX,gzhc365.com
 DOMAIN-SUFFIX,haici.com
+DOMAIN-SUFFIX,haidilao.com
 DOMAIN-SUFFIX,hdnd01.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,healthjd.com
@@ -943,6 +956,7 @@ DOMAIN-SUFFIX,kaspersky-labs.com
 DOMAIN-SUFFIX,kaspersky.com
 DOMAIN-SUFFIX,ke.com
 DOMAIN-SUFFIX,kejet.net
+DOMAIN-SUFFIX,kiwa-tech.com
 DOMAIN-SUFFIX,koubei.com
 DOMAIN-SUFFIX,kuaishou.com
 DOMAIN-SUFFIX,kuaishouzt.com
