@@ -5,6 +5,7 @@ DOMAIN,acctcdn.msauth.net
 DOMAIN,acctcdn.msftauth.net
 DOMAIN,api.xmancdn.net
 DOMAIN,aplo-evnt.com
+DOMAIN,boxjs.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN,cdn-f.adsmoloco.com
@@ -97,6 +98,7 @@ DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,aptv.app
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,azure.net
@@ -175,6 +177,7 @@ DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,llnwi.net
 DOMAIN-SUFFIX,loli.net
 DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,mbspeed.net
 DOMAIN-SUFFIX,meijutt.net
 DOMAIN-SUFFIX,mescroll.com
 DOMAIN-SUFFIX,mikrotik.com
