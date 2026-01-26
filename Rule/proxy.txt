@@ -21,7 +21,9 @@ DOMAIN,cdn.sapphire.microsoftapp.net
 DOMAIN,cdn.v2ex.com
 DOMAIN,cdnperf.cachefly.net
 DOMAIN,cdnperf.qwilt.com
+DOMAIN,cdp.cloud.unity3d.com
 DOMAIN,cloudflareinsights.com
+DOMAIN,config.uca.cloud.unity3d.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,d18dyiwu97wm6q.cloudfront.net
 DOMAIN,d3888oxgux3fey.cloudfront.net
@@ -131,6 +133,7 @@ DOMAIN-SUFFIX,fdcservers.net
 DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,fontawesome.com
+DOMAIN-SUFFIX,gameanalytics.com
 DOMAIN-SUFFIX,gcorelabs.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ghost.io
