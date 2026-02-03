@@ -220,6 +220,7 @@ DOMAIN,849c500402b247ab16d3a50afaf7777f.v.smtcdns.com
 DOMAIN,857435a40d0e65a06f11dfbcc5ba7d8a.v.smtcdns.com
 DOMAIN,857db0ae3ad3a30ce7e16f9b0a2cc546.v.smtcdns.com
 DOMAIN,8599284cee2054bccc6e35669dba2cd1.v.smtcdns.com
+DOMAIN,85e5c76293ea8acc38625c0c2a1e5e533e70ca3dd65dd779.v.smtcdns.com
 DOMAIN,87151ed0ffb042fd2eb4bb114ba33592.v.smtcdns.com
 DOMAIN,878f60821c6bf3e69cd0db459c842804.v.smtcdns.com
 DOMAIN,8c42d5acaa49e893ef8e3c081d11da86.v.smtcdns.com
@@ -657,6 +658,7 @@ DOMAIN,unelejab.z1cdn.com
 DOMAIN,uqagudji.z1cdn.com
 DOMAIN,usercsscdn.wjx.com
 DOMAIN,uzwbdv.xyz
+DOMAIN,videomaker-30171.sz.gfp.tencent-cloud.com
 DOMAIN,voivkrwt.z1cdn.com
 DOMAIN,vzwfzzhh.z1cdn.com
 DOMAIN,wamxyoll.z1cdn.com
