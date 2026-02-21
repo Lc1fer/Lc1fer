@@ -157,6 +157,7 @@ DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,hdhive.org
+DOMAIN-SUFFIX,hookspf.com
 DOMAIN-SUFFIX,hubapi.com
 DOMAIN-SUFFIX,ibruce.info
 DOMAIN-SUFFIX,iill.top
