@@ -198,6 +198,7 @@ DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,nsloon.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
+DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com
 DOMAIN-SUFFIX,olympics.com

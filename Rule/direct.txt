@@ -665,6 +665,7 @@ DOMAIN,uqagudji.z1cdn.com
 DOMAIN,usercsscdn.wjx.com
 DOMAIN,uzwbdv.xyz
 DOMAIN,videomaker-30171.sz.gfp.tencent-cloud.com
+DOMAIN,vod-license-m.volccdn.com
 DOMAIN,voivkrwt.z1cdn.com
 DOMAIN,vzwfzzhh.z1cdn.com
 DOMAIN,wamxyoll.z1cdn.com
@@ -942,6 +943,7 @@ DOMAIN-SUFFIX,haidilao.com
 DOMAIN-SUFFIX,hdnd01.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,healthjd.com
+DOMAIN-SUFFIX,hellobike.com
 DOMAIN-SUFFIX,hiecheimaetu.com
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,httpdns.pro
@@ -1185,6 +1187,7 @@ DOMAIN-SUFFIX,veryzhun.com
 DOMAIN-SUFFIX,volceapplog.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,volcsiriusbd.com
+DOMAIN-SUFFIX,volcvod.com
 DOMAIN-SUFFIX,waimaimingtang.com
 DOMAIN-SUFFIX,wandacinemas.com
 DOMAIN-SUFFIX,wandafilm.com
