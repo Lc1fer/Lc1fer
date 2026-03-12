@@ -200,6 +200,7 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,ocsp-certum.com
 DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com
 DOMAIN-SUFFIX,olympics.com
 DOMAIN-SUFFIX,onetrust.com

@@ -701,6 +701,7 @@ DOMAIN,zjbljlxf.z1cdn.com
 DOMAIN,zres.elemecdn.com
 DOMAIN,zrogmawv.z1cdn.com
 DOMAIN,zruysdpz.z1cdn.com
+DOMAIN,zt-pull-ai.jdcloud.com
 DOMAIN,zt-pull-las.jdcloud.com
 DOMAIN,zt-pull.jdcloud.com
 DOMAIN,ztoken.uyunad.com
@@ -1218,6 +1219,7 @@ DOMAIN-SUFFIX,xiaomiyoupin.com
 DOMAIN-SUFFIX,xincheng.com
 DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,xnnu.com
+DOMAIN-SUFFIX,xuanlingjian.com
 DOMAIN-SUFFIX,yiche.com
 DOMAIN-SUFFIX,yingt.fun
 DOMAIN-SUFFIX,yingzhongshare.com
