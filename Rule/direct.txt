@@ -619,6 +619,7 @@ DOMAIN,pubstatic.b0.upaiyun.com
 DOMAIN,pull-m1.wxlivecdn.com
 DOMAIN,pull-t2.wxlivecdn.com
 DOMAIN,pxojgeud.z1cdn.com
+DOMAIN,pxyfevgb.z1cdn.com
 DOMAIN,q16477799cada3.cdn.sohucs.com
 DOMAIN,q2.zhicyun.com
 DOMAIN,q3.zhicyun.com
