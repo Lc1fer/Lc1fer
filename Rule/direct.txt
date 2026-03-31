@@ -235,6 +235,7 @@ DOMAIN,90c86d94a73896f5d58b4f43015c984b.v.smtcdns.com
 DOMAIN,90fdd102849c8994e3585b57505187b9.v.smtcdns.com
 DOMAIN,915b5a52028c8214156ed0cdbe5f25b9.v.smtcdns.com
 DOMAIN,9247b55adb0ff561cd5f01c4b17cc308.v.smtcdns.com
+DOMAIN,92648cb23f5071ef58d0535d2e43eb36.v.smtcdns.com
 DOMAIN,92919e16eaff929108406a96696bc10b.v.smtcdns.com
 DOMAIN,933fe9096b10099fabf1f065c3a996dd.v.smtcdns.com
 DOMAIN,94795ff1465d714fdb74e4c91a55cfdd.v.smtcdns.com
@@ -626,6 +627,7 @@ DOMAIN,q3.zhicyun.com
 DOMAIN,qgmxcmmk.z1cdn.com
 DOMAIN,qncdnct.inter.71edge.com
 DOMAIN,qosidc.gcloudsdk.com
+DOMAIN,rcyurhqn.z1cdn.com
 DOMAIN,rescdn.qqmail.com
 DOMAIN,rlcyvlze.z1cdn.com
 DOMAIN,rrlaybqq.z1cdn.com
@@ -1167,6 +1169,7 @@ DOMAIN-SUFFIX,tianti.com
 DOMAIN-SUFFIX,tianwenca.com
 DOMAIN-SUFFIX,tjjt360.com
 DOMAIN-SUFFIX,tlivedns.com
+DOMAIN-SUFFIX,tlivesdk.com
 DOMAIN-SUFFIX,tlivesource.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,tongdun.net
