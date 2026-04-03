@@ -504,6 +504,7 @@ DOMAIN,fp.youzanyun.com
 DOMAIN,fuibwlhf.z1cdn.com
 DOMAIN,fuss10.elemecdn.com
 DOMAIN,g.yccdn.com
+DOMAIN,gabzeqri.z1cdn.com
 DOMAIN,gdctyunct.inter.71edge.com
 DOMAIN,gfxioqay.z1cdn.com
 DOMAIN,gofsznwf.z1cdn.com
@@ -664,6 +665,7 @@ DOMAIN,tqbnjkkm.z1cdn.com
 DOMAIN,tqmall-vin.s3.cn-north-1.jcloudcs.com
 DOMAIN,tsyanbth.z1cdn.com
 DOMAIN,ttby.v.smtcdns.com
+DOMAIN,ttnvxqxc.z1cdn.com
 DOMAIN,twhgfcpk.z1cdn.com
 DOMAIN,tyejwatd.z1cdn.com
 DOMAIN,ukybouir.z1cdn.com

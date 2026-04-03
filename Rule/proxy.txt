@@ -56,6 +56,7 @@ DOMAIN,medianova-cdnvperf.mncdn.com
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,napi.ltd
 DOMAIN,nexitally.com
+DOMAIN,nxonearth.com
 DOMAIN,ovh-cdn.perfops.io
 DOMAIN,prodregistryv2.org
 DOMAIN,rsshub.app
