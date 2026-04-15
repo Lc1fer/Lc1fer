@@ -86,6 +86,7 @@ DOMAIN,2c48b5781db5bcf1f47d8c63d93c05b6.v.smtcdns.com
 DOMAIN,2c9a1d7d5f8767adbf04ef528a987ede.v.smtcdns.com
 DOMAIN,2dlvuicehn2u5v3422t6up52asepsqacgbclv3ho002rutpi0s4fugd4.smogfly.cloud
 DOMAIN,2ecaafbaa04fcaeea0be0c83a5949114.v.smtcdns.com
+DOMAIN,2f517f881267e0abcc8459a83a4c3e9a.v.smtcdns.com
 DOMAIN,301e7b2535d76df95ca981074c076446.v.smtcdns.com
 DOMAIN,308b6db74f822147cfe9895989411445.v.smtcdns.com
 DOMAIN,30e378c45466463ef9e265db431a1362.v.smtcdns.com
@@ -336,6 +337,7 @@ DOMAIN,bfxrteoj.z1cdn.com
 DOMAIN,biz-idphoto.obs.cn-north-4.myhuaweicloud.com
 DOMAIN,bj29-hz.cn-hangzhou.data.alicloudccp.com
 DOMAIN,blackhole.isvjcloud.com
+DOMAIN,bnruvueb.z1cdn.com
 DOMAIN,boce-cdn.my-imcloud.com
 DOMAIN,bsy.pandora.tcdnos.com
 DOMAIN,bsy.update.tcdnos.com
@@ -462,8 +464,10 @@ DOMAIN,eehabryr.z1cdn.com
 DOMAIN,ef9ce45ba3dbae4278b01cdc1ec06243.v.smtcdns.com
 DOMAIN,efe8007fd72205adc7caf67d3385b914.v.smtcdns.com
 DOMAIN,ekpitnof.z1cdn.com
+DOMAIN,eoptffgl.z1cdn.com
 DOMAIN,es.elemecdn.com
 DOMAIN,escvesfe.z1cdn.com
+DOMAIN,etechauto.com
 DOMAIN,etrack05.com
 DOMAIN,evyfhkfk.z1cdn.com
 DOMAIN,express-resource.s3.cn-north-1.jdcloud-oss.com
@@ -502,6 +506,7 @@ DOMAIN,fkytujbz.z1cdn.com
 DOMAIN,fp-it.fengkongcloud.com
 DOMAIN,fp.youzanyun.com
 DOMAIN,fuibwlhf.z1cdn.com
+DOMAIN,fulqxfey.z1cdn.com
 DOMAIN,fuss10.elemecdn.com
 DOMAIN,g.yccdn.com
 DOMAIN,gabzeqri.z1cdn.com
@@ -847,6 +852,7 @@ DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdntips.net
+DOMAIN-SUFFIX,ceair.com
 DOMAIN-SUFFIX,chagee.com
 DOMAIN-SUFFIX,chaxungou.com
 DOMAIN-SUFFIX,che168.com
@@ -866,6 +872,7 @@ DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,cnblogs.com
 DOMAIN-SUFFIX,cnyiot.com
 DOMAIN-SUFFIX,cnzz.com
+DOMAIN-SUFFIX,comfylink.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,csair.com
 DOMAIN-SUFFIX,csdn.net
@@ -949,6 +956,7 @@ DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,guanmeikj.com
 DOMAIN-SUFFIX,gwdang.com
 DOMAIN-SUFFIX,gzhc365.com
+DOMAIN-SUFFIX,gzych.vip
 DOMAIN-SUFFIX,haici.com
 DOMAIN-SUFFIX,haidilao.com
 DOMAIN-SUFFIX,hdnd01.com
@@ -998,6 +1006,7 @@ DOMAIN-SUFFIX,jomoxd.com
 DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jskjgroup.com
 DOMAIN-SUFFIX,jyshare.com
+DOMAIN-SUFFIX,jysper.net
 DOMAIN-SUFFIX,kaba365.com
 DOMAIN-SUFFIX,kan0512.com
 DOMAIN-SUFFIX,kaspersky-labs.com
@@ -1234,6 +1243,7 @@ DOMAIN-SUFFIX,xuanlingjian.com
 DOMAIN-SUFFIX,yiche.com
 DOMAIN-SUFFIX,yingt.fun
 DOMAIN-SUFFIX,yingzhongshare.com
+DOMAIN-SUFFIX,yirujs.com
 DOMAIN-SUFFIX,yiworld.com
 DOMAIN-SUFFIX,yonghuivip.com
 DOMAIN-SUFFIX,youdao.com
