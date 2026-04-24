@@ -646,6 +646,7 @@ DOMAIN,seeds-open.xycdn.com
 DOMAIN,sgamecdn.cn.gcloudcs.com
 DOMAIN,shadow.elemecdn.com
 DOMAIN,shop-cdn.lizhi.shop
+DOMAIN,shortcloud.weixin.com
 DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,spcsz.cdn.bcebos.com
@@ -964,6 +965,7 @@ DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,healthjd.com
 DOMAIN-SUFFIX,hellobike.com
 DOMAIN-SUFFIX,hiecheimaetu.com
+DOMAIN-SUFFIX,holiland.com
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,httpdns.pro
 DOMAIN-SUFFIX,huami.com
