@@ -119,6 +119,7 @@ DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,crisp.chat
 DOMAIN-SUFFIX,csp.withgoogle.com
+DOMAIN-SUFFIX,data-lab-pg.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,disney-plus.net
@@ -227,6 +228,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,sourcenext.com
 DOMAIN-SUFFIX,sparcs.net
 DOMAIN-SUFFIX,split.io
 DOMAIN-SUFFIX,sprig.com
@@ -257,6 +259,7 @@ DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,ukw.jp
 DOMAIN-SUFFIX,uncn.jp
 DOMAIN-SUFFIX,upkit.onrender.com
 DOMAIN-SUFFIX,usertrust.com

@@ -682,6 +682,7 @@ DOMAIN,uzwbdv.xyz
 DOMAIN,videomaker-30171.sz.gfp.tencent-cloud.com
 DOMAIN,vod-license-m.volccdn.com
 DOMAIN,voivkrwt.z1cdn.com
+DOMAIN,vuwisvlt.z1cdn.com
 DOMAIN,vyualiku.z1cdn.com
 DOMAIN,vzwfzzhh.z1cdn.com
 DOMAIN,wamxyoll.z1cdn.com
