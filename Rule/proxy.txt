@@ -83,6 +83,7 @@ DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordservices.com
 DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN-SUFFIX,423down.com
+DOMAIN-SUFFIX,actionlink.jp
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.info
 DOMAIN-SUFFIX,adguard.org
