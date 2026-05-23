@@ -72,6 +72,7 @@ DOMAIN,tailscale.com
 DOMAIN,tanju.vip
 DOMAIN,test.b-cdn.net
 DOMAIN,testvideo.b-cdn.net
+DOMAIN,unpkg.com
 DOMAIN,wiki.metacubex.one
 DOMAIN,workingcopy.app
 DOMAIN,www.bing.com
@@ -225,6 +226,7 @@ DOMAIN-SUFFIX,rline1.ru
 DOMAIN-SUFFIX,rudderstack.com
 DOMAIN-SUFFIX,s-microsoft.com
 DOMAIN-SUFFIX,sanity.io
+DOMAIN-SUFFIX,sectigo.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,skk.moe
@@ -243,6 +245,7 @@ DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,taiwanmobile.com
 DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,tecon-gmbh.de
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,telegram.dog

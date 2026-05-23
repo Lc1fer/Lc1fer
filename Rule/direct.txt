@@ -427,9 +427,15 @@ DOMAIN,dizogqlk.z1cdn.com
 DOMAIN,dl1-v6.aliyundrive.cloud
 DOMAIN,dl1.aliyundrive.cloud
 DOMAIN,download.2.1212338883.wz.gcloudgbs.com
+DOMAIN,downupdate.ajy.tcdnos.com
 DOMAIN,downupdate.aly.tcdnos.com
+DOMAIN,downupdate.bdy.tcdnos.com
 DOMAIN,downupdate.bytes.tcdnos.com
+DOMAIN,downupdate.csy.tcdnos.com
+DOMAIN,downupdate.csysw.tcdnos.com
 DOMAIN,downupdate.gtyy.tcdnos.com
+DOMAIN,downupdate.tysjy.tcdnos.com
+DOMAIN,downupdate.tyyy.tcdnos.com
 DOMAIN,downupdate.ws.tcdnos.com
 DOMAIN,dxkpnqnr.z1cdn.com
 DOMAIN,dyxewipf.z1cdn.com
@@ -515,6 +521,7 @@ DOMAIN,gfxioqay.z1cdn.com
 DOMAIN,gofsznwf.z1cdn.com
 DOMAIN,goqrqdrj.z1cdn.com
 DOMAIN,gqsixgnz.z1cdn.com
+DOMAIN,gss.gcloud.gcloudsdk.com
 DOMAIN,gt1dc2auoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2ljck6.smogfly.cloud
 DOMAIN,gt1dc2auoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2nvake.smogfly.cloud
 DOMAIN,gt1dc3iuoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2lj646.smogfly.cloud
@@ -615,6 +622,7 @@ DOMAIN,ntp7.aliyun.com
 DOMAIN,o2oad.elemecdn.com
 DOMAIN,odlefalf.z1cdn.com
 DOMAIN,ozvoogee.z1cdn.com
+DOMAIN,pandora.bdy.tcdnos.com
 DOMAIN,pandora.bytes.tcdnos.com
 DOMAIN,pandora.sjy.tcdnos.com
 DOMAIN,pandora.szxy.tcdnos.com
@@ -649,6 +657,7 @@ DOMAIN,shop-cdn.lizhi.shop
 DOMAIN,shortcloud.weixin.com
 DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
+DOMAIN,smoba.bytes.tcdnos.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,ssbeakue.z1cdn.com
 DOMAIN,sspai.com
@@ -700,6 +709,7 @@ DOMAIN,wx-channels-webrtc-dk.qlivecdn.com
 DOMAIN,wxb-rc.isvjcloud.com
 DOMAIN,wxddizvm.z1cdn.com
 DOMAIN,xfytxwhl.z1cdn.com
+DOMAIN,xhslink.com
 DOMAIN,xinstall.top
 DOMAIN,xjakdoox.z1cdn.com
 DOMAIN,xtoyqfuj.z1cdn.com
@@ -884,6 +894,7 @@ DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,ctripins.com
 DOMAIN-SUFFIX,cuopen.net
 DOMAIN-SUFFIX,d3games.com
+DOMAIN-SUFFIX,dahhxxttxs.com
 DOMAIN-SUFFIX,dailygn.com
 DOMAIN-SUFFIX,datahubtrack.com
 DOMAIN-SUFFIX,daxiang91.com
@@ -1070,6 +1081,7 @@ DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,msstatic.com
 DOMAIN-SUFFIX,mtime.com
 DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,myqcloud.com
@@ -1079,6 +1091,7 @@ DOMAIN-SUFFIX,ndcppx.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,netpock.com
+DOMAIN-SUFFIX,nexusedgeio.com
 DOMAIN-SUFFIX,ngarihealth.com
 DOMAIN-SUFFIX,nmbyh.com
 DOMAIN-SUFFIX,nongxinyin.com
@@ -1234,6 +1247,7 @@ DOMAIN-SUFFIX,wuuxiang.com
 DOMAIN-SUFFIX,wxamedia.com
 DOMAIN-SUFFIX,wxgateway.com
 DOMAIN-SUFFIX,xiaoaisound.com
+DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net
