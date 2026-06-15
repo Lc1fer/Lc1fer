@@ -9,6 +9,7 @@ DOMAIN,boxjs.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN,cdn-f.adsmoloco.com
+DOMAIN,cdn.auth0.com
 DOMAIN,cdn.branch.io
 DOMAIN,cdn.chinaliftoff-creatives.io
 DOMAIN,cdn.churchofjesuschrist.org
@@ -218,6 +219,7 @@ DOMAIN-SUFFIX,privacymanager.io
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,qianji.app
+DOMAIN-SUFFIX,qualtrics.com
 DOMAIN-SUFFIX,quiz.directory
 DOMAIN-SUFFIX,rapidssl.com
 DOMAIN-SUFFIX,rc-backup.com

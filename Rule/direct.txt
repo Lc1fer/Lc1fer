@@ -246,6 +246,7 @@ DOMAIN,95689abd714cfb2381f68b8540c07cd2.v.smtcdns.com
 DOMAIN,9586ad43032a8668f4261a9258df15583d9e120b00d43d9b.v.smtcdns.com
 DOMAIN,97039627593f84480e7509bdd42b4325.v.smtcdns.com
 DOMAIN,971e2c1da29ed56a6f4d4163e2ca9cba6e564d50532951d9.v.smtcdns.com
+DOMAIN,97917fee3d672999a101891fac3b4089.v.smtcdns.com
 DOMAIN,97e4c756b9c7f6cbd64891fab6ca095c.v.smtcdns.com
 DOMAIN,983346fc2098747d5dc73030fbd1467a.v.smtcdns.com
 DOMAIN,98b144eeb9ca046515f42cc98187043f.v.smtcdns.com
@@ -281,6 +282,7 @@ DOMAIN,ad6a08166af1c2506290b3aafdcd6ed1.v.smtcdns.com
 DOMAIN,aff0ef96966ce9b49adba56c031d47a3.v.smtcdns.com
 DOMAIN,ahlawwfo.z1cdn.com
 DOMAIN,aigc-material.s3.cn-north-1.jdcloud-oss.com
+DOMAIN,aigc-platform.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,ak-s.tripcdn.com
 DOMAIN,alicoccdnct-db.inter.71edge.com
 DOMAIN,alink.tcp.aliyun.com
@@ -420,6 +422,7 @@ DOMAIN,ddea306fac1920561dde053caf2ec8df.v.smtcdns.com
 DOMAIN,de449ba71b0b6b540b09a6b372798bb6.v.smtcdns.com
 DOMAIN,de6a64fb019ff8a477cc35f36a2a5ed3.v.smtcdns.com
 DOMAIN,delivery.elemecdn.com
+DOMAIN,device-sec.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
 DOMAIN,dimg04.tripcdn.com
 DOMAIN,dir.1212338883-2-1.gcloudsvcs.com
@@ -487,6 +490,7 @@ DOMAIN,f500710fd8af13627a2cfa19bd6672f9.v.smtcdns.com
 DOMAIN,f539c0db03fb5339458b5a35857f91ae.v.smtcdns.com
 DOMAIN,f54c64dad6f4397d4e1b92b1c6462879.v.smtcdns.com
 DOMAIN,f5a7e4c609c1836af03b9a8e531bfae5.v.smtcdns.com
+DOMAIN,f6084449aa209bd9823e749206f053b4.v.smtcdns.com
 DOMAIN,f660791665217af69de019519414fdf8.v.smtcdns.com
 DOMAIN,f6c66f922d0420b0f13b13379d0a9d3d.v.smtcdns.com
 DOMAIN,f7742180177e03c30b06d678e3b98fe0.v.smtcdns.com
@@ -500,6 +504,7 @@ DOMAIN,fcca4defe84b830a2a82b8046c6017bd.v.smtcdns.com
 DOMAIN,fd29cd7882bf62b4838df83d89ae77df.v.smtcdns.com
 DOMAIN,fd3586631b6829306cd86beb0ffebf55.v.smtcdns.com
 DOMAIN,fdbb2c30527829d3f1251b49c6841be3.v.smtcdns.com
+DOMAIN,fe044450b24bd8c02ce8efd5839f16ec.v.smtcdns.com
 DOMAIN,fe04ac0c81b8359b486ad32992adfa8a.v.smtcdns.com
 DOMAIN,fe377d3deaca65a513cff0c0e4e69e6d.v.smtcdns.com
 DOMAIN,fee3bb88ac6e95ca513f5aed59a5366f.v.smtcdns.com
@@ -622,6 +627,7 @@ DOMAIN,ntp7.aliyun.com
 DOMAIN,o2oad.elemecdn.com
 DOMAIN,odlefalf.z1cdn.com
 DOMAIN,ozvoogee.z1cdn.com
+DOMAIN,pandora.aly.tcdnos.com
 DOMAIN,pandora.bdy.tcdnos.com
 DOMAIN,pandora.bytes.tcdnos.com
 DOMAIN,pandora.sjy.tcdnos.com
@@ -657,7 +663,9 @@ DOMAIN,shop-cdn.lizhi.shop
 DOMAIN,shortcloud.weixin.com
 DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
+DOMAIN,smoba.bdy.tcdnos.com
 DOMAIN,smoba.bytes.tcdnos.com
+DOMAIN,smpjvfqg.z1cdn.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,ssbeakue.z1cdn.com
 DOMAIN,sspai.com
@@ -716,10 +724,12 @@ DOMAIN,xtoyqfuj.z1cdn.com
 DOMAIN,ycuhshyj.z1cdn.com
 DOMAIN,ydmbpic.yundasys.com
 DOMAIN,yilabao.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
+DOMAIN,yjhhiahc.z1cdn.com
 DOMAIN,ymldhaue.z1cdn.com
 DOMAIN,yq-hd-rc.isvjcloud.com
 DOMAIN,ysezusrp.z1cdn.com
 DOMAIN,yslrf1v6dcdn.qnqcdn.net
+DOMAIN,ytujkpas.z1cdn.com
 DOMAIN,ywooonza.z1cdn.com
 DOMAIN,ywsxokgm.z1cdn.com
 DOMAIN,zconfig.elemecdn.com
@@ -774,6 +784,7 @@ DOMAIN-SUFFIX,adukwai.com
 DOMAIN-SUFFIX,advlion.com
 DOMAIN-SUFFIX,ahdohpiechei.com
 DOMAIN-SUFFIX,aihuishou.com
+DOMAIN-SUFFIX,aimap.com
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alibaba-inc.com
 DOMAIN-SUFFIX,alibaba.com
@@ -1131,6 +1142,7 @@ DOMAIN-SUFFIX,qishui.com
 DOMAIN-SUFFIX,qiyi.com
 DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qrstuvwxyzab.com
 DOMAIN-SUFFIX,qtaeixd.com
 DOMAIN-SUFFIX,qttunion.com
 DOMAIN-SUFFIX,qweather.com
@@ -1141,6 +1153,7 @@ DOMAIN-SUFFIX,rcuts.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,roborock.com
 DOMAIN-SUFFIX,rokid.com
+DOMAIN-SUFFIX,rtcxyz.com
 DOMAIN-SUFFIX,rtxapp.com
 DOMAIN-SUFFIX,ruanmei.com
 DOMAIN-SUFFIX,saic-gm.com
@@ -1257,6 +1270,7 @@ DOMAIN-SUFFIX,xincheng.com
 DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,xnnu.com
 DOMAIN-SUFFIX,xuanlingjian.com
+DOMAIN-SUFFIX,yaoguo.com
 DOMAIN-SUFFIX,yiche.com
 DOMAIN-SUFFIX,yingt.fun
 DOMAIN-SUFFIX,yingzhongshare.com
