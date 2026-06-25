@@ -32,6 +32,7 @@ DOMAIN,dns.google
 DOMAIN,errortrace.dev
 DOMAIN,fash2043.cloudycdn.services
 DOMAIN,featureassets.org
+DOMAIN,files.manuscdn.com
 DOMAIN,filterra.net
 DOMAIN,flowercloud.net
 DOMAIN,framerusercontent.com
@@ -59,6 +60,7 @@ DOMAIN,napi.ltd
 DOMAIN,nexitally.com
 DOMAIN,nxonearth.com
 DOMAIN,ovh-cdn.perfops.io
+DOMAIN,private-us-east-1.manuscdn.com
 DOMAIN,prodregistryv2.org
 DOMAIN,rsshub.app
 DOMAIN,scontent-nrt1-1.cdninstagram.com
@@ -112,6 +114,7 @@ DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,bidmachine.io
 DOMAIN-SUFFIX,blankwonder.notion.site
 DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,butterfly-effect.dev
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,chatgpt.com
@@ -185,6 +188,7 @@ DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,llnwi.net
 DOMAIN-SUFFIX,loli.net
+DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,mbspeed.net
 DOMAIN-SUFFIX,meijutt.net

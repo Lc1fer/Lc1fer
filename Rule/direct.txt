@@ -295,6 +295,7 @@ DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN,apd-vodp2plogin.teg.tencent-cloud.net
+DOMAIN,apd-vodp2ptracker.teg.tencent-cloud.net
 DOMAIN,api.caiyunapp.com
 DOMAIN,apischedule.ksyungslb.com
 DOMAIN,app-analytics-services.com
@@ -417,6 +418,7 @@ DOMAIN,d79c2b5457ebb177375553244711e546.v.smtcdns.com
 DOMAIN,d9030be355e4e4fd851c262228ac0949.v.smtcdns.com
 DOMAIN,d94c0827dbc46fcf5e0339a3eaa855e5.v.smtcdns.com
 DOMAIN,da329b20ca900f3e7f236a33d1904f5d.v.smtcdns.com
+DOMAIN,da6acac2eb71ad820fbe110cba084783.v.smtcdns.com
 DOMAIN,dbcbe1d12b2a7bf2157577d504aa8386.v.smtcdns.com
 DOMAIN,ddea306fac1920561dde053caf2ec8df.v.smtcdns.com
 DOMAIN,de449ba71b0b6b540b09a6b372798bb6.v.smtcdns.com
@@ -542,6 +544,7 @@ DOMAIN,hscdnct.inter.71edge.com
 DOMAIN,httpdns.c.cdnhwc2.com
 DOMAIN,httpdns.yunxindns.com
 DOMAIN,hwypandora.ll.tcdnos.com
+DOMAIN,hwyupdate.ll.tcdnos.com
 DOMAIN,hxrkclbn.z1cdn.com
 DOMAIN,id6.me
 DOMAIN,idcconfig.gcloudsdk.com
@@ -597,6 +600,7 @@ DOMAIN,lf9-lkcdn-tos.byted-ug.com
 DOMAIN,lhkgkjuw.z1cdn.com
 DOMAIN,lhpwiroq.z1cdn.com
 DOMAIN,ling-cdn.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
+DOMAIN,livedaoju-70331.njc.vod.tencent-cloud.com
 DOMAIN,lizhi.shop
 DOMAIN,lqcsyloe.z1cdn.com
 DOMAIN,lwpxzics.z1cdn.com
@@ -923,6 +927,7 @@ DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,dingxiang-inc.com
+DOMAIN-SUFFIX,dizgslb.com
 DOMAIN-SUFFIX,dmall.com
 DOMAIN-SUFFIX,dongchedi.com
 DOMAIN-SUFFIX,doubao.com
@@ -1283,6 +1288,7 @@ DOMAIN-SUFFIX,youmanvideo.com
 DOMAIN-SUFFIX,youwawa.com
 DOMAIN-SUFFIX,youzan.com
 DOMAIN-SUFFIX,yumchina.com
+DOMAIN-SUFFIX,yximgs.com
 DOMAIN-SUFFIX,zdmimg.com
 DOMAIN-SUFFIX,zepp.com
 DOMAIN-SUFFIX,zhihu.com
