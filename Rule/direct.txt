@@ -55,6 +55,7 @@ DOMAIN,1a71343c22b251fee34afb082548da1d.v.smtcdns.com
 DOMAIN,1abaa62fa2b0526e8d82ae30b3e8313a.v.smtcdns.com
 DOMAIN,1ae766be12b57db4450de84401d1e8cc.v.smtcdns.com
 DOMAIN,1b26cf6e568bb0584dfb48e9e3aac97e.v.smtcdns.com
+DOMAIN,1b98807121678ec54ab6c0c3e27d912f.v.smtcdns.com
 DOMAIN,1c12d8dfc517a672edfdf027c7873c42.v.smtcdns.com
 DOMAIN,1d32f3d3f49a0c94fbe6f88f5861fa71.v.smtcdns.com
 DOMAIN,1dfc1367de1ecec01fe5b1b3dc6365e9.v.smtcdns.com
@@ -203,7 +204,9 @@ DOMAIN,797c2083e2ca0e660614e24ae4988fc8.v.smtcdns.com
 DOMAIN,799774618f35524eed06a6bb25167e11.v.smtcdns.com
 DOMAIN,79f611ac25bd9ae5450a3950de3d9c23.v.smtcdns.com
 DOMAIN,7ab82c12c716ed3c28c96ff27fe94d11.v.smtcdns.com
+DOMAIN,7b0481ac851e44e6ff05546150571e1c.v.smtcdns.net
 DOMAIN,7bf13e2b092af684bfeae311d14a06b0.v.smtcdns.com
+DOMAIN,7d0158c00f33e6331d06cd608d45bd76.v.smtcdns.net
 DOMAIN,7d053aacbc8bf58dfdca39b72b1b597a.v.smtcdns.com
 DOMAIN,7d9b87db820d39aa1ada476be8aeef67.v.smtcdns.com
 DOMAIN,7e1bdff278de11cfa2bafe7d1fc698df.v.smtcdns.com
@@ -218,6 +221,7 @@ DOMAIN,81f696861b65bb5397662d85b95ac7d7.v.smtcdns.com
 DOMAIN,82616abc7a65a56a55750197dceb5af3.v.smtcdns.com
 DOMAIN,8286b54a8b02cb4ad49e2a6c39da4ab2.v.smtcdns.com
 DOMAIN,8327895b1d817bfb15812d9ff38837b4.v.smtcdns.com
+DOMAIN,8333fb1247b87023a75769c8fb8e7826.v.smtcdns.com
 DOMAIN,839a6f051f4e5233b84ca283232efe16.v.smtcdns.com
 DOMAIN,83f4f6ca884ef7395e493919640137ba.v.smtcdns.com
 DOMAIN,8492d1d6725986265a832121cb651426.v.smtcdns.com
@@ -264,6 +268,7 @@ DOMAIN,9f90d1ba848e55336cb86e9adacc2f24.v.smtcdns.com
 DOMAIN,9f9493c15bc20b8c436ec74fa062242a.v.smtcdns.com
 DOMAIN,a-rsc.elemecdn.com
 DOMAIN,a.hecdn.net
+DOMAIN,a1ce54c2fe136ee923b0641e6ce67814.v.smtcdns.com
 DOMAIN,a1d5ab70f-wx621112590b635086.sh.wxcloudrun.com
 DOMAIN,a23094d8eed6c90a958d04eff20b58d3.v.smtcdns.com
 DOMAIN,a42f28c43d06a15364ff9e7719c188d2.v.smtcdns.com
@@ -290,6 +295,7 @@ DOMAIN,alivia.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,anchongshop.obs.cn-east-3.myhuaweicloud.com
 DOMAIN,anhfttiu.z1cdn.com
 DOMAIN,aos-cdn-files.cn-hangzhou.oss.aliyun-inc.com
+DOMAIN,apd-p2pverify.teg.tencent-cloud.net
 DOMAIN,apd-pcdniegwzlogin.teg.tencent-cloud.net
 DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
@@ -313,11 +319,13 @@ DOMAIN,b416cafead0e8201d65d2ea35e741d03.v.smtcdns.com
 DOMAIN,b49a37b4498ec1ffa2276fa5adba7bce.v.smtcdns.com
 DOMAIN,b4a779be0362ad1a570f90e5598cb5c2.v.smtcdns.com
 DOMAIN,b5ae1e475c7df4237527bb11e64f4772.v.smtcdns.com
+DOMAIN,b655f5f77049ca1038fa800bc97580a9.v.smtcdns.com
 DOMAIN,b696474b125b7c78f243872f36f16962.v.smtcdns.com
 DOMAIN,b6a8eca2faac1f19718b423adaef9216.v.smtcdns.com
 DOMAIN,b6fd4ddbbf771acd14b2a8c4792f0a92.v.smtcdns.com
 DOMAIN,b73adc8071e5f666d1b4588b3d193176.v.smtcdns.com
 DOMAIN,b7520b6019cbab5f55aed571d71cbcd6c9d23fcb1d8133c6.v.smtcdns.com
+DOMAIN,b7c5543df1f5eba3fb614d0a87a5c5d4.v.smtcdns.com
 DOMAIN,b8b74365d4516c1668859fbf5402f618.v.smtcdns.com
 DOMAIN,b8c307c83bad912635ffcc85de99b27b.v.smtcdns.com
 DOMAIN,b8d9c31413aad29fe2beb213d47f0ca7.v.smtcdns.com
@@ -409,6 +417,7 @@ DOMAIN,d05015bdb9b42b60c2d4199a2caa2953.v.smtcdns.com
 DOMAIN,d1130c73dedb9914c1130f5d7e4303a1.v.smtcdns.com
 DOMAIN,d182d9039361bd85ef5c5fd60c5cc143e1b0ce8895d5a5d5.v.smtcdns.com
 DOMAIN,d1d99990a4b6be0d73e0c76fe174d678.v.smtcdns.com
+DOMAIN,d2bcf6e49c8ff2d427cd9cb035d43b9c.v.smtcdns.net
 DOMAIN,d520c4ba66fa1282706020aa2dad5659.v.smtcdns.com
 DOMAIN,d588106c180066c44ebaa97e6480cb77.v.smtcdns.com
 DOMAIN,d5fb22ad5894d0750e3aa5721235a5aa.v.smtcdns.com
@@ -419,10 +428,12 @@ DOMAIN,d9030be355e4e4fd851c262228ac0949.v.smtcdns.com
 DOMAIN,d94c0827dbc46fcf5e0339a3eaa855e5.v.smtcdns.com
 DOMAIN,da329b20ca900f3e7f236a33d1904f5d.v.smtcdns.com
 DOMAIN,da6acac2eb71ad820fbe110cba084783.v.smtcdns.com
+DOMAIN,da930f28074795d16fd203a2578e59ee.v.smtcdns.com
 DOMAIN,dbcbe1d12b2a7bf2157577d504aa8386.v.smtcdns.com
 DOMAIN,ddea306fac1920561dde053caf2ec8df.v.smtcdns.com
 DOMAIN,de449ba71b0b6b540b09a6b372798bb6.v.smtcdns.com
 DOMAIN,de6a64fb019ff8a477cc35f36a2a5ed3.v.smtcdns.com
+DOMAIN,dedbd19506183980ddf04b97270a6031.v.smtcdns.com
 DOMAIN,delivery.elemecdn.com
 DOMAIN,device-sec.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
 DOMAIN,device-sec.s3.cn-north-1.jdcloud-oss.com
@@ -431,6 +442,7 @@ DOMAIN,dir.1212338883-2-1.gcloudsvcs.com
 DOMAIN,dizogqlk.z1cdn.com
 DOMAIN,dl1-v6.aliyundrive.cloud
 DOMAIN,dl1.aliyundrive.cloud
+DOMAIN,doh.pub
 DOMAIN,download.2.1212338883.wz.gcloudgbs.com
 DOMAIN,downupdate.ajy.tcdnos.com
 DOMAIN,downupdate.aly.tcdnos.com
@@ -440,6 +452,7 @@ DOMAIN,downupdate.csy.tcdnos.com
 DOMAIN,downupdate.csysw.tcdnos.com
 DOMAIN,downupdate.gtyy.tcdnos.com
 DOMAIN,downupdate.tysjy.tcdnos.com
+DOMAIN,downupdate.tyyjt.tcdnos.com
 DOMAIN,downupdate.tyyy.tcdnos.com
 DOMAIN,downupdate.ws.tcdnos.com
 DOMAIN,dxkpnqnr.z1cdn.com
@@ -506,6 +519,9 @@ DOMAIN,fcca4defe84b830a2a82b8046c6017bd.v.smtcdns.com
 DOMAIN,fd29cd7882bf62b4838df83d89ae77df.v.smtcdns.com
 DOMAIN,fd3586631b6829306cd86beb0ffebf55.v.smtcdns.com
 DOMAIN,fdbb2c30527829d3f1251b49c6841be3.v.smtcdns.com
+DOMAIN,fe-platform.xhscdn.com
+DOMAIN,fe-static.xhscdn.com
+DOMAIN,fe-video-qc.xhscdn.com
 DOMAIN,fe044450b24bd8c02ce8efd5839f16ec.v.smtcdns.com
 DOMAIN,fe04ac0c81b8359b486ad32992adfa8a.v.smtcdns.com
 DOMAIN,fe377d3deaca65a513cff0c0e4e69e6d.v.smtcdns.com
@@ -528,6 +544,7 @@ DOMAIN,gfxioqay.z1cdn.com
 DOMAIN,gofsznwf.z1cdn.com
 DOMAIN,goqrqdrj.z1cdn.com
 DOMAIN,gqsixgnz.z1cdn.com
+DOMAIN,growth-img.xhscdn.com
 DOMAIN,gss.gcloud.gcloudsdk.com
 DOMAIN,gt1dc2auoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2ljck6.smogfly.cloud
 DOMAIN,gt1dc2auoro0kbeq7o5i5cim623i8t0knms2pji0asics822r2nvake.smogfly.cloud
@@ -600,6 +617,7 @@ DOMAIN,lf9-lkcdn-tos.byted-ug.com
 DOMAIN,lhkgkjuw.z1cdn.com
 DOMAIN,lhpwiroq.z1cdn.com
 DOMAIN,ling-cdn.s3-cache-accelerate.cn-north-1.jdcloud-oss.com
+DOMAIN,live-i1.xhscdn.com
 DOMAIN,livedaoju-70331.njc.vod.tencent-cloud.com
 DOMAIN,lizhi.shop
 DOMAIN,lqcsyloe.z1cdn.com
@@ -634,8 +652,11 @@ DOMAIN,ozvoogee.z1cdn.com
 DOMAIN,pandora.aly.tcdnos.com
 DOMAIN,pandora.bdy.tcdnos.com
 DOMAIN,pandora.bytes.tcdnos.com
+DOMAIN,pandora.csysw.tcdnos.com
 DOMAIN,pandora.sjy.tcdnos.com
 DOMAIN,pandora.szxy.tcdnos.com
+DOMAIN,pandora.tyyjt.tcdnos.com
+DOMAIN,pandora.tyyy.tcdnos.com
 DOMAIN,pbmxoypk.z1cdn.com
 DOMAIN,pcsgawyj.z1cdn.com
 DOMAIN,pdj-taishan-oss.s3.cn-north-1.jdcloud-oss.com
@@ -669,7 +690,16 @@ DOMAIN,sjy.ll.tcdnos.com
 DOMAIN,slb-p2p.vcloud.ks-live.com
 DOMAIN,smoba.bdy.tcdnos.com
 DOMAIN,smoba.bytes.tcdnos.com
+DOMAIN,smoba.csy.tcdnos.com
+DOMAIN,smoba.tyyjt.tcdnos.com
+DOMAIN,smoba.tyyy.tcdnos.com
 DOMAIN,smpjvfqg.z1cdn.com
+DOMAIN,sns-avatar-qc.xhscdn.com
+DOMAIN,sns-na-i1.xhscdn.com
+DOMAIN,sns-na-i2.xhscdn.com
+DOMAIN,sns-na-i3.xhscdn.com
+DOMAIN,sns-na-i4.xhscdn.com
+DOMAIN,sns-na-i6.xhscdn.com
 DOMAIN,spcsz.cdn.bcebos.com
 DOMAIN,ssbeakue.z1cdn.com
 DOMAIN,sspai.com
@@ -700,6 +730,7 @@ DOMAIN,unelejab.z1cdn.com
 DOMAIN,uqagudji.z1cdn.com
 DOMAIN,usercsscdn.wjx.com
 DOMAIN,uzwbdv.xyz
+DOMAIN,v3-dy-o.zjcdn.com
 DOMAIN,videomaker-30171.sz.gfp.tencent-cloud.com
 DOMAIN,vod-license-m.volccdn.com
 DOMAIN,voivkrwt.z1cdn.com
@@ -722,6 +753,8 @@ DOMAIN,wxb-rc.isvjcloud.com
 DOMAIN,wxddizvm.z1cdn.com
 DOMAIN,xfytxwhl.z1cdn.com
 DOMAIN,xhslink.com
+DOMAIN,xhslive-image.xhscdn.com
+DOMAIN,xhslive-sfg.xhscdn.com
 DOMAIN,xinstall.top
 DOMAIN,xjakdoox.z1cdn.com
 DOMAIN,xtoyqfuj.z1cdn.com
@@ -779,6 +812,7 @@ DOMAIN-SUFFIX,51zmt.top
 DOMAIN-SUFFIX,54yt.net
 DOMAIN-SUFFIX,5thhospital.com
 DOMAIN-SUFFIX,737.com
+DOMAIN-SUFFIX,88090.com
 DOMAIN-SUFFIX,95516.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,acewill.net
@@ -795,6 +829,7 @@ DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabachengdun.com
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,alimama.com
 DOMAIN-SUFFIX,alipan.com
 DOMAIN-SUFFIX,alipay-eco.com
@@ -816,6 +851,7 @@ DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,askdiandian.com
 DOMAIN-SUFFIX,atxapi.com
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,awemeugwave.com
@@ -829,6 +865,7 @@ DOMAIN-SUFFIX,bankcomm.com
 DOMAIN-SUFFIX,baolinet.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bcelive.com
+DOMAIN-SUFFIX,bdcgslb.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,bdurl.net
@@ -850,6 +887,7 @@ DOMAIN-SUFFIX,bitauto.com
 DOMAIN-SUFFIX,bitautoimg.com
 DOMAIN-SUFFIX,bmlxkj.com
 DOMAIN-SUFFIX,bosszhipin.com
+DOMAIN-SUFFIX,bspapp.com
 DOMAIN-SUFFIX,bus365.com
 DOMAIN-SUFFIX,byteacctimg.com
 DOMAIN-SUFFIX,byted-static.com
@@ -911,6 +949,7 @@ DOMAIN-SUFFIX,cuopen.net
 DOMAIN-SUFFIX,d3games.com
 DOMAIN-SUFFIX,dahhxxttxs.com
 DOMAIN-SUFFIX,dailygn.com
+DOMAIN-SUFFIX,darknight.games
 DOMAIN-SUFFIX,datahubtrack.com
 DOMAIN-SUFFIX,daxiang91.com
 DOMAIN-SUFFIX,dbrjw.com
@@ -964,6 +1003,7 @@ DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fcbox.com
 DOMAIN-SUFFIX,fevermi.com
 DOMAIN-SUFFIX,fishfay.com
+DOMAIN-SUFFIX,flydigi.com
 DOMAIN-SUFFIX,flysheeep.com
 DOMAIN-SUFFIX,gamersky.com
 DOMAIN-SUFFIX,gantanhao.com
@@ -980,6 +1020,7 @@ DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,googlesyndication-cn.com
 DOMAIN-SUFFIX,gravity-engine.com
 DOMAIN-SUFFIX,gridsumdissector.com
+DOMAIN-SUFFIX,gstatic-cn.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,guanmeikj.com
@@ -1032,6 +1073,7 @@ DOMAIN-SUFFIX,jinritemai.com
 DOMAIN-SUFFIX,jinzhoubank.com
 DOMAIN-SUFFIX,jkcsjd.com
 DOMAIN-SUFFIX,jnly.com
+DOMAIN-SUFFIX,jomoxc.com
 DOMAIN-SUFFIX,jomoxd.com
 DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jskjgroup.com
@@ -1056,6 +1098,7 @@ DOMAIN-SUFFIX,kyslb.com
 DOMAIN-SUFFIX,lanyue-tech.com
 DOMAIN-SUFFIX,lanzoup.com
 DOMAIN-SUFFIX,ldhy.click
+DOMAIN-SUFFIX,lepudding.com
 DOMAIN-SUFFIX,lianjia.com
 DOMAIN-SUFFIX,lifang001.com
 DOMAIN-SUFFIX,litangkj.com
@@ -1154,6 +1197,7 @@ DOMAIN-SUFFIX,qweather.com
 DOMAIN-SUFFIX,qy.net
 DOMAIN-SUFFIX,qznovel.com
 DOMAIN-SUFFIX,qznovelvod.com
+DOMAIN-SUFFIX,rauqa.net
 DOMAIN-SUFFIX,rcuts.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,roborock.com
@@ -1209,6 +1253,7 @@ DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,tencenttds.com
 DOMAIN-SUFFIX,tengmed.com
 DOMAIN-SUFFIX,tenmh.com
+DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,tfogc.com
 DOMAIN-SUFFIX,tianti.com
 DOMAIN-SUFFIX,tianwenca.com
@@ -1255,6 +1300,7 @@ DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,welcrm.com
 DOMAIN-SUFFIX,whalenas.com
 DOMAIN-SUFFIX,wjx.top
+DOMAIN-SUFFIX,wldmarket.com
 DOMAIN-SUFFIX,wo1wan.com
 DOMAIN-SUFFIX,woaap.com
 DOMAIN-SUFFIX,woxshare.com
@@ -1275,6 +1321,7 @@ DOMAIN-SUFFIX,xincheng.com
 DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,xnnu.com
 DOMAIN-SUFFIX,xuanlingjian.com
+DOMAIN-SUFFIX,yaduo.com
 DOMAIN-SUFFIX,yaoguo.com
 DOMAIN-SUFFIX,yiche.com
 DOMAIN-SUFFIX,yingt.fun

@@ -66,6 +66,9 @@ DOMAIN,rsshub.app
 DOMAIN,scontent-nrt1-1.cdninstagram.com
 DOMAIN,scontent-nrt1-2.cdninstagram.com
 DOMAIN,sing-box.sagernet.org
+DOMAIN,sns-video-v14.xhscdn.com
+DOMAIN,sns-video-v27.xhscdn.com
+DOMAIN,sns-video-v28.xhscdn.com
 DOMAIN,srtku.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN,stentvessel.shop
@@ -76,6 +79,8 @@ DOMAIN,tanju.vip
 DOMAIN,test.b-cdn.net
 DOMAIN,testvideo.b-cdn.net
 DOMAIN,unpkg.com
+DOMAIN,v5-dy-ov-experiment.zjcdn.com
+DOMAIN,v5-hl-zenl-ov.zjcdn.com
 DOMAIN,wiki.metacubex.one
 DOMAIN,workingcopy.app
 DOMAIN,www.bing.com
@@ -98,9 +103,11 @@ DOMAIN-SUFFIX,adsmoloco.com
 DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,apollo.io
+DOMAIN-SUFFIX,app-ads-services.com
 DOMAIN-SUFFIX,appbaqend.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
@@ -108,6 +115,7 @@ DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,aptv.app
+DOMAIN-SUFFIX,ax1x.com
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,azure.net
 DOMAIN-SUFFIX,bamgrid.com
@@ -181,6 +189,7 @@ DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,iva-api.com
 DOMAIN-SUFFIX,jd.hk
 DOMAIN-SUFFIX,jellybusgo.com
+DOMAIN-SUFFIX,lc1fer-account.workers.dev
 DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,licdn.com
@@ -278,6 +287,7 @@ DOMAIN-SUFFIX,vervegroupinc.net
 DOMAIN-SUFFIX,voipraider.com
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wloc.workers.dev
 DOMAIN-SUFFIX,wmcdp.io
 DOMAIN-SUFFIX,worldssl.net
 DOMAIN-SUFFIX,wowyijiu.today
