@@ -1,4 +1,4 @@
-# 更新时间：2026年9月6日 21:37
+# 更新时间：2026年9月6日 22:28
 
 DOMAIN,download.jetbrains.com
 DOMAIN,download.microsoft.com
@@ -41,6 +41,7 @@ DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,update.microsoft.com
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,windowsupdate.microsoft.com
+DOMAIN-SUFFIX,xiaohongshu.com
 IP-CIDR,182.254.116.0/24,no-resolve
 IP-CIDR,203.205.238.0/23,no-resolve
 IP-CIDR,203.205.254.0/23,no-resolve
