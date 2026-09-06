@@ -1,5 +1,5 @@
-# 更新时间：2026年9月6日 21:05
-# 规则数量：43
+# 更新时间：2026年9月6日 21:37
+
 DOMAIN,download.jetbrains.com
 DOMAIN,download.microsoft.com
 DOMAIN,ntservicepack.microsoft.com

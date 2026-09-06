@@ -1,5 +1,4 @@
-# 更新时间：2026年9月6日 20:59
-# 规则数量：749
+# 更新时间：2026年9月6日 21:36
 
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,a248.e.akamai.net
