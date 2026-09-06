@@ -1,4 +1,4 @@
-# 更新时间：2026年9月6日 21:37
+# 更新时间：2026年9月6日 22:30
 
 DOMAIN,a.wkanx.com
 DOMAIN,a0.app.xiaomi.com
@@ -106,7 +106,7 @@ DOMAIN,adshows.21cn.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,adsmind.tc.qq.com
-# DOMAIN,adsmind.ugdtimg.com
+DOMAIN,adsmind.ugdtimg.com
 DOMAIN,adsp.xunlei.com
 DOMAIN,adsstatic.vivo.com.cn
 DOMAIN,adstats.tencentmusic.com
@@ -560,7 +560,7 @@ DOMAIN-SUFFIX,fkku194.com
 DOMAIN-SUFFIX,freedrive.cn
 DOMAIN-SUFFIX,fyber.com
 DOMAIN-SUFFIX,gclick.cn
-# DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,gemini.yahoo.com
 DOMAIN-SUFFIX,giocdn.com
 DOMAIN-SUFFIX,go2cloud.org
