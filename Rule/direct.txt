@@ -1,4 +1,4 @@
-# 更新时间：2026-09-07 21:50
+# 更新时间：2026-09-07 22:14
 
 DOMAIN,download.jetbrains.com
 DOMAIN,download.microsoft.com
