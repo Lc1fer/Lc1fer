@@ -27,7 +27,7 @@ jobs:
       # 检出仓库
       # ==========================================
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # ==========================================
       # 生成规则
