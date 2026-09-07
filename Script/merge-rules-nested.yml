@@ -1,0 +1,371 @@
+name: Merge Rules
+
+on:
+  schedule:
+    - cron: '30 22 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'Rule/merge.txt'
+      - '.github/workflows/merge-rules.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate and commit rules
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          SOURCE_FILE="Rule/merge.txt"
+          CHANGED_FILES=()
+
+          if [ ! -f "$SOURCE_FILE" ]; then
+            echo "ERROR: $SOURCE_FILE not found."
+            exit 1
+          fi
+
+          discover_rules() {
+            awk '
+              function trim(s) {
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "", s)
+                return s
+              }
+
+              {
+                sub(/\r$/, "")
+                line=trim($0)
+
+                if (depth == 0) {
+                  if (line == "" || line ~ /^#/) next
+
+                  if (pending == "") {
+                    pending=line
+                    next
+                  }
+
+                  if (line == "{") {
+                    if (!seen[pending]++) print pending
+                    depth=1
+                    pending=""
+                    next
+                  }
+
+                  pending=line
+                  next
+                }
+
+                if (line == "}") {
+                  depth--
+                }
+              }
+            ' "$SOURCE_FILE"
+          }
+
+          extract_block() {
+            local rule_name="$1"
+            local block_name="$2"
+
+            awk -v target="$rule_name" -v block="$block_name" '
+              function trim(s) {
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "", s)
+                return s
+              }
+
+              {
+                sub(/\r$/, "")
+                raw=$0
+                line=trim(raw)
+
+                if (!in_target) {
+                  if (!waiting_target && line == target) {
+                    found_target=1
+                    waiting_target=1
+                    next
+                  }
+
+                  if (waiting_target) {
+                    if (line == "") next
+
+                    if (line == "{") {
+                      in_target=1
+                      waiting_target=0
+                      next
+                    }
+
+                    print "ERROR: expected { after " target > "/dev/stderr"
+                    parse_error=1
+                    exit
+                  }
+
+                  next
+                }
+
+                if (!in_block && !waiting_block && line == "}") {
+                  in_target=0
+                  exit
+                }
+
+                if (!in_block && !waiting_block && line == block) {
+                  found_block=1
+                  waiting_block=1
+                  next
+                }
+
+                if (waiting_block) {
+                  if (line == "") next
+
+                  if (line == "[") {
+                    in_block=1
+                    waiting_block=0
+                    next
+                  }
+
+                  print "ERROR: expected [ after " block " in " target > "/dev/stderr"
+                  parse_error=1
+                  exit
+                }
+
+                if (in_block) {
+                  if (line == "]") {
+                    found_close=1
+                    exit
+                  }
+
+                  print raw
+                }
+              }
+
+              END {
+                if (parse_error) exit 5
+
+                if (!found_target) {
+                  print "ERROR: category not found: " target > "/dev/stderr"
+                  exit 2
+                }
+
+                if (!found_block) {
+                  print "ERROR: block not found: " block " in " target > "/dev/stderr"
+                  exit 3
+                }
+
+                if (!found_close) {
+                  print "ERROR: missing ] for " block " in " target > "/dev/stderr"
+                  exit 4
+                }
+              }
+            ' "$SOURCE_FILE"
+          }
+
+          clean_section() {
+            sed \
+              -e 's/\r$//' \
+              -e 's/^[[:space:]]*//' \
+              -e 's/[[:space:]]*$//' \
+              -e '/^$/d' \
+              -e '/^#/d'
+          }
+
+          get_urls() {
+            extract_block "$1" "url" | clean_section
+          }
+
+          get_custom_rules() {
+            extract_block "$1" "rules" | clean_section
+          }
+
+          download_sources() {
+            local urls="$1"
+            local output="$2"
+
+            : > "$output"
+
+            local total=0
+            local success=0
+            local failed=0
+            local tmp
+
+            while IFS= read -r url; do
+              [ -z "$url" ] && continue
+
+              total=$((total + 1))
+              echo "Downloading: $url"
+
+              tmp=$(mktemp)
+
+              if curl \
+                --fail \
+                --silent \
+                --show-error \
+                --location \
+                --retry 3 \
+                --retry-delay 2 \
+                --connect-timeout 15 \
+                --max-time 60 \
+                --output "$tmp" \
+                "$url"
+              then
+                cat "$tmp" >> "$output"
+                echo >> "$output"
+                success=$((success + 1))
+                echo "  ✓ Success"
+              else
+                failed=$((failed + 1))
+                echo "  ✗ Failed"
+              fi
+
+              rm -f "$tmp"
+            done <<< "$urls"
+
+            echo "Sources total:     $total"
+            echo "Sources succeeded: $success"
+            echo "Sources failed:    $failed"
+
+            [ "$failed" -eq 0 ] && [ "$success" -eq "$total" ]
+          }
+
+          clean_rules() {
+            sed \
+              -e 's/\r$//' \
+              -e 's/^[[:space:]]*//' \
+              -e 's/[[:space:]]*$//' \
+              -e '/^$/d' \
+              -e '/^#/d'
+          }
+
+          get_existing_rules() {
+            local input="$1"
+            local output="$2"
+
+            if [ ! -f "$input" ]; then
+              : > "$output"
+              return 0
+            fi
+
+            {
+              if head -n 1 "$input" | grep -q '^# 更新时间：'; then
+                tail -n +3 "$input"
+              else
+                cat "$input"
+              fi
+            } | clean_rules | LC_ALL=C sort -u > "$output"
+          }
+
+          generate_rule() {
+            local name="$1"
+            local output="Rule/$name.txt"
+
+            if [[ ! "$name" =~ ^[A-Za-z0-9._+-]+$ ]]; then
+              echo "ERROR: Invalid rule name: $name"
+              exit 1
+            fi
+
+            local external custom merged cleaned sorted existing final urls
+            local has_urls=0
+
+            external=$(mktemp)
+            custom=$(mktemp)
+            merged=$(mktemp)
+            cleaned=$(mktemp)
+            sorted=$(mktemp)
+            existing=$(mktemp)
+            final=$(mktemp)
+
+            urls=$(get_urls "$name")
+
+            if [ -n "$urls" ]; then
+              has_urls=1
+
+              if ! download_sources "$urls" "$external"; then
+                echo "WARNING: source download failed for $name."
+                echo "Keep existing file: $output"
+                rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing" "$final"
+                return 0
+              fi
+            else
+              : > "$external"
+            fi
+
+            get_custom_rules "$name" > "$custom"
+
+            if [ "$has_urls" -eq 0 ] && [ ! -s "$custom" ]; then
+              echo "SKIP: $name has no URLs or custom rules."
+              echo "Keep existing file: $output"
+              rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing" "$final"
+              return 0
+            fi
+
+            cat "$external" "$custom" > "$merged"
+            clean_rules < "$merged" > "$cleaned"
+            LC_ALL=C sort -u "$cleaned" > "$sorted"
+
+            if [ ! -s "$sorted" ]; then
+              echo "WARNING: generated rules are empty for $name."
+              echo "Keep existing file: $output"
+              rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing" "$final"
+              return 0
+            fi
+
+            get_existing_rules "$output" "$existing"
+
+            if [ -f "$output" ] && cmp -s "$sorted" "$existing"; then
+              echo "UNCHANGED: $output"
+              rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing" "$final"
+              return 0
+            fi
+
+            {
+              echo "# 更新时间：$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
+              echo
+              cat "$sorted"
+            } > "$final"
+
+            mv "$final" "$output"
+            CHANGED_FILES+=("$output")
+
+            echo "UPDATED: $output"
+            echo "Unique rules: $(wc -l < "$sorted")"
+
+            rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing"
+          }
+
+          mapfile -t RULE_NAMES < <(discover_rules)
+
+          if [ "${#RULE_NAMES[@]}" -eq 0 ]; then
+            echo "ERROR: No rule categories found in $SOURCE_FILE."
+            exit 1
+          fi
+
+          echo "Discovered rule sets:"
+          printf '  - %s\n' "${RULE_NAMES[@]}"
+          echo
+
+          for name in "${RULE_NAMES[@]}"; do
+            generate_rule "$name"
+          done
+
+          if [ "${#CHANGED_FILES[@]}" -eq 0 ]; then
+            echo "No rule content changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -- "${CHANGED_FILES[@]}"
+
+          if git diff --cached --quiet; then
+            echo "No staged changes."
+            exit 0
+          fi
+
+          git commit -m "Merge rules"
+          git push

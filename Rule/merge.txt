@@ -15,7 +15,7 @@ direct
   url
   [
   https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct.list
-  https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/Apple/Apple.list
+  https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Apple/Apple.list
   ]
 
   rules
