@@ -1,0 +1,261 @@
+name: Merge Rules
+
+on:
+  schedule:
+    - cron: '30 22 * * *'
+
+  workflow_dispatch:
+
+  push:
+    paths:
+      - 'Rule/merge.txt'
+      - '.github/workflows/merge-rules.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate rules
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          SOURCE_FILE="Rule/merge.txt"
+
+          if [ ! -f "$SOURCE_FILE" ]; then
+            echo "ERROR: $SOURCE_FILE not found."
+            exit 1
+          fi
+
+          extract_section() {
+            local section="$1"
+
+            awk -v section="#$section" '
+              {
+                sub(/\r$/, "")
+              }
+
+              $0 == section {
+                found_section=1
+                wait_open=1
+                next
+              }
+
+              wait_open && $0 == "[" {
+                inside=1
+                found_open=1
+                wait_open=0
+                next
+              }
+
+              inside && $0 == "]" {
+                found_close=1
+                exit
+              }
+
+              inside {
+                print
+              }
+
+              END {
+                if (!found_section) exit 2
+                if (!found_open) exit 3
+                if (!found_close) exit 4
+              }
+            ' "$SOURCE_FILE"
+          }
+
+          clean_section() {
+            sed \
+              -e 's/\r$//' \
+              -e 's/^[[:space:]]*//' \
+              -e 's/[[:space:]]*$//' \
+              -e '/^$/d' \
+              -e '/^#/d'
+          }
+
+          get_urls() {
+            local section="$1"
+            extract_section "$section" | clean_section
+          }
+
+          get_custom_rules() {
+            local section="$1"
+            extract_section "$section" | clean_section
+          }
+
+          download_sources() {
+            local urls="$1"
+            local output="$2"
+
+            : > "$output"
+
+            local total=0
+            local success=0
+            local failed=0
+
+            while IFS= read -r url; do
+              [ -z "$url" ] && continue
+
+              total=$((total + 1))
+              echo "Downloading: $url"
+
+              if curl \
+                --fail \
+                --silent \
+                --show-error \
+                --location \
+                --retry 3 \
+                --retry-delay 2 \
+                --connect-timeout 15 \
+                --max-time 60 \
+                "$url" >> "$output"
+              then
+                echo >> "$output"
+                success=$((success + 1))
+                echo "  ✓ Success"
+              else
+                failed=$((failed + 1))
+                echo "  ✗ Failed"
+              fi
+            done <<< "$urls"
+
+            echo
+            echo "Sources total:     $total"
+            echo "Sources succeeded: $success"
+            echo "Sources failed:    $failed"
+
+            [ "$failed" -eq 0 ] && [ "$success" -eq "$total" ]
+          }
+
+          clean_rules() {
+            sed \
+              -e 's/\r$//' \
+              -e 's/^[[:space:]]*//' \
+              -e 's/[[:space:]]*$//' \
+              -e '/^$/d' \
+              -e '/^#/d'
+          }
+
+          generate_rule() {
+            local name="$1"
+            local output="$2"
+
+            local external custom merged cleaned sorted final
+            local urls
+            local has_urls=0
+
+            external=$(mktemp)
+            custom=$(mktemp)
+            merged=$(mktemp)
+            cleaned=$(mktemp)
+            sorted=$(mktemp)
+            final=$(mktemp)
+
+            urls=$(get_urls "$name url")
+
+            if [ -n "$urls" ]; then
+              has_urls=1
+
+              if ! download_sources "$urls" "$external"; then
+                echo
+                echo "WARNING:"
+                echo "One or more external sources failed."
+                echo "Keep existing file: $output"
+
+                rm -f \
+                  "$external" \
+                  "$custom" \
+                  "$merged" \
+                  "$cleaned" \
+                  "$sorted" \
+                  "$final"
+
+                return 0
+              fi
+            else
+              : > "$external"
+            fi
+
+            get_custom_rules "$name" > "$custom"
+
+            if [ "$has_urls" -eq 0 ] && [ ! -s "$custom" ]; then
+              echo
+              echo "WARNING:"
+              echo "No external URLs and no custom rules."
+              echo "Keep existing file: $output"
+
+              rm -f \
+                "$external" \
+                "$custom" \
+                "$merged" \
+                "$cleaned" \
+                "$sorted" \
+                "$final"
+
+              return 0
+            fi
+
+            cat "$external" "$custom" > "$merged"
+
+            clean_rules < "$merged" > "$cleaned"
+
+            LC_ALL=C sort -u "$cleaned" > "$sorted"
+
+            {
+              echo "# 更新时间：$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
+              echo
+              cat "$sorted"
+            } > "$final"
+
+            sed -i '${/^$/d;}' "$final"
+            echo >> "$final"
+
+            mv "$final" "$output"
+
+            echo
+            echo "=========================================="
+            echo "Generated: $output"
+            echo "Unique rules: $(wc -l < "$sorted")"
+            echo "Update time: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
+            echo "=========================================="
+
+            rm -f \
+              "$external" \
+              "$custom" \
+              "$merged" \
+              "$cleaned" \
+              "$sorted"
+          }
+
+          generate_rule "direct" "Rule/direct.txt"
+          generate_rule "reject" "Rule/reject.txt"
+          generate_rule "proxy" "Rule/proxy.txt"
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -e
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            Rule/direct.txt \
+            Rule/reject.txt \
+            Rule/proxy.txt
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "Merge rules"
+          git push
