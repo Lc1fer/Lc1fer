@@ -234,7 +234,7 @@ jobs:
               "$cleaned" \
               "$sorted"
           }
-          generate_rule "direct+" "Rule/fix.txt"
+          generate_rule "fix" "Rule/fix.txt"
           generate_rule "direct" "Rule/direct.txt"
           generate_rule "reject" "Rule/reject.txt"
           generate_rule "proxy" "Rule/proxy.txt"
