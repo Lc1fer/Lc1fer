@@ -21,6 +21,7 @@ direct
   rules
   [
   DOMAIN-SUFFIX,xiaohongshu.com
+  DOMAIN-SUFFIX,xiaohong.com
   ]
 }
 
