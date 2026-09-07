@@ -6,7 +6,10 @@ on:
 #    - cron: '30 22 * * *'  # 6:30 AM UTC+8
   push:
     paths:
-      - 'Rule/*.txt'
+      - 'Rule/direct.txt'
+      - 'Rule/direct+.txt'
+      - 'Rule/proxy.txt'
+      - 'Rule/reject.txt'
 
 jobs:
   convert_and_compile:
