@@ -7,7 +7,6 @@ https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Rule
 #direct
 [
 DOMAIN-SUFFIX,xiaohongshu.com
-DOMAIN-SUFFIX,xiaohong.com
 ]
 
 #proxy url
@@ -18,6 +17,7 @@ https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.l
 
 #proxy
 [
+
 ]
 
 #reject url
@@ -28,4 +28,5 @@ https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/R
 
 #reject
 [
+
 ]
