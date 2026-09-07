@@ -1,42 +1,63 @@
-#fix url
-[
-https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct+.list
-]
+fix
+{
+  url
+  [
+ 
+  ]
 
-#fix
-[
+  rules
+  [
+  ]
+}
 
-]
+direct
+{
+  url
+  [
+  https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct.list
+  https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/Apple/Apple.list
+  ]
 
-#direct url
-[
-https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct.list
-https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Apple/Apple.list
-]
+  rules
+  [
+  DOMAIN-SUFFIX,xiaohongshu.com
+  DOMAIN-SUFFIX,xiaohong.com
+  ]
+}
 
-#direct
-[
-DOMAIN-SUFFIX,xiaohongshu.com
-]
+direct+
+{
+  url
+  [
+  ]
 
-#proxy url
-[
-https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/!CN.list
-https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.list
-]
+  rules
+  [
+  ]
+}
 
-#proxy
-[
+proxy
+{
+  url
+  [
+  https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/!CN.list
+  https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.list
+  ]
 
-]
+  rules
+  [
+  ]
+}
 
-#reject url
-[
-https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list
-https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list
-]
+reject
+{
+  url
+  [
+  https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list
+  https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list
+  ]
 
-#reject
-[
-
-]
+  rules
+  [
+  ]
+}
