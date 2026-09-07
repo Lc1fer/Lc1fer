@@ -19,7 +19,7 @@ permissions:
   contents: write
 
 jobs:
-  update-rules:
+  merge-rules:
     runs-on: ubuntu-latest
 
     steps:
@@ -346,5 +346,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update rules"
+          git commit -m "Merge rules"
           git push
