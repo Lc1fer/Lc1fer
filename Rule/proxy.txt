@@ -1,4 +1,4 @@
-# 更新时间：2026年9月6日 21:36
+# 更新时间：2026年9月7日 08:40
 
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,a248.e.akamai.net

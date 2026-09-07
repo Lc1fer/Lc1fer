@@ -1,4 +1,4 @@
-# 更新时间：2026年9月6日 22:30
+# 更新时间：2026年9月7日 06:02
 
 DOMAIN,a.wkanx.com
 DOMAIN,a0.app.xiaomi.com
