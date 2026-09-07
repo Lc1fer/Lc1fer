@@ -3,9 +3,7 @@ name: Merge Rules
 on:
   schedule:
     - cron: '30 22 * * *'
-
   workflow_dispatch:
-
   push:
     paths:
       - 'Rule/merge.txt'
@@ -22,25 +20,36 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Generate rules
+      - name: Generate and commit rules
         shell: bash
         run: |
           set -euo pipefail
 
           SOURCE_FILE="Rule/merge.txt"
+          CHANGED_FILES=()
 
           if [ ! -f "$SOURCE_FILE" ]; then
             echo "ERROR: $SOURCE_FILE not found."
             exit 1
           fi
 
+          discover_rules() {
+            awk '
+              { sub(/\r$/, "") }
+              /^#[^[:space:]]+[[:space:]]+url$/ {
+                name=$0
+                sub(/^#/, "", name)
+                sub(/[[:space:]]+url$/, "", name)
+                if (!seen[name]++) print name
+              }
+            ' "$SOURCE_FILE"
+          }
+
           extract_section() {
             local section="$1"
 
             awk -v section="#$section" '
-              {
-                sub(/\r$/, "")
-              }
+              { sub(/\r$/, "") }
 
               $0 == section {
                 found_section=1
@@ -60,9 +69,7 @@ jobs:
                 exit
               }
 
-              inside {
-                print
-              }
+              inside { print }
 
               END {
                 if (!found_section) exit 2
@@ -82,13 +89,11 @@ jobs:
           }
 
           get_urls() {
-            local section="$1"
-            extract_section "$section" | clean_section
+            extract_section "$1" | clean_section
           }
 
           get_custom_rules() {
-            local section="$1"
-            extract_section "$section" | clean_section
+            extract_section "$1" | clean_section
           }
 
           download_sources() {
@@ -127,7 +132,6 @@ jobs:
               fi
             done <<< "$urls"
 
-            echo
             echo "Sources total:     $total"
             echo "Sources succeeded: $success"
             echo "Sources failed:    $failed"
@@ -144,12 +148,34 @@ jobs:
               -e '/^#/d'
           }
 
-          generate_rule() {
-            local name="$1"
+          get_existing_rules() {
+            local input="$1"
             local output="$2"
 
-            local external custom merged cleaned sorted final
-            local urls
+            if [ ! -f "$input" ]; then
+              : > "$output"
+              return 0
+            fi
+
+            {
+              if head -n 1 "$input" | grep -q '^# 更新时间：'; then
+                tail -n +3 "$input"
+              else
+                cat "$input"
+              fi
+            } | clean_rules | LC_ALL=C sort -u > "$output"
+          }
+
+          generate_rule() {
+            local name="$1"
+            local output="Rule/$name.txt"
+
+            if [[ ! "$name" =~ ^[A-Za-z0-9._+-]+$ ]]; then
+              echo "ERROR: Invalid rule name: $name"
+              exit 1
+            fi
+
+            local external custom merged cleaned sorted existing final urls
             local has_urls=0
 
             external=$(mktemp)
@@ -157,6 +183,7 @@ jobs:
             merged=$(mktemp)
             cleaned=$(mktemp)
             sorted=$(mktemp)
+            existing=$(mktemp)
             final=$(mktemp)
 
             urls=$(get_urls "$name url")
@@ -165,19 +192,9 @@ jobs:
               has_urls=1
 
               if ! download_sources "$urls" "$external"; then
-                echo
-                echo "WARNING:"
-                echo "One or more external sources failed."
+                echo "WARNING: source download failed for $name."
                 echo "Keep existing file: $output"
-
-                rm -f \
-                  "$external" \
-                  "$custom" \
-                  "$merged" \
-                  "$cleaned" \
-                  "$sorted" \
-                  "$final"
-
+                rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing" "$final"
                 return 0
               fi
             else
@@ -187,27 +204,29 @@ jobs:
             get_custom_rules "$name" > "$custom"
 
             if [ "$has_urls" -eq 0 ] && [ ! -s "$custom" ]; then
-              echo
-              echo "WARNING:"
-              echo "No external URLs and no custom rules."
-              echo "Keep existing file: $output"
-
-              rm -f \
-                "$external" \
-                "$custom" \
-                "$merged" \
-                "$cleaned" \
-                "$sorted" \
-                "$final"
-
+              echo "SKIP: $name has no URLs or custom rules."
+              rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing" "$final"
               return 0
             fi
 
             cat "$external" "$custom" > "$merged"
-
             clean_rules < "$merged" > "$cleaned"
-
             LC_ALL=C sort -u "$cleaned" > "$sorted"
+
+            if [ ! -s "$sorted" ]; then
+              echo "WARNING: generated rules are empty for $name."
+              echo "Keep existing file: $output"
+              rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing" "$final"
+              return 0
+            fi
+
+            get_existing_rules "$output" "$existing"
+
+            if [ -f "$output" ] && cmp -s "$sorted" "$existing"; then
+              echo "UNCHANGED: $output"
+              rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing" "$final"
+              return 0
+            fi
 
             {
               echo "# 更新时间：$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
@@ -215,46 +234,41 @@ jobs:
               cat "$sorted"
             } > "$final"
 
-            sed -i '${/^$/d;}' "$final"
-            echo >> "$final"
-
             mv "$final" "$output"
+            CHANGED_FILES+=("$output")
 
-            echo
-            echo "=========================================="
-            echo "Generated: $output"
+            echo "UPDATED: $output"
             echo "Unique rules: $(wc -l < "$sorted")"
-            echo "Update time: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
-            echo "=========================================="
 
-            rm -f \
-              "$external" \
-              "$custom" \
-              "$merged" \
-              "$cleaned" \
-              "$sorted"
+            rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing"
           }
-          generate_rule "fix" "Rule/fix.txt"
-          generate_rule "direct" "Rule/direct.txt"
-          generate_rule "reject" "Rule/reject.txt"
-          generate_rule "proxy" "Rule/proxy.txt"
 
-      - name: Commit changes
-        shell: bash
-        run: |
-          set -e
+          mapfile -t RULE_NAMES < <(discover_rules)
+
+          if [ "${#RULE_NAMES[@]}" -eq 0 ]; then
+            echo "ERROR: No rule sections found in $SOURCE_FILE."
+            exit 1
+          fi
+
+          echo "Discovered rule sets:"
+          printf '  - %s\n' "${RULE_NAMES[@]}"
+
+          for name in "${RULE_NAMES[@]}"; do
+            generate_rule "$name"
+          done
+
+          if [ "${#CHANGED_FILES[@]}" -eq 0 ]; then
+            echo "No rule content changes."
+            exit 0
+          fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add \
-            Rule/fix.txt \
-            Rule/direct.txt \
-            Rule/reject.txt \
-            Rule/proxy.txt
+          git add -- "${CHANGED_FILES[@]}"
 
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "No staged changes."
             exit 0
           fi
 
