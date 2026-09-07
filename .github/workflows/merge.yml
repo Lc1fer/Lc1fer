@@ -1,0 +1,350 @@
+name: Merge Rules
+
+on:
+  # 每天北京时间 06:30 执行
+  # 北京时间 06:30 = UTC 22:30
+  schedule:
+    - cron: '30 22 * * *'
+
+  # 支持手动执行
+  workflow_dispatch:
+
+  # 修改 merge.txt 或 Workflow 时执行
+  push:
+    paths:
+      - 'Rule/merge.txt'
+      - '.github/workflows/merge.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ==========================================
+      # 检出仓库
+      # ==========================================
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ==========================================
+      # 生成规则
+      # ==========================================
+      - name: Generate rules
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          SOURCE_FILE="Rule/merge.txt"
+
+          if [ ! -f "$SOURCE_FILE" ]; then
+            echo "ERROR: $SOURCE_FILE not found."
+            exit 1
+          fi
+
+
+          # ==========================================
+          # 提取指定区域
+          # ==========================================
+          extract_section() {
+            local section="$1"
+
+            awk \
+              -v start="#$section" \
+              -v end="#$section end" '
+                $0 == start {
+                  inside=1
+                  found_start=1
+                  next
+                }
+
+                $0 == end {
+                  inside=0
+                  found_end=1
+                  exit
+                }
+
+                inside {
+                  print
+                }
+
+                END {
+                  if (!found_start) exit 2
+                  if (!found_end) exit 3
+                }
+              ' "$SOURCE_FILE"
+          }
+
+
+          # ==========================================
+          # 获取 URL
+          # ==========================================
+          get_urls() {
+            local section="$1"
+
+            extract_section "$section" |
+              sed \
+                -e 's/\r$//' \
+                -e 's/^[[:space:]]*//' \
+                -e 's/[[:space:]]*$//' |
+              grep -v '^$' |
+              grep -v '^#' || true
+          }
+
+
+          # ==========================================
+          # 获取本地自定义规则
+          # ==========================================
+          get_custom_rules() {
+            local section="$1"
+
+            extract_section "$section" |
+              sed \
+                -e 's/\r$//' \
+                -e 's/^[[:space:]]*//' \
+                -e 's/[[:space:]]*$//' |
+              grep -v '^$' |
+              grep -v '^#' || true
+          }
+
+
+          # ==========================================
+          # 下载外部规则
+          # ==========================================
+          download_sources() {
+            local urls="$1"
+            local output="$2"
+
+            : > "$output"
+
+            local success=0
+            local failed=0
+
+            while IFS= read -r url; do
+              [ -z "$url" ] && continue
+
+              echo "Downloading: $url"
+
+              if curl \
+                --fail \
+                --silent \
+                --show-error \
+                --location \
+                --retry 3 \
+                --retry-delay 2 \
+                --connect-timeout 15 \
+                --max-time 60 \
+                "$url" >> "$output"
+              then
+                echo >> "$output"
+
+                success=$((success + 1))
+                echo "  ✓ Success"
+              else
+                failed=$((failed + 1))
+                echo "  ✗ Failed"
+              fi
+
+            done <<< "$urls"
+
+            echo
+            echo "Sources succeeded: $success"
+            echo "Sources failed:    $failed"
+
+            if [ "$success" -gt 0 ]; then
+              return 0
+            fi
+
+            return 1
+          }
+
+
+          # ==========================================
+          # 清理规则
+          #
+          # - 删除 CRLF
+          # - 删除首尾空格
+          # - 删除空行
+          # - 删除 # 开头的注释
+          # ==========================================
+          clean_rules() {
+            sed \
+              -e 's/\r$//' \
+              -e 's/^[[:space:]]*//' \
+              -e 's/[[:space:]]*$//' \
+              -e '/^$/d' \
+              -e '/^#/d'
+          }
+
+
+          # ==========================================
+          # 生成单个规则文件
+          # ==========================================
+          generate_rule() {
+            local name="$1"
+            local output="$2"
+
+            local external
+            local custom
+            local merged
+            local cleaned
+            local sorted
+            local final
+
+            external=$(mktemp)
+            custom=$(mktemp)
+            merged=$(mktemp)
+            cleaned=$(mktemp)
+            sorted=$(mktemp)
+            final=$(mktemp)
+
+
+            # ========================================
+            # 获取外部 URL
+            # ========================================
+            local urls
+            urls=$(get_urls "$name url")
+
+            local external_ok=0
+
+            if [ -n "$urls" ]; then
+              if download_sources "$urls" "$external"; then
+                external_ok=1
+              fi
+            fi
+
+
+            # ========================================
+            # 获取 merge.txt 中的本地规则
+            # ========================================
+            get_custom_rules "$name" > "$custom"
+
+
+            # ========================================
+            # 所有外部源失败且没有本地规则
+            # 则保留现有规则文件
+            # ========================================
+            if [ "$external_ok" -eq 0 ] && [ ! -s "$custom" ]; then
+
+              echo
+              echo "WARNING:"
+              echo "All external sources failed and no custom rules exist."
+              echo "Keep existing file: $output"
+
+              rm -f \
+                "$external" \
+                "$custom" \
+                "$merged" \
+                "$cleaned" \
+                "$sorted" \
+                "$final"
+
+              return 0
+            fi
+
+
+            # ========================================
+            # 合并外部规则 + 本地规则
+            # ========================================
+            cat \
+              "$external" \
+              "$custom" \
+              > "$merged"
+
+
+            # ========================================
+            # 清理规则
+            # ========================================
+            clean_rules < "$merged" > "$cleaned"
+
+
+            # ========================================
+            # 全局去重 + ASCII 升序排序
+            # ========================================
+            LC_ALL=C sort -u \
+              "$cleaned" \
+              > "$sorted"
+
+
+            # ========================================
+            # 生成最终文件
+            #
+            # 第 1 行：北京时间更新时间
+            # 第 2 行：空行
+            # 第 3 行开始：规则
+            # ========================================
+            {
+              echo "# 更新时间：$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
+              echo
+              cat "$sorted"
+            } > "$final"
+
+
+            # ========================================
+            # 删除文件末尾多余空行
+            # 并保证文件以换行符结束
+            # ========================================
+            sed -i '${/^$/d;}' "$final"
+            echo >> "$final"
+
+
+            # ========================================
+            # 替换现有规则文件
+            # ========================================
+            mv "$final" "$output"
+
+
+            echo
+            echo "=========================================="
+            echo "Generated: $output"
+            echo "Unique rules: $(wc -l < "$sorted")"
+            echo "Update time: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
+            echo "=========================================="
+
+
+            # ========================================
+            # 清理临时文件
+            # ========================================
+            rm -f \
+              "$external" \
+              "$custom" \
+              "$merged" \
+              "$cleaned" \
+              "$sorted"
+          }
+
+
+          # ==========================================
+          # 生成三个规则文件
+          # Rule 目录已存在，无需创建
+          # ==========================================
+          generate_rule "direct" "Rule/direct.txt"
+          generate_rule "reject" "Rule/reject.txt"
+          generate_rule "proxy" "Rule/proxy.txt"
+
+
+      # ==========================================
+      # 提交修改
+      # ==========================================
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -e
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            Rule/direct.txt \
+            Rule/reject.txt \
+            Rule/proxy.txt
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "Update rules"
+          git push
