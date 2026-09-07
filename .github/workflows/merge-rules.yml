@@ -234,7 +234,7 @@ jobs:
               "$cleaned" \
               "$sorted"
           }
-
+          generate_rule "direct+" "Rule/fix.txt"
           generate_rule "direct" "Rule/direct.txt"
           generate_rule "reject" "Rule/reject.txt"
           generate_rule "proxy" "Rule/proxy.txt"
@@ -248,6 +248,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add \
+            Rule/fix.txt \
             Rule/direct.txt \
             Rule/reject.txt \
             Rule/proxy.txt
