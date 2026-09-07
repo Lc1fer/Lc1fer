@@ -35,46 +35,132 @@ jobs:
 
           discover_rules() {
             awk '
-              { sub(/\r$/, "") }
-              /^#[^[:space:]]+[[:space:]]+url$/ {
-                name=$0
-                sub(/^#/, "", name)
-                sub(/[[:space:]]+url$/, "", name)
-                if (!seen[name]++) print name
+              function trim(s) {
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "", s)
+                return s
+              }
+
+              {
+                sub(/\r$/, "")
+                line=trim($0)
+
+                if (depth == 0) {
+                  if (line == "" || line ~ /^#/) next
+
+                  if (pending == "") {
+                    pending=line
+                    next
+                  }
+
+                  if (line == "{") {
+                    if (!seen[pending]++) print pending
+                    depth=1
+                    pending=""
+                    next
+                  }
+
+                  pending=line
+                  next
+                }
+
+                if (line == "}") {
+                  depth--
+                }
               }
             ' "$SOURCE_FILE"
           }
 
-          extract_section() {
-            local section="$1"
+          extract_block() {
+            local rule_name="$1"
+            local block_name="$2"
 
-            awk -v section="#$section" '
-              { sub(/\r$/, "") }
-
-              $0 == section {
-                found_section=1
-                wait_open=1
-                next
+            awk -v target="$rule_name" -v block="$block_name" '
+              function trim(s) {
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "", s)
+                return s
               }
 
-              wait_open && $0 == "[" {
-                inside=1
-                found_open=1
-                wait_open=0
-                next
-              }
+              {
+                sub(/\r$/, "")
+                raw=$0
+                line=trim(raw)
 
-              inside && $0 == "]" {
-                found_close=1
-                exit
-              }
+                if (!in_target) {
+                  if (!waiting_target && line == target) {
+                    found_target=1
+                    waiting_target=1
+                    next
+                  }
 
-              inside { print }
+                  if (waiting_target) {
+                    if (line == "") next
+
+                    if (line == "{") {
+                      in_target=1
+                      waiting_target=0
+                      next
+                    }
+
+                    print "ERROR: expected { after " target > "/dev/stderr"
+                    parse_error=1
+                    exit
+                  }
+
+                  next
+                }
+
+                if (!in_block && !waiting_block && line == "}") {
+                  in_target=0
+                  exit
+                }
+
+                if (!in_block && !waiting_block && line == block) {
+                  found_block=1
+                  waiting_block=1
+                  next
+                }
+
+                if (waiting_block) {
+                  if (line == "") next
+
+                  if (line == "[") {
+                    in_block=1
+                    waiting_block=0
+                    next
+                  }
+
+                  print "ERROR: expected [ after " block " in " target > "/dev/stderr"
+                  parse_error=1
+                  exit
+                }
+
+                if (in_block) {
+                  if (line == "]") {
+                    found_close=1
+                    exit
+                  }
+
+                  print raw
+                }
+              }
 
               END {
-                if (!found_section) exit 2
-                if (!found_open) exit 3
-                if (!found_close) exit 4
+                if (parse_error) exit 5
+
+                if (!found_target) {
+                  print "ERROR: category not found: " target > "/dev/stderr"
+                  exit 2
+                }
+
+                if (!found_block) {
+                  print "ERROR: block not found: " block " in " target > "/dev/stderr"
+                  exit 3
+                }
+
+                if (!found_close) {
+                  print "ERROR: missing ] for " block " in " target > "/dev/stderr"
+                  exit 4
+                }
               }
             ' "$SOURCE_FILE"
           }
@@ -89,11 +175,11 @@ jobs:
           }
 
           get_urls() {
-            extract_section "$1" | clean_section
+            extract_block "$1" "url" | clean_section
           }
 
           get_custom_rules() {
-            extract_section "$1" | clean_section
+            extract_block "$1" "rules" | clean_section
           }
 
           download_sources() {
@@ -105,12 +191,15 @@ jobs:
             local total=0
             local success=0
             local failed=0
+            local tmp
 
             while IFS= read -r url; do
               [ -z "$url" ] && continue
 
               total=$((total + 1))
               echo "Downloading: $url"
+
+              tmp=$(mktemp)
 
               if curl \
                 --fail \
@@ -121,8 +210,10 @@ jobs:
                 --retry-delay 2 \
                 --connect-timeout 15 \
                 --max-time 60 \
-                "$url" >> "$output"
+                --output "$tmp" \
+                "$url"
               then
+                cat "$tmp" >> "$output"
                 echo >> "$output"
                 success=$((success + 1))
                 echo "  ✓ Success"
@@ -130,6 +221,8 @@ jobs:
                 failed=$((failed + 1))
                 echo "  ✗ Failed"
               fi
+
+              rm -f "$tmp"
             done <<< "$urls"
 
             echo "Sources total:     $total"
@@ -186,7 +279,7 @@ jobs:
             existing=$(mktemp)
             final=$(mktemp)
 
-            urls=$(get_urls "$name url")
+            urls=$(get_urls "$name")
 
             if [ -n "$urls" ]; then
               has_urls=1
@@ -205,6 +298,7 @@ jobs:
 
             if [ "$has_urls" -eq 0 ] && [ ! -s "$custom" ]; then
               echo "SKIP: $name has no URLs or custom rules."
+              echo "Keep existing file: $output"
               rm -f "$external" "$custom" "$merged" "$cleaned" "$sorted" "$existing" "$final"
               return 0
             fi
@@ -246,12 +340,13 @@ jobs:
           mapfile -t RULE_NAMES < <(discover_rules)
 
           if [ "${#RULE_NAMES[@]}" -eq 0 ]; then
-            echo "ERROR: No rule sections found in $SOURCE_FILE."
+            echo "ERROR: No rule categories found in $SOURCE_FILE."
             exit 1
           fi
 
           echo "Discovered rule sets:"
           printf '  - %s\n' "${RULE_NAMES[@]}"
+          echo
 
           for name in "${RULE_NAMES[@]}"; do
             generate_rule "$name"
