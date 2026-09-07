@@ -2,6 +2,7 @@ fix
 {
   url
   [
+  https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct+.list
   ]
 
   rules
@@ -20,17 +21,6 @@ direct
   rules
   [
   DOMAIN-SUFFIX,xiaohongshu.com
-  ]
-}
-
-direct+
-{
-  url
-  [
-  ]
-
-  rules
-  [
   ]
 }
 
