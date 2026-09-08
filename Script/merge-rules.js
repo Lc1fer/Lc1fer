@@ -1,616 +1,189 @@
-const fs = require('fs');
-const path = require('path');
+'use strict';
 
-const CONFIG_FILE = path.join('Rule', 'merge.yaml');
-const OUTPUT_DIR = 'Rule';
+const fs = require('node:fs/promises');
+const path = require('node:path');
+const { randomUUID } = require('node:crypto');
+const { setTimeout: sleep } = require('node:timers/promises');
 
+const OPTIONS = { concurrency: 4, attempts: 3, timeoutMs: 60_000, retryMs: 2_000 };
 
-/**
- * 解析 merge.yaml
- *
- * 格式：
- *
- * direct:
- *   url:
- *     - https://example.com/direct.list
- *   rules:
- *     - DOMAIN-SUFFIX,example.com
- *
- * proxy:
- *   url: []
- *   rules: []
- *
- * 所有顶层键都会自动作为规则文件名：
- *
- * direct   -> Rule/direct.txt
- * proxy    -> Rule/proxy.txt
- */
 function parseConfig(text) {
-  const result = {};
-  const lines = text.replace(/\r/g, '').split('\n');
-
-  let currentName = null;
-  let currentSection = null;
-
-  for (let index = 0; index < lines.length; index++) {
-    const raw = lines[index];
+  const result = Object.create(null);
+  const names = new Set();
+  let current = null;
+  let section = null;
+  let sections = new Set();
+  for (const [index, raw] of text.replace(/^\uFEFF/, '').replace(/\r/g, '').split('\n').entries()) {
     const line = raw.trim();
-
-    // 跳过空行和注释
-    if (!line || line.startsWith('#')) {
-      continue;
-    }
-
-    const indent = raw.match(/^\s*/)[0].length;
-
-
-    // ==========================================
-    // 顶层规则分类
-    //
-    // direct:
-    // proxy:
-    // ==========================================
+    if (!line || line.startsWith('#')) continue;
+    const fail = message => { throw new Error(`Line ${index + 1}: ${message}`); };
+    if (/^\s*\t/.test(raw)) fail('Use spaces for indentation');
+    const indent = raw.length - raw.trimStart().length;
     if (indent === 0 && line.endsWith(':')) {
-      currentName = line.slice(0, -1).trim();
-
-      if (!/^[A-Za-z0-9._+-]+$/.test(currentName)) {
-        throw new Error(
-          `Line ${index + 1}: invalid rule name "${currentName}"`
-        );
+      const name = line.slice(0, -1).trim();
+      if (!/^[A-Za-z0-9._+-]+$/.test(name) || name.endsWith('.') ||
+          /^(con|prn|aux|nul|com[1-9]|lpt[1-9])(?:\.|$)/i.test(name)) {
+        fail(`Invalid output name: ${name}`);
       }
-
-      if (result[currentName]) {
-        throw new Error(
-          `Line ${index + 1}: duplicate rule name "${currentName}"`
-        );
-      }
-
-      result[currentName] = {
-        url: [],
-        rules: [],
-      };
-
-      currentSection = null;
+      const key = name.toLowerCase();
+      if (names.has(key)) fail(`Duplicate output name: ${name}`);
+      names.add(key);
+      current = result[name] = { url: [], rules: [] };
+      sections = new Set();
+      section = null;
       continue;
     }
-
-
-    // ==========================================
-    // url: []
-    // rules: []
-    // ==========================================
-    if (indent === 2 && currentName) {
-      const emptyMatch = line.match(
-        /^(url|rules):\s*\[\s*\]$/
-      );
-
-      if (emptyMatch) {
-        currentSection = null;
-        continue;
-      }
-
-
-      // ========================================
-      // url:
-      // rules:
-      // ========================================
-      const sectionMatch = line.match(
-        /^(url|rules):$/
-      );
-
-      if (sectionMatch) {
-        currentSection = sectionMatch[1];
-        continue;
-      }
+    const match = indent === 2 && line.match(/^(url|rules):\s*(\[\s*\])?$/);
+    if (current && match) {
+      if (sections.has(match[1])) fail(`Duplicate section: ${match[1]}`);
+      sections.add(match[1]);
+      section = match[2] ? null : match[1];
+      continue;
     }
-
-
-    // ==========================================
-    // 列表内容
-    //
-    //   url:
-    //     - https://example.com/a.list
-    //
-    //   rules:
-    //     - DOMAIN-SUFFIX,example.com
-    // ==========================================
-    if (
-      indent >= 4 &&
-      currentName &&
-      currentSection &&
-      line.startsWith('- ')
-    ) {
+    if (indent >= 4 && current && section && line.startsWith('- ')) {
       const value = line.slice(2).trim();
-
-      if (
-        value &&
-        !value.startsWith('#')
-      ) {
-        result[currentName][currentSection].push(value);
+      if (!value || value.startsWith('#')) continue;
+      if (section === 'url') {
+        let parsed;
+        try { parsed = new URL(value); } catch { fail(`Invalid URL: ${value}`); }
+        if (!['http:', 'https:'].includes(parsed.protocol)) fail('URL must use HTTP or HTTPS');
       }
-
+      current[section].push(value);
       continue;
     }
-
-
-    throw new Error(
-      `Line ${index + 1}: unsupported syntax: ${line}`
-    );
+    fail(`Unsupported syntax: ${line}`);
   }
-
-
-  if (Object.keys(result).length === 0) {
-    throw new Error('No rule categories found');
-  }
-
+  if (!names.size) throw new Error('No rule categories found');
   return result;
 }
 
-
-/**
- * 清理规则：
- *
- * - CRLF -> LF
- * - 删除首尾空格
- * - 删除空行
- * - 删除 # 注释行
- */
-function cleanRules(text) {
-  return text
-    .replace(/\r/g, '')
-    .split('\n')
-    .map(line => line.trim())
-    .filter(
-      line =>
-        line &&
-        !line.startsWith('#')
-    );
+function addRules(target, text) {
+  for (const raw of text.split(/\r\n|\n|\r/)) {
+    const line = raw.trim();
+    if (line && !line.startsWith('#')) target.add(line);
+  }
+  return target;
 }
 
-
-/**
- * 去重并使用 ASCII 顺序排序
- */
-function sortUnique(lines) {
-  return [...new Set(lines)].sort(
-    (a, b) => {
-      if (a === b) {
-        return 0;
-      }
-
-      return a < b ? -1 : 1;
-    }
-  );
-}
-
-
-/**
- * 延迟
- */
-function sleep(ms) {
-  return new Promise(
-    resolve => setTimeout(resolve, ms)
-  );
-}
-
-
-/**
- * 下载远程规则
- *
- * - 自动跟随重定向
- * - 60 秒超时
- * - 最多尝试 3 次
- * - 失败后间隔 2 秒
- */
-async function download(url, retries = 3) {
-  let lastError;
-
-  for (
-    let attempt = 1;
-    attempt <= retries;
-    attempt++
-  ) {
-    const controller =
-      new AbortController();
-
-    const timeout =
-      setTimeout(
-        () => controller.abort(),
-        60000
-      );
-
+async function download(url, options = OPTIONS) {
+  for (let attempt = 1; attempt <= options.attempts; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), options.timeoutMs);
+    let failure;
+    let retryable = true;
     try {
-      const response =
-        await fetch(url, {
-          redirect: 'follow',
-
-          signal:
-            controller.signal,
-
-          headers: {
-            'User-Agent':
-              'GitHub-Actions-Rule-Merger',
-          },
-        });
-
-
+      const response = await fetch(url, {
+        redirect: 'follow', signal: controller.signal,
+        headers: { 'User-Agent': 'GitHub-Actions-Rule-Merger' },
+      });
       if (!response.ok) {
-        throw new Error(
-          `HTTP ${response.status} ${response.statusText}`
-        );
+        retryable = [408, 429].includes(response.status) || response.status >= 500;
+        await response.body?.cancel();
+        throw new Error(`HTTP ${response.status} ${response.statusText}`);
       }
-
-
-      return await response.text();
-
-
+      return addRules(new Set(), await response.text());
     } catch (error) {
-      lastError = error;
-
-
-      if (attempt < retries) {
-        console.log(
-          `  Retry ${attempt}/${retries - 1}: ${url}`
-        );
-
-        await sleep(2000);
-      }
-
-
+      failure = error;
     } finally {
-      clearTimeout(timeout);
+      clearTimeout(timer);
+    }
+    if (!retryable || attempt === options.attempts) throw failure;
+    console.warn(`Retry ${attempt}/${options.attempts - 1}: ${url} (${failure.message})`);
+    await sleep(options.retryMs * 2 ** (attempt - 1));
+  }
+}
+
+async function mapLimit(items, limit, action) {
+  let next = 0;
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (next < items.length) {
+      const index = next++;
+      await action(items[index]);
+    }
+  }));
+}
+
+const timeFormatter = new Intl.DateTimeFormat('sv-SE', {
+  timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit',
+  hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+});
+
+async function atomicWrite(output, content) {
+  const temporary = `${output}.${randomUUID()}.tmp`;
+  try {
+    await fs.writeFile(temporary, content, { encoding: 'utf8', flag: 'wx' });
+    await fs.rename(temporary, output);
+  } finally {
+    await fs.rm(temporary, { force: true });
+  }
+}
+
+async function generateRule(name, config, downloads, outputDir) {
+  const output = path.join(outputDir, `${name}.txt`);
+  if (!config.url.length && !config.rules.length) return 'skipped';
+  const rules = new Set();
+  for (const url of new Set(config.url)) {
+    const result = downloads.get(url);
+    if (result.error) {
+      console.error(`FAILED: ${name}: ${url}: ${result.error.message}; original file preserved`);
+      return 'failed';
+    }
+    for (const rule of result.rules) rules.add(rule);
+  }
+  for (const rule of config.rules) addRules(rules, rule);
+  if (!rules.size) {
+    console.warn(`SKIP: ${name} generated no rules; original file preserved`);
+    return 'skipped';
+  }
+  const sorted = [...rules].sort();
+  let oldText;
+  try { oldText = await fs.readFile(output, 'utf8'); }
+  catch (error) { if (error.code !== 'ENOENT') throw error; }
+  if (oldText !== undefined) {
+    const oldRules = addRules(new Set(), oldText);
+    if (oldRules.size === rules.size && sorted.every(rule => oldRules.has(rule))) {
+      console.log(`UNCHANGED: ${output}`);
+      return 'unchanged';
     }
   }
-
-
-  throw lastError;
+  await atomicWrite(output, `# 更新时间：${timeFormatter.format(new Date())}\n\n${sorted.join('\n')}\n`);
+  console.log(`UPDATED: ${output} (${rules.size} unique rules)`);
+  return 'updated';
 }
 
-
-/**
- * 比较两个规则数组
- */
-function rulesEqual(a, b) {
-  if (a.length !== b.length) {
-    return false;
+async function main({ configFile = path.join('Rule', 'merge.yaml'), outputDir = 'Rule', options = OPTIONS } = {}) {
+  const settings = { ...OPTIONS, ...options };
+  for (const key of Object.keys(OPTIONS)) {
+    if (!Number.isSafeInteger(settings[key]) || settings[key] < 1) throw new Error(`Invalid option: ${key}`);
   }
-
-  return a.every(
-    (rule, index) =>
-      rule === b[index]
-  );
-}
-
-
-/**
- * 获取北京时间
- *
- * 输出：
- * 2026-09-08 09:30
- */
-function getUpdateTime() {
-  const formatter =
-    new Intl.DateTimeFormat(
-      'sv-SE',
-      {
-        timeZone:
-          'Asia/Shanghai',
-
-        year:
-          'numeric',
-
-        month:
-          '2-digit',
-
-        day:
-          '2-digit',
-
-        hour:
-          '2-digit',
-
-        minute:
-          '2-digit',
-
-        hour12:
-          false,
-      }
-    );
-
-  return formatter.format(
-    new Date()
-  );
-}
-
-
-/**
- * 生成单个规则文件
- */
-async function generateRule(
-  name,
-  config
-) {
-  const output =
-    path.join(
-      OUTPUT_DIR,
-      `${name}.txt`
-    );
-
-
-  const externalRules = [];
-
-
-  // ==========================================
-  // 下载外部 URL
-  //
-  // 任意一个 URL 下载失败：
-  // 不覆盖当前规则文件
-  // ==========================================
-  if (config.url.length > 0) {
-    for (const url of config.url) {
-      console.log(
-        `Downloading: ${url}`
-      );
-
-
-      try {
-        const content =
-          await download(url);
-
-
-        externalRules.push(
-          ...cleanRules(content)
-        );
-
-
-        console.log(
-          '  ✓ Success'
-        );
-
-
-      } catch (error) {
-        console.error(
-          `  ✗ Failed: ${error.message}`
-        );
-
-
-        console.warn(
-          `SKIP: ${output} will not be overwritten.`
-        );
-
-
-        return false;
-      }
+  const config = parseConfig(await fs.readFile(configFile, 'utf8'));
+  await fs.mkdir(outputDir, { recursive: true });
+  const urls = [...new Set(Object.values(config).flatMap(item => item.url))];
+  const downloads = new Map();
+  await mapLimit(urls, settings.concurrency, async url => {
+    console.log(`Downloading: ${url}`);
+    try { downloads.set(url, { rules: await download(url, settings) }); }
+    catch (error) { downloads.set(url, { error }); }
+  });
+  const summary = { updated: 0, unchanged: 0, skipped: 0, failed: 0 };
+  for (const [name, item] of Object.entries(config)) {
+    try { summary[await generateRule(name, item, downloads, outputDir)]++; }
+    catch (error) {
+      summary.failed++;
+      console.error(`FAILED: ${name}: ${error.message}`);
     }
   }
-
-
-  // ==========================================
-  // 自定义规则
-  // ==========================================
-  const customRules =
-    config.rules
-      .map(
-        line => line.trim()
-      )
-      .filter(
-        line =>
-          line &&
-          !line.startsWith('#')
-      );
-
-
-  // ==========================================
-  // url 和 rules 都为空
-  //
-  // 保留原文件
-  // ==========================================
-  if (
-    config.url.length === 0 &&
-    customRules.length === 0
-  ) {
-    console.log(
-      `SKIP: ${name} has no URLs or custom rules.`
-    );
-
-    return false;
-  }
-
-
-  // ==========================================
-  // 合并
-  // 去重
-  // 排序
-  // ==========================================
-  const newRules =
-    sortUnique([
-      ...externalRules,
-      ...customRules,
-    ]);
-
-
-  if (newRules.length === 0) {
-    console.warn(
-      `SKIP: generated rules are empty for ${name}.`
-    );
-
-    return false;
-  }
-
-
-  // ==========================================
-  // 读取旧文件规则正文
-  //
-  // cleanRules 会自动删除：
-  //
-  // # 更新时间：xxxx
-  //
-  // 所以比较时不会受更新时间影响
-  // ==========================================
-  let oldRules = [];
-
-
-  if (fs.existsSync(output)) {
-    oldRules =
-      sortUnique(
-        cleanRules(
-          fs.readFileSync(
-            output,
-            'utf8'
-          )
-        )
-      );
-  }
-
-
-  // ==========================================
-  // 只有正文变化才覆盖
-  // ==========================================
-  if (
-    fs.existsSync(output) &&
-    rulesEqual(
-      newRules,
-      oldRules
-    )
-  ) {
-    console.log(
-      `UNCHANGED: ${output}`
-    );
-
-    return false;
-  }
-
-
-  // ==========================================
-  // 生成文件
-  //
-  // 第一行：
-  // # 更新时间：YYYY-MM-DD HH:mm
-  //
-  // 第二行：
-  // 空行
-  //
-  // 第三行开始：
-  // 规则
-  //
-  // 最后一条规则后只保留一个 \n
-  // 不产生额外空白行
-  // ==========================================
-  const updateTime =
-    getUpdateTime();
-
-
-  const content =
-    `# 更新时间：${updateTime}\n\n` +
-    `${newRules.join('\n')}\n`;
-
-
-  fs.writeFileSync(
-    output,
-    content,
-    'utf8'
-  );
-
-
-  console.log(
-    `UPDATED: ${output}`
-  );
-
-
-  console.log(
-    `Unique rules: ${newRules.length}`
-  );
-
-
-  return true;
+  console.log('Summary:', summary);
+  return summary;
 }
 
-
-/**
- * 主程序
- */
-async function main() {
-
-  if (
-    !fs.existsSync(
-      CONFIG_FILE
-    )
-  ) {
-    throw new Error(
-      `${CONFIG_FILE} not found`
-    );
-  }
-
-
-  // ==========================================
-  // 读取 merge.yaml
-  // ==========================================
-  const config =
-    parseConfig(
-      fs.readFileSync(
-        CONFIG_FILE,
-        'utf8'
-      )
-    );
-
-
-  const names =
-    Object.keys(config);
-
-
-  console.log(
-    'Discovered rule sets:'
-  );
-
-
-  names.forEach(
-    name =>
-      console.log(
-        `  - ${name}`
-      )
-  );
-
-
-  console.log('');
-
-
-  let changed = 0;
-
-
-  // ==========================================
-  // 自动处理所有分类
-  // ==========================================
-  for (const name of names) {
-
-    const updated =
-      await generateRule(
-        name,
-        config[name]
-      );
-
-
-    if (updated) {
-      changed++;
-    }
-  }
-
-
-  console.log('');
-
-
-  console.log(
-    `Changed rule files: ${changed}`
-  );
+if (require.main === module) {
+  main().then(summary => {
+    if (summary.failed) process.exitCode = 1;
+  }).catch(error => {
+    console.error(`ERROR: ${error.message}`);
+    process.exitCode = 1;
+  });
 }
 
-
-main().catch(
-  error => {
-
-    console.error(
-      `ERROR: ${error.message}`
-    );
-
-
-    process.exit(1);
-  }
-);
+module.exports = { parseConfig, addRules, download, main };
