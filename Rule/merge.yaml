@@ -9,6 +9,7 @@ direct:
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Apple/Apple.list
   rules:
     - DOMAIN-SUFFIX,xiaohongshu.com
+    - DOMAIN-SUFFIX,xiaohong.com
 
 proxy:
   url:
