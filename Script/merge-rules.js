@@ -16,14 +16,13 @@ const OUTPUT_DIR = 'Rule';
  *   rules:
  *     - DOMAIN-SUFFIX,example.com
  *
- * direct+:
+ * proxy:
  *   url: []
  *   rules: []
  *
  * 所有顶层键都会自动作为规则文件名：
  *
  * direct   -> Rule/direct.txt
- * direct+  -> Rule/direct+.txt
  * proxy    -> Rule/proxy.txt
  */
 function parseConfig(text) {
@@ -50,7 +49,6 @@ function parseConfig(text) {
     //
     // direct:
     // proxy:
-    // direct+:
     // ==========================================
     if (indent === 0 && line.endsWith(':')) {
       currentName = line.slice(0, -1).trim();
