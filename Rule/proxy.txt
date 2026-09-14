@@ -714,6 +714,7 @@ DOMAIN-SUFFIX,zoom.us
 DOMAIN-SUFFIX,zoominfo.com
 DOMAIN-SUFFIX,zophar.net
 DOMAIN-SUFFIX,zyxel.com
+GEOIP,NETFLIX,no-resolve
 IP-CIDR,103.2.30.0/23,no-resolve
 IP-CIDR,103.5.34.153/32,no-resolve
 IP-CIDR,104.109.129.153/32,no-resolve

@@ -140,7 +140,7 @@ def encode_srs(rules):
 
 
 def process_file(txt_path):
-    """Validate rules and remove duplicates while preserving input order."""
+    """Skip GEOIP during conversion; validate and deduplicate other rules."""
     txt_path = Path(txt_path)
     rules = {field: {} for field in RULE_TYPES.values()}
     with txt_path.open(encoding="utf-8-sig") as source:
@@ -152,6 +152,9 @@ def process_file(txt_path):
             line = re.split(r"\s+(?://|#|;)", line, maxsplit=1)[0].rstrip()
             parts = [part.strip() for part in line.split(",")]
             key = parts[0].upper()
+            # Keep GEOIP in the source TXT, but omit it from JSON and SRS.
+            if key == "GEOIP":
+                continue
             try:
                 if key not in RULE_TYPES:
                     raise ValueError(f"unsupported rule type: {parts[0]}")
