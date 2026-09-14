@@ -1,15 +1,74 @@
-name: Delete old workflow
+name: Delete old workflow runs
+
 on:
+  workflow_dispatch:
   schedule:
+    # 北京时间每周日 08:00。
     - cron: '0 0 * * 0'
+
+permissions:
+  actions: write
+
+concurrency:
+  group: delete-old-workflow-runs
+  cancel-in-progress: false
 
 jobs:
   del_runs:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Delete workflow runs
-        uses: GitRML/delete-workflow-runs@main
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}
-          retain_days: 3
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RETAIN_DAYS: '3'
+          KEEP_MINIMUM_RUNS: '3'
+        run: |
+          set -euo pipefail
+          work_dir="$(mktemp -d)"
+          trap 'rm -rf -- "$work_dir"' EXIT
+          cutoff="$(date -u -d "$RETAIN_DAYS days ago" +%s)"
+
+          # 完整获取所有分页，再开始删除，避免分页偏移导致漏删。
+          # 不加 API 搜索条件，以免触发筛选查询的 1,000 条结果上限。
+          gh api --paginate "repos/$GH_REPO/actions/runs?per_page=100" \
+            --jq '.workflow_runs[] | {id, workflow_id, status, created_at}' \
+            > "$work_dir/runs.jsonl"
+
+          # 每个工作流保留最近 3 次已完成记录；未完成记录始终保留。
+          # 其余记录仅在创建时间超过 3 天时删除，包括失败记录。
+          jq -s --argjson cutoff "$cutoff" --argjson keep "$KEEP_MINIMUM_RUNS" '
+            map(select(.status == "completed"))
+            | group_by(.workflow_id)
+            | map(sort_by(.created_at, .id) | reverse | .[$keep:][]
+                | select((.created_at | fromdateiso8601) < $cutoff))
+            | .[].id
+          ' "$work_dir/runs.jsonl" > "$work_dir/delete-ids.txt"
+
+          total="$(jq -s 'length' "$work_dir/runs.jsonl")"
+          candidates="$(wc -l < "$work_dir/delete-ids.txt")"
+          deleted=0
+          failed=0
+          while IFS= read -r run_id; do
+            if gh api --method DELETE "repos/$GH_REPO/actions/runs/$run_id"; then
+              deleted=$((deleted + 1))
+              echo "Deleted run $run_id"
+            else
+              failed=$((failed + 1))
+              echo "::error::Failed to delete run $run_id"
+            fi
+          done < "$work_dir/delete-ids.txt"
+
+          {
+            echo '### Workflow run cleanup'
+            echo "- Scanned: $total"
+            echo "- Retained by policy: $((total - candidates))"
+            echo "- Deleted: $deleted"
+            echo "- Failed: $failed"
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "Scanned=$total Retained=$((total - candidates)) Deleted=$deleted Failed=$failed"
+          if (( failed > 0 )); then
+            exit 1
+          fi
