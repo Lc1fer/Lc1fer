@@ -1,12 +1,15 @@
 name: TXT-JSON-Binary
 
 on:
-  workflow_dispatch:  # 允许手动触发
-  schedule:
-    - cron: '30 22 * * *'  # 6:30 AM UTC+8
+  workflow_dispatch:
+#  schedule:
+#    - cron: '30 22 * * *'  # 6:30 AM UTC+8
   push:
     paths:
-      - 'Rule/*.txt'  # 当 Rule 文件夹内的 .txt 文件发生更改时触发
+      - 'Rule/direct.txt'
+      - 'Rule/direct+.txt'
+      - 'Rule/proxy.txt'
+      - 'Rule/reject.txt'
 
 jobs:
   convert_and_compile:
@@ -16,8 +19,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Delay execution by 10 s
-      run: sleep 10  # 延迟 10 秒
+    - name: Delay execution
+      run: sleep 10
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -34,7 +37,6 @@ jobs:
         git config --global user.email 'github-actions@github.com'
         git add Rule/*.json
         
-        # 仅在有更改时才进行提交和推送
         if git diff --cached --quiet; then
           echo "No changes to commit."
         else
@@ -42,15 +44,14 @@ jobs:
           git push
         fi
 
-    - name: Delay execution by 30 s
-      run: sleep 30  # 延迟 30 秒
+    - name: Delay execution
+      run: sleep 30
 
     - name: Compile JSON to SRS
       run: |
-        chmod +x Singbox/sing-box  # 确保可执行权限
-        # 遍历 Rule 目录下所有 .json 文件并编译为 .srs
+        chmod +x Singbox/sing-box
         for json_file in Rule/*.json; do
-          srs_file="${json_file%.json}.srs"  # 将 .json 扩展名替换为 .srs
+          srs_file="${json_file%.json}.srs"
           Singbox/sing-box rule-set compile --output "$srs_file" "$json_file"
         done
 
@@ -60,7 +61,6 @@ jobs:
         git config --global user.email 'github-actions@github.com'
         git add Rule/*.srs
         
-        # 仅在有更改时才进行提交和推送
         if git diff --cached --quiet; then
           echo "No changes to commit."
         else
