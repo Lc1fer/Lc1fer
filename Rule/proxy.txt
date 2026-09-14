@@ -1,4 +1,4 @@
-# 更新时间：2026-09-14 13:31
+# 更新时间：2026-09-14 13:34
 
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,a248.e.akamai.net
@@ -164,6 +164,7 @@ DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,archive.md
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,archiveofourown.org
+DOMAIN-SUFFIX,articles.sk
 DOMAIN-SUFFIX,artstation.com
 DOMAIN-SUFFIX,ask.com
 DOMAIN-SUFFIX,avg.com
