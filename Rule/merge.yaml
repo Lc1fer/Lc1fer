@@ -20,8 +20,7 @@ proxy:
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.list
   rules:
     add: []
-    remove:
-      - DOMAIN-SUFFIX,articles.sk
+    remove: []
 
 reject:
   url:
