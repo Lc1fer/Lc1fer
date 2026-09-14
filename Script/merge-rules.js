@@ -12,7 +12,9 @@ function parseConfig(text) {
   const names = new Set();
   let current = null;
   let section = null;
+  let ruleAction = null;
   let sections = new Set();
+  let ruleActions = new Set();
   for (const [index, raw] of text.replace(/^\uFEFF/, '').replace(/\r/g, '').split('\n').entries()) {
     const line = raw.trim();
     if (!line || line.startsWith('#')) continue;
@@ -28,9 +30,11 @@ function parseConfig(text) {
       const key = name.toLowerCase();
       if (names.has(key)) fail(`Duplicate output name: ${name}`);
       names.add(key);
-      current = result[name] = { url: [], rules: [] };
+      current = result[name] = { url: [], rules: { add: [], remove: [] } };
       sections = new Set();
+      ruleActions = new Set();
       section = null;
+      ruleAction = null;
       continue;
     }
     const match = indent === 2 && line.match(/^(url|rules):\s*(\[\s*\])?$/);
@@ -38,9 +42,18 @@ function parseConfig(text) {
       if (sections.has(match[1])) fail(`Duplicate section: ${match[1]}`);
       sections.add(match[1]);
       section = match[2] ? null : match[1];
+      ruleAction = null;
       continue;
     }
-    if (indent >= 4 && current && section && line.startsWith('- ')) {
+    const actionMatch = indent === 4 && line.match(/^(add|remove):\s*(\[\s*\])?$/);
+    if (current && section === 'rules' && actionMatch) {
+      if (ruleActions.has(actionMatch[1])) fail(`Duplicate rule action: ${actionMatch[1]}`);
+      ruleActions.add(actionMatch[1]);
+      ruleAction = actionMatch[2] ? null : actionMatch[1];
+      continue;
+    }
+    if (current && ((section === 'url' && indent === 4) ||
+        (section === 'rules' && ruleAction && indent === 6)) && line.startsWith('- ')) {
       const value = line.slice(2).trim();
       if (!value || value.startsWith('#')) continue;
       if (section === 'url') {
@@ -48,7 +61,8 @@ function parseConfig(text) {
         try { parsed = new URL(value); } catch { fail(`Invalid URL: ${value}`); }
         if (!['http:', 'https:'].includes(parsed.protocol)) fail('URL must use HTTP or HTTPS');
       }
-      current[section].push(value);
+      if (section === 'url') current.url.push(value);
+      else current.rules[ruleAction].push(value);
       continue;
     }
     fail(`Unsupported syntax: ${line}`);
@@ -120,7 +134,7 @@ async function atomicWrite(output, content) {
 
 async function generateRule(name, config, downloads, outputDir) {
   const output = path.join(outputDir, `${name}.txt`);
-  if (!config.url.length && !config.rules.length) return 'skipped';
+  if (!config.url.length && !config.rules.add.length) return 'skipped';
   const rules = new Set();
   for (const url of new Set(config.url)) {
     const result = downloads.get(url);
@@ -130,11 +144,13 @@ async function generateRule(name, config, downloads, outputDir) {
     }
     for (const rule of result.rules) rules.add(rule);
   }
-  for (const rule of config.rules) addRules(rules, rule);
+  for (const rule of config.rules.add) addRules(rules, rule);
   if (!rules.size) {
     console.warn(`SKIP: ${name} generated no rules; original file preserved`);
     return 'skipped';
   }
+  // Apply removals last so they override both downloaded and added rules.
+  for (const rule of addRules(new Set(), config.rules.remove.join('\n'))) rules.delete(rule);
   const sorted = [...rules].sort();
   let oldText;
   try { oldText = await fs.readFile(output, 'utf8'); }
