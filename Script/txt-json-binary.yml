@@ -1,69 +1,83 @@
+# Install this workflow at .github/workflows/txt-json-binary.yml.
 name: TXT-JSON-Binary
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: '30 22 * * *'  # 6:30 AM UTC+8
   push:
+    branches: ['**']
     paths:
       - 'Rule/direct.txt'
-      - 'Rule/direct+.txt'
+      - 'Rule/fix.txt'
       - 'Rule/proxy.txt'
       - 'Rule/reject.txt'
 
+permissions:
+  contents: write
+
+concurrency:
+  group: txt-json-binary-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   convert_and_compile:
+    if: github.ref_type == 'branch'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        shell: bash
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout current branch
+        uses: actions/checkout@v7
+        with:
+          # Queued runs should build the latest rules on this branch.
+          ref: ${{ github.ref }}
 
-    - name: Delay execution
-      run: sleep 10
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.x
+      - name: Convert four TXT files to JSON and SRS
+        run: |
+          set -euo pipefail
+          build_dir="$(mktemp -d)"
+          trap 'rm -rf -- "$build_dir"' EXIT
 
-    - name: Run Python script to convert TXT to JSON
-      run: |
-        python Script/convert_txt_to_json.py
+          python Script/convert_txt_to_json.py --output-dir "$build_dir"
+          chmod +x Singbox/sing-box
+          Singbox/sing-box version
 
-    - name: Commit JSON files if there are any
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add Rule/*.json
-        
-        if git diff --cached --quiet; then
-          echo "No changes to commit."
-        else
-          git commit -m 'Convert TXT to JSON'
-          git push
-        fi
+          for name in direct fix proxy reject; do
+            Singbox/sing-box rule-set compile \
+              --output "$build_dir/$name.srs" "$build_dir/$name.json"
+            test -s "$build_dir/$name.srs"
+          done
 
-    - name: Delay execution
-      run: sleep 30
+          # Publish outputs only after all four compilations succeed.
+          for name in direct fix proxy reject; do
+            cp -- "$build_dir/$name.json" "Rule/$name.json"
+            cp -- "$build_dir/$name.srs" "Rule/$name.srs"
+          done
 
-    - name: Compile JSON to SRS
-      run: |
-        chmod +x Singbox/sing-box
-        for json_file in Rule/*.json; do
-          srs_file="${json_file%.json}.srs"
-          Singbox/sing-box rule-set compile --output "$srs_file" "$json_file"
-        done
+      - name: Commit changed JSON and SRS together
+        env:
+          TARGET_REF: ${{ github.ref }}
+        run: |
+          set -euo pipefail
+          for name in direct fix proxy reject; do
+            git add -- "Rule/$name.json" "Rule/$name.srs"
+          done
 
-    - name: Commit SRS files if there are any
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add Rule/*.srs
-        
-        if git diff --cached --quiet; then
-          echo "No changes to commit."
-        else
-          git commit -m 'Compile JSON to SRS'
-          git push
-        fi
+          if git diff --cached --quiet; then
+            echo "No rule output changes."
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update JSON and SRS rule sets'
+          # Fail safely if the branch changed during compilation; never force push
+          # or rebase old generated output onto newer source rules.
+          git push origin "HEAD:$TARGET_REF"
