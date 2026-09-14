@@ -10,6 +10,9 @@ on:
       - 'Rule/fix.txt'
       - 'Rule/proxy.txt'
       - 'Rule/reject.txt'
+      - 'Script/convert_txt_to_json.py'
+      - 'Script/txt-json-binary.yml'
+      - '.github/workflows/txt-json-binary.yml'
 
 permissions:
   contents: write
@@ -46,16 +49,13 @@ jobs:
           trap 'rm -rf -- "$build_dir"' EXIT
 
           python Script/convert_txt_to_json.py --output-dir "$build_dir"
-          chmod +x Singbox/sing-box
-          Singbox/sing-box version
 
           for name in direct fix proxy reject; do
-            Singbox/sing-box rule-set compile \
-              --output "$build_dir/$name.srs" "$build_dir/$name.json"
+            test -s "$build_dir/$name.json"
             test -s "$build_dir/$name.srs"
           done
 
-          # Publish outputs only after all four compilations succeed.
+          # Publish outputs only after all eight files are generated successfully.
           for name in direct fix proxy reject; do
             cp -- "$build_dir/$name.json" "Rule/$name.json"
             cp -- "$build_dir/$name.srs" "Rule/$name.srs"
