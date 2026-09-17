@@ -1,4 +1,4 @@
-# 更新时间：2026-09-08 10:10
+# 更新时间：2026-09-17 16:40
 
 DOMAIN,download.jetbrains.com
 DOMAIN,download.microsoft.com
@@ -12,6 +12,7 @@ DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
 DOMAIN-KEYWORD,icloud.com.akadns.net
+DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
@@ -25,6 +26,7 @@ DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,flyert.com
 DOMAIN-SUFFIX,gandi.net
 DOMAIN-SUFFIX,icloud-content.com
@@ -32,11 +34,14 @@ DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,paypal-mktg.com
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,snapdrop.net
+DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,update.microsoft.com
 DOMAIN-SUFFIX,windowsupdate.com
