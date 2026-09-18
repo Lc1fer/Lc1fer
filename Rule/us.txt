@@ -1,4 +1,4 @@
-# 更新时间：2026-09-18 22:52
+# 更新时间：2026-09-18 23:34
 
 DOMAIN,api-iam.intercom.io
 DOMAIN,api.statsig.com
@@ -17,4 +17,3 @@ DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,sora.com
-USER-AGENT,PayPal*
