@@ -189,6 +189,17 @@ async function main({ configFile = path.join('Rule', 'merge.yaml'), outputDir = 
       console.error(`FAILED: ${name}: ${error.message}`);
     }
   }
+  // Only clean up top-level TXT files absent from the parsed configuration.
+  const expectedFiles = new Set(Object.keys(config).map(name => `${name}.txt`.toLowerCase()));
+  const configPath = path.resolve(configFile).toLowerCase();
+  for (const entry of await fs.readdir(outputDir, { withFileTypes: true })) {
+    if (!entry.isFile() || path.extname(entry.name).toLowerCase() !== '.txt' ||
+        expectedFiles.has(entry.name.toLowerCase())) continue;
+    const output = path.resolve(outputDir, entry.name);
+    if (output.toLowerCase() === configPath) continue;
+    await fs.unlink(output);
+    console.log(`DELETED: ${output}`);
+  }
   console.log('Summary:', summary);
   return summary;
 }
