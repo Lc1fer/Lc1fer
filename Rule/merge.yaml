@@ -19,9 +19,10 @@ direct:
       - DOMAIN-KEYWORD,speedtest
     remove: []
 
-paypal:
+us:
   url:
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/PayPal.list
+    - https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/GenAI/OpenAI.list
   rules:
     add: []
     remove: []
