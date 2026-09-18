@@ -1,4 +1,4 @@
-# 更新时间：2026-09-14 13:34
+# 更新时间：2026-09-18 22:17
 
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,a248.e.akamai.net
@@ -492,6 +492,10 @@ DOMAIN-SUFFIX,parsevideo.com
 DOMAIN-SUFFIX,paste.ee
 DOMAIN-SUFFIX,pastie.org
 DOMAIN-SUFFIX,patreon.com
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,pbs.org
 DOMAIN-SUFFIX,pcloud.com
 DOMAIN-SUFFIX,peacocktv.com
@@ -749,3 +753,4 @@ IP-CIDR6,2001:b28:f23c::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
+USER-AGENT,PayPal*
