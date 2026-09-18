@@ -19,6 +19,13 @@ direct:
       - DOMAIN-KEYWORD,speedtest
     remove: []
 
+Paypal:
+  url:
+    - https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/PayPal.list
+  rules:
+    add: []
+    remove: []
+
 proxy:
   url:
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/!CN.list
