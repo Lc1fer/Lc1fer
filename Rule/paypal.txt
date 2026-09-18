@@ -1,7 +1,0 @@
-# 更新时间：2026-09-18 22:36
-
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypalobjects.com
-USER-AGENT,PayPal*
