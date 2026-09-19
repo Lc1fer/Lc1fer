@@ -21,12 +21,11 @@ direct:
 
 us:
   url:
-    - https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/PayPal.list
+    # - https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/PayPal.list
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/GenAI/OpenAI.list
   rules:
     add: []
-    remove:
-      - USER-AGENT,PayPal*
+    remove: []
 proxy:
   url:
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/!CN.list
