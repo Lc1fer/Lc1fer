@@ -9,14 +9,10 @@ direct:
   url:
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct.list
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Apple/Apple.list
+    - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ByteDance/ByteDance.list
+    - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Speedtest/Speedtest.list
   rules:
-    add:
-      - DOMAIN-SUFFIX,xiaohongshu.com
-      - DOMAIN-SUFFIX,fast.com
-      - DOMAIN-SUFFIX,ooklaserver.net
-      - DOMAIN-SUFFIX,speed.cloudflare.com
-      - DOMAIN-SUFFIX,speed.dler.io
-      - DOMAIN-KEYWORD,speedtest
+    add: []
     remove: []
 
 us:
