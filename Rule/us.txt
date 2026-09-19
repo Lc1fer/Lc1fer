@@ -1,4 +1,4 @@
-# 更新时间：2026-09-18 23:34
+# 更新时间：2026-09-19 12:04
 
 DOMAIN,api-iam.intercom.io
 DOMAIN,api.statsig.com
@@ -12,8 +12,4 @@ DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,sora.com
