@@ -7,6 +7,9 @@ const { setTimeout: sleep } = require('node:timers/promises');
 
 const OPTIONS = { concurrency: 4, attempts: 3, timeoutMs: 60_000, retryMs: 2_000 };
 
+const DEFAULT_OUTPUT_DIR = path.resolve(__dirname, '..', 'Rule');
+
+// A deliberately limited YAML subset; see merge-rules.md.
 function parseConfig(text) {
   const result = Object.create(null);
   const names = new Set();
@@ -56,6 +59,9 @@ function parseConfig(text) {
         (section === 'rules' && ruleAction && indent === 6)) && line.startsWith('- ')) {
       const value = line.slice(2).trim();
       if (!value || value.startsWith('#')) continue;
+      if (/^["'|>\[\]{}&*!%@`]/.test(value) || /\s#|:\s/.test(value) || /^(?:null|true|false|~)$/i.test(value)) {
+        fail('Unsupported YAML value; use an unquoted single-line value and separate comment lines');
+      }
       if (section === 'url') {
         let parsed;
         try { parsed = new URL(value); } catch { fail(`Invalid URL: ${value}`); }
@@ -167,7 +173,28 @@ async function generateRule(name, config, downloads, outputDir) {
   return 'updated';
 }
 
-async function main({ configFile = path.join('Rule', 'merge.yaml'), outputDir = 'Rule', options = OPTIONS } = {}) {
+// Windows paths are case-insensitive; Linux paths must match exactly.
+function fileKey(value) {
+  return process.platform === 'win32' ? value.toLowerCase() : value;
+}
+
+async function cleanupObsoleteFiles(config, outputDir, configFile) {
+  const expectedFiles = new Set(Object.keys(config).map(name => fileKey(name + '.txt')));
+  const configPath = fileKey(path.resolve(configFile));
+  let deleted = 0;
+  for (const entry of await fs.readdir(outputDir, { withFileTypes: true })) {
+    if (!entry.isFile() || path.extname(entry.name).toLowerCase() !== '.txt' ||
+        expectedFiles.has(fileKey(entry.name))) continue;
+    const output = path.resolve(outputDir, entry.name);
+    if (fileKey(output) === configPath) continue;
+    await fs.unlink(output);
+    deleted++;
+    console.log('DELETED: ' + output);
+  }
+  return deleted;
+}
+
+async function main({ configFile = path.join(DEFAULT_OUTPUT_DIR, 'merge.yaml'), outputDir = DEFAULT_OUTPUT_DIR, options = OPTIONS } = {}) {
   const settings = { ...OPTIONS, ...options };
   for (const key of Object.keys(OPTIONS)) {
     if (!Number.isSafeInteger(settings[key]) || settings[key] < 1) throw new Error(`Invalid option: ${key}`);
@@ -181,7 +208,7 @@ async function main({ configFile = path.join('Rule', 'merge.yaml'), outputDir = 
     try { downloads.set(url, { rules: await download(url, settings) }); }
     catch (error) { downloads.set(url, { error }); }
   });
-  const summary = { updated: 0, unchanged: 0, skipped: 0, failed: 0 };
+  const summary = { updated: 0, unchanged: 0, skipped: 0, failed: 0, deleted: 0 };
   for (const [name, item] of Object.entries(config)) {
     try { summary[await generateRule(name, item, downloads, outputDir)]++; }
     catch (error) {
@@ -189,17 +216,7 @@ async function main({ configFile = path.join('Rule', 'merge.yaml'), outputDir = 
       console.error(`FAILED: ${name}: ${error.message}`);
     }
   }
-  // Only clean up top-level TXT files absent from the parsed configuration.
-  const expectedFiles = new Set(Object.keys(config).map(name => `${name}.txt`.toLowerCase()));
-  const configPath = path.resolve(configFile).toLowerCase();
-  for (const entry of await fs.readdir(outputDir, { withFileTypes: true })) {
-    if (!entry.isFile() || path.extname(entry.name).toLowerCase() !== '.txt' ||
-        expectedFiles.has(entry.name.toLowerCase())) continue;
-    const output = path.resolve(outputDir, entry.name);
-    if (output.toLowerCase() === configPath) continue;
-    await fs.unlink(output);
-    console.log(`DELETED: ${output}`);
-  }
+  summary.deleted = await cleanupObsoleteFiles(config, outputDir, configFile);
   console.log('Summary:', summary);
   return summary;
 }
@@ -213,4 +230,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { parseConfig, addRules, download, main };
+module.exports = { parseConfig, addRules, download, cleanupObsoleteFiles, main };
