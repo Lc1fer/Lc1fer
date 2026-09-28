@@ -1,4 +1,4 @@
-# 更新时间：2026-09-19 22:41
+# 更新时间：2026-09-28 09:04
 
 DOMAIN,download.jetbrains.com
 DOMAIN,download.microsoft.com
@@ -308,6 +308,9 @@ DOMAIN-SUFFIX,smartisanos.com
 DOMAIN-SUFFIX,snapdrop.net
 DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,speed.dler.io
+DOMAIN-SUFFIX,speedtest.co
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,tekkenthree.com
 DOMAIN-SUFFIX,temaiapi.com
