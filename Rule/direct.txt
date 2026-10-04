@@ -1,4 +1,4 @@
-# 更新时间：2026-09-28 09:04
+# 更新时间：2026-10-04 09:54
 
 DOMAIN,download.jetbrains.com
 DOMAIN,download.microsoft.com
@@ -72,6 +72,7 @@ DOMAIN-SUFFIX,bytefcdnrd.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,bytegslb.com
+DOMAIN-SUFFIX,bytehwm.com
 DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,bytelb.net
 DOMAIN-SUFFIX,bytelove.cn
