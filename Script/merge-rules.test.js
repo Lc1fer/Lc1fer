@@ -6,7 +6,7 @@ const fs = require('node:fs/promises');
 const os = require('node:os');
 const path = require('node:path');
 const vm = require('node:vm');
-const { parseConfig, main, cleanupObsoleteFiles } = require('./merge-rules');
+const { parseConfig, main, download, cleanupObsoleteFiles } = require('./merge-rules');
 
 async function fixture(t, config) {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'merge-rules-test-'));
@@ -60,6 +60,63 @@ test('invalid configuration never cleans files', async t => {
   await fs.writeFile(path.join(f.dir, 'old.txt'), 'original');
   await assert.rejects(f.run(), /Unsupported syntax/);
   assert.equal(await fs.readFile(path.join(f.dir, 'old.txt'), 'utf8'), 'original');
+});
+
+test('output cannot overwrite a TXT configuration or trigger cleanup', async t => {
+  const f = await fixture(t, 'keep:\n');
+  const configFile = path.join(f.dir, 'keep.txt');
+  const config = 'keep:\n  rules:\n    add:\n      - DOMAIN,a.com\n';
+  await fs.writeFile(configFile, config);
+  await fs.writeFile(path.join(f.dir, 'obsolete.txt'), 'original');
+  await assert.rejects(main({ configFile, outputDir: f.dir }), /overwrite configuration/);
+  assert.equal(await fs.readFile(configFile, 'utf8'), config);
+  assert.equal(await fs.readFile(path.join(f.dir, 'obsolete.txt'), 'utf8'), 'original');
+});
+
+test('download retries temporary HTTP errors but stops on permanent errors', async t => {
+  let calls = 0, cancelled = 0;
+  t.mock.method(globalThis, 'fetch', async () => ++calls === 1
+    ? { ok: false, status: 503, statusText: 'Unavailable', body: { cancel: async () => cancelled++ } }
+    : { ok: true, text: async () => '# comment\r\nDOMAIN,a.com\rDOMAIN,a.com\n' });
+  const options = { attempts: 3, timeoutMs: 1000, retryMs: 1 };
+  assert.deepEqual([...await download('https://example.com/rules', options)], ['DOMAIN,a.com']);
+  assert.equal(calls, 2);
+  assert.equal(cancelled, 1);
+  calls = 0;
+  t.mock.method(globalThis, 'fetch', async () => {
+    calls++;
+    return { ok: false, status: 404, statusText: 'Missing', body: { cancel: async () => {} } };
+  });
+  await assert.rejects(download('https://example.com/rules', options), /HTTP 404/);
+  assert.equal(calls, 1);
+});
+
+test('download timeout also covers reading the response body', async t => {
+  t.mock.method(globalThis, 'fetch', async (url, { signal }) => ({
+    ok: true,
+    text: () => new Promise((resolve, reject) => {
+      signal.addEventListener('abort', () => reject(new Error('body aborted')), { once: true });
+    }),
+  }));
+  await assert.rejects(download('https://example.com/rules', { attempts: 1, timeoutMs: 5, retryMs: 1 }), /body aborted/);
+});
+
+test('shared URLs download once and concurrent requests stay within the limit', async t => {
+  let active = 0, maximum = 0;
+  const calls = [];
+  t.mock.method(globalThis, 'fetch', async url => {
+    calls.push(url);
+    maximum = Math.max(maximum, ++active);
+    await new Promise(resolve => setTimeout(resolve, 5));
+    active--;
+    return { ok: true, text: async () => 'DOMAIN,a.com' };
+  });
+  const f = await fixture(t, 'one:\n  url:\n    - https://example.com/a\n    - https://example.com/b\ntwo:\n  url:\n    - https://example.com/a\n    - https://example.com/c\n');
+  const summary = await main({ configFile: f.configFile, outputDir: f.dir, options: { concurrency: 2, attempts: 1 } });
+  assert.equal(summary.updated, 2);
+  assert.equal(calls.length, 3);
+  assert.equal(new Set(calls).size, 3);
+  assert.equal(maximum, 2);
 });
 
 test('download failure preserves the existing category', async t => {

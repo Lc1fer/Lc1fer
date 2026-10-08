@@ -157,17 +157,18 @@ async function generateRule(name, config, downloads, outputDir) {
   }
   // Apply removals last so they override both downloaded and added rules.
   for (const rule of addRules(new Set(), config.rules.remove.join('\n'))) rules.delete(rule);
-  const sorted = [...rules].sort();
   let oldText;
   try { oldText = await fs.readFile(output, 'utf8'); }
   catch (error) { if (error.code !== 'ENOENT') throw error; }
   if (oldText !== undefined) {
     const oldRules = addRules(new Set(), oldText);
-    if (oldRules.size === rules.size && sorted.every(rule => oldRules.has(rule))) {
+    if (oldRules.size === rules.size && oldRules.isSupersetOf(rules)) {
       console.log(`UNCHANGED: ${output}`);
       return 'unchanged';
     }
   }
+  // Allocate and sort only when the output actually needs to change.
+  const sorted = [...rules].sort();
   await atomicWrite(output, `# 更新时间：${timeFormatter.format(new Date())}\n\n${sorted.join('\n')}\n`);
   console.log(`UPDATED: ${output} (${rules.size} unique rules)`);
   return 'updated';
@@ -200,6 +201,12 @@ async function main({ configFile = path.join(DEFAULT_OUTPUT_DIR, 'merge.yaml'), 
     if (!Number.isSafeInteger(settings[key]) || settings[key] < 1) throw new Error(`Invalid option: ${key}`);
   }
   const config = parseConfig(await fs.readFile(configFile, 'utf8'));
+  const configPath = fileKey(path.resolve(configFile));
+  for (const name of Object.keys(config)) {
+    if (fileKey(path.resolve(outputDir, `${name}.txt`)) === configPath) {
+      throw new Error(`Output would overwrite configuration: ${name}.txt`);
+    }
+  }
   await fs.mkdir(outputDir, { recursive: true });
   const urls = [...new Set(Object.values(config).flatMap(item => item.url))];
   const downloads = new Map();
