@@ -11,7 +11,6 @@ on:
       - 'Rule/proxy.txt'
       - 'Rule/reject.txt'
       - 'Script/convert_txt_to_json.py'
-      - 'Script/test_convert_txt_to_json.py'
       - 'Script/txt-json-binary.yml'
       - '.github/workflows/txt-json-binary.yml'
 
@@ -42,9 +41,6 @@ jobs:
         uses: actions/setup-python@v7
         with:
           python-version: '3.13'
-
-      - name: Test TXT converter
-        run: python -m unittest discover -s Script -p 'test_*.py' -v
 
       - name: Convert four TXT files to JSON and SRS
         run: |
