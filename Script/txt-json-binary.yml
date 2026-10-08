@@ -11,6 +11,7 @@ on:
       - 'Rule/proxy.txt'
       - 'Rule/reject.txt'
       - 'Script/convert_txt_to_json.py'
+      - 'Script/test_convert_txt_to_json.py'
       - 'Script/txt-json-binary.yml'
       - '.github/workflows/txt-json-binary.yml'
 
@@ -42,13 +43,17 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: Test TXT converter
+        run: python -m unittest discover -s Script -p 'test_*.py' -v
+
       - name: Convert four TXT files to JSON and SRS
         run: |
           set -euo pipefail
           build_dir="$(mktemp -d)"
           trap 'rm -rf -- "$build_dir"' EXIT
 
-          python Script/convert_txt_to_json.py --output-dir "$build_dir"
+          # sing-box has no USER-AGENT equivalent; omission is explicit and logged.
+          python Script/convert_txt_to_json.py --skip-unsupported-type USER-AGENT --output-dir "$build_dir"
 
           for name in direct fix proxy reject; do
             test -s "$build_dir/$name.json"

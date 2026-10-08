@@ -11,6 +11,7 @@ on:
     paths:
       - 'Rule/merge.yaml'
       - 'Script/merge-rules.js'
+      - 'Script/merge-rules.test.js'
       - '.github/workflows/merge-rules.yml'
 
 permissions:
@@ -37,6 +38,9 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
+
+      - name: Test rule merger
+        run: node --test Script/merge-rules.test.js
 
       # 下载部分失败时，脚本仍会生成其他分类；允许继续提交这些更新。
       - name: Generate rules
