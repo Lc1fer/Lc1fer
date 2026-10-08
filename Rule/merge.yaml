@@ -5,25 +5,23 @@ fix:
     add: []
     remove: []
 
-direct:
+reject:
   url:
-    - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct.list
-    - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Apple/Apple.list
-    - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ByteDance/ByteDance.list
-    - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list
-    - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list
+    - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list
+    - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list
   rules:
     add: []
     remove: []
 
 us:
   url:
-    # - https://raw.githubusercontent.com/ConnersHua/RuleGo/refs/heads/master/Surge/Ruleset/Extra/PayPal.list
+    # - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/PayPal.list
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/GenAI/OpenAI.list
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/GenAI/Anthropic.list
   rules:
     add: []
     remove: []
+
 proxy:
   url:
     - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/!CN.list
@@ -32,10 +30,13 @@ proxy:
     add: []
     remove: []
 
-reject:
+direct:
   url:
-    - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list
-    - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list
+    - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct.list
+    - https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Apple/Apple.list
+    - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ByteDance/ByteDance.list
+    - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list
+    - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list
   rules:
     add: []
     remove: []
