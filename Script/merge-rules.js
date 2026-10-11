@@ -6,7 +6,7 @@ const { randomUUID } = require('node:crypto');
 const { setTimeout: sleep } = require('node:timers/promises');
 
 // 自动清理未在配置中保留的直属 TXT 文件：true 启用，false 关闭。
-const CLEANUP_ENABLED = true;
+const CLEANUP_ENABLED = false;
 
 const OPTIONS = { concurrency: 4, attempts: 3, timeoutMs: 60_000, retryMs: 2_000 };
 
