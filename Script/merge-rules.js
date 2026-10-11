@@ -5,6 +5,9 @@ const path = require('node:path');
 const { randomUUID } = require('node:crypto');
 const { setTimeout: sleep } = require('node:timers/promises');
 
+// 自动清理未在配置中保留的直属 TXT 文件：true 启用，false 关闭。
+const CLEANUP_ENABLED = true;
+
 const OPTIONS = { concurrency: 4, attempts: 3, timeoutMs: 60_000, retryMs: 2_000 };
 
 const DEFAULT_OUTPUT_DIR = path.resolve(__dirname, '..', 'Rule');
@@ -195,7 +198,11 @@ async function cleanupObsoleteFiles(config, outputDir, configFile) {
   return deleted;
 }
 
-async function main({ configFile = path.join(DEFAULT_OUTPUT_DIR, 'merge.yaml'), outputDir = DEFAULT_OUTPUT_DIR, options = OPTIONS } = {}) {
+async function main({
+  configFile = path.join(DEFAULT_OUTPUT_DIR, 'merge.yaml'), outputDir = DEFAULT_OUTPUT_DIR,
+  options = OPTIONS, cleanupEnabled = CLEANUP_ENABLED,
+} = {}) {
+  if (typeof cleanupEnabled !== 'boolean') throw new Error('Invalid option: cleanupEnabled; use true or false');
   const settings = { ...OPTIONS, ...options };
   for (const key of Object.keys(OPTIONS)) {
     if (!Number.isSafeInteger(settings[key]) || settings[key] < 1) throw new Error(`Invalid option: ${key}`);
@@ -223,7 +230,11 @@ async function main({ configFile = path.join(DEFAULT_OUTPUT_DIR, 'merge.yaml'), 
       console.error(`FAILED: ${name}: ${error.message}`);
     }
   }
-  summary.deleted = await cleanupObsoleteFiles(config, outputDir, configFile);
+  if (cleanupEnabled) {
+    summary.deleted = await cleanupObsoleteFiles(config, outputDir, configFile);
+  } else {
+    console.log('CLEANUP DISABLED: obsolete TXT files preserved');
+  }
   console.log('Summary:', summary);
   return summary;
 }
