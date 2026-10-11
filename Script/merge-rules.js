@@ -8,11 +8,13 @@ const { setTimeout: sleep } = require('node:timers/promises');
 // 自动清理未在配置中保留的直属 TXT 文件：true 启用，false 关闭。
 const CLEANUP_ENABLED = false;
 
-const OPTIONS = { concurrency: 4, attempts: 3, timeoutMs: 60_000, retryMs: 2_000 };
+const OPTIONS = Object.freeze({ concurrency: 4, attempts: 3, timeoutMs: 60_000, retryMs: 2_000 });
+const MAX_TIMER_MS = 2 ** 31 - 1;
 
 const DEFAULT_OUTPUT_DIR = path.resolve(__dirname, '..', 'Rule');
 
-// A deliberately limited YAML subset; see merge-rules.md.
+// Only category -> url / rules -> add / remove is supported.
+// Values must be unquoted, single-line strings; comments occupy their own lines.
 function parseConfig(text) {
   const result = Object.create(null);
   const names = new Set();
@@ -88,10 +90,25 @@ function addRules(target, text) {
   return target;
 }
 
-async function download(url, options = OPTIONS) {
-  for (let attempt = 1; attempt <= options.attempts; attempt++) {
+function resolveOptions(options = {}) {
+  if (!options || typeof options !== 'object' || Array.isArray(options)) {
+    throw new Error('Invalid options: use an object');
+  }
+  const settings = { ...OPTIONS, ...options };
+  for (const key of Object.keys(OPTIONS)) {
+    if (!Number.isSafeInteger(settings[key]) || settings[key] < 1 ||
+        ((key === 'timeoutMs' || key === 'retryMs') && settings[key] > MAX_TIMER_MS)) {
+      throw new Error(`Invalid option: ${key}`);
+    }
+  }
+  return settings;
+}
+
+async function download(url, options = {}) {
+  const settings = resolveOptions(options);
+  for (let attempt = 1; attempt <= settings.attempts; attempt++) {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), options.timeoutMs);
+    const timer = setTimeout(() => controller.abort(), settings.timeoutMs);
     let failure;
     let retryable = true;
     try {
@@ -101,7 +118,8 @@ async function download(url, options = OPTIONS) {
       });
       if (!response.ok) {
         retryable = [408, 429].includes(response.status) || response.status >= 500;
-        await response.body?.cancel();
+        // Discard the body without hiding the HTTP failure if cancellation fails.
+        try { await response.body?.cancel(); } catch {}
         throw new Error(`HTTP ${response.status} ${response.statusText}`);
       }
       return addRules(new Set(), await response.text());
@@ -110,9 +128,10 @@ async function download(url, options = OPTIONS) {
     } finally {
       clearTimeout(timer);
     }
-    if (!retryable || attempt === options.attempts) throw failure;
-    console.warn(`Retry ${attempt}/${options.attempts - 1}: ${url} (${failure.message})`);
-    await sleep(options.retryMs * 2 ** (attempt - 1));
+    if (!retryable || attempt === settings.attempts) throw failure;
+    console.warn(`Retry ${attempt}/${settings.attempts - 1}: ${url} (${failure.message})`);
+    // Node.js otherwise turns overflowing delays into a 1 ms timer.
+    await sleep(Math.min(settings.retryMs * 2 ** (attempt - 1), MAX_TIMER_MS));
   }
 }
 
@@ -145,7 +164,7 @@ async function generateRule(name, config, downloads, outputDir) {
   const output = path.join(outputDir, `${name}.txt`);
   if (!config.url.length && !config.rules.add.length) return 'skipped';
   const rules = new Set();
-  for (const url of new Set(config.url)) {
+  for (const url of config.url) {
     const result = downloads.get(url);
     if (result.error) {
       console.error(`FAILED: ${name}: ${url}: ${result.error.message}; original file preserved`);
@@ -182,15 +201,34 @@ function fileKey(value) {
   return process.platform === 'win32' ? value.toLowerCase() : value;
 }
 
-async function cleanupObsoleteFiles(config, outputDir, configFile) {
+async function resolveFilePaths(outputDir, configFile) {
+  const [realOutputDir, realConfigFile, realConfigDir] = await Promise.all([
+    fs.realpath(outputDir), fs.realpath(configFile), fs.realpath(path.dirname(path.resolve(configFile))),
+  ]);
+  // Protect both a configuration symlink and its target, including directory aliases.
+  const protectedPaths = new Set([
+    path.resolve(configFile), realConfigFile, path.join(realConfigDir, path.basename(configFile)),
+  ].map(fileKey));
+  return { realOutputDir, protectedPaths };
+}
+
+function assertSafeOutputs(config, outputDir, protectedPaths) {
+  for (const name of Object.keys(config)) {
+    if (protectedPaths.has(fileKey(path.join(outputDir, `${name}.txt`)))) {
+      throw new Error(`Output would overwrite configuration: ${name}.txt`);
+    }
+  }
+}
+
+async function cleanupObsoleteFiles(config, outputDir, configFile, resolvedPaths) {
+  const { realOutputDir, protectedPaths } = resolvedPaths ?? await resolveFilePaths(outputDir, configFile);
   const expectedFiles = new Set(Object.keys(config).map(name => fileKey(name + '.txt')));
-  const configPath = fileKey(path.resolve(configFile));
   let deleted = 0;
-  for (const entry of await fs.readdir(outputDir, { withFileTypes: true })) {
+  for (const entry of await fs.readdir(realOutputDir, { withFileTypes: true })) {
     if (!entry.isFile() || path.extname(entry.name).toLowerCase() !== '.txt' ||
         expectedFiles.has(fileKey(entry.name))) continue;
-    const output = path.resolve(outputDir, entry.name);
-    if (fileKey(output) === configPath) continue;
+    const output = path.join(realOutputDir, entry.name);
+    if (protectedPaths.has(fileKey(output))) continue;
     await fs.unlink(output);
     deleted++;
     console.log('DELETED: ' + output);
@@ -198,44 +236,75 @@ async function cleanupObsoleteFiles(config, outputDir, configFile) {
   return deleted;
 }
 
-async function main({
-  configFile = path.join(DEFAULT_OUTPUT_DIR, 'merge.yaml'), outputDir = DEFAULT_OUTPUT_DIR,
-  options = OPTIONS, cleanupEnabled = CLEANUP_ENABLED,
-} = {}) {
-  if (typeof cleanupEnabled !== 'boolean') throw new Error('Invalid option: cleanupEnabled; use true or false');
-  const settings = { ...OPTIONS, ...options };
-  for (const key of Object.keys(OPTIONS)) {
-    if (!Number.isSafeInteger(settings[key]) || settings[key] < 1) throw new Error(`Invalid option: ${key}`);
-  }
-  const config = parseConfig(await fs.readFile(configFile, 'utf8'));
-  const configPath = fileKey(path.resolve(configFile));
-  for (const name of Object.keys(config)) {
-    if (fileKey(path.resolve(outputDir, `${name}.txt`)) === configPath) {
-      throw new Error(`Output would overwrite configuration: ${name}.txt`);
+// Count category users so shared sources download once and are released after last use.
+function createDownloadCache(categories) {
+  const downloads = new Map();
+  for (const [, config] of categories) {
+    for (const url of config.url) {
+      const cached = downloads.get(url);
+      if (cached) cached.remainingUsers++;
+      else downloads.set(url, { remainingUsers: 1 });
     }
   }
-  await fs.mkdir(outputDir, { recursive: true });
-  const urls = [...new Set(Object.values(config).flatMap(item => item.url))];
-  const downloads = new Map();
-  await mapLimit(urls, settings.concurrency, async url => {
+  return downloads;
+}
+
+async function downloadSources(downloads, settings) {
+  await mapLimit([...downloads.keys()], settings.concurrency, async url => {
+    const cached = downloads.get(url);
     console.log(`Downloading: ${url}`);
-    try { downloads.set(url, { rules: await download(url, settings) }); }
-    catch (error) { downloads.set(url, { error }); }
+    try { cached.rules = await download(url, settings); }
+    catch (error) { cached.error = error; }
   });
+}
+
+function releaseDownloads(config, downloads) {
+  for (const url of config.url) {
+    const cached = downloads.get(url);
+    if (--cached.remainingUsers === 0) downloads.delete(url);
+  }
+}
+
+async function main({
+  configFile = path.join(DEFAULT_OUTPUT_DIR, 'merge.yaml'),
+  outputDir = DEFAULT_OUTPUT_DIR,
+  options = {},
+  cleanupEnabled = CLEANUP_ENABLED,
+} = {}) {
+  if (typeof cleanupEnabled !== 'boolean') throw new Error('Invalid option: cleanupEnabled; use true or false');
+  const settings = resolveOptions(options);
+  const config = parseConfig(await fs.readFile(configFile, 'utf8'));
+  await fs.mkdir(outputDir, { recursive: true });
+  const resolvedPaths = await resolveFilePaths(outputDir, configFile);
+  assertSafeOutputs(config, resolvedPaths.realOutputDir, resolvedPaths.protectedPaths);
+
+  // Deduplicate each category once; preserve the original configuration for cleanup.
+  const categories = Object.entries(config).map(([name, item]) => [
+    name, { ...item, url: [...new Set(item.url)] },
+  ]);
+  const downloads = createDownloadCache(categories);
+  await downloadSources(downloads, settings);
+
   const summary = { updated: 0, unchanged: 0, skipped: 0, failed: 0, deleted: 0 };
-  for (const [name, item] of Object.entries(config)) {
-    try { summary[await generateRule(name, item, downloads, outputDir)]++; }
+  for (const [name, item] of categories) {
+    try { summary[await generateRule(name, item, downloads, resolvedPaths.realOutputDir)]++; }
     catch (error) {
       summary.failed++;
       console.error(`FAILED: ${name}: ${error.message}`);
+    } finally {
+      releaseDownloads(item, downloads);
     }
   }
-  if (cleanupEnabled) {
-    summary.deleted = await cleanupObsoleteFiles(config, outputDir, configFile);
-  } else {
-    console.log('CLEANUP DISABLED: obsolete TXT files preserved');
+  try {
+    if (cleanupEnabled) {
+      summary.deleted = await cleanupObsoleteFiles(config, resolvedPaths.realOutputDir, configFile, resolvedPaths);
+    } else {
+      console.log('CLEANUP DISABLED: obsolete TXT files preserved');
+    }
+  } finally {
+    // Keep completed generation results visible even when directory cleanup fails.
+    console.log('Summary:', summary);
   }
-  console.log('Summary:', summary);
   return summary;
 }
 
