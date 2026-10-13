@@ -1,4 +1,4 @@
-# 更新时间：2026-10-11 15:30
+# 更新时间：2026-10-13 16:08
 
 DOMAIN,download.jetbrains.com
 DOMAIN,download.microsoft.com
@@ -7,6 +7,7 @@ DOMAIN,origin-a.akamaihd.net
 DOMAIN,outlook.office365.com
 DOMAIN,smtp-mail.outlook.com
 DOMAIN,smtp.office365.com
+DOMAIN,teams.events.data.microsoft.com
 DOMAIN,wustat.windows.com
 DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
@@ -316,6 +317,9 @@ DOMAIN-SUFFIX,speedtest.co
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,teams.cdn.live.net
+DOMAIN-SUFFIX,teams.live.com
+DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,tekkenthree.com
 DOMAIN-SUFFIX,temaiapi.com
 DOMAIN-SUFFIX,tetrisone.com
