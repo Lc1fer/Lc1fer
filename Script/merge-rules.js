@@ -23,7 +23,7 @@ function parseConfig(text) {
   let ruleAction = null;
   let sections = new Set();
   let ruleActions = new Set();
-  for (const [index, raw] of text.replace(/^\uFEFF/, '').replace(/\r/g, '').split('\n').entries()) {
+  for (const [index, raw] of text.replace(/^\uFEFF/, '').split(/\r\n|\n|\r/).entries()) {
     const line = raw.trim();
     if (!line || line.startsWith('#')) continue;
     const fail = message => { throw new Error(`Line ${index + 1}: ${message}`); };
@@ -118,8 +118,9 @@ async function download(url, options = {}) {
       });
       if (!response.ok) {
         retryable = [408, 429].includes(response.status) || response.status >= 500;
-        // Discard the body without hiding the HTTP failure if cancellation fails.
-        try { await response.body?.cancel(); } catch {}
+        // A stalled cancellation must not block this worker or the next retry.
+        try { response.body?.cancel().catch(() => {}); } catch {}
+        controller.abort();
         throw new Error(`HTTP ${response.status} ${response.statusText}`);
       }
       return addRules(new Set(), await response.text());
@@ -152,11 +153,20 @@ const timeFormatter = new Intl.DateTimeFormat('sv-SE', {
 
 async function atomicWrite(output, content) {
   const temporary = `${output}.${randomUUID()}.tmp`;
+  // Only clean up a temporary file after this call has created it exclusively.
+  let handle = await fs.open(temporary, 'wx');
   try {
-    await fs.writeFile(temporary, content, { encoding: 'utf8', flag: 'wx' });
+    await handle.writeFile(content, 'utf8');
+    await handle.close();
+    handle = null;
     await fs.rename(temporary, output);
-  } finally {
-    await fs.rm(temporary, { force: true });
+  } catch (error) {
+    if (handle) await handle.close().catch(() => {});
+    try { await fs.rm(temporary, { force: true }); }
+    catch (cleanupError) {
+      console.warn(`Could not remove temporary file ${temporary}: ${cleanupError.message}`);
+    }
+    throw error;
   }
 }
 
