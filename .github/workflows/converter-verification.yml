@@ -1,0 +1,43 @@
+{
+  "name": "Temporary converter verification",
+  "on": {
+    "push": {
+      "branches": [
+        "work"
+      ],
+      "paths": [
+        ".github/workflows/converter-verification.yml"
+      ]
+    }
+  },
+  "permissions": {
+    "contents": "read"
+  },
+  "jobs": {
+    "verify": {
+      "runs-on": "ubuntu-latest",
+      "timeout-minutes": 10,
+      "steps": [
+        {
+          "name": "Checkout repository",
+          "uses": "actions/checkout@v6"
+        },
+        {
+          "name": "Set up Python",
+          "uses": "actions/setup-python@v6",
+          "with": {
+            "python-version": "3.13"
+          }
+        },
+        {
+          "name": "Verify converter candidate",
+          "env": {
+            "GH_TOKEN": "${{ github.token }}",
+            "PYTHONDONTWRITEBYTECODE": "1"
+          },
+          "run": "python - <<'PY'\nimport base64\nimport json\nimport os\nimport urllib.request\n\ndef read_blob(sha):\n    request = urllib.request.Request(\n        f\"https://api.github.com/repos/Lc1fer/Lc1fer/git/blobs/{sha}\",\n        headers={\n            \"Authorization\": f\"Bearer {os.environ['GH_TOKEN']}\",\n            \"Accept\": \"application/vnd.github+json\",\n        },\n    )\n    with urllib.request.urlopen(request, timeout=30) as response:\n        data = json.load(response)\n    return base64.b64decode(data[\"content\"]).decode(\"utf-8\")\n\nBASELINE_SOURCE = read_blob(\"401a0df318edc27ebb2e1fc72591472c9378fcb8\")\nCANDIDATE_SOURCE = read_blob(\"adf7e3b1884cd614f5833c29b411f17ce342b8eb\")\ntest_source = read_blob(\"facd0d6d8ef6d70393b39985a49c2c46ab60c57d\")\ncompile(CANDIDATE_SOURCE, \"Script/convert_txt_to_json.py\", \"exec\")\nexec(compile(test_source, \"<converter-verification>\", \"exec\"), globals())\nPY\n"
+        }
+      ]
+    }
+  }
+}
