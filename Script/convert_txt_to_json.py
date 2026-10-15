@@ -102,6 +102,13 @@ def encode_domain_matcher(domains, suffixes):
     return b"\x00" + words_bytes(leaves) + words_bytes(bitmap) + sized_bytes(labels)
 
 
+def parse_ip_network(value, *, strict=True):
+    """Reject scope IDs that sing-box CIDR fields cannot preserve."""
+    if "%" in str(value):
+        raise ValueError("scoped IP addresses are not supported in rule sets")
+    return ipaddress.ip_network(value, strict=strict)
+
+
 def encode_ip_set(cidrs):
     """Encode the sorted union of inclusive IP ranges, separately by family.
 
@@ -110,10 +117,11 @@ def encode_ip_set(cidrs):
     """
     ranges = []
     for cidr in cidrs:
-        network = ipaddress.ip_network(cidr)
+        network = parse_ip_network(cidr)
         ranges.append((network.version, int(network.network_address), int(network.broadcast_address)))
+    ranges.sort()
     merged = []
-    for version, start, end in sorted(ranges):
+    for version, start, end in ranges:
         if merged and merged[-1][0] == version and start <= merged[-1][2] + 1:
             previous = merged[-1]
             merged[-1] = (version, previous[1], max(previous[2], end))
@@ -147,22 +155,22 @@ def encode_srs(rules):
         raise ValueError(f"unsupported SRS fields: {', '.join(sorted(unsupported))}")
     groups = rule_groups(rules)
     payload = bytearray(uvarint(len(groups)))
-    for rules in groups:
+    for group in groups:
         payload.append(0)  # Default (non-logical) rule.
-        if rules.get("domain") or rules.get("domain_suffix"):
+        if group.get("domain") or group.get("domain_suffix"):
             payload.append(2)
-            payload.extend(encode_domain_matcher(rules.get("domain", []), rules.get("domain_suffix", [])))
-        if rules.get("domain_keyword"):
-            keywords = rules["domain_keyword"]
+            payload.extend(encode_domain_matcher(group.get("domain", []), group.get("domain_suffix", [])))
+        if group.get("domain_keyword"):
+            keywords = group["domain_keyword"]
             payload.append(3)
             payload.extend(uvarint(len(keywords)))
             for keyword in keywords:
                 payload.extend(sized_bytes(keyword.encode("utf-8")))
-        if rules.get("ip_cidr"):
+        if group.get("ip_cidr"):
             payload.append(6)
-            payload.extend(encode_ip_set(rules["ip_cidr"]))
-        if rules.get("process_name"):
-            names = rules["process_name"]
+            payload.extend(encode_ip_set(group["ip_cidr"]))
+        if group.get("process_name"):
+            names = group["process_name"]
             payload.append(11)  # ruleItemProcessName in sing-box's SRS format.
             payload.extend(uvarint(len(names)))
             for name in names:
@@ -179,49 +187,54 @@ def process_file(txt_path, *, skip_unsupported_types=()):
         raise ValueError("only USER-AGENT can be explicitly skipped")
     skipped = {}
     rules = {field: {} for field in RULE_TYPES.values()}
-    with txt_path.open(encoding="utf-8-sig") as source:
-        for line_number, raw_line in enumerate(source, 1):
-            line = raw_line.strip()
-            if not line or line.startswith(("#", "//", ";")):
-                continue
-            # Existing TXT rules use whitespace-separated trailing comments.
-            line = TRAILING_COMMENT.split(line, maxsplit=1)[0].rstrip()
-            parts = [part.strip() for part in line.split(",")]
-            key = parts[0].upper()
-            # Keep GEOIP in the source TXT, but omit it from JSON and SRS.
-            if key == "GEOIP":
-                continue
-            try:
-                if key not in RULE_TYPES and key not in skipped_types:
-                    raise ValueError(f"unsupported rule type: {parts[0]}")
-                if len(parts) < 2 or not parts[1]:
-                    raise ValueError("missing rule value")
-                is_ip = key in ("IP-CIDR", "IP-CIDR6")
-                if len(parts) != 2 and not (
-                    is_ip and len(parts) == 3 and parts[2].lower() == "no-resolve"
-                ):
-                    raise ValueError("unexpected extra fields (only IP no-resolve is supported)")
-                value = parts[1]
-                if any(character.isspace() for character in value):
-                    raise ValueError("whitespace inside rule value")
-                if key in skipped_types:
-                    skipped[key] = skipped.get(key, 0) + 1
+    try:
+        with txt_path.open(encoding="utf-8-sig") as source:
+            for line_number, raw_line in enumerate(source, 1):
+                line = raw_line.strip()
+                if not line or line.startswith(("#", "//", ";")):
                     continue
-                if is_ip:
-                    network = ipaddress.ip_network(value, strict=False)
-                    expected_version = 6 if key == "IP-CIDR6" else 4
-                    if network.version != expected_version:
-                        raise ValueError(f"IP version does not match {key}")
-                    value = str(network)
-                rules[RULE_TYPES[key]][value] = None
-            except ValueError as error:
-                raise ValueError(f"{txt_path}:{line_number}: {error}") from error
+                # Existing TXT rules use whitespace-separated trailing comments.
+                line = TRAILING_COMMENT.split(line, maxsplit=1)[0].rstrip()
+                parts = [part.strip() for part in line.split(",")]
+                key = parts[0].upper()
+                # Keep GEOIP in the source TXT, but omit it from JSON and SRS.
+                if key == "GEOIP":
+                    continue
+                try:
+                    if key not in RULE_TYPES and key not in skipped_types:
+                        raise ValueError(f"unsupported rule type: {parts[0]}")
+                    if len(parts) < 2 or not parts[1]:
+                        raise ValueError("missing rule value")
+                    is_ip = key in ("IP-CIDR", "IP-CIDR6")
+                    if len(parts) != 2 and not (
+                        is_ip and len(parts) == 3 and parts[2].lower() == "no-resolve"
+                    ):
+                        raise ValueError("unexpected extra fields (only IP no-resolve is supported)")
+                    value = parts[1]
+                    if any(character.isspace() for character in value):
+                        raise ValueError("whitespace inside rule value")
+                    if key in skipped_types:
+                        skipped[key] = skipped.get(key, 0) + 1
+                        continue
+                    if is_ip:
+                        network = parse_ip_network(value, strict=False)
+                        expected_version = 6 if key == "IP-CIDR6" else 4
+                        if network.version != expected_version:
+                            raise ValueError(f"IP version does not match {key}")
+                        value = str(network)
+                    rules[RULE_TYPES[key]][value] = None
+                except ValueError as error:
+                    raise ValueError(f"{txt_path}:{line_number}: {error}") from error
+    except UnicodeDecodeError as error:
+        raise ValueError(f"{txt_path}: invalid UTF-8 input: {error.reason}") from error
     for key, count in skipped.items():
         print(f"{txt_path}: skipped {count} {key} rules (explicitly requested; no sing-box equivalent)", file=sys.stderr)
     return {field: list(values) for field, values in rules.items() if values}
 
 
 def convert_files(base_dir=BASE_DIR, output_dir=None, *, skip_unsupported_types=()):
+    # Materialize one-shot iterables once so every category uses the same policy.
+    skip_unsupported_types = tuple(skip_unsupported_types)
     base_dir = Path(base_dir)
     output_dir = Path(output_dir) if output_dir is not None else base_dir
     output_dir.mkdir(parents=True, exist_ok=True)

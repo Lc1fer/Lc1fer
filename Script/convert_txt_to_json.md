@@ -10,11 +10,11 @@ python Script/convert_txt_to_json.py --skip-unsupported-type USER-AGENT
 
 可用 `--rule-dir` 指定输入目录、`--output-dir` 指定输出目录。Script/txt-json-binary.yml 是工作流模板，使用前需放到 .github/workflows/txt-json-binary.yml。
 
-支持 DOMAIN、DOMAIN-SUFFIX、DOMAIN-KEYWORD、IP-CIDR、IP-CIDR6 和 PROCESS-NAME。规则按首次出现的顺序去重，IP 网段会规范化，IP 规则允许 no-resolve。支持 BOM、空行、整行注释和空白分隔的行尾注释。
+支持 DOMAIN、DOMAIN-SUFFIX、DOMAIN-KEYWORD、IP-CIDR、IP-CIDR6 和 PROCESS-NAME。规则按首次出现的顺序去重，IP 网段会规范化，IP 规则允许 no-resolve，但不支持带区域标识（如 `%eth0`）的 IPv6，以保持 JSON 与 SRS 一致。支持 BOM、空行、整行注释和空白分隔的行尾注释。
 
 PROCESS-NAME 独立生成一条规则，与域名/IP 规则形成或关系，避免 sing-box 将进程条件与网络条件组合为与关系。域名树保留 SRS v1 的后缀语义和 Unicode 编码顺序，构建时复用已有节点、序列化时释放已遍历节点。
 
-GEOIP 延续既有行为，只保留在 TXT 中。USER-AGENT 默认报错；显式跳过时按文件打印跳过数量，TXT 原文件不会修改。其他未知类型、缺失值、错误 IP 版本及多余字段仍报错并显示文件与行号。
+GEOIP 延续既有行为，只保留在 TXT 中。USER-AGENT 默认报错；显式跳过时按文件打印跳过数量，TXT 原文件不会修改。其他未知类型、缺失值、错误 IP 版本及多余字段仍报错并显示文件与行号。输入须为 UTF-8（可含 BOM）；编码错误会报告具体输入文件。
 
 逐个输入校验并编码到输出目录的临时子目录，内存只保留当前分类。八份文件全部生成成功后，再逐份原子替换；比较内容时分块读取。校验或编码失败不发布任何文件；内容未变时保留原文件及修改时间。发布阶段发生文件系统错误时，已完成的替换不会回滚。临时目录结束时自动清理。
 
